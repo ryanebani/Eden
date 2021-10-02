@@ -11,6 +11,7 @@ public class Slots : MonoBehaviour
     [SerializeField] Text Descricao;
     [SerializeField] Image Icone;
     public bool clicado;
+    private bool ligado;
 
     public void Update()
     {
@@ -27,9 +28,11 @@ public class Slots : MonoBehaviour
 
     }
 
-    public void Selecionar(bool ligado)
+    public void Selecionar()
     {
- 
+
+        ligado = !ligado;
+
         if (ligado == true)
         {
             selecionado.SetActive(true);
