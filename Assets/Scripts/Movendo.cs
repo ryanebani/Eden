@@ -4,75 +4,73 @@ using UnityEngine;
 
 public class Movendo : MonoBehaviour
 {
-    Vector2 atu;
+    Vector2 posAtu;
     Vector2 alvo;
     public GameObject circ;
     Vector3 ponto;
     bool mover;
+    public Transform jogador;
+    bool clickChao;
+    
 
 
     void Start()
     {
-        
-        atu = new Vector3(transform.position.x, transform.position.y, transform.position.z);
-     
+        posAtu = new Vector3(jogador.position.x, jogador.position.y, jogador.position.z);
+        alvo = posAtu;
+    }
+
+    private void OnMouseDown()
+    {
+        clickChao = true;
     }
 
     
-    void FixedUpdate()
+
+    void Update()
     {
-        /*
-        if(Input.GetMouseButtonDown(0))
+        if (clickChao)
         {
-            ponto = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            alvo = new Vector2(ponto.x, ponto.y);
-            Debug.Log(Input.mousePosition);
-        }
-        */
-
-        
-
-        if(Input.touchCount > 0)
-        {
-            Touch touch = Input.GetTouch(0);
-
-            if (touch.phase == TouchPhase.Began)
+            if (Input.touchCount > 0)
             {
-                circ.SetActive(true);
-                ponto = Camera.main.ScreenToWorldPoint(touch.position);
-                circ.transform.position = new Vector2(ponto.x, ponto.y);
-                mover = true;
-            }
-            
-            if(touch.phase == TouchPhase.Moved)
-            {
-                ponto = Camera.main.ScreenToWorldPoint(touch.position);
-                circ.transform.position = new Vector2(ponto.x, ponto.y);
-                mover = false;
-            }
+                Touch touch = Input.GetTouch(0);
 
-            if(touch.phase == TouchPhase.Ended)
-            {
-                ponto = Camera.main.ScreenToWorldPoint(touch.position);
-                circ.SetActive(false);
-                if(mover)
+                if (touch.phase == TouchPhase.Began)
                 {
-                    alvo = new Vector2(ponto.x, ponto.y);
+                    circ.SetActive(true);
+                    ponto = Camera.main.ScreenToWorldPoint(touch.position);
+                    circ.transform.position = new Vector2(ponto.x, ponto.y);
+                    mover = true;
+                }
+                //Cancelar Movimento
+                if (touch.phase == TouchPhase.Moved)
+                {
+                    ponto = Camera.main.ScreenToWorldPoint(touch.position);
+                    circ.transform.position = new Vector2(ponto.x, ponto.y);
                     mover = false;
                 }
-                
+
+                if (touch.phase == TouchPhase.Ended)
+                {
+                    ponto = Camera.main.ScreenToWorldPoint(touch.position);
+                    circ.SetActive(false);
+                    if (mover)
+                    {
+                        alvo = new Vector2(ponto.x, jogador.position.y);
+                        mover = false;
+                        clickChao = false;
+                    }
+
+                }
             }
         }
-
         
-
-
-        if(atu != alvo)
+        
+        if(posAtu != alvo)
         {
-            atu = Vector3.MoveTowards(atu, alvo, 5 * Time.deltaTime);
-            transform.position = atu;
+            posAtu = Vector3.MoveTowards(posAtu, alvo, 5 * Time.deltaTime);
+            jogador.position = posAtu;
         }
-        
 
     }
 }
