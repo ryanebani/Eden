@@ -10,8 +10,7 @@ public class Slots : MonoBehaviour
     [SerializeField] Text Nome;
     [SerializeField] Text Descricao;
     [SerializeField] Image Icone;
-    public bool clicado;
-    private bool ligado;
+    public bool clicado;    
 
     public void Update()
     {
@@ -24,29 +23,28 @@ public class Slots : MonoBehaviour
         {
             Icone.enabled = false;
             Icone.sprite = null;
-        }        
+        }
 
-    }
-
-    public void Selecionar()
-    {
-
-        ligado = !ligado;
-
-        if (ligado == true)
+        if (clicado == true)
         {
-            selecionado.SetActive(true);
-            clicado = true;
+            selecionado.SetActive(true);            
             Nome.text = Item.nome;
             Descricao.text = Item.descricao;
         }
         else
         {
-            selecionado.SetActive(false);
-            clicado = false;
+            selecionado.SetActive(false);            
             Nome.text = "";
-            Descricao.text = ""; 
-        }          
-
+            Descricao.text = "";
+        }
     }
+
+    /*public void Selecionar()
+    {
+
+        ligado = !ligado;
+
+        
+
+    }*/
 }
