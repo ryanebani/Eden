@@ -61,26 +61,25 @@ public class Inventario : MonoBehaviour
         }
     }
 
-    /*public void Selecionar(GameObject slotSelec)
+    public void Selecionar(GameObject slotSelec)
     {
-        foreach (GameObject slot in slots)
-        {
-
-
-        }
+        
         for(int i = 0; i < slots.Length; i++)
         {
-           
             
-            if (slots[i] == slotSelec && slotSelec.GetComponent<Slots>().clicado == false)
+            if (slots[i] != slotSelec)
             {
-                Debug.Log("Oi" + slots[i].name);
-                slotSelec.GetComponent<Slots>().Selecionar(true);
-                break;
+                slots[i].GetComponent<Slots>().clicado = false;
+            }
+
+            if (slots[i] == slotSelec)
+            {
+                slotSelec.GetComponent<Slots>().clicado = true;
+                Debug.Log(slots[i]);
             }
 
         }
-    }*/
+    }
     public void MenuToggle()
     {
         fechado = !fechado;       
