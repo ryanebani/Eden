@@ -82,7 +82,7 @@ public class Inventario : MonoBehaviour
     }
     public void MenuToggle()
     {
-        fechado = !fechado;       
+        fechado = !fechado;
     }
 
     public void FecharMenu()

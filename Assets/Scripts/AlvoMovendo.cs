@@ -1,13 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class AlvoMovendo : MonoBehaviour
 {
     public bool chao;
-    public Transform alvo;
     public Interagir jogador;
-    
+    public GameObject gizmo;
+    public UnityEvent OnCheguei;
+
+    private void Start()
+    {
+        //OnCheguei.AddListener();
+    }
+
     private void OnMouseDown()
     {
         if (chao)
@@ -18,7 +25,7 @@ public class AlvoMovendo : MonoBehaviour
         if (chao == false)
         {
             jogador.clickObj = true;
-            jogador.alvoObj = alvo;
+            jogador.alvoObj = gizmo.transform;
             jogador.paraOndeVou = gameObject.name;
         }
        
@@ -28,11 +35,18 @@ public class AlvoMovendo : MonoBehaviour
     {
         if (jogador.paraOndeVou == gameObject.name)
         {
-            alvo.gameObject.SetActive(true);
+            gizmo.SetActive(true);
+            if (jogador.posJogador.position.x == gizmo.transform.position.x)
+            {
+                OnCheguei?.Invoke();
+                jogador.paraOndeVou = "";
+                gizmo.SetActive(false);
+            }
         }
         else
         {
-            alvo.gameObject.SetActive(false);
+            gizmo.SetActive(false);
         }
-    }    
+    }
+    
 }

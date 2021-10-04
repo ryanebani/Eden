@@ -96,11 +96,12 @@ public class Interagir : MonoBehaviour
             {
                 ponto = Camera.main.ScreenToWorldPoint(touch.position);
                 circ.SetActive(false);
+                clickChao = false;
                 if (mover)
                 {
                     alvo = new Vector2(ponto.x, posJogador.position.y);
                     mover = false;
-                    clickChao = false;
+                    
                 }
 
             }

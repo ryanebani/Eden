@@ -142,7 +142,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 139585421}
-  - component: {fileID: 139585422}
   - component: {fileID: 139585423}
   m_Layer: 0
   m_Name: Alvo
@@ -159,27 +158,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 139585420}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.42, y: 0, z: 0}
+  m_LocalPosition: {x: -1.04, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1915929749}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &139585422
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 139585420}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79449aefe0ed972478c37ff2487aef6d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 0d628689fc1024b4091560184ca41be6, type: 2}
-  destruir: {fileID: 1915929745}
-  inve: {fileID: 980017781}
 --- !u!61 &139585423
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -628,7 +612,6 @@ GameObject:
   m_Component:
   - component: {fileID: 663299062}
   - component: {fileID: 663299063}
-  - component: {fileID: 663299064}
   m_Layer: 0
   m_Name: AlvoJogador
   m_TagString: Untagged
@@ -676,21 +659,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &663299064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 663299061}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79449aefe0ed972478c37ff2487aef6d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 0}
-  destruir: {fileID: 0}
-  inve: {fileID: 980017781}
 --- !u!1 &675215909
 GameObject:
   m_ObjectHideFlags: 0
@@ -1173,7 +1141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6787056619173625680, guid: 14fb544813ed8e844bc88a905812a8d9, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6787056619173625680, guid: 14fb544813ed8e844bc88a905812a8d9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1185,7 +1153,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6787056619173625680, guid: 14fb544813ed8e844bc88a905812a8d9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6787056619173625680, guid: 14fb544813ed8e844bc88a905812a8d9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1602,8 +1570,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chao: 0
-  alvo: {fileID: 663299062}
   jogador: {fileID: 786134169}
+  gizmo: {fileID: 663299061}
+  OnCheguei:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!61 &1397164637
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1681,8 +1652,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chao: 1
-  alvo: {fileID: 1578181559}
   jogador: {fileID: 786134169}
+  gizmo: {fileID: 1578181558}
+  OnCheguei:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!61 &1448858294
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2089,8 +2063,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chao: 0
-  alvo: {fileID: 1588994061}
   jogador: {fileID: 786134169}
+  gizmo: {fileID: 675215909}
+  OnCheguei:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!61 &1588994060
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2252,7 +2229,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6787056619173625680, guid: 14fb544813ed8e844bc88a905812a8d9, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6787056619173625680, guid: 14fb544813ed8e844bc88a905812a8d9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2391,6 +2368,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3183807143706817254, guid: 14fb544813ed8e844bc88a905812a8d9, type: 3}
   m_PrefabInstance: {fileID: 1148864768}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1915929747 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9046861350444392855, guid: 14fb544813ed8e844bc88a905812a8d9, type: 3}
+  m_PrefabInstance: {fileID: 1148864768}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1915929745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed322924c04cc654b9c313f17d0e0baa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1915929749 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6787056619173625680, guid: 14fb544813ed8e844bc88a905812a8d9, type: 3}
@@ -2409,8 +2397,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chao: 0
-  alvo: {fileID: 139585421}
   jogador: {fileID: 786134169}
+  gizmo: {fileID: 139585420}
+  OnCheguei:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1915929747}
+        m_TargetAssemblyTypeName: Item, Assembly-CSharp
+        m_MethodName: PodeAdicionar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2044610116 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6587285394399315445, guid: 44f8bc875290ea94eb27e3c6852a74b0, type: 3}

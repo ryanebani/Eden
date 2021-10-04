@@ -6,10 +6,20 @@ public class Item : MonoBehaviour
 {
     public ItemOS item;
     Inventario inventario;
+    bool podeAdicionar;
 
     public void Start()
     {
         inventario = GameObject.FindObjectOfType<Inventario>();
+    }
+
+    private void Update()
+    {
+        if (podeAdicionar)
+        {
+            inventario.AdicionarItem(item, gameObject);
+            podeAdicionar = false;
+        }
     }
 
     public void OnValidate()
@@ -45,5 +55,8 @@ public class Item : MonoBehaviour
         }
     }
 
-    
+    public void PodeAdicionar()
+    {
+        podeAdicionar = true;
+    }
 }
