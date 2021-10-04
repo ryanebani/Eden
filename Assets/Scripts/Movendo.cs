@@ -34,7 +34,7 @@ public class Movendo : MonoBehaviour
             if (Input.touchCount > 0)
             {
                 Touch touch = Input.GetTouch(0);
-
+                //bolinha
                 if (touch.phase == TouchPhase.Began)
                 {
                     circ.SetActive(true);
