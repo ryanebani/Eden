@@ -1,11 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ObjInt : MonoBehaviour
 {
     public ObjIntOS ObjOS;
     public string falas;
+
+    bool podeObservar;
+
+    public Text falaObj;
    
     
     public void OnValidate()
@@ -16,7 +21,16 @@ public class ObjInt : MonoBehaviour
     }
         
     void Update() 
-    { 
-       
+    {
+        if (podeObservar)
+        {
+            falaObj.text = ObjOS.falas;
+            podeObservar = false;
+        }
+    }
+
+    public void PodeObservar()
+    {
+        podeObservar = true;
     }
 }

@@ -1550,8 +1550,9 @@ GameObject:
   - component: {fileID: 1397164638}
   - component: {fileID: 1397164637}
   - component: {fileID: 1397164636}
+  - component: {fileID: 1397164639}
   m_Layer: 0
-  m_Name: Interagivel
+  m_Name: "Picha\xE7\xE3o C3"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1574,7 +1575,19 @@ MonoBehaviour:
   gizmo: {fileID: 663299061}
   OnCheguei:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1397164639}
+        m_TargetAssemblyTypeName: ObjInt, Assembly-CSharp
+        m_MethodName: PodeObservar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!61 &1397164637
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1616,6 +1629,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1397164639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397164635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b62536afee5a874bb88328c340be31c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjOS: {fileID: 11400000, guid: e66a2107f3e008c41a17519ad0c5a8d1, type: 2}
+  falas: "O que \xE9 isso?"
+  falaObj: {fileID: 1847039829}
 --- !u!1 &1435671930 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 750495117314091331, guid: 44f8bc875290ea94eb27e3c6852a74b0, type: 3}
@@ -2363,6 +2391,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5283176931579352480, guid: 44f8bc875290ea94eb27e3c6852a74b0, type: 3}
   m_PrefabInstance: {fileID: 1372236242}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1847039829 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4195793644824331899, guid: 44f8bc875290ea94eb27e3c6852a74b0, type: 3}
+  m_PrefabInstance: {fileID: 1372236242}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1915929745 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3183807143706817254, guid: 14fb544813ed8e844bc88a905812a8d9, type: 3}
