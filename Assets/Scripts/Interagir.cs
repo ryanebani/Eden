@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Interagir : MonoBehaviour
 {
-    
-    Transform posJogador;
+
+    public string paraOndeVou;
 
     Vector2 alvo;    
     Vector2 posAtu;
-    Vector3 ponto;   
-    
+    Vector3 ponto;
+
+    public Transform posJogador;
     public GameObject circ;
     public Transform alvoObj;
     public bool clickObj;

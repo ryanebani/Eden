@@ -23,11 +23,11 @@ public class Item : MonoBehaviour
         }
     }
 
-    public void OnMouseDown()
+    /*public void OnMouseDown()
     {
         inventario.AdicionarItem(item, gameObject);     
-
-    }
+    
+    }*/
 
     public void Inicializar()
     {
