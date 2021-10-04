@@ -9,8 +9,9 @@ public class Inventario : MonoBehaviour
     private Animator anim;
     public GameObject grid;
     public bool fechado;
+    public string itemSelecionado;
     //public GameObject cancelar;
-    
+
 
     public void Start()
     {
@@ -61,25 +62,19 @@ public class Inventario : MonoBehaviour
         }
     }
 
-    public void Selecionar(GameObject slotSelec)
+    /*public void Selecionar(GameObject slotSelec)
     {
         
         for(int i = 0; i < slots.Length; i++)
         {
             
-            if (slots[i] != slotSelec)
-            {
-                slots[i].GetComponent<Slots>().clicado = false;
-            }
-
             if (slots[i] == slotSelec)
             {
-                slotSelec.GetComponent<Slots>().clicado = true;
-                Debug.Log(slots[i]);
+                slots[i].GetComponent<Slots>().clicado = true;
+                Interagir.itemSelecionado = slotSelec.name;
             }
-
         }
-    }
+    }*/
     public void MenuToggle()
     {
         fechado = !fechado;

@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &3661341043564692675
 RectTransform:
   m_ObjectHideFlags: 0
@@ -130,7 +130,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9139718148850036631}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -167,8 +167,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Item: {fileID: 0}
   selecionado: {fileID: 4893148347925510932}
-  Nome: {fileID: 0}
-  Descricao: {fileID: 0}
+  textNome: {fileID: 0}
   Icone: {fileID: 3952579881845446948}
   clicado: 0
 --- !u!114 &7135096097406023907
@@ -184,13 +183,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates:
-  - eventID: 4
+  - eventID: 2
     callback:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 7101588723951798686}
           m_TargetAssemblyTypeName: Slots, Assembly-CSharp
-          m_MethodName: Selecionar
+          m_MethodName: Selecao
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}

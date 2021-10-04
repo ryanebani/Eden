@@ -6,6 +6,8 @@ public class Interagir : MonoBehaviour
 {
 
     public string paraOndeVou;
+    public static string itemSelecionado;
+
 
     Vector2 alvo;    
     Vector2 posAtu;

@@ -29,7 +29,6 @@ public class Item : MonoBehaviour
             gameObject.name = item.nome;
             gameObject.GetComponent<SpriteRenderer>().enabled = true;
             gameObject.GetComponent<SpriteRenderer>().sprite = item.icone;
-
         }
     }
 

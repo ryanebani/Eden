@@ -6,9 +6,8 @@ using UnityEngine.UI;
 public class Slots : MonoBehaviour
 {
     public ItemOS Item;   
-    [SerializeField] GameObject selecionado;    
-    [SerializeField] Text Nome;
-    [SerializeField] Text Descricao;
+    [SerializeField] GameObject selecionado;
+    [SerializeField] Text textNome;
     [SerializeField] Image Icone;
     public bool clicado;    
 
@@ -16,35 +15,33 @@ public class Slots : MonoBehaviour
     {
         if (Item != null)
         {
-            Icone.enabled = true;
-            Icone.sprite = Item.icone;            
+            Icone.sprite = Item.icone;
+            Icone.enabled = true;                       
         }
         else
         {
-            Icone.enabled = false;
-            Icone.sprite = null;
+            Icone.enabled = false;            
         }
-
-        if (clicado == true)
+        
+        if (Interagir.itemSelecionado == Item.nome)
         {
+            Debug.Log(Item.nome + " 1 " + textNome.text);
             selecionado.SetActive(true);            
-            Nome.text = Item.nome;
-            Descricao.text = Item.descricao;
+            textNome.text = Item.nome;
+            Debug.Log(Item.nome + " 2 " + textNome.text);
+            
         }
         else
         {
             selecionado.SetActive(false);            
-            Nome.text = "";
-            Descricao.text = "";
+            
+            
         }
     }
 
-    /*public void Selecionar()
+    public void Selecao()
     {
-
-        ligado = !ligado;
-
+        Interagir.itemSelecionado = Item.nome;
         
-
-    }*/
+    }
 }
