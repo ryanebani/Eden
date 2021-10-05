@@ -7,6 +7,7 @@ public class Interagir : MonoBehaviour
 
     public string paraOndeVou;
     public static string itemSelecionado;
+    public static bool podeAndar = true;
 
 
     Vector2 alvo;    
@@ -32,12 +33,12 @@ public class Interagir : MonoBehaviour
     void Update()
     {  
 
-        if (clickObj)
+        if (clickObj && podeAndar)
         {
             AndarObj();
         }
         
-        if (clickChao)
+        if (clickChao && podeAndar)
         {
             AndarChao();
         }

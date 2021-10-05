@@ -25,6 +25,7 @@ public class Slots : MonoBehaviour
         
         if (Interagir.itemSelecionado == Item.nome)
         {
+            clicado = true;
             Debug.Log(Item.nome + " 1 " + textNome.text);
             selecionado.SetActive(true);            
             textNome.text = Item.nome;
@@ -33,8 +34,8 @@ public class Slots : MonoBehaviour
         }
         else
         {
-            selecionado.SetActive(false);            
-            
+            selecionado.SetActive(false);
+            clicado = false;
             
         }
     }

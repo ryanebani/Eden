@@ -48,11 +48,11 @@ public class Inventario : MonoBehaviour
         }
     }
 
-    public void RemoverItem(GameObject slotRemov)
+    public void RemoverItem()
     {
         for (int i = 0; i < slots.Length; i++)
         {
-            if (slots[i] == slotRemov)
+            if (slots[i].GetComponent<Slots>().clicado)
             {
                 cheio[i] = false;
                 slots[i].gameObject.SetActive(false);
