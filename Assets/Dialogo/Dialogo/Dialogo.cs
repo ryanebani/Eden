@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class Dialogo : MonoBehaviour
 {
-    public FalaNPC[] falas = new FalaNPC[2];
+    public FalaNPC[] falas = new FalaNPC[4];
 
     private bool dialogoConcluido = false;
+    private bool dialogoConcluidoMascara = false;
 
     DialogoController dialogoController;
+
+    public bool mascara;
     
     void Start()
     {
@@ -23,16 +26,32 @@ public class Dialogo : MonoBehaviour
 
     public void Ativar()
     {
-        
-        if(!dialogoConcluido)
+        if (!mascara)
         {
-            dialogoController.ProximaFala(falas[0]);
+            if (!dialogoConcluido)
+            {
+                dialogoController.ProximaFala(falas[0]);
+            }
+            else
+            {
+                dialogoController.ProximaFala(falas[1]);
+            }
+            dialogoConcluido = true;
         }
         else
         {
-            dialogoController.ProximaFala(falas[1]);
+            if (!dialogoConcluidoMascara)
+            {
+                dialogoController.ProximaFala(falas[2]);
+            }
+            else
+            {
+                dialogoController.ProximaFala(falas[3]);
+            }
+            dialogoConcluidoMascara = true;
+
         }
 
-        dialogoConcluido = true;
+
     }
 }

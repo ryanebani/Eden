@@ -11,8 +11,13 @@ public class FalaNPC : ScriptableObject
 
     public Sequencia sequencia;
 
-    public Color corPlayer;
-    public Color corNPC;
-
     public bool npcFalando;
+
+    public string falaNode;
+
+    public Personagem jogador;
+    public Personagem NPC;
+
+    public bool recomecar;
+    public bool NPCNode;
 }
