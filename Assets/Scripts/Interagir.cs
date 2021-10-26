@@ -8,7 +8,7 @@ public class Interagir : MonoBehaviour
     public string paraOndeVou;
     public static string itemSelecionado;
     public static bool podeAndar = true;
-
+    public static bool olharDireita = true;
 
     Vector2 alvo;    
     Vector2 posAtu;
@@ -24,6 +24,7 @@ public class Interagir : MonoBehaviour
 
     void Start()
     {
+        Application.targetFrameRate = 60;
         posJogador = GetComponent<Transform>();
         posAtu = new Vector3(posJogador.position.x, posJogador.position.y, posJogador.position.z);
         alvo = posAtu;
@@ -32,6 +33,10 @@ public class Interagir : MonoBehaviour
 
     void Update()
     {  
+        if (olharDireita)
+            transform.eulerAngles = new Vector3(0, 0, 0);
+        else
+            transform.eulerAngles = new Vector3(0, 180, 0);
 
         if (clickObj && podeAndar)
         {
@@ -47,11 +52,11 @@ public class Interagir : MonoBehaviour
         {
             if (posAtu.x > alvo.x)
             {
-                transform.eulerAngles = new Vector3(0, 180, 0);
+                olharDireita = false;
             }
             else
             {
-                transform.eulerAngles = new Vector3(0, 0, 0);
+                olharDireita = true;
             }
             posAtu = Vector3.MoveTowards(posAtu, alvo, 5 * Time.deltaTime);
             posJogador.position = posAtu;

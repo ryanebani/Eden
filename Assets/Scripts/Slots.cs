@@ -7,42 +7,43 @@ public class Slots : MonoBehaviour
 {
     public ItemOS Item;   
     [SerializeField] GameObject selecionado;
-    [SerializeField] Text textNome;
-    [SerializeField] Image Icone;
-    public bool clicado;    
+    Image icone;
+    public bool clicado = false;    
+
 
     public void Update()
     {
+        icone = gameObject.GetComponent<Image>();
         if (Item != null)
         {
-            Icone.sprite = Item.icone;
-            Icone.enabled = true;                       
+            icone.sprite = Item.icone;
+            icone.enabled = true;                       
         }
         else
         {
-            Icone.enabled = false;            
+            icone.enabled = false;            
         }
         
-        if (Interagir.itemSelecionado == Item.nome)
+        if (clicado == true && Interagir.itemSelecionado == Item.nome)
         {
-            clicado = true;
-            Debug.Log(Item.nome + " 1 " + textNome.text);
-            selecionado.SetActive(true);            
-            textNome.text = Item.nome;
-            Debug.Log(Item.nome + " 2 " + textNome.text);
-            
+            selecionado.SetActive(true);                               
         }
         else
         {
             selecionado.SetActive(false);
-            clicado = false;
-            
+            clicado = false;           
         }
+                
     }
+
 
     public void Selecao()
     {
+        clicado = !clicado;
         Interagir.itemSelecionado = Item.nome;
-        
+        if (clicado == false)
+        {
+            Interagir.itemSelecionado = "";
+        }
     }
 }

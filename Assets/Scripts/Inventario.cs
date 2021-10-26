@@ -1,17 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Inventario : MonoBehaviour
 {
-    public bool[] cheio;
+    [SerializeField] Text textoSelecao;
+
     public GameObject[] slots;
-    private Animator anim;
     public GameObject grid;
-    public bool fechado;
-    public string itemSelecionado;
     //public GameObject cancelar;
 
+    public bool[] cheio;
+    public bool fechado;
+
+    Animator anim;        
 
     public void Start()
     {
@@ -20,11 +23,12 @@ public class Inventario : MonoBehaviour
     }
     public void Update()
     {
+        textoSelecao.text = Interagir.itemSelecionado;
+
         if (fechado == true)
         {
             anim.SetBool("Fechar", true);
             //cancelar.SetActive(false);
-
         }
         else
         {
@@ -54,10 +58,13 @@ public class Inventario : MonoBehaviour
         {
             if (slots[i].GetComponent<Slots>().clicado)
             {
+                slots[i].GetComponent<Slots>().clicado = false;
                 cheio[i] = false;
                 slots[i].gameObject.SetActive(false);
                 slots[i].GetComponent<Slots>().Item = null;
+                textoSelecao.text = null;
                 break;
+                
             }
         }
     }
