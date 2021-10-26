@@ -65,6 +65,8 @@ public class DialogoController : MonoBehaviour
                         jogador = null;
                         NPC = null;
                         Interagir.podeAndar = true;
+                        if (falas.acao)
+                            falas.OnFinalDialogo?.Invoke();
                     }
                 }
                 else
@@ -105,6 +107,8 @@ public class DialogoController : MonoBehaviour
                             jogador = null;
                             NPC = null;
                             repetiu = false;
+                            if (falas.acao)
+                                falas.OnFinalDialogo?.Invoke();
                         }
 
                     }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 [CreateAssetMenu]
 public class FalaNPC : ScriptableObject
@@ -20,4 +21,8 @@ public class FalaNPC : ScriptableObject
 
     public bool recomecar;
     public bool NPCNode;
+
+    public bool acao;
+
+    public UnityEvent OnFinalDialogo;
 }
