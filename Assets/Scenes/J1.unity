@@ -297,6 +297,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 259603272}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: darItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &259603270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -314,7 +326,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}
   - {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}
   - {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}
+  dialogoConcluido: 0
   mascara: 0
+  OnChegueiNPC:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!61 &259603271
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1298,7 +1314,8 @@ MonoBehaviour:
   nomeNPC: {fileID: 625548804}
   resposta: {fileID: 809043687155554468, guid: b725d08e9436c3f419d3d4087d2b7064, type: 3}
   sprite: {fileID: 1063457670}
-  mask: 1
+  falas: {fileID: 0}
+  entregaItem: 0
 --- !u!4 &1007075631
 Transform:
   m_ObjectHideFlags: 0
@@ -1480,7 +1497,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6787056619173625680, guid: 14fb544813ed8e844bc88a905812a8d9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 23.71
+      value: -2.33
       objectReference: {fileID: 0}
     - target: {fileID: 6787056619173625680, guid: 14fb544813ed8e844bc88a905812a8d9, type: 3}
       propertyPath: m_LocalPosition.y

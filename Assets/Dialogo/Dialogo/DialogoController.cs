@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class DialogoController : MonoBehaviour
 {
+    public static Dialogo dialogo;
+
     public GameObject painelDeDialogo;
 
     public Text falaNPC;
@@ -19,11 +21,11 @@ public class DialogoController : MonoBehaviour
 
     private bool falaAtiva = false;
 
-    FalaNPC falas;
+    public FalaNPC falas;
 
     Touch touch;
 
-    public bool mask;
+    public bool entregaItem;
 
     bool repetiu;
 
@@ -51,7 +53,7 @@ public class DialogoController : MonoBehaviour
                 {
                     if (falas.respostas.Length > 0)
                     {
-                        MostarRespostas();
+                        MostrarRespostas();
                     }
                     else
                     {
@@ -65,8 +67,7 @@ public class DialogoController : MonoBehaviour
                         jogador = null;
                         NPC = null;
                         Interagir.podeAndar = true;
-                        if (falas.acao)
-                            falas.OnFinalDialogo?.Invoke();
+                        entregaItem = false;
                     }
                 }
                 else
@@ -107,8 +108,7 @@ public class DialogoController : MonoBehaviour
                             jogador = null;
                             NPC = null;
                             repetiu = false;
-                            if (falas.acao)
-                                falas.OnFinalDialogo?.Invoke();
+                            entregaItem = false;
                         }
 
                     }
@@ -118,7 +118,7 @@ public class DialogoController : MonoBehaviour
         }
     }
 
-    void MostarRespostas()
+    void MostrarRespostas()
     {
         painelDeNome.SetActive(false);
         nomeNPC.gameObject.SetActive(false);
@@ -134,7 +134,7 @@ public class DialogoController : MonoBehaviour
         //falaNPC.gameObject.SetActive(false);
         falaAtiva = false;
 
-        if (!mask)
+        if (!entregaItem)
         {
             for (int i = 0; i < falas.respostas.Length - 1; i++)
             {
@@ -156,13 +156,18 @@ public class DialogoController : MonoBehaviour
 
     public void ProximaFala(FalaNPC fala)
     {
+
         falaNPC.text = "";
         Interagir.podeAndar = false;
         falas = fala;
+        //if (falas.acao)
+        //{
+        //
+        //}
 
         LimparRespostas();
 
-        /*
+        
         if(jogador == null)
         {
             jogador = falas.jogador;
@@ -173,7 +178,7 @@ public class DialogoController : MonoBehaviour
             falas.jogador = jogador;
             falas.NPC = NPC;
         }
-        */
+        
 
         falaAtiva = true;
         painelDeNome.SetActive(true);
@@ -184,7 +189,7 @@ public class DialogoController : MonoBehaviour
 
         if (falas.recomecar && repetiu)
         {
-            MostarRespostas();
+            MostrarRespostas();
         }
         else
         {

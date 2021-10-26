@@ -20,7 +20,7 @@ MonoBehaviour:
     proximaFala: {fileID: 11400000, guid: 11c079f22c324904e89637747025a387, type: 2}
   - resposta: "Ta bom, vo l\xE1"
     proximaFala: {fileID: 11400000, guid: 0da20dd86bf0ea64997aa0134a0346fb, type: 2}
-  - resposta: "\xC9EEEE"
+  - resposta: "Obrigado pela ma\xE7\xE3"
     proximaFala: {fileID: 11400000, guid: 0da20dd86bf0ea64997aa0134a0346fb, type: 2}
   sequencia: {fileID: 0}
   npcFalando: 1
@@ -29,3 +29,7 @@ MonoBehaviour:
   NPC: {fileID: 11400000, guid: 873072fe9fc197f4c9549ffd5a703430, type: 2}
   recomecar: 1
   NPCNode: 1
+  acao: 0
+  OnFinalDialogo:
+    m_PersistentCalls:
+      m_Calls: []
