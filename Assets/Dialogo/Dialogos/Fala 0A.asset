@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
   m_Name: Fala 0A
   m_EditorClassIdentifier: 
-  fala: ...
+  fala: "\xC9 isso msm"
   respostas:
   - resposta: "Tu s\xF3 n\xE3o pode me entregar de uma vez?"
     proximaFala: {fileID: 11400000, guid: d0967d5fdd705f14a925f4468e0bffd5, type: 2}
@@ -20,7 +20,16 @@ MonoBehaviour:
     proximaFala: {fileID: 11400000, guid: 11c079f22c324904e89637747025a387, type: 2}
   - resposta: "Ta bom, vo l\xE1"
     proximaFala: {fileID: 11400000, guid: 0da20dd86bf0ea64997aa0134a0346fb, type: 2}
+  - resposta: "Obrigado pela ma\xE7\xE3"
+    proximaFala: {fileID: 11400000, guid: 0da20dd86bf0ea64997aa0134a0346fb, type: 2}
   sequencia: {fileID: 0}
-  corPlayer: {r: 0.8773585, g: 0.6841007, b: 0.34349412, a: 1}
-  corNPC: {r: 0.48794055, g: 0.8018868, b: 0.6342702, a: 1}
   npcFalando: 1
+  falaNode: ola
+  jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
+  NPC: {fileID: 11400000, guid: 873072fe9fc197f4c9549ffd5a703430, type: 2}
+  recomecar: 1
+  NPCNode: 1
+  acao: 0
+  OnFinalDialogo:
+    m_PersistentCalls:
+      m_Calls: []

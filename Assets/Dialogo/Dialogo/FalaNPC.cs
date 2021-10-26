@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 [CreateAssetMenu]
 public class FalaNPC : ScriptableObject
@@ -11,8 +12,17 @@ public class FalaNPC : ScriptableObject
 
     public Sequencia sequencia;
 
-    public Color corPlayer;
-    public Color corNPC;
-
     public bool npcFalando;
+
+    public string falaNode;
+
+    public Personagem jogador;
+    public Personagem NPC;
+
+    public bool recomecar;
+    public bool NPCNode;
+
+    public bool acao;
+
+    public UnityEvent OnFinalDialogo;
 }

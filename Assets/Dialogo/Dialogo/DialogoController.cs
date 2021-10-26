@@ -5,19 +5,34 @@ using UnityEngine.UI;
 
 public class DialogoController : MonoBehaviour
 {
+    public static Dialogo dialogo;
+
     public GameObject painelDeDialogo;
 
     public Text falaNPC;
 
+    public GameObject painelDeNome;
+
+    public Text nomeNPC;
+
     public GameObject resposta;
+
+    public Image sprite;
 
     private bool falaAtiva = false;
 
-    FalaNPC falas;
+    public FalaNPC falas;
 
     Touch touch;
 
+    public bool entregaItem;
+
+    bool repetiu;
+
     int index = 0;
+
+    Personagem jogador;
+    Personagem NPC;
 
 
     void Start()
@@ -38,14 +53,21 @@ public class DialogoController : MonoBehaviour
                 {
                     if (falas.respostas.Length > 0)
                     {
-                        MostarRespostas();
+                        MostrarRespostas();
                     }
                     else
                     {
                         falaAtiva = false;
+                        painelDeNome.SetActive(false);
+                        nomeNPC.gameObject.SetActive(false);
                         painelDeDialogo.SetActive(false);
                         falaNPC.gameObject.SetActive(false);
+                        sprite.gameObject.SetActive(false);
+                        repetiu = false;
+                        jogador = null;
+                        NPC = null;
                         Interagir.podeAndar = true;
+                        entregaItem = false;
                     }
                 }
                 else
@@ -55,11 +77,15 @@ public class DialogoController : MonoBehaviour
                         falaNPC.text = falas.sequencia.sequencia[index];
                         if (falas.sequencia.npcFalando[index])
                         {
-                            falaNPC.color = falas.corNPC;
+                            sprite.sprite = falas.NPC.sprite;
+                            nomeNPC.text = falas.NPC.nome;
+                            falaNPC.color = falas.NPC.cor;
                         }
                         else
                         {
-                            falaNPC.color = falas.corPlayer;
+                            sprite.sprite = falas.jogador.sprite;
+                            nomeNPC.text = falas.jogador.nome;
+                            falaNPC.color = falas.jogador.cor;
                         }
                         index++;
                     }
@@ -76,6 +102,13 @@ public class DialogoController : MonoBehaviour
                             falaAtiva = false;
                             painelDeDialogo.SetActive(false);
                             falaNPC.gameObject.SetActive(false);
+                            painelDeNome.SetActive(false);
+                            nomeNPC.gameObject.SetActive(false);
+                            sprite.gameObject.SetActive(false);
+                            jogador = null;
+                            NPC = null;
+                            repetiu = false;
+                            entregaItem = false;
                         }
 
                     }
@@ -85,38 +118,99 @@ public class DialogoController : MonoBehaviour
         }
     }
 
-    void MostarRespostas()
+    void MostrarRespostas()
     {
-        falaNPC.gameObject.SetActive(false);
+        painelDeNome.SetActive(false);
+        nomeNPC.gameObject.SetActive(false);
+        sprite.sprite = falas.jogador.sprite;
+        if (falas.falaNode != "")
+        {
+            falaNPC.text = falas.falaNode;
+            if (falas.NPCNode)
+                falaNPC.color = falas.NPC.cor;
+            else
+                falaNPC.color = falas.jogador.cor;
+        }
+        //falaNPC.gameObject.SetActive(false);
         falaAtiva = false;
 
-        for(int i = 0; i < falas.respostas.Length; i++)
+        if (!entregaItem)
         {
-            GameObject tempResposta = Instantiate(resposta, painelDeDialogo.transform) as GameObject;
-            tempResposta.GetComponent<Text>().text = falas.respostas[i].resposta;
-            tempResposta.GetComponent<AnswerButton>().Setup(falas.respostas[i]);
+            for (int i = 0; i < falas.respostas.Length - 1; i++)
+            {
+                GameObject tempResposta = Instantiate(resposta, painelDeDialogo.transform) as GameObject;
+                tempResposta.GetComponent<Text>().text = falas.respostas[i].resposta;
+                tempResposta.GetComponent<AnswerButton>().Setup(falas.respostas[i]);
+            }
+        }
+        else
+        {
+            for (int i = 0; i < falas.respostas.Length; i++)
+            {
+                GameObject tempResposta = Instantiate(resposta, painelDeDialogo.transform) as GameObject;
+                tempResposta.GetComponent<Text>().text = falas.respostas[i].resposta;
+                tempResposta.GetComponent<AnswerButton>().Setup(falas.respostas[i]);
+            }
         }
     }
 
     public void ProximaFala(FalaNPC fala)
     {
+
+        falaNPC.text = "";
         Interagir.podeAndar = false;
         falas = fala;
+        //if (falas.acao)
+        //{
+        //
+        //}
 
         LimparRespostas();
 
-        falaAtiva = true;
-        painelDeDialogo.SetActive(true);
-        falaNPC.gameObject.SetActive(true);
-
-        falaNPC.text = falas.fala;
-        if(falas.npcFalando)
+        
+        if(jogador == null)
         {
-            falaNPC.color = falas.corNPC;
+            jogador = falas.jogador;
+            NPC = falas.NPC;
         }
         else
         {
-            falaNPC.color = falas.corPlayer;
+            falas.jogador = jogador;
+            falas.NPC = NPC;
+        }
+        
+
+        falaAtiva = true;
+        painelDeNome.SetActive(true);
+        nomeNPC.gameObject.SetActive(true);
+        painelDeDialogo.SetActive(true);
+        falaNPC.gameObject.SetActive(true);
+        sprite.gameObject.SetActive(true);
+
+        if (falas.recomecar && repetiu)
+        {
+            MostrarRespostas();
+        }
+        else
+        {
+            if (falas.recomecar)
+            {
+                repetiu = true;
+            }
+            falaNPC.text = falas.fala;
+
+            if (falas.npcFalando)
+            {
+                sprite.sprite = falas.NPC.sprite;
+                nomeNPC.text = falas.NPC.nome;
+                falaNPC.color = falas.NPC.cor;
+            }
+            else
+            {
+                sprite.sprite = falas.jogador.sprite;
+                nomeNPC.text = falas.jogador.nome;
+                falaNPC.color = falas.jogador.cor;
+            }
         }
         
     }
