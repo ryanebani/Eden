@@ -20,7 +20,7 @@ MonoBehaviour:
     proximaFala: {fileID: 11400000, guid: 11c079f22c324904e89637747025a387, type: 2}
   - resposta: "Ta bom, vo l\xE1"
     proximaFala: {fileID: 11400000, guid: 0da20dd86bf0ea64997aa0134a0346fb, type: 2}
-  - resposta: "Obrigado pela ma\xE7\xE3"
+  - resposta: "Madalena n\xE3o falou que tu \xE9 ot\xE1rio"
     proximaFala: {fileID: 11400000, guid: 0da20dd86bf0ea64997aa0134a0346fb, type: 2}
   sequencia: {fileID: 0}
   npcFalando: 1

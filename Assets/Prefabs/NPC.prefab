@@ -45,7 +45,6 @@ GameObject:
   - component: {fileID: 3744053794989155870}
   - component: {fileID: 3744053794989155869}
   - component: {fileID: 3744053794989155859}
-  - component: {fileID: 2670456367526513119}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -110,7 +109,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -2334010328091201995, guid: b77568095c779754e8fa136c513546c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1.0092592, y: 3.9351852}
@@ -157,9 +156,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841faddbbfbef29438952c4974320e92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 0}
-  chave: 
+  item: {fileID: 11400000, guid: 92f8b471a18c6d74bad6cb87bf646fc2, type: 2}
+  chave: "Ma\xE7\xE3"
   inventario: {fileID: 0}
+  NPCAlheio: {fileID: 0}
 --- !u!114 &3744053794989155870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,8 +178,8 @@ MonoBehaviour:
   OnCheguei:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3744053794989155859}
-        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+      - m_Target: {fileID: 9160074225860728504}
+        m_TargetAssemblyTypeName: FunctionsNPC, Assembly-CSharp
         m_MethodName: darItem
         m_Mode: 1
         m_Arguments:
@@ -190,8 +190,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 3744053794989155859}
-        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+      - m_Target: {fileID: 9160074225860728504}
+        m_TargetAssemblyTypeName: FunctionsNPC, Assembly-CSharp
         m_MethodName: receberItem
         m_Mode: 1
         m_Arguments:
@@ -214,6 +214,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  objetoInt: {fileID: 0}
 --- !u!114 &3744053794989155869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -249,18 +250,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npc: {fileID: 11400000, guid: 77e90ab3054c95a49a9e1cb63e7216af, type: 2}
---- !u!114 &2670456367526513119
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3744053794989155865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841faddbbfbef29438952c4974320e92, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 0}
-  chave: 
-  inventario: {fileID: 0}

@@ -13,6 +13,9 @@ public class FunctionsNPC : MonoBehaviour
     public Inventario inventario;
     private DialogoController DC;
 
+    [SerializeField]
+    private FunctionsNPC NPCAlheio;
+
     void Start()
     {
         DC = FindObjectOfType<DialogoController>();
@@ -39,7 +42,7 @@ public class FunctionsNPC : MonoBehaviour
 
     public void InfoObtida()
     {
-        infoDesejada = true;
+        NPCAlheio.infoDesejada = true;
     }
 
     public void darItem()
