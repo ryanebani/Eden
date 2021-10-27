@@ -1588,6 +1588,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1475740545 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9160074225860728504, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
+  m_PrefabInstance: {fileID: 3744053795037977947}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841faddbbfbef29438952c4974320e92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1501253559
 GameObject:
   m_ObjectHideFlags: 0
@@ -2004,18 +2015,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3744053794989155859, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
-      propertyPath: inventario
-      value: 
-      objectReference: {fileID: 1087292476}
+    - target: {fileID: 3744053794989155864, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3744053794989155865, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
       propertyPath: m_Name
-      value: NPC
+      value: Beto
       objectReference: {fileID: 0}
     - target: {fileID: 3744053794989155870, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
       propertyPath: jogador
       value: 
       objectReference: {fileID: 786134169}
+    - target: {fileID: 3744053794989155870, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
+      propertyPath: OnCheguei.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1475740545}
+    - target: {fileID: 3744053794989155870, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
+      propertyPath: OnCheguei.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1475740545}
+    - target: {fileID: 3744053794989155870, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
+      propertyPath: OnCheguei.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FunctionsNPC, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3744053794989155870, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
+      propertyPath: OnCheguei.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FunctionsNPC, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 3744053794989155871, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2060,7 +2087,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 9160074225860728504, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: 92f8b471a18c6d74bad6cb87bf646fc2, type: 2}
+    - target: {fileID: 9160074225860728504, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
+      propertyPath: chave
+      value: "Ma\xE7\xE3"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9160074225860728504, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
+      propertyPath: inventario
+      value: 
+      objectReference: {fileID: 1087292476}
+    m_RemovedComponents:
+    - {fileID: 2670456367526513119, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
 --- !u!1001 &6500220882944270024
 PrefabInstance:

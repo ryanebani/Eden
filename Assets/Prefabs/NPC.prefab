@@ -40,10 +40,12 @@ GameObject:
   m_Component:
   - component: {fileID: 3744053794989155871}
   - component: {fileID: 3744053794989155864}
-  - component: {fileID: 3744053794989155869}
-  - component: {fileID: 3744053794989155870}
   - component: {fileID: 3744053794989155868}
+  - component: {fileID: 9160074225860728504}
+  - component: {fileID: 3744053794989155870}
+  - component: {fileID: 3744053794989155869}
   - component: {fileID: 3744053794989155859}
+  - component: {fileID: 2670456367526513119}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -117,7 +119,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3744053794989155869
+--- !u!61 &3744053794989155868
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3744053794989155865}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.0648148, y: 4.361111}
+    newSize: {x: 1.0092592, y: 3.9351852}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.0648148, y: 4.361111}
+  m_EdgeRadius: 0
+--- !u!114 &9160074225860728504
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,19 +154,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 3744053794989155865}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee6d8329ad1c520469756fb26c1fdd4f, type: 3}
+  m_Script: {fileID: 11500000, guid: 841faddbbfbef29438952c4974320e92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  falas:
-  - {fileID: 11400000, guid: 0587d2fd91b27e34ea71bb6936cf0606, type: 2}
-  - {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}
-  - {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}
-  - {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}
-  dialogoConcluido: 0
-  mascara: 0
-  OnChegueiNPC:
-    m_PersistentCalls:
-      m_Calls: []
+  item: {fileID: 0}
+  chave: 
+  inventario: {fileID: 0}
 --- !u!114 &3744053794989155870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,32 +214,28 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!61 &3744053794989155868
-BoxCollider2D:
+--- !u!114 &3744053794989155869
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3744053794989155865}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.0648148, y: 4.361111}
-    newSize: {x: 1.0092592, y: 3.9351852}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.0648148, y: 4.361111}
-  m_EdgeRadius: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6d8329ad1c520469756fb26c1fdd4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  falas:
+  - {fileID: 11400000, guid: 0587d2fd91b27e34ea71bb6936cf0606, type: 2}
+  - {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}
+  - {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}
+  - {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}
+  dialogoConcluido: 0
+  mascara: 0
+  OnChegueiNPC:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &3744053794989155859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,6 +248,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d5806becc445d144900c10685973f00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 92f8b471a18c6d74bad6cb87bf646fc2, type: 2}
-  chave: "Ma\xE7\xE3"
+  npc: {fileID: 11400000, guid: 77e90ab3054c95a49a9e1cb63e7216af, type: 2}
+--- !u!114 &2670456367526513119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3744053794989155865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841faddbbfbef29438952c4974320e92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 0}
+  chave: 
   inventario: {fileID: 0}
