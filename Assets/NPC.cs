@@ -33,7 +33,6 @@ public class NPC : MonoBehaviour
         {
             itemDesejado = true;
         }
-
     }
 
     private void OnMouseDown()

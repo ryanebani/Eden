@@ -24,6 +24,7 @@ public class Interagir : MonoBehaviour
 
     void Start()
     {
+        itemSelecionado = null;
         Application.targetFrameRate = 60;
         posJogador = GetComponent<Transform>();
         posAtu = new Vector3(posJogador.position.x, posJogador.position.y, posJogador.position.z);

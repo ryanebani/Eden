@@ -23,15 +23,18 @@ public class Slots : MonoBehaviour
         {
             icone.enabled = false;            
         }
-        
+
+
         if (clicado == true && Interagir.itemSelecionado == Item.nome)
         {
-            selecionado.SetActive(true);                               
+            selecionado.SetActive(true);
+            Inventario.itemNaMao = true;
         }
         else
         {
             selecionado.SetActive(false);
-            clicado = false;           
+            clicado = false;
+            Inventario.itemNaMao = false;
         }
                 
     }
@@ -41,9 +44,10 @@ public class Slots : MonoBehaviour
     {
         clicado = !clicado;
         Interagir.itemSelecionado = Item.nome;
+
         if (clicado == false)
         {
-            Interagir.itemSelecionado = "";
+            Interagir.itemSelecionado = null;
         }
     }
 }

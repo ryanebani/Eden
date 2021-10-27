@@ -29,32 +29,36 @@ public class Dialogo : MonoBehaviour
 
     public void Ativar()
     {
-        DialogoController.dialogo = GetComponent<Dialogo>();
-
-        if (!mascara)
+        
+        if (Inventario.itemNaMao == false)
         {
-            if (!dialogoConcluido)
+            DialogoController.dialogo = GetComponent<Dialogo>();
+
+            if (!mascara)
             {
-                dialogoController.ProximaFala(falas[0]);
+                if (!dialogoConcluido)
+                {
+                    dialogoController.ProximaFala(falas[0]);
+                }
+                else
+                {
+                    dialogoController.ProximaFala(falas[1]);
+                }
+                dialogoConcluido = true;
             }
             else
             {
-                dialogoController.ProximaFala(falas[1]);
-            }
-            dialogoConcluido = true;
-        }
-        else
-        {
-            if (!dialogoConcluidoMascara)
-            {
-                dialogoController.ProximaFala(falas[2]);
-            }
-            else
-            {
-                dialogoController.ProximaFala(falas[3]);
-            }
-            dialogoConcluidoMascara = true;
+                if (!dialogoConcluidoMascara)
+                {
+                    dialogoController.ProximaFala(falas[2]);
+                }
+                else
+                {
+                    dialogoController.ProximaFala(falas[3]);
+                }
+                dialogoConcluidoMascara = true;
 
+            }
         }
 
 

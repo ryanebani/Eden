@@ -14,7 +14,9 @@ public class Inventario : MonoBehaviour
     public bool[] cheio;
     public bool fechado;
 
-    Animator anim;        
+    Animator anim;
+
+    static public bool itemNaMao;
 
     public void Start()
     {
@@ -62,9 +64,8 @@ public class Inventario : MonoBehaviour
                 cheio[i] = false;
                 slots[i].gameObject.SetActive(false);
                 slots[i].GetComponent<Slots>().Item = null;
-                textoSelecao.text = null;
-                break;
-                
+                Interagir.itemSelecionado = null;
+                break;    
             }
         }
     }

@@ -285,9 +285,9 @@ MonoBehaviour:
   OnCheguei:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 259603270}
-        m_TargetAssemblyTypeName: Dialogo, Assembly-CSharp
-        m_MethodName: Ativar
+      - m_Target: {fileID: 259603272}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: darItem
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -299,7 +299,19 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 259603272}
         m_TargetAssemblyTypeName: NPC, Assembly-CSharp
-        m_MethodName: darItem
+        m_MethodName: receberItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 259603270}
+        m_TargetAssemblyTypeName: Dialogo, Assembly-CSharp
+        m_MethodName: Ativar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1554,6 +1566,10 @@ PrefabInstance:
       objectReference: {fileID: 1239833786}
     - target: {fileID: 2612765609176191266, guid: 44f8bc875290ea94eb27e3c6852a74b0, type: 3}
       propertyPath: textNome
+      value: 
+      objectReference: {fileID: 1239833786}
+    - target: {fileID: 2652710569869148633, guid: 44f8bc875290ea94eb27e3c6852a74b0, type: 3}
+      propertyPath: textoSelecao
       value: 
       objectReference: {fileID: 1239833786}
     - target: {fileID: 3195153863550085825, guid: 44f8bc875290ea94eb27e3c6852a74b0, type: 3}
