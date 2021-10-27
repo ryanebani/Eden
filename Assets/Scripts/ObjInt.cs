@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,14 +11,14 @@ public class ObjInt : MonoBehaviour
 
     bool podeObservar;
 
-    public Text falaObj;
+    public GameObject painel;
+    public TextMeshProUGUI falaObj;
    
     
     public void OnValidate()
     {
         gameObject.name = ObjOS.nomeObj;
         falas = ObjOS.falas;
-
     }
         
     void Update() 
@@ -25,6 +26,7 @@ public class ObjInt : MonoBehaviour
         if (podeObservar)
         {
             falaObj.text = ObjOS.falas;
+            painel.SetActive(true);
             podeObservar = false;
         }
     }

@@ -17,7 +17,8 @@ public class AlvoMovendo : MonoBehaviour
 
     private void OnMouseDown()
     {
-        //FindObjectOfType<ObjInt>().falaObj.text = "";
+        //FindObjectOfType<ObjInt>().falaObj.text = null;
+        FindObjectOfType<ObjInt>().painel.SetActive(false);
 
         if (chao)
         {
