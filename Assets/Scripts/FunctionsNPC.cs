@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
-public class NPC : MonoBehaviour
+public class FunctionsNPC : MonoBehaviour
 {
     public ItemOS item;
     public string chave;
@@ -13,15 +12,16 @@ public class NPC : MonoBehaviour
 
     public Inventario inventario;
     private DialogoController DC;
-    private Dialogo D;
+
+    [SerializeField]
+    private FunctionsNPC NPCAlheio;
 
     void Start()
     {
         DC = FindObjectOfType<DialogoController>();
-        D = GetComponent<Dialogo>();
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
 
@@ -42,7 +42,7 @@ public class NPC : MonoBehaviour
 
     public void InfoObtida()
     {
-        infoDesejada = true;
+        NPCAlheio.infoDesejada = true;
     }
 
     public void darItem()
@@ -82,6 +82,7 @@ public class NPC : MonoBehaviour
     public void InfoPorItem()
     {
         if (infoDesejada)
-        inventario.AdicionarItem(item, gameObject);
+            inventario.AdicionarItem(item, gameObject);
     }
+    
 }

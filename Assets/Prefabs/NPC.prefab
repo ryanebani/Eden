@@ -40,9 +40,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3744053794989155871}
   - component: {fileID: 3744053794989155864}
-  - component: {fileID: 3744053794989155869}
-  - component: {fileID: 3744053794989155870}
   - component: {fileID: 3744053794989155868}
+  - component: {fileID: 9160074225860728504}
+  - component: {fileID: 3744053794989155870}
+  - component: {fileID: 3744053794989155869}
   - component: {fileID: 3744053794989155859}
   m_Layer: 0
   m_Name: NPC
@@ -108,7 +109,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -2334010328091201995, guid: b77568095c779754e8fa136c513546c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1.0092592, y: 3.9351852}
@@ -117,82 +118,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3744053794989155869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3744053794989155865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee6d8329ad1c520469756fb26c1fdd4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  falas:
-  - {fileID: 11400000, guid: 0587d2fd91b27e34ea71bb6936cf0606, type: 2}
-  - {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}
-  - {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}
-  - {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}
-  dialogoConcluido: 0
-  mascara: 0
-  OnChegueiNPC:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &3744053794989155870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3744053794989155865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de53902171c6def4b8d53e08bd813971, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chao: 0
-  jogador: {fileID: 0}
-  gizmo: {fileID: 3744053794782568234}
-  OnCheguei:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 3744053794989155859}
-        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
-        m_MethodName: darItem
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 3744053794989155859}
-        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
-        m_MethodName: receberItem
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 3744053794989155869}
-        m_TargetAssemblyTypeName: Dialogo, Assembly-CSharp
-        m_MethodName: Ativar
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!61 &3744053794989155868
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -219,6 +144,99 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.0648148, y: 4.361111}
   m_EdgeRadius: 0
+--- !u!114 &9160074225860728504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3744053794989155865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841faddbbfbef29438952c4974320e92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 92f8b471a18c6d74bad6cb87bf646fc2, type: 2}
+  chave: "Ma\xE7\xE3"
+  inventario: {fileID: 0}
+  NPCAlheio: {fileID: 0}
+--- !u!114 &3744053794989155870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3744053794989155865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de53902171c6def4b8d53e08bd813971, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chao: 0
+  jogador: {fileID: 0}
+  gizmo: {fileID: 3744053794782568234}
+  OnCheguei:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 9160074225860728504}
+        m_TargetAssemblyTypeName: FunctionsNPC, Assembly-CSharp
+        m_MethodName: darItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 9160074225860728504}
+        m_TargetAssemblyTypeName: FunctionsNPC, Assembly-CSharp
+        m_MethodName: receberItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3744053794989155869}
+        m_TargetAssemblyTypeName: Dialogo, Assembly-CSharp
+        m_MethodName: Ativar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  objetoInt: {fileID: 0}
+--- !u!114 &3744053794989155869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3744053794989155865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6d8329ad1c520469756fb26c1fdd4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  falas:
+  - {fileID: 11400000, guid: 0587d2fd91b27e34ea71bb6936cf0606, type: 2}
+  - {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}
+  - {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}
+  - {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}
+  dialogoConcluido: 0
+  mascara: 0
+  OnChegueiNPC:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &3744053794989155859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,6 +249,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d5806becc445d144900c10685973f00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 92f8b471a18c6d74bad6cb87bf646fc2, type: 2}
-  chave: "Ma\xE7\xE3"
-  inventario: {fileID: 0}
+  npc: {fileID: 11400000, guid: 77e90ab3054c95a49a9e1cb63e7216af, type: 2}
