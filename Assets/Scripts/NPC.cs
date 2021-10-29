@@ -7,8 +7,6 @@ public class NPC : MonoBehaviour
 {
     public NPCOS npc;
 
-    private Dialogo dialogoScript;
-
     void Start()
     {
 

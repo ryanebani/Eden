@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 492a76340e5fc0f4dad1f2af229a7694, type: 3}
-  m_Name: Josias
+  m_Name: Beto
   m_EditorClassIdentifier: 
   cor: {r: 0.5772517, g: 0.8679245, b: 0.60456324, a: 1}
-  nome: Josias
+  nome: Beto
   sprite: {fileID: 1012574437052693974, guid: eb1d68a74df5bdd469dabc7fc8b0ef3a, type: 3}

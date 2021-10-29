@@ -12,24 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
   m_Name: Fala 0A
   m_EditorClassIdentifier: 
-  fala: "\xC9 isso msm"
+  fala: "T\xE1 doido moleque, n\xE3o vazou ainda?"
   respostas:
-  - resposta: "Tu s\xF3 n\xE3o pode me entregar de uma vez?"
+  - resposta: Me deixa entrar
     proximaFala: {fileID: 11400000, guid: d0967d5fdd705f14a925f4468e0bffd5, type: 2}
-  - resposta: "O que tu quer ent\xE3o?"
+  - resposta: "Beleza ent\xE3o"
     proximaFala: {fileID: 11400000, guid: 11c079f22c324904e89637747025a387, type: 2}
-  - resposta: "Ta bom, vo l\xE1"
-    proximaFala: {fileID: 11400000, guid: 0da20dd86bf0ea64997aa0134a0346fb, type: 2}
-  - resposta: "Madalena n\xE3o falou que tu \xE9 ot\xE1rio"
+  - resposta: 'Hum... Quero falar com o Afonso! '
     proximaFala: {fileID: 11400000, guid: 0da20dd86bf0ea64997aa0134a0346fb, type: 2}
   sequencia: {fileID: 0}
   npcFalando: 1
-  falaNode: ola
+  falaNode: O que tu ta querendo?
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: 873072fe9fc197f4c9549ffd5a703430, type: 2}
-  recomecar: 1
+  recomecar: 0
   NPCNode: 1
   acao: 0
-  OnFinalDialogo:
-    m_PersistentCalls:
-      m_Calls: []

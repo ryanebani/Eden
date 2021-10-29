@@ -9,9 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 492a76340e5fc0f4dad1f2af229a7694, type: 3}
-  m_Name: Caim
+  m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
+  m_Name: Seq 0
   m_EditorClassIdentifier: 
-  cor: {r: 0.8962264, g: 0.72321814, b: 0.4438857, a: 1}
-  nome: Caim
-  sprite: {fileID: -6866845238519314149, guid: eb1d68a74df5bdd469dabc7fc8b0ef3a, type: 3}
+  sequencia:
+  - "Quando foi que botaram um seguran\xE7a aqui? "
+  npcFalando: 00
+  proximaFala: {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}

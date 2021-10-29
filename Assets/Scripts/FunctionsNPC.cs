@@ -84,5 +84,10 @@ public class FunctionsNPC : MonoBehaviour
         if (infoDesejada)
             inventario.AdicionarItem(item, gameObject);
     }
-    
+
+    public void MudarStatusIdle()
+    {
+        DialogoController.dialogo.idleDialogo = !DialogoController.dialogo.idleDialogo;
+    }
+
 }
