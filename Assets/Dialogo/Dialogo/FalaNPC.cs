@@ -23,6 +23,4 @@ public class FalaNPC : ScriptableObject
     public bool NPCNode;
 
     public bool acao;
-
-    public UnityEvent OnFinalDialogo;
 }

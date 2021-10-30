@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Interagir : MonoBehaviour
 {
-
     public string paraOndeVou;
     public static string itemSelecionado;
     public static bool podeAndar = true;

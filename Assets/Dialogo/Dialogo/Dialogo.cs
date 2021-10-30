@@ -14,7 +14,9 @@ public class Dialogo : MonoBehaviour
 
     public bool mascara;
 
-    public UnityEvent OnChegueiNPC;
+    public UnityEvent OnFinalDialogo;
+
+    public bool idleDialogo;
 
     void Start()
     {
@@ -29,7 +31,6 @@ public class Dialogo : MonoBehaviour
 
     public void Ativar()
     {
-        
         if (Inventario.itemNaMao == false)
         {
             DialogoController.dialogo = GetComponent<Dialogo>();
@@ -60,7 +61,16 @@ public class Dialogo : MonoBehaviour
 
             }
         }
+     
+    }
 
+    public void AtivarIdle()
+    {
+        if (idleDialogo)
+        {
+            //text da caixaIdle = text idle da Madalena
+            //painel da caixaIdle SetActive(true);
+        }
 
     }
 }

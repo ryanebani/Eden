@@ -234,9 +234,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}
   dialogoConcluido: 0
   mascara: 0
-  OnChegueiNPC:
+  OnFinalDialogo:
     m_PersistentCalls:
       m_Calls: []
+  idleDialogo: 0
 --- !u!114 &3744053794989155859
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -10,13 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
-  m_Name: Fala 0
+  m_Name: Fala Extra
   m_EditorClassIdentifier: 
-  fala: Coe, tu viu minha mochila?
+  fala: "Como \xE9 esse cara?"
   respostas: []
-  sequencia: {fileID: 11400000, guid: 2b3be1b03a77ea249b958a0fca33642e, type: 2}
-  npcFalando: 0
+  sequencia: {fileID: 11400000, guid: 887830e9799bb17439a2ed0d406318d7, type: 2}
+  npcFalando: 1
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
-  NPC: {fileID: 11400000, guid: 873072fe9fc197f4c9549ffd5a703430, type: 2}
+  NPC: {fileID: 11400000, guid: e4a17fde116e04f408fcbcaaae87bbc1, type: 2}
   recomecar: 0
+  NPCNode: 0
+  acao: 1

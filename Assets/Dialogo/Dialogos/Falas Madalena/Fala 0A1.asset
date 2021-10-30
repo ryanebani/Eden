@@ -10,12 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
-  m_Name: Fala 0A2
+  m_Name: Fala 0A1
   m_EditorClassIdentifier: 
-  fala: "Tu pode pegar aquela ma\xE7\xE3 pra mim?"
+  fala: Estou bem querido!
   respostas: []
-  segmento: 1
-  sequencia: {fileID: 11400000, guid: 8d09d51630f08f242aad302bb5adf086, type: 2}
-  corPlayer: {r: 0.8773585, g: 0.6841007, b: 0.34349412, a: 1}
-  corNPC: {r: 0.48794055, g: 0.8018868, b: 0.6342702, a: 1}
+  sequencia: {fileID: 0}
   npcFalando: 1
+  falaNode: 
+  jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
+  NPC: {fileID: 11400000, guid: e4a17fde116e04f408fcbcaaae87bbc1, type: 2}
+  recomecar: 0
+  NPCNode: 0
+  acao: 0

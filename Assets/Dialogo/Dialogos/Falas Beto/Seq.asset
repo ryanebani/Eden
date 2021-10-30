@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
+  m_Name: Seq
+  m_EditorClassIdentifier: 
+  sequencia:
+  - "A Madalena devia ter falado que tu \xE9 um p\xE9 no saco vacil\xE3o"
+  - "Madalena!? C\xEA \xE9 uma das crias dela? "
+  - 'De certa forma. '
+  - "Se \xE9 assim, levanta o tapume da porta e entra. "
+  npcFalando: 00010001
+  proximaFala: {fileID: 0}
