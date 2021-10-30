@@ -10,9 +10,6 @@ public class AlvoMovendo : MonoBehaviour
     public GameObject gizmo;
     public UnityEvent OnCheguei;
 
-    [SerializeField]
-    private GameObject objetoInt;
-
     private void Start()
     {
         //OnCheguei.AddListener();
@@ -20,18 +17,15 @@ public class AlvoMovendo : MonoBehaviour
 
     private void OnMouseDown()
     {
-        //FindObjectOfType<ObjInt>().falaObj.text = null;
-        
+        CaixaIdle.idleDialogo = false;
+        StopCoroutine(CaixaIdle.timer);
+
         if (chao)
         {
             jogador.clickChao = true;
             jogador.paraOndeVou = gameObject.name;
-
-            if (objetoInt.active)
-            {
-                objetoInt.SetActive(false);
-            }
         }
+
         if (chao == false)
         {
             jogador.clickObj = true;
@@ -58,5 +52,4 @@ public class AlvoMovendo : MonoBehaviour
             gizmo.SetActive(false);
         }
     }
-    
 }

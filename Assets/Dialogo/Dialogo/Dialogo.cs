@@ -16,8 +16,6 @@ public class Dialogo : MonoBehaviour
 
     public UnityEvent OnFinalDialogo;
 
-    public bool idleDialogo;
-
     void Start()
     {
         dialogoController = FindObjectOfType<DialogoController>();
@@ -64,13 +62,4 @@ public class Dialogo : MonoBehaviour
      
     }
 
-    public void AtivarIdle()
-    {
-        if (idleDialogo)
-        {
-            //text da caixaIdle = text idle da Madalena
-            //painel da caixaIdle SetActive(true);
-        }
-
-    }
 }

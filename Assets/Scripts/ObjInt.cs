@@ -11,7 +11,6 @@ public class ObjInt : MonoBehaviour
 
     bool podeObservar;
 
-    public GameObject painel;
     public TextMeshProUGUI falaObj;
    
     
@@ -23,16 +22,12 @@ public class ObjInt : MonoBehaviour
         
     void Update() 
     {
-        if (podeObservar)
-        {
-            falaObj.text = ObjOS.falas;
-            painel.SetActive(true);
-            podeObservar = false;
-        }
+
     }
 
-    public void PodeObservar()
+    public void PodeIdle()
     {
-        podeObservar = true;
+        CaixaIdle.falaIdle = ObjOS.falas;
+        CaixaIdle.idleDialogo = true;
     }
 }
