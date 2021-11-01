@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 2722749774841820889}
   - component: {fileID: 1943214940179256183}
   - component: {fileID: 3053965152603050703}
-  - component: {fileID: 8266414190360721}
   m_Layer: 5
   m_Name: Doc Cima
   m_TagString: Doc
@@ -41,7 +40,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 327, y: 55}
-  m_SizeDelta: {x: 288.88892, y: 167.59259}
+  m_SizeDelta: {x: 792.5926, y: 407.40738}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2722749774841820888
 CanvasRenderer:
@@ -71,7 +70,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8907350871511382103, guid: 0a36f93d5a9eadd4c9cf44ec79059b3b, type: 3}
+  m_Sprite: {fileID: 3017847070562865821, guid: 717a2083715923444913b8a103cfa462, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -94,47 +93,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 0}
-  imageZoom: {fileID: 0}
-  OnUp:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2722749774841820894}
-        m_TargetAssemblyTypeName: Arrastar, Assembly-CSharp
-        m_MethodName: Zoom
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnDown:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2722749774841820894}
-        m_TargetAssemblyTypeName: Arrastar, Assembly-CSharp
-        m_MethodName: DragCancel
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnBDrag:
-    m_PersistentCalls:
-      m_Calls: []
-  OnDragging:
+  panel: {fileID: 0}
+  panelChild: {fileID: 0}
+  zoom: {fileID: -4562153555777764485, guid: 717a2083715923444913b8a103cfa462, type: 3}
+  DragEnd:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 8648696772235679835}
         m_TargetAssemblyTypeName: Snap, Assembly-CSharp
-        m_MethodName: onCanSnap
-        m_Mode: 6
+        m_MethodName: OnCanSnap
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -143,23 +111,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  OnEDrag:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8648696772235679835}
-        m_TargetAssemblyTypeName: Snap, Assembly-CSharp
-        m_MethodName: onCanSnap
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   dragging: 0
-  canDrag: 1
 --- !u!114 &8648696772235679835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,24 +124,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed137390cd9d31944acb9bf5f5d5cb10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correto: 0
   tagCompare: Doc B
   snapX: 0
-  snapY: 160
+  snapY: 200
   OnTrigger:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2722749774841820894}
-        m_TargetAssemblyTypeName: Arrastar, Assembly-CSharp
-        m_MethodName: DragCancel
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
   OnGanhar:
     m_PersistentCalls:
       m_Calls: []
@@ -218,7 +159,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -95.456985}
+  m_Offset: {x: 0, y: -100.11499}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -229,7 +170,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 100, y: 30}
+  m_Size: {x: 100, y: 40}
   m_EdgeRadius: 0
 --- !u!50 &3053965152603050703
 Rigidbody2D:
@@ -252,36 +193,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &8266414190360721
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2722749774841820892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls: []
-  - eventID: 3
-    callback:
-      m_PersistentCalls:
-        m_Calls: []
-  - eventID: 13
-    callback:
-      m_PersistentCalls:
-        m_Calls: []
-  - eventID: 5
-    callback:
-      m_PersistentCalls:
-        m_Calls: []
-  - eventID: 14
-    callback:
-      m_PersistentCalls:
-        m_Calls: []

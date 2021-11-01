@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1943214940179256183, guid: 67a8b88f475f23b438050ccd54fde6ef, type: 3}
       propertyPath: m_Offset.y
-      value: 83.2157
+      value: 140
       objectReference: {fileID: 0}
     - target: {fileID: 1943214940179256183, guid: 67a8b88f475f23b438050ccd54fde6ef, type: 3}
       propertyPath: m_IsTrigger
@@ -53,11 +53,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2722749774841820893, guid: 67a8b88f475f23b438050ccd54fde6ef, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 288.8889
+      value: 421
       objectReference: {fileID: 0}
     - target: {fileID: 2722749774841820893, guid: 67a8b88f475f23b438050ccd54fde6ef, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 167.59259
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 2722749774841820893, guid: 67a8b88f475f23b438050ccd54fde6ef, type: 3}
       propertyPath: m_LocalPosition.x
@@ -89,11 +89,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2722749774841820893, guid: 67a8b88f475f23b438050ccd54fde6ef, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -376
+      value: 594
       objectReference: {fileID: 0}
     - target: {fileID: 2722749774841820893, guid: 67a8b88f475f23b438050ccd54fde6ef, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 180
+      value: -208
       objectReference: {fileID: 0}
     - target: {fileID: 2722749774841820893, guid: 67a8b88f475f23b438050ccd54fde6ef, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -107,17 +107,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2722749774841820894, guid: 67a8b88f475f23b438050ccd54fde6ef, type: 3}
+      propertyPath: zoom
+      value: 
+      objectReference: {fileID: -1038044022411439702, guid: 717a2083715923444913b8a103cfa462, type: 3}
     - target: {fileID: 2722749774841820895, guid: 67a8b88f475f23b438050ccd54fde6ef, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 207907881374803734, guid: df23134995293fe41b360cd10fa7033c, type: 3}
+      objectReference: {fileID: -5975801628360475112, guid: 717a2083715923444913b8a103cfa462, type: 3}
     - target: {fileID: 8648696772235679835, guid: 67a8b88f475f23b438050ccd54fde6ef, type: 3}
       propertyPath: snapX
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8648696772235679835, guid: 67a8b88f475f23b438050ccd54fde6ef, type: 3}
       propertyPath: snapY
-      value: -160
+      value: -200
       objectReference: {fileID: 0}
     - target: {fileID: 8648696772235679835, guid: 67a8b88f475f23b438050ccd54fde6ef, type: 3}
       propertyPath: tagCompare

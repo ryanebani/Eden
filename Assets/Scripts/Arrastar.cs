@@ -8,17 +8,12 @@ using UnityEngine.EventSystems;
 public class Arrastar : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler, IPointerUpHandler
 {
     [SerializeField] Canvas canvas;
-    [SerializeField] GameObject imageZoom;
-    
+    [SerializeField] GameObject panel;
+    [SerializeField] Image panelChild;
+    [SerializeField] Sprite zoom;
 
-    public UnityEvent OnUp;
-    public UnityEvent OnDown;
-    public UnityEvent OnBDrag;
-    public UnityEvent OnDragging;
-    public UnityEvent OnEDrag;
-
+    public UnityEvent DragEnd;
     public bool dragging;
-    [SerializeField]bool canDrag;
 
     RectTransform rectTrans;
     CanvasGroup canvasGroup;
@@ -27,54 +22,42 @@ public class Arrastar : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
     void Awake()
     {
-        rectTrans = GetComponent<RectTransform>();
-        canvasGroup = GetComponent<CanvasGroup>();      
+        rectTrans = GetComponent<RectTransform>(); 
     }
     
-    void Update()
-    {
-        
-    }
-
     public void OnPointerUp(PointerEventData eventData)
     {
-        OnUp?.Invoke();
+        Zoom();
     }
     public void OnPointerDown(PointerEventData eventData)
     {
-        OnDown?.Invoke();
+        
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        OnBDrag?.Invoke();
         dragging = true;
-        
+        Sibbling();
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        OnDragging?.Invoke();
-
-        if (canDrag)
-        {
-            rectTrans.anchoredPosition += eventData.delta / canvas.scaleFactor;
-        }
-       
+       rectTrans.anchoredPosition += eventData.delta / canvas.scaleFactor;
     }
-
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        OnEDrag?.Invoke();
-        StartCoroutine(dragCheck());
+       dragging = false;
+       DragEnd?.Invoke();
     }
 
     public void Zoom()
     {
-        if (dragging == false && imageZoom!)
+        if (dragging == false && panel!)
         {
-            imageZoom.SetActive(true);
+            panelChild.sprite = zoom;            
+            panelChild.SetNativeSize();
+            panel.SetActive(true);
         }
     }
 
@@ -83,20 +66,6 @@ public class Arrastar : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         gameObject.transform.SetAsLastSibling();
     }
 
-
-    IEnumerator dragCheck()
-    {
-        yield return new WaitForSeconds(0.1f);
-        dragging = false;
-    }
-
-
-    public void DragCancel(bool ligar)
-    {
-        if (ligar)
-            canDrag = false;
-        else canDrag = true;
-    }
 }
 
   

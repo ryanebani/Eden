@@ -6,13 +6,16 @@ using UnityEngine.UI;
 
 public class Snap : MonoBehaviour
 {
+    [SerializeField] bool correto;
     [SerializeField] string tagCompare;
     [SerializeField] float snapX;
     [SerializeField] float snapY;
 
-
-    bool canSnap = false;
     RectTransform myRectT;
+    
+
+    bool canSnap;
+
     public UnityEvent OnTrigger;
     public UnityEvent OnGanhar;
 
@@ -23,37 +26,38 @@ public class Snap : MonoBehaviour
 
 
     void Update()
-    {
- 
+    { 
     }
 
-    public void onCanSnap(bool Ligar)
+    public void OnCanSnap()
     {
-        if (Ligar) canSnap = true;
-        else canSnap = false;
-        
+        StartCoroutine(Timer());
     }
-
-    void OnTriggerEnter2D(Collider2D colisor)
+  
+    void OnTriggerStay2D(Collider2D colisor)
     {
-        if (canSnap)
+
+        if (colisor.gameObject.tag == tagCompare && canSnap)
         {
-            if (colisor.gameObject.tag == tagCompare)
-            {
-                OnTrigger?.Invoke();
-                RectTransform colRectT = colisor.GetComponent<RectTransform>();
-                myRectT.anchoredPosition = new Vector2(colRectT.anchoredPosition.x + snapX, colRectT.anchoredPosition.y + snapY);
-                Debug.Log("Snap!");
-            } 
-            else if (colisor.gameObject.tag == "Correto" && gameObject.tag == "Correto")
+                
+            RectTransform colRectT = colisor.GetComponent<RectTransform>();
+            myRectT.anchoredPosition = new Vector2(colRectT.anchoredPosition.x + snapX, colRectT.anchoredPosition.y + snapY);
+            OnTrigger?.Invoke();
+
+            if (colisor.gameObject.GetComponent<Snap>().correto)
             {
                 OnGanhar?.Invoke();
-            }
+                Debug.Log("ganhou");
+                
+            }            
         }
+
     }
 
-    public void Check()
+    IEnumerator Timer()
     {
-
+        canSnap = true;
+        yield return new WaitForSeconds(0.1f);
+        canSnap = false;
     }
 }

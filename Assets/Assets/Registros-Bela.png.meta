@@ -1,0 +1,795 @@
+fileFormatVersion: 2
+guid: 717a2083715923444913b8a103cfa462
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3887883547818019424
+    second: Leo
+  - first:
+      213: -7840296172761763392
+    second: Mariana
+  - first:
+      213: -4562153555777764485
+    second: Caio
+  - first:
+      213: -6396896552024550355
+    second: Leo B
+  - first:
+      213: -1038044022411439702
+    second: Maria B
+  - first:
+      213: 1556462563361567125
+    second: Registros-Bela_5
+  - first:
+      213: -6278991280929747950
+    second: Isa B
+  - first:
+      213: 8429165573268793388
+    second: Mesa
+  - first:
+      213: 6595197957444575392
+    second: Isa
+  - first:
+      213: 4465492213331183594
+    second: Osv
+  - first:
+      213: -7215322217393804215
+    second: Ama
+  - first:
+      213: -1067003207183006506
+    second: Registros-Bela_11
+  - first:
+      213: -7291664904382694458
+    second: Isa B
+  - first:
+      213: 7984232714820178312
+    second: Osv B
+  - first:
+      213: -7506654658080631544
+    second: Ama B
+  - first:
+      213: -6680459398728521227
+    second: Mesa
+  - first:
+      213: -1441359730360244060
+    second: Leo P
+  - first:
+      213: -1994062324289278876
+    second: Mari P
+  - first:
+      213: -4989847818978293034
+    second: Ama P
+  - first:
+      213: -7403209075870767124
+    second: Leo P B
+  - first:
+      213: -5975801628360475112
+    second: Mari P B
+  - first:
+      213: 8541086852345427369
+    second: Isa P
+  - first:
+      213: -7607527347481674732
+    second: Isa P
+  - first:
+      213: -8595032057921292830
+    second: Osv P
+  - first:
+      213: 2764541060758220871
+    second: Ama P
+  - first:
+      213: -1687497350372488035
+    second: Registros-Bela_25
+  - first:
+      213: -1770827899916746143
+    second: Isa B
+  - first:
+      213: -7008148772333708853
+    second: Mari P
+  - first:
+      213: 4702403140058031889
+    second: Ama P B
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 108
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Leo
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3641
+        width: 928
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a47c3ec7984f530800000000000000
+      internalID: 3887883547818019424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariana
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 3604
+        width: 952
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c13ea8ab2ca13390800000000000000
+      internalID: -7840296172761763392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caio
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 3632
+        width: 944
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73c4192389ffa0c0800000000000000
+      internalID: -4562153555777764485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leo B
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2929
+        width: 946
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24d7a76a78a937a0800000000000000
+      internalID: -6396896552024550355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maria B
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 2928
+        width: 948
+        height: 674
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1d2fe16702891f0800000000000000
+      internalID: -1038044022411439702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registros-Bela_5
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 3600
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5913c53747aa99510800000000000000
+      internalID: 1556462563361567125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caio B
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 2928
+        width: 948
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2863a3ed696af470800000000000000
+      internalID: 8429165573268793388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isa
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2408
+        width: 956
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0add47999d68b50800000000000000
+      internalID: 6595197957444575392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Osv
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2408
+        width: 944
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7c0e2428d98fd30800000000000000
+      internalID: 4465492213331183594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ama
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 2436
+        width: 944
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c2244fba60edb90800000000000000
+      internalID: -7215322217393804215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registros-Bela_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1699
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d487ad7c3e3131f0800000000000000
+      internalID: -1067003207183006506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isa B
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1596
+        width: 948
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb3611076dceca90800000000000000
+      internalID: -7291664904382694458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Osv B
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 1592
+        width: 980
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881d8e21a51bdce60800000000000000
+      internalID: 7984232714820178312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ama B
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 1612
+        width: 964
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80592954c5103d790800000000000000
+      internalID: -7506654658080631544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 1630
+        height: 878
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9ed5a429d3a43a0800000000000000
+      internalID: -6680459398728521227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leo P
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 1345
+        width: 414
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8235e36f24ffbe0800000000000000
+      internalID: -1441359730360244060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mari P
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1332
+        width: 423
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c6fbc81eaa354e0800000000000000
+      internalID: -1994062324289278876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caio P
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 1344
+        width: 421
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da8a8298df70cab0800000000000000
+      internalID: -4989847818978293034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leo P B
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 1021
+        width: 425
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce766c2c194824990800000000000000
+      internalID: -7403209075870767124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mari P B
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 1031
+        width: 421
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e7f558410b11da0800000000000000
+      internalID: -5975801628360475112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caio P B
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 1031
+        width: 425
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5fec55d39088670800000000000000
+      internalID: 8541086852345427369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isa P
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 800
+        width: 427
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cf8421f22ac6690800000000000000
+      internalID: -7607527347481674732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Osv P
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 800
+        width: 422
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5b18ab1ef48b880800000000000000
+      internalID: -8595032057921292830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ama P
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 812
+        width: 420
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740b975927f9d5620800000000000000
+      internalID: 2764541060758220871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registros-Bela_25
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 484
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c82afb91ec498e0800000000000000
+      internalID: -1687497350372488035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isa P B
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 439
+        width: 421
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1628c134861cc67e0800000000000000
+      internalID: -1770827899916746143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Osv P B
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 436
+        width: 436
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc995f382dd0ebe90800000000000000
+      internalID: -7008148772333708853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ama P B
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 444
+        width: 432
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11727d1ddba424140800000000000000
+      internalID: 4702403140058031889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
