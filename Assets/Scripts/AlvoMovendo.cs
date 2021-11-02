@@ -17,8 +17,7 @@ public class AlvoMovendo : MonoBehaviour
 
     private void OnMouseDown()
     {
-        CaixaIdle.idleDialogo = false;
-        StopCoroutine(CaixaIdle.timer);
+        CaixaIdle.textoAbel = false;
 
         if (chao)
         {

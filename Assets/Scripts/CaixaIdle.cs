@@ -5,43 +5,34 @@ using UnityEngine;
 
 public class CaixaIdle : MonoBehaviour
 {
-    [SerializeField]
-    private Transform alvo;
+    [SerializeField] TextMeshPro textoMesh;
+    [SerializeField] Transform alvo;
 
-    public static string falaIdle;
-    public static bool idleDialogo;
-
-    public static IEnumerator timer;
-
-    [SerializeField]
-    private TextMeshProUGUI textoMesh;
+    static public bool textoAbel;
+    public bool abel;
+    public Animator caixaAnim;       
+    public string fala;
 
     void Start()
     {
-        timer = Timer();
+        caixaAnim = GetComponent<Animator>();
+        textoAbel = true;
     }
 
     void Update()
-    {
-        //GetComponent<TextMeshProUGUI>().text = falaIdle;
-        textoMesh.text = falaIdle;
-
-        if (!idleDialogo)
+    { 
+        if(abel == true && textoAbel == false)
         {
-            falaIdle = null;
-        }
-        else
-        {
-            StartCoroutine(Timer());
+            caixaAnim.SetTrigger("CancelarFala");
+            textoAbel = true;
         }
 
-        transform.position = alvo.position + new Vector3(0, 2.5f, 0);
-     
+        textoMesh.text = fala;
+        transform.position = alvo.position + new Vector3(0, 1,0);
     }
 
-    IEnumerator Timer()
+    public void ResetarTexto()
     {
-        yield return new WaitForSeconds(3);
-        idleDialogo = false;
+        fala = "";        
     }
 }
