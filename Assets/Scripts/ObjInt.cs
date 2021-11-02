@@ -7,17 +7,15 @@ using UnityEngine.UI;
 public class ObjInt : MonoBehaviour
 {
     public ObjIntOS ObjOS;
-    public string falas;
+    public string falaIdle;
+    [SerializeField] CaixaIdle caixaIdle;
 
     bool podeObservar;
 
-    public TextMeshProUGUI falaObj;
-   
-    
     public void OnValidate()
     {
         gameObject.name = ObjOS.nomeObj;
-        falas = ObjOS.falas;
+        falaIdle = ObjOS.falas;
     }
         
     void Update() 
@@ -27,7 +25,8 @@ public class ObjInt : MonoBehaviour
 
     public void PodeIdle()
     {
-        CaixaIdle.falaIdle = ObjOS.falas;
-        CaixaIdle.idleDialogo = true;
+        CaixaIdle.textoAbel = true;
+        caixaIdle.fala = falaIdle;
+        caixaIdle.caixaAnim.SetTrigger("TriggarFala");
     }
 }
