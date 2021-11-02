@@ -64,6 +64,11 @@ public class Interagir : MonoBehaviour
         
     }
 
+    public void TeleportarJogador(Transform coordenada)
+    {
+        posAtu = coordenada.position;
+    }
+
     public void AndarObj()
     {
         ponto = new Vector3(alvoObj.position.x, alvoObj.position.y, alvoObj.position.z);
