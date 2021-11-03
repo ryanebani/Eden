@@ -57,6 +57,8 @@ public class DialogoController : MonoBehaviour
                     }
                     else
                     {
+                        if (falas.proximaQuest)
+                            dialogo.ProximaQuest();
                         falaAtiva = false;
                         painelDeNome.SetActive(false);
                         nomeNPC.gameObject.SetActive(false);
@@ -98,6 +100,8 @@ public class DialogoController : MonoBehaviour
                         }
                         else
                         {
+                            if (falas.proximaQuest)
+                                dialogo.ProximaQuest();
                             Interagir.podeAndar = true;
                             falaAtiva = false;
                             painelDeDialogo.SetActive(false);
