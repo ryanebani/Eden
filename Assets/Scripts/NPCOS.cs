@@ -6,6 +6,8 @@ using UnityEngine;
 public class NPCOS : ScriptableObject
 {
     public string nomeNPC;
-    public Sprite spriteNPC;
-    //public AudioSource voz;
+    public string[] falasIdle;
+    public Sprite spriteNPC;    
+    public Animator animator;
+    public AudioSource voz;
 }

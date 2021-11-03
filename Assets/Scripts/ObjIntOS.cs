@@ -6,6 +6,6 @@ using UnityEngine;
 public class ObjIntOS : ScriptableObject
 {
     public string nomeObj;
-    public string falas;
+    public string[] falasInspeção;
 
 }

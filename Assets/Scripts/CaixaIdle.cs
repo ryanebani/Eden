@@ -28,7 +28,7 @@ public class CaixaIdle : MonoBehaviour
         }
 
         textoMesh.text = fala;
-        transform.position = alvo.position + new Vector3(0, 1,0);
+        if (abel == true) { transform.position = alvo.position + new Vector3(0, 1, 0); }
     }
 
     public void ResetarTexto()

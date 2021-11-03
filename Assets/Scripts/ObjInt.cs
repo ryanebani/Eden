@@ -6,16 +6,23 @@ using UnityEngine.UI;
 
 public class ObjInt : MonoBehaviour
 {
-    public ObjIntOS ObjOS;
-    public string falaIdle;
-    [SerializeField] CaixaIdle caixaIdle;
+    [SerializeField] CaixaIdle inspecionar;
+
+    public ObjIntOS objOS;
+    public string[] falasIdle;
+
+    int indice;
 
     bool podeObservar;
 
     public void OnValidate()
     {
-        gameObject.name = ObjOS.nomeObj;
-        falaIdle = ObjOS.falas;
+        if (objOS != null)
+        {
+            gameObject.name = objOS.nomeObj;
+            falasIdle = objOS.falasInspeção;
+        }
+       
     }
         
     void Update() 
@@ -24,9 +31,22 @@ public class ObjInt : MonoBehaviour
     }
 
     public void PodeIdle()
-    {
+    {        
         CaixaIdle.textoAbel = true;
-        caixaIdle.fala = falaIdle;
-        caixaIdle.caixaAnim.SetTrigger("TriggarFala");
+        RandomFala();
+        for (int i = 0; i < falasIdle.Length; i++)
+        {
+            if (indice == i)
+            {
+                inspecionar.fala = falasIdle[i];
+                break;
+            }
+        }
+        inspecionar.caixaAnim.SetTrigger("TriggarFala");
+    }
+
+    public void RandomFala()
+    {
+        indice = Random.Range(0,falasIdle.Length);
     }
 }

@@ -5,16 +5,17 @@ using UnityEngine.Events;
 
 public class Dialogo : MonoBehaviour
 {
+    [SerializeField] NPC npc;    
+
     public FalaNPC[] falas = new FalaNPC[4];
+    public UnityEvent OnFinalDialogo;
 
     public bool dialogoConcluido = false;
-    private bool dialogoConcluidoMascara = false;
-
-    DialogoController dialogoController;
-
     public bool mascara;
 
-    public UnityEvent OnFinalDialogo;
+    bool dialogoConcluidoMascara = false;
+    DialogoController dialogoController;
+
 
     void Start()
     {
@@ -27,39 +28,52 @@ public class Dialogo : MonoBehaviour
         
     }
 
-    public void Ativar()
+    public void Conversar()
     {
-        if (Inventario.itemNaMao == false)
+        if (npc.idle)
         {
-            DialogoController.dialogo = GetComponent<Dialogo>();
-
-            if (!mascara)
-            {
-                if (!dialogoConcluido)
-                {
-                    dialogoController.ProximaFala(falas[0]);
-                }
-                else
-                {
-                    dialogoController.ProximaFala(falas[1]);
-                }
-                dialogoConcluido = true;
-            }
-            else
-            {
-                if (!dialogoConcluidoMascara)
-                {
-                    dialogoController.ProximaFala(falas[2]);
-                }
-                else
-                {
-                    dialogoController.ProximaFala(falas[3]);
-                }
-                dialogoConcluidoMascara = true;
-
-            }
+            npc.PodeIdleNPC();
         }
-     
+        else
+        {
+            Ativar();
+        }
+
     }
 
+    public void Ativar()
+    {
+            if (Inventario.itemNaMao == false)
+            {
+                DialogoController.dialogo = GetComponent<Dialogo>();
+
+                if (!mascara)
+                {
+                    if (!dialogoConcluido)
+                    {
+                        dialogoController.ProximaFala(falas[0]);
+                    }
+                    else
+                    {
+                        dialogoController.ProximaFala(falas[1]);
+                    }
+                    dialogoConcluido = true;
+                }
+                else
+                {
+                    if (!dialogoConcluidoMascara)
+                    {
+                        dialogoController.ProximaFala(falas[2]);
+                    }
+                    else
+                    {
+                        dialogoController.ProximaFala(falas[3]);
+                    }
+                    dialogoConcluidoMascara = true;
+
+                }
+            }
+
+        
+    }
 }

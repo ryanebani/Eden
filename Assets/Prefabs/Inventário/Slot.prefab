@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3661341043564692675
 RectTransform:
   m_ObjectHideFlags: 0
@@ -94,7 +94,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &768938412152748656
 RectTransform:
   m_ObjectHideFlags: 0
@@ -167,8 +167,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Item: {fileID: 0}
   selecionado: {fileID: 4893148347925510932}
-  textNome: {fileID: 0}
-  Icone: {fileID: 3952579881845446948}
   clicado: 0
 --- !u!114 &7135096097406023907
 MonoBehaviour:

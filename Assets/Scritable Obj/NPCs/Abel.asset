@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Abel
   m_EditorClassIdentifier: 
   nomeNPC: Abel
-  spriteNPC: {fileID: 6595197957444575392, guid: 717a2083715923444913b8a103cfa462, type: 3}
+  spriteNPC: {fileID: 0}
+  falaIdle: 

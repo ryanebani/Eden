@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: beb09db3f743c354591c99baabbc8900, type: 3}
-  m_Name: "Picha\xE7\xE3o C3"
+  m_Script: {fileID: 11500000, guid: 5052d03188da00a4e834499d398411d7, type: 3}
+  m_Name: Belinha
   m_EditorClassIdentifier: 
-  nomeObj: "Picha\xE7\xE3o C3"
-  "falasInspe\xE7\xE3o":
-  - "Picha\xE7\xE3o interessante"
-  - "Se n\xE3o algu\xE9m n\xE3o tivesse desenhado, eu teria!"
+  nomeNPC: 
+  spriteNPC: {fileID: 0}
+  falaIdle: 
