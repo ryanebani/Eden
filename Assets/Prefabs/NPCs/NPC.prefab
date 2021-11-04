@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3744053794782568234}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.263, y: 0, z: 0}
+  m_LocalPosition: {x: -2.263, y: 2.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3744053794989155871}
@@ -39,7 +39,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3744053794989155871}
-  - component: {fileID: 3744053794989155864}
   - component: {fileID: 3744053794989155868}
   - component: {fileID: 3744053794989155859}
   - component: {fileID: 9160074225860728504}
@@ -68,57 +67,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &3744053794989155864
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3744053794989155865}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.8518518, y: 4.1666665}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!61 &3744053794989155868
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -160,7 +108,10 @@ MonoBehaviour:
   caixaIdle: {fileID: 5266518155573840104}
   npc: {fileID: 0}
   idle: 0
-  falasIdleNPC: []
+  falasIdleNPC:
+  - Pode entrar, mano.
+  - "Quer que eu abra a porta tamb\xE9m?"
+  - "B\xF3ra, o Sr. Afonso t\xE1 la dentro."
 --- !u!114 &9160074225860728504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,16 +195,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npc: {fileID: 3744053794989155859}
-  falas:
-  - {fileID: 11400000, guid: 0587d2fd91b27e34ea71bb6936cf0606, type: 2}
-  - {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}
-  - {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}
-  - {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}
+  falasSemMascara:
+  - {fileID: 0}
+  - {fileID: 0}
+  falasComMascara:
+  - {fileID: 0}
+  - {fileID: 0}
   OnFinalDialogo:
     m_PersistentCalls:
       m_Calls: []
   dialogoConcluido: 0
   mascara: 0
+  falaQuestsSemMascara: []
+  falaQuestsComMascara: []
+  acabouAsQuests: 0
 --- !u!1001 &5915688522988362844
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -273,6 +228,10 @@ PrefabInstance:
       propertyPath: alvo
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1949725510461052085, guid: 15ee23c8e0ee0d34c827a0b3af316388, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1949725510461052086, guid: 15ee23c8e0ee0d34c827a0b3af316388, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -283,7 +242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1949725510461052086, guid: 15ee23c8e0ee0d34c827a0b3af316388, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 5.48
       objectReference: {fileID: 0}
     - target: {fileID: 1949725510461052086, guid: 15ee23c8e0ee0d34c827a0b3af316388, type: 3}
       propertyPath: m_LocalPosition.z
@@ -317,6 +276,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1949725511419070237, guid: 15ee23c8e0ee0d34c827a0b3af316388, type: 3}
+      propertyPath: m_renderer
+      value: 
+      objectReference: {fileID: 5266518154384055106}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15ee23c8e0ee0d34c827a0b3af316388, type: 3}
 --- !u!4 &5266518155573840106 stripped
@@ -335,3 +298,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 693db8202344a5b46b871a34cf5caf11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!23 &5266518154384055106 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1949725511419070238, guid: 15ee23c8e0ee0d34c827a0b3af316388, type: 3}
+  m_PrefabInstance: {fileID: 5915688522988362844}
+  m_PrefabAsset: {fileID: 0}

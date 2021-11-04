@@ -7,7 +7,7 @@ public class NPCOS : ScriptableObject
 {
     public string nomeNPC;
     public string[] falasIdle;
-    public Sprite spriteNPC;    
-    public Animator animator;
-    public AudioSource voz;
+    public GameObject prefab;    
+    public AudioSource audioSource;
+    public AudioClip[] voz;
 }

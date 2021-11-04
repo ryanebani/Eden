@@ -29,9 +29,6 @@ public class NPC : MonoBehaviour
         {
             falasIdleNPC = npc.falasIdle;
             gameObject.name = npc.nomeNPC;
-            gameObject.GetComponent<SpriteRenderer>().enabled = true;
-            gameObject.GetComponent<SpriteRenderer>().sprite = npc.spriteNPC;
-
         }
     }
 

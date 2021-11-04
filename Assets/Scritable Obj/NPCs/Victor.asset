@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5052d03188da00a4e834499d398411d7, type: 3}
-  m_Name: Madalena
+  m_Name: Victor
   m_EditorClassIdentifier: 
-  nomeNPC: Madalena
+  nomeNPC: Victor
   falasIdle: []
-  prefab: {fileID: 6500309001499952011, guid: 2a02e4c08c4d72d46b2a5323ac2e09ee, type: 3}
+  spriteNPC: {fileID: 0}
+  animator: {fileID: 0}
   audioSource: {fileID: 0}
   voz: []

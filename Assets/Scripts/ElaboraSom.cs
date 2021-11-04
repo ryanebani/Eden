@@ -22,8 +22,8 @@ public class ElaboraSom : SorteiaSom
 
     private void Awake()
     {
-        Sonoridade.AddListener(ChamarSom);
-        Sonoridade?.Invoke();
+       // Sonoridade.AddListener(ChamarSom);
+       // Sonoridade?.Invoke();
     }
 
     private void ChamarSom()
