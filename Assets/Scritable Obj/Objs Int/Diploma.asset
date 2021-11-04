@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beb09db3f743c354591c99baabbc8900, type: 3}
   m_Name: Diploma
   m_EditorClassIdentifier: 
-  nomeObj: 
-  "falasInspe\xE7\xE3o": []
+  nomeObj: Diploma
+  "falasInspe\xE7\xE3o":
+  - "Nossa ela deixou at\xE9 o diploma aqui"
+  - Acho que tava com pressa quando foi embora

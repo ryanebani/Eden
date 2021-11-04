@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beb09db3f743c354591c99baabbc8900, type: 3}
   m_Name: Pano pendurado
   m_EditorClassIdentifier: 
-  nomeObj: 
-  "falasInspe\xE7\xE3o": []
+  nomeObj: Pano pendurado
+  "falasInspe\xE7\xE3o":
+  - "Ali n\xE3o parece um lugar bom pra secar roupa"
+  - "Na verdade n\xE3o sei se tem algum lugar bom pra secar roupa aqui"

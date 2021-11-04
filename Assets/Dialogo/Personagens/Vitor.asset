@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 492a76340e5fc0f4dad1f2af229a7694, type: 3}
   m_Name: Vitor
   m_EditorClassIdentifier: 
-  cor: {r: 0, g: 0, b: 0, a: 0}
-  nome: 
+  cor: {r: 0, g: 0.13239905, b: 0.6320754, a: 0}
+  nome: Vitor
   sprite: {fileID: 0}

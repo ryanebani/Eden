@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
   m_Name: Fala A1
   m_EditorClassIdentifier: 
-  fala: 
+  fala: "Pufi! Voc\xEA voltou!!"
   respostas: []
   sequencia: {fileID: 0}
-  npcFalando: 0
+  npcFalando: 1
   falaNode: 
-  jogador: {fileID: 0}
-  NPC: {fileID: 0}
+  jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
+  NPC: {fileID: 11400000, guid: df653774ab4d6de4c98806a87fb31dcf, type: 2}
   recomecar: 0
   NPCNode: 0
   acao: 0

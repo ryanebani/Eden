@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
   m_Name: Seq A3
   m_EditorClassIdentifier: 
-  sequencia: []
-  npcFalando: 
-  proximaFala: {fileID: 0}
+  sequencia:
+  - Rua Dourada fica na cidade alta
+  - "Sabe o que \xE9 isso n\xE9?"
+  - "N\xE3o tenho ideia"
+  - "\xC9 a parte rica da cidade"
+  npcFalando: 01010001
+  proximaFala: {fileID: 11400000, guid: 481a0d004d0304f4daa34e6568c53854, type: 2}

@@ -12,5 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beb09db3f743c354591c99baabbc8900, type: 3}
   m_Name: Carrinho
   m_EditorClassIdentifier: 
-  nomeObj: 
-  "falasInspe\xE7\xE3o": []
+  nomeObj: Carrinho
+  "falasInspe\xE7\xE3o":
+  - "Credo ra\xE7\xE3o frita"
+  - Isso devia ser proibido
+  - "Ra\xE7\xE3o cozida que \xE9 o mais gostoso"
+  - "Assada na fogueira l\xE1 da ponte fica boa tamb\xE9m"
+  - "Quando n\xE3o queima pelo menos"

@@ -12,5 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beb09db3f743c354591c99baabbc8900, type: 3}
   m_Name: Panela
   m_EditorClassIdentifier: 
-  nomeObj: 
-  "falasInspe\xE7\xE3o": []
+  nomeObj: Panela
+  "falasInspe\xE7\xE3o":
+  - Nossa essa sopa ta com um cheiro bom
+  - "Deu at\xE9 fome"
+  - "Ser\xE1 que se a comida fosse boa no orfanato antigamente"
+  - O Caio tinha ficado comigo?

@@ -12,5 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beb09db3f743c354591c99baabbc8900, type: 3}
   m_Name: Lareira
   m_EditorClassIdentifier: 
-  nomeObj: 
-  "falasInspe\xE7\xE3o": []
+  nomeObj: Lareira
+  "falasInspe\xE7\xE3o":
+  - "A gente n\xE3o podia chegar perto da lareira"
+  - As meninas mais velhas falavam que era por causa de um incendio
+  - "Que aparetemente destruiu o orfanato trinta anos atr\xE1s"
+  - Mas nunca acreditei nelas
+  - Elas nem existiam pra saber se era verdade

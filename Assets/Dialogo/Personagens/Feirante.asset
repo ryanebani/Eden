@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 492a76340e5fc0f4dad1f2af229a7694, type: 3}
   m_Name: Feirante
   m_EditorClassIdentifier: 
-  cor: {r: 0, g: 0, b: 0, a: 0}
-  nome: 
+  cor: {r: 0.9528302, g: 0, b: 0.13515942, a: 0}
+  nome: Feirante
   sprite: {fileID: 0}

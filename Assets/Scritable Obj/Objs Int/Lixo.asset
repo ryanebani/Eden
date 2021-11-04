@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beb09db3f743c354591c99baabbc8900, type: 3}
   m_Name: Lixo
   m_EditorClassIdentifier: 
-  nomeObj: 
-  "falasInspe\xE7\xE3o": []
+  nomeObj: Lixo
+  "falasInspe\xE7\xE3o":
+  - "Ser\xE1 que a Zenaide precisa de ajuda com o lixo?"

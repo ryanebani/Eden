@@ -12,6 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
   m_Name: Seq AR0
   m_EditorClassIdentifier: 
-  sequencia: []
-  npcFalando: 
+  sequencia:
+  - "Tem certeza sobre isso n\xE9?"
+  - Tenho! Tu sabe que eu espero por ese dia faz anos
+  - Eu sei meu anjo
+  - "S\xF3 n\xE3o quero te ver decpcionado"
+  - Eu vou ficar bem
+  npcFalando: 0100010100
   proximaFala: {fileID: 0}

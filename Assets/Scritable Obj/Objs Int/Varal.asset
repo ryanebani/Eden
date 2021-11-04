@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beb09db3f743c354591c99baabbc8900, type: 3}
   m_Name: Varal
   m_EditorClassIdentifier: 
-  nomeObj: 
-  "falasInspe\xE7\xE3o": []
+  nomeObj: Varal
+  "falasInspe\xE7\xE3o":
+  - To sentindo ocheiro daquelas meias daqui
+  - "Ou ser\xE1 que \xE9 o lixo?"
+  - "Ou ser\xE1 que sou !?"

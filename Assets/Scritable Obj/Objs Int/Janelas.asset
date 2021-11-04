@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beb09db3f743c354591c99baabbc8900, type: 3}
   m_Name: Janelas
   m_EditorClassIdentifier: 
-  nomeObj: 
-  "falasInspe\xE7\xE3o": []
+  nomeObj: Janelas
+  "falasInspe\xE7\xE3o":
+  - Acho que essas janelas eram a unica coisa que eu gostava aqui
+  - Fora o Caio, mas ele foi embora logo
+  - "As janelas n\xE3o tinham como ir embora, e elas iluminam legal"

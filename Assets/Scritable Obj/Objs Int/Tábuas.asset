@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beb09db3f743c354591c99baabbc8900, type: 3}
   m_Name: "T\xE1buas"
   m_EditorClassIdentifier: 
-  nomeObj: 
-  "falasInspe\xE7\xE3o": []
+  nomeObj: "T\xE1buas"
+  "falasInspe\xE7\xE3o":
+  - Aqui tinha uma floricultura
+  - A senhora que era dona sempre levava doce no orfanato
+  - "O que ser\xE1 que aconteceu com ela?"

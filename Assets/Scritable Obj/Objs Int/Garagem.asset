@@ -12,5 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beb09db3f743c354591c99baabbc8900, type: 3}
   m_Name: Garagem
   m_EditorClassIdentifier: 
-  nomeObj: 
-  "falasInspe\xE7\xE3o": []
+  nomeObj: Garagem
+  "falasInspe\xE7\xE3o":
+  - "Caralho o mec\xE2nico fechou tamb\xE1m"
+  - Se bem que ele era um chato
+  - "Sempre tentava bater nas crian\xE7as com vassoura"
+  - "Talvez n\xE3o seja t\xE3o ruim ele ter sumido"
