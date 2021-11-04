@@ -67,6 +67,8 @@ public class Interagir : MonoBehaviour
     public void TeleportarJogador(Transform coordenada)
     {
         posAtu = coordenada.position;
+        alvo = coordenada.position;
+        posJogador.position = posAtu;
     }
 
     public void AndarObj()
