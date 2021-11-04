@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
+  m_Name: Seq AR1
+  m_EditorClassIdentifier: 
+  sequencia:
+  - 'Meus pais me abandonaram aqui quando eu era pequeno. '
+  - "Eu lembro de voc\xEA, Abel n\xE9? Voc\xEA tava sempre com um molequinho."
+  - "Era meu irm\xE3o. "
+  - "Voc\xEA lembra como as coisas estavam antes n\xE9?"
+  - "Poucos funcion\xE1rios, pouca grana, depois que voc\xEA foi embora as coisas
+    s\xF3 pioraram."
+  - "O governo cortou nossa verba, a diretora tentou segurar as pontas cortando meu
+    salario mas n\xE3o rolou."
+  - 'No fim os gravatinhas preferem dar dinheiro pra carrocinha do que pra o que
+    realmente ajuda a gente. '
+  - "Eles nem enxergam a gente, s\xF3 nos veem como lixo no ch\xE3o!"
+  - "Eu n\xE3o tinha ideia que as coisas tavam t\xE3o ruins aqui"
+  - "Sempre foi ruim garoto, mas voc\xEA era crian\xE7a n\xE3o ia perceber. "
+  npcFalando: 00010001010101010001
+  proximaFala: {fileID: 11400000, guid: 748cb893f08f2c24d9e4738eb91cc7ed, type: 2}

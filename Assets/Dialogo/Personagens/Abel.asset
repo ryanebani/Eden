@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cor: {r: 0.8962264, g: 0.72321814, b: 0.4438857, a: 1}
   nome: Abel
-  sprite: {fileID: -6866845238519314149, guid: eb1d68a74df5bdd469dabc7fc8b0ef3a, type: 3}
+  sprite: {fileID: 0}
