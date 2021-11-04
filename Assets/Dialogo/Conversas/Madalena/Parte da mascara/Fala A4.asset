@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
+  m_Name: Fala A4
+  m_EditorClassIdentifier: 
+  fala: 
+  respostas: []
+  sequencia: {fileID: 0}
+  npcFalando: 0
+  falaNode: 
+  jogador: {fileID: 0}
+  NPC: {fileID: 0}
+  recomecar: 0
+  NPCNode: 0
+  acao: 0
+  proximaQuest: 0
