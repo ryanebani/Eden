@@ -1244,14 +1244,14 @@ GameObject:
   m_Component:
   - component: {fileID: 6509925178009115610}
   - component: {fileID: 3796199933268597625}
-  - component: {fileID: -2768853663262335147}
+  - component: {fileID: 7223786315383820972}
   m_Layer: 0
   m_Name: sprite vitor e pedro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6509925178009115610
 Transform:
   m_ObjectHideFlags: 0
@@ -1292,7 +1292,7 @@ SortingGroup:
   m_SortingLayerID: 1992356711
   m_SortingLayer: 2
   m_SortingOrder: 0
---- !u!95 &-2768853663262335147
+--- !u!95 &7223786315383820972
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0

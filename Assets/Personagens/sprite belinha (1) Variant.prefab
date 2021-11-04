@@ -139,7 +139,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 742925434272596399, guid: 2870c0f7d361ae5418593d7f3dfd9a2e, type: 3}
       propertyPath: m_Name
-      value: sprite belinha (1) Variant
+      value: sprite belinha (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 742925434272596399, guid: 2870c0f7d361ae5418593d7f3dfd9a2e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3103405183689726613, guid: 2870c0f7d361ae5418593d7f3dfd9a2e, type: 3}
       propertyPath: m_RootOrder
@@ -147,11 +151,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3103405183689726613, guid: 2870c0f7d361ae5418593d7f3dfd9a2e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.6318555
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3103405183689726613, guid: 2870c0f7d361ae5418593d7f3dfd9a2e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.16175771
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3103405183689726613, guid: 2870c0f7d361ae5418593d7f3dfd9a2e, type: 3}
       propertyPath: m_LocalPosition.z
