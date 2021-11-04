@@ -1963,6 +1963,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2334551462943017243}
   - component: {fileID: 7347026458037231850}
+  - component: {fileID: -4940410388044654674}
   m_Layer: 0
   m_Name: beto sprite
   m_TagString: Untagged
@@ -2016,6 +2017,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!210 &-4940410388044654674
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6815987562940633609}
+  m_Enabled: 1
+  m_SortingLayerID: 1992356711
+  m_SortingLayer: 2
+  m_SortingOrder: 0
 --- !u!1 &6924203506797717066
 GameObject:
   m_ObjectHideFlags: 0

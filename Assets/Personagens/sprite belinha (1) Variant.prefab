@@ -19,6 +19,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!210 &4080475132961514276
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2952335113529356198}
+  m_Enabled: 1
+  m_SortingLayerID: 1992356711
+  m_SortingLayer: 2
+  m_SortingOrder: 0
 --- !u!1001 &2501656803721326089
 PrefabInstance:
   m_ObjectHideFlags: 0

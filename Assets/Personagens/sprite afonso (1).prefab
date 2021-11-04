@@ -334,6 +334,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1311364217233757993}
   - component: {fileID: 6550589400927545123}
+  - component: {fileID: -9153821061107518530}
   m_Layer: 0
   m_Name: sprite afonso (1)
   m_TagString: Untagged
@@ -389,6 +390,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!210 &-9153821061107518530
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2896084683188070905}
+  m_Enabled: 1
+  m_SortingLayerID: 1992356711
+  m_SortingLayer: 2
+  m_SortingOrder: 0
 --- !u!1 &3082590785645118757
 GameObject:
   m_ObjectHideFlags: 0

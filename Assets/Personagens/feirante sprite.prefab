@@ -339,6 +339,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7664247094792936929}
   - component: {fileID: 6930349779377630795}
+  - component: {fileID: 6130410766637280285}
   m_Layer: 0
   m_Name: feirante sprite
   m_TagString: Untagged
@@ -394,6 +395,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!210 &6130410766637280285
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153660239749753544}
+  m_Enabled: 1
+  m_SortingLayerID: 1992356711
+  m_SortingLayer: 2
+  m_SortingOrder: 0
 --- !u!1 &1479062843030196370
 GameObject:
   m_ObjectHideFlags: 0

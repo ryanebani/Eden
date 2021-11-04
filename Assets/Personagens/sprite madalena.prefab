@@ -2185,6 +2185,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1546975975890736979}
   - component: {fileID: 7566484617671982689}
+  - component: {fileID: 5199151006127642145}
   m_Layer: 0
   m_Name: sprite madalena
   m_TagString: Untagged
@@ -2234,7 +2235,7 @@ Animator:
   m_GameObject: {fileID: 6500309001499952011}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f1d5bbbd47a124945b8c427a25ca4cf9, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2243,6 +2244,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!210 &5199151006127642145
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6500309001499952011}
+  m_Enabled: 1
+  m_SortingLayerID: 1992356711
+  m_SortingLayer: 2
+  m_SortingOrder: 0
 --- !u!1 &6673108515227902875
 GameObject:
   m_ObjectHideFlags: 0
