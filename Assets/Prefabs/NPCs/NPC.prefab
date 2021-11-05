@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3744053794782568234}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.263, y: 2.3, z: 0}
+  m_LocalPosition: {x: 0, y: 2.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3744053794989155871}
@@ -220,18 +220,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: IdleNPC
       objectReference: {fileID: 0}
-    - target: {fileID: 1949725510461052084, guid: 15ee23c8e0ee0d34c827a0b3af316388, type: 3}
-      propertyPath: abel
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1949725510461052084, guid: 15ee23c8e0ee0d34c827a0b3af316388, type: 3}
-      propertyPath: alvo
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1949725510461052085, guid: 15ee23c8e0ee0d34c827a0b3af316388, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1949725510461052086, guid: 15ee23c8e0ee0d34c827a0b3af316388, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -276,10 +264,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1949725511419070237, guid: 15ee23c8e0ee0d34c827a0b3af316388, type: 3}
-      propertyPath: m_renderer
-      value: 
-      objectReference: {fileID: 5266518154384055106}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15ee23c8e0ee0d34c827a0b3af316388, type: 3}
 --- !u!4 &5266518155573840106 stripped
@@ -298,8 +282,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 693db8202344a5b46b871a34cf5caf11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!23 &5266518154384055106 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 1949725511419070238, guid: 15ee23c8e0ee0d34c827a0b3af316388, type: 3}
-  m_PrefabInstance: {fileID: 5915688522988362844}
-  m_PrefabAsset: {fileID: 0}

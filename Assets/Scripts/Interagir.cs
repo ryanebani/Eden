@@ -69,13 +69,14 @@ public class Interagir : MonoBehaviour
         posAtu = coordenada.position;
         alvo = coordenada.position;
         posJogador.position = posAtu;
+        paraOndeVou = "";
     }
 
     public void AndarObj()
     {
         ponto = new Vector3(alvoObj.position.x, alvoObj.position.y, alvoObj.position.z);
         mover = true;
-        //circ.SetActive(false);
+        circ.SetActive(false);
         if (mover)
         {
             alvo = new Vector2(ponto.x, posJogador.position.y);
