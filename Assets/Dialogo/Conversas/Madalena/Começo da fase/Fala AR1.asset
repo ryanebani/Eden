@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fala: Eu ouvi rumores sobre
   respostas: []
-  sequencia: {fileID: 0}
-  npcFalando: 0
+  sequencia: {fileID: 11400000, guid: 133fe2eb7763389499ab0dfbccbe634b, type: 2}
+  npcFalando: 1
   falaNode: 
-  jogador: {fileID: 0}
-  NPC: {fileID: 0}
+  jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
+  NPC: {fileID: 11400000, guid: e4a17fde116e04f408fcbcaaae87bbc1, type: 2}
   recomecar: 0
   NPCNode: 0
   acao: 0
