@@ -26,6 +26,5 @@ MonoBehaviour:
   - Espera, a senhora ta falando dos dois "largatos"?
   - "Esse nome n\xE3o \xE9 muito legal sabia?"
   - "Ah... Foi mal... N\xE3o tive a inten\xE7\xE3o de ofender"
-  - "S\xF3 tenta n\xE3o falar de novo ok?"
-  npcFalando: 0100000001010100010100010001
-  proximaFala: {fileID: 0}
+  npcFalando: 01000000010101000101000100
+  proximaFala: {fileID: 11400000, guid: 034bdbf70c08a9542b19762e41c3361b, type: 2}
