@@ -20,6 +20,9 @@ public class Interagir : MonoBehaviour
     public bool clickChao;
 
     bool mover;
+    
+    [SerializeField]
+    Animator animator;
 
     void Start()
     {
@@ -28,7 +31,6 @@ public class Interagir : MonoBehaviour
         posJogador = GetComponent<Transform>();
         posAtu = new Vector3(posJogador.position.x, posJogador.position.y, posJogador.position.z);
         alvo = posAtu;
-        
     }
 
     void Update()
@@ -58,10 +60,16 @@ public class Interagir : MonoBehaviour
             {
                 olharDireita = true;
             }
+
+            animator.SetTrigger("Andando");
             posAtu = Vector3.MoveTowards(posAtu, alvo, 5 * Time.deltaTime);
             posJogador.position = posAtu;
+
         }
-        
+        else
+        {
+            animator.SetTrigger("Parado");
+        }
     }
 
     public void TeleportarJogador(Transform coordenada)
@@ -79,8 +87,8 @@ public class Interagir : MonoBehaviour
         if (mover)
         {
             alvo = new Vector2(ponto.x, posJogador.position.y);
-            mover = false;
             clickObj = false;
+            mover = false;
         }        
         
     }
@@ -115,8 +123,7 @@ public class Interagir : MonoBehaviour
                 if (mover)
                 {
                     alvo = new Vector2(ponto.x, posJogador.position.y);
-                    mover = false;
-                    
+                    mover = false; 
                 }
 
             }
