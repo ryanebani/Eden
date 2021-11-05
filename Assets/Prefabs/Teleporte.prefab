@@ -68,6 +68,7 @@ GameObject:
   - component: {fileID: 6437496400003988136}
   - component: {fileID: 5926643056319468389}
   - component: {fileID: 9081800504352249080}
+  - component: {fileID: 4168832445283139366}
   m_Layer: 0
   m_Name: Teleporte
   m_TagString: Untagged
@@ -82,7 +83,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3154686898295245293}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 12.35, y: -0.53, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -134,15 +135,46 @@ MonoBehaviour:
   OnCheguei:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Interagir, Assembly-CSharp
-        m_MethodName: TeleportarJogador
-        m_Mode: 2
+      - m_Target: {fileID: 4168832445283139366}
+        m_TargetAssemblyTypeName: Fade, Assembly-CSharp
+        m_MethodName: IniciarFade
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &4168832445283139366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3154686898295245293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 846c3a9f87558be4caa4704a5bb7896d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transi: {fileID: 0}
+  OnFade:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  camAtual: {fileID: 0}
+  camProx: {fileID: 0}
+  fading: 0

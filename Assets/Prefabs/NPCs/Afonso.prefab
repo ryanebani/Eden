@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3744053794782568233, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.57
+      objectReference: {fileID: 0}
     - target: {fileID: 3744053794989155859, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
       propertyPath: npc
       value: 
@@ -23,6 +27,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Afonso
       objectReference: {fileID: 0}
+    - target: {fileID: 3744053794989155868, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
+      propertyPath: m_Size.x
+      value: 2.8792582
+      objectReference: {fileID: 0}
+    - target: {fileID: 3744053794989155868, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
+      propertyPath: m_Size.y
+      value: 3.4114184
+      objectReference: {fileID: 0}
+    - target: {fileID: 3744053794989155868, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3744053794989155868, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
+      propertyPath: m_Offset.y
+      value: 1.8251536
+      objectReference: {fileID: 0}
+    - target: {fileID: 3744053794989155869, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
+      propertyPath: falasSemMascara.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: d7c17375e7559d340aa424eaa6860b67, type: 2}
+    - target: {fileID: 3744053794989155869, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
+      propertyPath: falasSemMascara.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 748cb893f08f2c24d9e4738eb91cc7ed, type: 2}
+    - target: {fileID: 3744053794989155869, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
+      propertyPath: falaQuestsSemMascara.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3744053794989155869, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
+      propertyPath: falaQuestsSemMascara.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 58506d8751cbeec40a75ede6edff316e, type: 2}
     - target: {fileID: 3744053794989155871, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -66,6 +102,18 @@ PrefabInstance:
     - target: {fileID: 3744053794989155871, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266518154384055104, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266518154384055105, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266518155573840106, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
