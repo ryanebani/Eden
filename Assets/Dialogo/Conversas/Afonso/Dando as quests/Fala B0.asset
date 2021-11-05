@@ -18,12 +18,14 @@ MonoBehaviour:
     proximaFala: {fileID: 11400000, guid: 0e5cb06cba5ab0b44b80867e7a3a25dd, type: 2}
   - resposta: E essa marmita?
     proximaFala: {fileID: 11400000, guid: d3b0c9e974e49f84c9cc563566bb4380, type: 2}
+  - resposta: E essa marmita?
+    proximaFala: {fileID: 11400000, guid: d3b0c9e974e49f84c9cc563566bb4380, type: 2}
   sequencia: {fileID: 0}
   npcFalando: 1
   falaNode: "Essas s\xE3o suas tarefas"
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: 308963aa3073f2d4fbd8e0ae183748fc, type: 2}
-  recomecar: 0
+  recomecar: 1
   NPCNode: 1
   acao: 0
   proximaQuest: 0

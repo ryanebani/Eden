@@ -19,6 +19,8 @@ public class FalaNPC : ScriptableObject
     public Personagem jogador;
     public Personagem NPC;
 
+    public NPCOS dadosNpc;
+
     public bool recomecar;
     public bool NPCNode;
 
