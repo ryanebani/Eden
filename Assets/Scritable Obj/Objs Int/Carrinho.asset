@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nomeObj: Carrinho
   "falasInspe\xE7\xE3o":
-  - "Credo ra\xE7\xE3o frita"
-  - Isso devia ser proibido
-  - "Ra\xE7\xE3o cozida que \xE9 o mais gostoso"
-  - "Assada na fogueira l\xE1 da ponte fica boa tamb\xE9m"
-  - "Quando n\xE3o queima pelo menos"
+  - "Credo, ra\xE7\xE3o frita"
+  - "Por que o nome disso \xE9 cachorro quente?"
+  - "Um desse l\xE1 na fogueira da ponte fica bom demais"
+  - Fritura? Acho que comeria qualquer coisa agora

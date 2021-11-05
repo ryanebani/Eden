@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: beb09db3f743c354591c99baabbc8900, type: 3}
-  m_Name: Cerca
+  m_Name: Placa Hot Dog
   m_EditorClassIdentifier: 
-  nomeObj: Cerca
+  nomeObj: Placa Hot Dog
   "falasInspe\xE7\xE3o":
-  - 
-  - 
-  - 
+  - Parece um lugar estranho pra vender Hot Dog.
+  - A dona Galhos nunca deixava a gente brincar nesse beco
+  - Eu poderia entrar no beco para pegar um desse
