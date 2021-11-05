@@ -25,7 +25,7 @@ MonoBehaviour:
   falaNode: O que tu ta querendo?
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: 873072fe9fc197f4c9549ffd5a703430, type: 2}
-  recomecar: 0
+  recomecar: 1
   NPCNode: 1
-  acao: 0
+  acao: 1
   proximaQuest: 0
