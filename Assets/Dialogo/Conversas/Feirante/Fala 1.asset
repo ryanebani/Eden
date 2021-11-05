@@ -22,4 +22,4 @@ MonoBehaviour:
   recomecar: 0
   NPCNode: 0
   acao: 0
-  proximaQuest: 0
+  proximaQuest: 1

@@ -136,28 +136,33 @@ public class Dialogo : MonoBehaviour
     {
         if (podeProximaQuest)
         {
-            podeProximaQuest = false;
-            if (!questsSemMascara.ContainsValue(true))
+            if (falaQuestsSemMascara.Length != 0)
             {
-                questsSemMascara[falaQuestsSemMascara[0]] = true;
-            }
-            else
-            {
-                for (int i = 0; i < falaQuestsSemMascara.Length; i++)
+                podeProximaQuest = false;
+                if (!questsSemMascara.ContainsValue(true))
                 {
-                    if (questsSemMascara[falaQuestsSemMascara[i]] == true)
+                    questsSemMascara[falaQuestsSemMascara[0]] = true;
+                }
+                else
+                {
+                    for (int i = 0; i < falaQuestsSemMascara.Length; i++)
                     {
-                        questsSemMascara[falaQuestsSemMascara[i]] = false;
-                        if (i == falaQuestsSemMascara.Length - 1)
+                        if (questsSemMascara[falaQuestsSemMascara[i]] == true)
                         {
-                            npc.idle = true;
+                            questsSemMascara[falaQuestsSemMascara[i]] = false;
+                            if (i == falaQuestsSemMascara.Length - 1)
+                            {
+                                npc.idle = true;
+                            }
+                            else
+                                questsSemMascara[falaQuestsSemMascara[i + 1]] = true;
+                            break;
                         }
-                        else
-                            questsSemMascara[falaQuestsSemMascara[i + 1]] = true;
-                        break;
                     }
                 }
             }
+            else
+                npc.idle = true;
         }
     }
 
@@ -165,28 +170,33 @@ public class Dialogo : MonoBehaviour
     {
         if (podeProximaQuest)
         {
-            podeProximaQuest = false;
-            if (!questsComMascara.ContainsValue(true))
+            if (falaQuestsComMascara.Length != 0)
             {
-                questsComMascara[falaQuestsComMascara[0]] = true;
-            }
-            else
-            {
-                for (int i = 0; i < falaQuestsComMascara.Length; i++)
+                podeProximaQuest = false;
+                if (!questsComMascara.ContainsValue(true))
                 {
-                    if (questsComMascara[falaQuestsComMascara[i]] == true)
+                    questsComMascara[falaQuestsComMascara[0]] = true;
+                }
+                else
+                {
+                    for (int i = 0; i < falaQuestsComMascara.Length; i++)
                     {
-                        questsComMascara[falaQuestsComMascara[i]] = false;
-                        if (i == falaQuestsComMascara.Length - 1)
+                        if (questsComMascara[falaQuestsComMascara[i]] == true)
                         {
-                            npc.idle = true;
+                            questsComMascara[falaQuestsComMascara[i]] = false;
+                            if (i == falaQuestsComMascara.Length - 1)
+                            {
+                                npc.idle = true;
+                            }
+                            else
+                                questsComMascara[falaQuestsComMascara[i + 1]] = true;
+                            break;
                         }
-                        else
-                            questsComMascara[falaQuestsComMascara[i + 1]] = true;
-                        break;
                     }
                 }
             }
+            else
+                npc.idle = true;
         }
     }
 

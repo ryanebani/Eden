@@ -12,4 +12,5 @@ public class Personagem : ScriptableObject
     public string nome;
 
     public Sprite sprite;
+
 }

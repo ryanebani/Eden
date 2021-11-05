@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 492a76340e5fc0f4dad1f2af229a7694, type: 3}
   m_Name: Zenaide
   m_EditorClassIdentifier: 
-  cor: {r: 0.5821022, g: 0.94990253, b: 0.9716981, a: 0}
+  cor: {r: 0.5821022, g: 0.94990253, b: 0.9716981, a: 1}
   nome: Zenaide
   sprite: {fileID: 0}

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 492a76340e5fc0f4dad1f2af229a7694, type: 3}
   m_Name: Afonso
   m_EditorClassIdentifier: 
-  cor: {r: 0.9339623, g: 0.4577828, b: 0.2599235, a: 0}
+  cor: {r: 0.9339623, g: 0.4577828, b: 0.2599235, a: 1}
   nome: Afonso
   sprite: {fileID: 0}

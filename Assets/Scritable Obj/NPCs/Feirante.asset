@@ -13,7 +13,11 @@ MonoBehaviour:
   m_Name: Feirante
   m_EditorClassIdentifier: 
   nomeNPC: Feirante
-  falasIdle: []
-  spriteNPC: {fileID: 0}
-  animator: {fileID: 0}
-  voz: {fileID: 0}
+  falasIdle:
+  - A
+  - B
+  - C
+  prefab: {fileID: 0}
+  audioSource: {fileID: 0}
+  voz:
+  - {fileID: 0}

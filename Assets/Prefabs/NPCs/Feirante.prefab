@@ -13,7 +13,19 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: f06ef2e6a32961c438c406f1d27362fe, type: 2}
     - target: {fileID: 3744053794989155859, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
       propertyPath: falasIdleNPC.Array.size
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3744053794989155859, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
+      propertyPath: falasIdleNPC.Array.data[0]
+      value: A
+      objectReference: {fileID: 0}
+    - target: {fileID: 3744053794989155859, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
+      propertyPath: falasIdleNPC.Array.data[1]
+      value: B
+      objectReference: {fileID: 0}
+    - target: {fileID: 3744053794989155859, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
+      propertyPath: falasIdleNPC.Array.data[2]
+      value: C
       objectReference: {fileID: 0}
     - target: {fileID: 3744053794989155865, guid: cf60e935cdc37d645b410f89ac033a53, type: 3}
       propertyPath: m_Name
