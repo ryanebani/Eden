@@ -4,19 +4,19 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -5219792094229944343
-    second: assets hud_0
+    second: moeda_sprite
   - first:
       213: 8662535905140901066
-    second: assets hud_1
+    second: marmita_sprite
   - first:
       213: -1555917694307805451
-    second: assets hud_2
+    second: passe_sprite
   - first:
       213: -1062922789980154469
-    second: assets hud_3
+    second: ursinho_sprite
   - first:
       213: 5911709333110346455
-    second: assets hud_4
+    second: guarda-chuva_sprite
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -106,7 +106,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: assets hud_0
+      name: moeda_sprite
       rect:
         serializedVersion: 2
         x: 123
@@ -114,7 +114,7 @@ TextureImporter:
         width: 70
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -127,7 +127,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: assets hud_1
+      name: marmita_sprite
       rect:
         serializedVersion: 2
         x: 103
@@ -135,7 +135,7 @@ TextureImporter:
         width: 113
         height: 94
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -148,7 +148,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: assets hud_2
+      name: passe_sprite
       rect:
         serializedVersion: 2
         x: 245
@@ -156,7 +156,7 @@ TextureImporter:
         width: 100
         height: 142
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -169,7 +169,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: assets hud_3
+      name: ursinho_sprite
       rect:
         serializedVersion: 2
         x: 409
@@ -177,7 +177,7 @@ TextureImporter:
         width: 134
         height: 163
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -190,7 +190,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: assets hud_4
+      name: guarda-chuva_sprite
       rect:
         serializedVersion: 2
         x: 0
@@ -198,7 +198,7 @@ TextureImporter:
         width: 303
         height: 87
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
