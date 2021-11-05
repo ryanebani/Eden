@@ -26,7 +26,9 @@ public class Dialogo : MonoBehaviour
 
     bool podeProximaQuest;
 
-
+    public UnityEvent[] ue = new UnityEvent[0];
+    public int index = 0;
+    public bool temIndex = true;
     void Start()
     {
         
@@ -47,7 +49,10 @@ public class Dialogo : MonoBehaviour
     
     void Update()
     {
-        
+        if(index >= ue.Length)
+        {
+            temIndex = false;
+        }
     }
 
     public void Conversar()

@@ -59,6 +59,12 @@ public class DialogoController : MonoBehaviour
                     {
                         if (falas.proximaQuest)
                             dialogo.ProximaQuest();
+                        if (falas.acaoSequencial && dialogo.temIndex)
+                        {
+                            dialogo.ue[dialogo.index]?.Invoke();
+                            dialogo.index++;
+                            falas.acaoSequencial = false;
+                        }
                         falaAtiva = false;
                         painelDeNome.SetActive(false);
                         nomeNPC.gameObject.SetActive(false);
@@ -102,6 +108,12 @@ public class DialogoController : MonoBehaviour
                         {
                             if (falas.proximaQuest)
                                 dialogo.ProximaQuest();
+                            if (falas.acaoSequencial && dialogo.temIndex)
+                            {
+                                dialogo.ue[dialogo.index]?.Invoke();
+                                dialogo.index++;
+                                falas.acaoSequencial = false;
+                            }
                             Interagir.podeAndar = true;
                             falaAtiva = false;
                             painelDeDialogo.SetActive(false);

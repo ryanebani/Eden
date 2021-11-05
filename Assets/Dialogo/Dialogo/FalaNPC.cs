@@ -27,4 +27,6 @@ public class FalaNPC : ScriptableObject
     public bool acao;
 
     public bool proximaQuest;
+
+    public bool acaoSequencial;
 }
