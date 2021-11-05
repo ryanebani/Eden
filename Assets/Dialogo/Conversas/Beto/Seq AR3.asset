@@ -16,6 +16,5 @@ MonoBehaviour:
   - "A Madalena devia ter falado que tu \xE9 um p\xE9 no saco vacil\xE3o"
   - "Madalena!? C\xEA \xE9 uma das crias dela? "
   - 'De certa forma. '
-  - "Se \xE9 assim, levanta o tapume da porta e entra. "
-  npcFalando: 00010001
-  proximaFala: {fileID: 0}
+  npcFalando: 000100
+  proximaFala: {fileID: 11400000, guid: d6b0e19074188544d9f6c7ede7aedb0a, type: 2}
