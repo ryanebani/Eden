@@ -5,7 +5,7 @@ using UnityEngine;
 public class SorteiaSom : MonoBehaviour
 {
     [SerializeField]
-    protected AudioClip[] clipes;
+    private AudioClip[] clipes;
 
     private AudioSource origem;
 

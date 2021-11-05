@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Seq A
   m_EditorClassIdentifier: 
   sequencia:
-  - "Quando foi que botaram um seguran\xE7a aqui? "
+  - "H\xE3... Droga n\xE3o sabia que tinha seguran\xE7a... Eu sou primo de uma das
+    crian\xE7as e queria falar sobre ado\xE7\xE3o com a diretora Galhos"
   npcFalando: 00
   proximaFala: {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}

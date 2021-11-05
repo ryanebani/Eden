@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beb09db3f743c354591c99baabbc8900, type: 3}
+  m_Name: Garagem
+  m_EditorClassIdentifier: 
+  nomeObj: Garagem
+  "falasInspe\xE7\xE3o":
+  - "Caralho o mec\xE2nico fechou tamb\xE1m"
+  - Se bem que ele era um chato
+  - "Sempre tentava bater nas crian\xE7as com vassoura"
+  - "Talvez n\xE3o seja t\xE3o ruim ele ter sumido"

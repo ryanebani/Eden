@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
+  m_Name: Seq A1
+  m_EditorClassIdentifier: 
+  sequencia:
+  - Veio pra ajudar com as marmitas?
+  - O senhor Afonso me pediu pra te ajudar
+  - Com umas marmitas ou algo assim
+  - Pra quem eu tenho que entregar?
+  - Tem dois rapazes no beco aqui do lado
+  - "\xC9 meu irm\xE3o e o namorado, entrega pra eles por favor"
+  - "Eles v\xE3o enteder"
+  - "Seu irm\xE3o?"
+  - Aham, ele teve uma vida dificil e eu ajudo ele como posso
+  - "S\xF3 dou um empurr\xE3ozinho pra ele se encontrar"
+  - Espera, a senhora ta falando dos dois "largatos"?
+  - "Esse nome n\xE3o \xE9 muito legal sabia?"
+  - "Ah... Foi mal... N\xE3o tive a inten\xE7\xE3o de ofender"
+  - "S\xF3 tenta n\xE3o falar de novo ok?"
+  npcFalando: 0100000001010100010100010001
+  proximaFala: {fileID: 0}
