@@ -24,6 +24,8 @@ public class Dialogo : MonoBehaviour
     Dictionary<FalaNPC, bool> questsComMascara = new Dictionary<FalaNPC, bool>();
     Dictionary<FalaNPC, bool> questsSemMascara = new Dictionary<FalaNPC, bool>();
 
+    bool podeProximaQuest;
+
 
     void Start()
     {
@@ -66,7 +68,7 @@ public class Dialogo : MonoBehaviour
             if (Inventario.itemNaMao == false)
             {
                 DialogoController.dialogo = GetComponent<Dialogo>();
-
+            podeProximaQuest = true;
                 if (!mascara)
                 {
                     if (questsSemMascara.ContainsValue(true))
@@ -130,51 +132,59 @@ public class Dialogo : MonoBehaviour
         else
             ProximaQuestSemMascara();
     }
-    public void ProximaQuestComMascara()
+    public void ProximaQuestSemMascara()
     {
-        if(!questsSemMascara.ContainsValue(true))
+        if (podeProximaQuest)
         {
-            questsSemMascara[falaQuestsSemMascara[0]] = true;
-        }
-        else
-        {
-            for(int i = 0; i < falaQuestsSemMascara.Length; i++)
+            podeProximaQuest = false;
+            if (!questsSemMascara.ContainsValue(true))
             {
-                if(questsSemMascara[falaQuestsSemMascara[i]] == true)
+                questsSemMascara[falaQuestsSemMascara[0]] = true;
+            }
+            else
+            {
+                for (int i = 0; i < falaQuestsSemMascara.Length; i++)
                 {
-                    questsSemMascara[falaQuestsSemMascara[i]] = false;
-                    if(i == falaQuestsSemMascara.Length - 1)
+                    if (questsSemMascara[falaQuestsSemMascara[i]] == true)
                     {
-                        npc.idle = true;
+                        questsSemMascara[falaQuestsSemMascara[i]] = false;
+                        if (i == falaQuestsSemMascara.Length - 1)
+                        {
+                            npc.idle = true;
+                        }
+                        else
+                            questsSemMascara[falaQuestsSemMascara[i + 1]] = true;
+                        break;
                     }
-                    else
-                        questsSemMascara[falaQuestsSemMascara[i + 1]] = true;
-                    break;
                 }
             }
         }
     }
 
-    public void ProximaQuestSemMascara()
+    public void ProximaQuestComMascara()
     {
-        if (!questsComMascara.ContainsValue(true))
+        if (podeProximaQuest)
         {
-            questsComMascara[falaQuestsComMascara[0]] = true;
-        }
-        else
-        {
-            for (int i = 0; i < falaQuestsComMascara.Length; i++)
+            podeProximaQuest = false;
+            if (!questsComMascara.ContainsValue(true))
             {
-                if (questsComMascara[falaQuestsComMascara[i]] == true)
+                questsComMascara[falaQuestsComMascara[0]] = true;
+            }
+            else
+            {
+                for (int i = 0; i < falaQuestsComMascara.Length; i++)
                 {
-                    questsComMascara[falaQuestsComMascara[i]] = false;
-                    if (i == falaQuestsComMascara.Length - 1)
+                    if (questsComMascara[falaQuestsComMascara[i]] == true)
                     {
-                        npc.idle = true;
+                        questsComMascara[falaQuestsComMascara[i]] = false;
+                        if (i == falaQuestsComMascara.Length - 1)
+                        {
+                            npc.idle = true;
+                        }
+                        else
+                            questsComMascara[falaQuestsComMascara[i + 1]] = true;
+                        break;
                     }
-                    else
-                        questsComMascara[falaQuestsComMascara[i + 1]] = true;
-                    break;
                 }
             }
         }
