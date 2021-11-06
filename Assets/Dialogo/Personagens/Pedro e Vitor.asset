@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 492a76340e5fc0f4dad1f2af229a7694, type: 3}
-  m_Name: Vitor
+  m_Name: Pedro e Vitor
   m_EditorClassIdentifier: 
-  cor: {r: 0.3019758, g: 0.39360124, b: 0.735849, a: 1}
-  nome: Vitor
-  sprite: {fileID: 0}
+  cor: {r: 0, g: 0.8301887, b: 0.08190127, a: 1}
+  nome: Pedro e Vitor
+  sprite: {fileID: 21300000, guid: 4416a8fff9868f14bacbea60ca4a531d, type: 3}
