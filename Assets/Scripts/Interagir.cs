@@ -52,6 +52,7 @@ public class Interagir : MonoBehaviour
 
         if (posAtu != alvo)
         {
+
             if (posAtu.x > alvo.x)
             {
                 olharDireita = false;

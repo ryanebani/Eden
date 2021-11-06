@@ -9,6 +9,7 @@ public class AlvoMovendo : MonoBehaviour
     public Interagir jogador;
     public GameObject gizmo;
     public UnityEvent OnCheguei;
+    
 
     private void Start()
     {
@@ -19,13 +20,13 @@ public class AlvoMovendo : MonoBehaviour
     {
         CaixaIdle.textoAbel = false;
 
-        if (chao)
+        if (chao && DialogoController.podeClickar)
         {
             jogador.clickChao = true;
             jogador.paraOndeVou = gameObject.name;
         }
 
-        if (chao == false)
+        if (!chao && DialogoController.podeClickar)
         {
             jogador.clickObj = true;
             jogador.alvoObj = gizmo.transform;
@@ -44,6 +45,8 @@ public class AlvoMovendo : MonoBehaviour
                 OnCheguei?.Invoke();
                 jogador.paraOndeVou = "";
                 gizmo.SetActive(false);
+                if(GetComponent<ObjInt>() == null)
+                    DialogoController.podeClickar = false;
             }
         }
         else

@@ -30,4 +30,4 @@ MonoBehaviour:
   NPCNode: 1
   acao: 0
   proximaQuest: 0
-  acaoSequencial: 1
+  acaoSequencial: 0

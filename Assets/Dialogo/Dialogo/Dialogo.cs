@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class Dialogo : MonoBehaviour
 {
-    [SerializeField] NPC npc;
+    [SerializeField] public NPC npc;
 
     public FalaNPC[] falasSemMascara = new FalaNPC[2];
     public FalaNPC[] falasComMascara = new FalaNPC[2];
@@ -57,6 +57,7 @@ public class Dialogo : MonoBehaviour
 
     public void Conversar()
     {
+        DialogoController.dialogo = GetComponent<Dialogo>();
         if (npc.idle)
         {
             npc.PodeIdleNPC();
@@ -72,7 +73,7 @@ public class Dialogo : MonoBehaviour
     {
             if (Inventario.itemNaMao == false)
             {
-                DialogoController.dialogo = GetComponent<Dialogo>();
+                
             podeProximaQuest = true;
                 if (!mascara)
                 {

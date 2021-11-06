@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class DialogoController : MonoBehaviour
 {
+    public static bool podeClickar = true;
+
     public static Dialogo dialogo;
 
     public GameObject painelDeDialogo;
@@ -45,6 +47,13 @@ public class DialogoController : MonoBehaviour
     
     void Update()
     {
+        if(dialogo != null)
+        {
+            if(dialogo.npc.idle)
+            {
+                podeClickar = true;
+            }
+        }
         if (Input.touchCount > 0)
         {
             touch = Input.GetTouch(0);
@@ -78,6 +87,7 @@ public class DialogoController : MonoBehaviour
                         NPC = null;
                         Interagir.podeAndar = true;
                         entregaItem = false;
+                        podeClickar = true;
                     }
                 }
                 else
@@ -127,6 +137,7 @@ public class DialogoController : MonoBehaviour
                             NPC = null;
                             repetiu = false;
                             entregaItem = false;
+                            podeClickar = true;
                         }
 
                     }
