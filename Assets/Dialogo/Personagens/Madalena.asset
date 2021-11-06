@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Madalena
   m_EditorClassIdentifier: 
   cor: {r: 0.76010114, g: 0.4963955, b: 0.9150943, a: 1}
-  nome: Madalena
-  sprite: {fileID: 0}
+  nome: ' 2'
+  sprite: {fileID: 21300000, guid: 616a34656ededc1449f1062437005bb6, type: 3}
