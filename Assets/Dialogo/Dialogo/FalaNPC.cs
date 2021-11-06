@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEditor;
 
 [CreateAssetMenu]
 public class FalaNPC : ScriptableObject
@@ -29,4 +30,7 @@ public class FalaNPC : ScriptableObject
     public bool proximaQuest;
 
     public bool acaoSequencial;
+    
+
+    
 }

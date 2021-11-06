@@ -34,8 +34,10 @@ public class DialogoController : MonoBehaviour
     Personagem jogador;
     Personagem NPC;
 
+    bool falaController;
 
-    void Start()
+
+    void Awake()
     {
        
     }
