@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d62838668339a474280e419b21110864, type: 3}
-  m_Name: "Ma\xE7a"
+  m_Name: Passe
   m_EditorClassIdentifier: 
-  nome: "Ma\xE7\xE3"
-  descricao: "Cheia de agrot\xF3xico"
-  icone: {fileID: -2980712377497353079, guid: d62d03254bebcbe4ca4dcc8c672006df, type: 3}
+  nome: Passe
+  descricao: 
+  icone: {fileID: -1555917694307805451, guid: 4af4d2ca89335df4eb6575fd0e7b78b4, type: 3}
