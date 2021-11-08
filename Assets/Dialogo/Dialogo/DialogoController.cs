@@ -43,6 +43,8 @@ public class DialogoController : MonoBehaviour
     Color opaco = new Color(1, 1, 1, 1);
     Color transparente = new Color(1, 1, 1, 0.5f);
 
+    List<FalaNPC> naoAtivarAcao = new List<FalaNPC>();
+
 
     void Awake()
     {
@@ -77,9 +79,14 @@ public class DialogoController : MonoBehaviour
                             dialogo.ProximaQuest();
                         if (falas.acaoSequencial && dialogo.temIndex)
                         {
-                            dialogo.ue[dialogo.index]?.Invoke();
-                            dialogo.index++;
-                            falas.acaoSequencial = false;
+                            if(ConferirAcao())
+                            {
+                                dialogo.ue[dialogo.index]?.Invoke();
+                                dialogo.index++;
+                                naoAtivarAcao.Add(falas);
+                            }
+                            
+                            
                         }
                         falaAtiva = false;
                         painelDeNome.SetActive(false);
@@ -265,5 +272,16 @@ public class DialogoController : MonoBehaviour
         {
             Destroy(button.gameObject);
         }
+    }
+
+    bool ConferirAcao()
+    {
+        foreach(FalaNPC a in naoAtivarAcao)
+        {
+            if (a == falas)
+                return false;
+        }
+
+        return true;
     }
 }
