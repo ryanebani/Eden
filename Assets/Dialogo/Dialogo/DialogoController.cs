@@ -19,7 +19,9 @@ public class DialogoController : MonoBehaviour
 
     public GameObject resposta;
 
-    public Image sprite;
+    public Image spriteNPC;
+
+    public Image spritePlayer;
 
     private bool falaAtiva = false;
 
@@ -37,6 +39,9 @@ public class DialogoController : MonoBehaviour
     Personagem NPC;
 
     bool falaController;
+
+    Color opaco = new Color(1, 1, 1, 1);
+    Color transparente = new Color(1, 1, 1, 0.5f);
 
 
     void Awake()
@@ -81,7 +86,8 @@ public class DialogoController : MonoBehaviour
                         nomeNPC.gameObject.SetActive(false);
                         painelDeDialogo.SetActive(false);
                         falaNPC.gameObject.SetActive(false);
-                        sprite.gameObject.SetActive(false);
+                        spriteNPC.gameObject.SetActive(false);
+                        spritePlayer.gameObject.SetActive(false);
                         repetiu = false;
                         jogador = null;
                         NPC = null;
@@ -97,13 +103,15 @@ public class DialogoController : MonoBehaviour
                         falaNPC.text = falas.sequencia.sequencia[index];
                         if (falas.sequencia.npcFalando[index])
                         {
-                            sprite.sprite = falas.NPC.sprite;
+                            spritePlayer.color = transparente;
+                            spriteNPC.color = opaco;
                             nomeNPC.text = falas.NPC.nome;
                             falaNPC.color = falas.NPC.cor;
                         }
                         else
                         {
-                            sprite.sprite = falas.jogador.sprite;
+                            spritePlayer.color = opaco;
+                            spriteNPC.color = transparente;
                             nomeNPC.text = falas.jogador.nome;
                             falaNPC.color = falas.jogador.cor;
                         }
@@ -132,7 +140,8 @@ public class DialogoController : MonoBehaviour
                             falaNPC.gameObject.SetActive(false);
                             painelDeNome.SetActive(false);
                             nomeNPC.gameObject.SetActive(false);
-                            sprite.gameObject.SetActive(false);
+                            spriteNPC.gameObject.SetActive(false);
+                            spritePlayer.gameObject.SetActive(false);
                             jogador = null;
                             NPC = null;
                             repetiu = false;
@@ -151,7 +160,8 @@ public class DialogoController : MonoBehaviour
     {
         painelDeNome.SetActive(false);
         nomeNPC.gameObject.SetActive(false);
-        sprite.sprite = falas.jogador.sprite;
+        spritePlayer.color = opaco;
+        spriteNPC.color = transparente;
         if (falas.falaNode != "")
         {
             falaNPC.text = falas.falaNode;
@@ -207,14 +217,16 @@ public class DialogoController : MonoBehaviour
             falas.jogador = jogador;
             falas.NPC = NPC;
         }
-        
 
+        spriteNPC.sprite = falas.NPC.sprite;
+        spritePlayer.sprite = falas.jogador.sprite;
         falaAtiva = true;
         painelDeNome.SetActive(true);
         nomeNPC.gameObject.SetActive(true);
         painelDeDialogo.SetActive(true);
         falaNPC.gameObject.SetActive(true);
-        sprite.gameObject.SetActive(true);
+        spriteNPC.gameObject.SetActive(true);
+        spritePlayer.gameObject.SetActive(true);
 
         if (falas.recomecar && repetiu)
         {
@@ -230,13 +242,15 @@ public class DialogoController : MonoBehaviour
 
             if (falas.npcFalando)
             {
-                sprite.sprite = falas.NPC.sprite;
+                spritePlayer.color = transparente;
+                spriteNPC.color = opaco;
                 nomeNPC.text = falas.NPC.nome;
                 falaNPC.color = falas.NPC.cor;
             }
             else
             {
-                sprite.sprite = falas.jogador.sprite;
+                spriteNPC.color = transparente;
+                spritePlayer.color = opaco;
                 nomeNPC.text = falas.jogador.nome;
                 falaNPC.color = falas.jogador.cor;
             }
