@@ -36,7 +36,8 @@ public class CarroAmb : MonoBehaviour
     {
         CarroSom();
         EscolherSom();
-        EsperarSom();
+        //VelocEspecífica();
+        StartCoroutine(EsperarSom());
     }
 
     void Update()
@@ -46,7 +47,7 @@ public class CarroAmb : MonoBehaviour
             objeto.position = new Vector3(objeto.position.x + velocidade, objeto.position.y, objeto.position.z);
         }
 
-        if (objeto.position.x >= 25 || objeto.position.x <= -25)
+        if (!origem.isPlaying)
         {
             mover = false;
         }
@@ -70,27 +71,32 @@ public class CarroAmb : MonoBehaviour
 
     private void SetCord()
     {
-        int sorteador = (Random.Range(0, 1));
+        int sorteador = (Random.Range(0, 2));
         if (sorteador == 0)
         {
-            coordenada.x = -25;
+            coordenada.x = -35;
         }
         else
         {
-            coordenada.x = 25;
+            coordenada.x = 35;
         }
     }
 
     private void SetVel()
     {
-
         if (coordenada.x <= 0)
         {
-            velocidade *= 1;
+            if (velocidade >= 0)
+                velocidade *= 1;
+            else
+                velocidade *= -1;
         }
         else
         {
-            velocidade *= -1;
+            if (velocidade >= 0)
+                velocidade *= -1;
+            else
+                velocidade *= 1;
         }
     }
 }
