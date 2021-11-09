@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequencia:
   - "Vou ligar pra policia se voc\xEA chegar perto daqui!"
+  - "J\xE1 me basta aqueles dois vagabundos que n\xE3o saem daqui!"
   - "Mas eu s\xF3..."
   - "N\xE3o ligo se tu tem dinheiro ou n\xE3o!"
   - Tu fede e ta espantando os meus clientes!
   - Agora xispa daqui antes que eu chame a policia!
-  - "Aposto que \xE9 a comida dele que fede"
-  npcFalando: 010001010100
+  - "Aposto que \xE9 a comida dele que fede."
+  npcFalando: 010100010100
   proximaFala: {fileID: 0}
