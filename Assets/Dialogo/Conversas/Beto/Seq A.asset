@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: Seq A
   m_EditorClassIdentifier: 
   sequencia:
-  - "H\xE3... Droga n\xE3o sabia que tinha seguran\xE7a... Eu sou primo de uma das
-    crian\xE7as e queria falar sobre ado\xE7\xE3o com a diretora Galhos"
+  - "Eu conhe\xE7o o pessoal do orfanato, me deixa entrar mano."
   npcFalando: 00
   proximaFala: {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}

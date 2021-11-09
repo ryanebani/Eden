@@ -13,10 +13,14 @@ MonoBehaviour:
   m_Name: Seq AR0
   m_EditorClassIdentifier: 
   sequencia:
-  - "Tem certeza sobre isso n\xE9?"
-  - Tenho! Tu sabe que eu espero por ese dia faz anos
-  - Eu sei meu anjo
-  - "S\xF3 n\xE3o quero te ver decpcionado"
-  - Eu vou ficar bem
-  npcFalando: 0100010100
+  - "Que? N\xE3o! Nunca fico nervoso!"
+  - "Aham... Quer que eu v\xE1 com voc\xEA at\xE9 o orfanato?"
+  - "Mada, eu n\xE3o sou mais crian\xE7a! Consigo me virar."
+  - Tem certeza? Sabe o que fazer primeiro?
+  - "Claro! Eu s\xF3 preciso pedir os documentos no orfanato."
+  - "\xC9 tranquilo."
+  - "Eu sei meu anjo, s\xF3 n\xE3o quero te ver decepcionado."
+  - "N\xE3o da pra ter certeza se v\xE3o te dar os documentos"
+  - "Eles tem que dar, eu sou a fam\xEDlia dele!"
+  npcFalando: 000100010000010100
   proximaFala: {fileID: 0}

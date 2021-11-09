@@ -12,6 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
   m_Name: Seq AR1
   m_EditorClassIdentifier: 
-  sequencia: []
-  npcFalando: 
+  sequencia:
+  - "E n\xE3o pensou em me contar!?"
+  - "E se eu tiver perdido a minha \xFAnica chance de ver meu irm\xE3o!?"
+  - "Abel, calma, n\xE3o te contei porque era algo que voc\xEA tinha que descobrir
+    sozinho."
+  - "N\xE3o ligo! Foi coisa de babaca!"
+  npcFalando: 00000100
   proximaFala: {fileID: 0}

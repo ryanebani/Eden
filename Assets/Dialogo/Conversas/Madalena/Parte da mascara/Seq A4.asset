@@ -13,13 +13,14 @@ MonoBehaviour:
   m_Name: Seq A4
   m_EditorClassIdentifier: 
   sequencia:
-  - "\xD4nibus \xE9 o melhor jeito"
-  - "Mas voc\xEA precisa conseguir dinheiro pra passagem"
-  - "N\xE3o parece dificil"
-  - "Eu n\xE3o acabei"
-  - "Voc\xEA vai precisar de um passe de trabalhador pra passar pelo port\xE3o"
-  - "Sem ele jamais deixariam algu\xE9m como a gente entrar"
+  - "\xD4nibus \xE9 o melhor jeito."
+  - "Mas voc\xEA precisa conseguir dinheiro pra passagem."
+  - "N\xE3o parece dif\xEDcil."
+  - "Eu n\xE3o acabei!"
+  - "Voc\xEA vai precisar de um passe de trabalhador pra passar pelo port\xE3o da
+    entrada."
+  - "Sem ele jamais deixariam algu\xE9m como a gente entrar."
   - "Algu\xE9m como a gente?"
-  - "Voc\xEA sabe o que eu quero dizer"
+  - "Voc\xEA sabe o que eu quero dizer."
   npcFalando: 0101000101010001
   proximaFala: {fileID: 11400000, guid: 481a0d004d0304f4daa34e6568c53854, type: 2}

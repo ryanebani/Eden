@@ -12,20 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
   m_Name: Fala B0
   m_EditorClassIdentifier: 
-  fala: "Voc\xEA tem duas tarefas"
+  fala: "Seguinte, voc\xEA tem que falar com a Belinha, ela ta na sala e ai vai procurar
+    a Zenaide pra ela te explicar o que fazer"
   respostas:
-  - resposta: Como assim acalmar?
+  - resposta: "Quem \xE9 Belinha?"
     proximaFala: {fileID: 11400000, guid: 0e5cb06cba5ab0b44b80867e7a3a25dd, type: 2}
-  - resposta: E essa marmita?
-    proximaFala: {fileID: 11400000, guid: d3b0c9e974e49f84c9cc563566bb4380, type: 2}
-  - resposta: E essa marmita?
+  - resposta: Onde ta essa Zenaide?
     proximaFala: {fileID: 11400000, guid: d3b0c9e974e49f84c9cc563566bb4380, type: 2}
   sequencia: {fileID: 0}
   npcFalando: 1
-  falaNode: "Essas s\xE3o suas tarefas"
+  falaNode: Alguma pergunta?
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: 308963aa3073f2d4fbd8e0ae183748fc, type: 2}
+  dadosNpc: {fileID: 0}
   recomecar: 1
   NPCNode: 1
   acao: 0
   proximaQuest: 0
+  acaoSequencial: 0

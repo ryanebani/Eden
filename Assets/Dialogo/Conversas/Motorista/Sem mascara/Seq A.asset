@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
   m_Name: Seq A
   m_EditorClassIdentifier: 
-  sequencia: []
-  npcFalando: 
+  sequencia:
+  - "Qual \xE9 cara, preciso ir pra cidade alta!"
+  - Como se fossem te deixar entrar, se liga moleque!
+  - "S\xF3 entra quem paga."
+  npcFalando: 000101
   proximaFala: {fileID: 0}

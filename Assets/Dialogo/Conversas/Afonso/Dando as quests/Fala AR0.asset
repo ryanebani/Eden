@@ -14,20 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fala: "Voc\xEA parece curioso..."
   respostas:
-  - resposta: O que aconteceu com esse lugar?
+  - resposta: O que aconteceu aqui?
     proximaFala: {fileID: 11400000, guid: 14460aea58a22cf41b4c92186d662fd7, type: 2}
-  - resposta: "Por que c\xEA achou que eu tava atr\xE1s dos largatos?"
+  - resposta: "Porque c\xEA achou que eu queria levar os \"largados\" embora?"
     proximaFala: {fileID: 11400000, guid: 0eda02dfbaaac4a49809cb1b80969e50, type: 2}
-  - resposta: "T\xF4 tentando achar meu irm\xE3o, tem algum documento escondido aqui?"
+  - resposta: Ainda tem algum documento aqui? Preciso deles...
     proximaFala: {fileID: 11400000, guid: c27eeb1c08027454ba83f802e78ba98f, type: 2}
   - resposta: "T\xF4 tentando achar meu irm\xE3o, tem algum documento escondido aqui?"
     proximaFala: {fileID: 11400000, guid: c27eeb1c08027454ba83f802e78ba98f, type: 2}
   sequencia: {fileID: 0}
   npcFalando: 1
-  falaNode: Quais suas perguntas?
+  falaNode: "Voc\xEA quer me perguntar algo n\xE9?"
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: 308963aa3073f2d4fbd8e0ae183748fc, type: 2}
+  dadosNpc: {fileID: 0}
   recomecar: 1
   NPCNode: 1
   acao: 0
   proximaQuest: 0
+  acaoSequencial: 0

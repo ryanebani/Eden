@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Seq A
   m_EditorClassIdentifier: 
   sequencia:
-  - "Na real, eu s\xF3 t\xF4 precisando de ajuda"
-  npcFalando: 00
+  - "H\xE3, eu preciso de ajuda do Seu Afonso na real."
+  - Sou eu, do que precisa menino?
+  npcFalando: 0001
   proximaFala: {fileID: 11400000, guid: 748cb893f08f2c24d9e4738eb91cc7ed, type: 2}

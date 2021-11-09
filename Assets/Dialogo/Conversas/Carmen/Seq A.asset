@@ -12,6 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
   m_Name: Seq A
   m_EditorClassIdentifier: 
-  sequencia: []
-  npcFalando: 
+  sequencia:
+  - "\xC9"
+  - "H\xE3, a senhora sabe se esse \xF4nibus vai at\xE9 a cidade alta?"
+  - "Vai sim, eu trabalho l\xE1 mas vou me atrasar por causa desse motorista pregui\xE7oso
+    que n\xE3o me deixa entrar"
+  - "Ent\xE3o a senhora tem um passe de trabalhador?"
+  - "Mas \xE9 claro! voc\xEA n\xE3o rapaz?"
+  - "Ah... \xC9 que... \xE9 que eu to indo pra uma entrevista de emprego e acho que
+    esqueceram de me mandar um..."
+  - "Ah! mas que irrespons\xE1veis!"
+  - "Aqui, eu tenho um extra que voc\xEA pode usar"
+  - Tem certeza dona?
+  - "Por favor pega, voc\xEA merece ir pra essa entrevista."
+  - Eu... Obrigado.
+  npcFalando: 0000010001000101000100
   proximaFala: {fileID: 0}

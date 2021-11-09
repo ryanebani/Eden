@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Seq INFO
   m_EditorClassIdentifier: 
   sequencia:
-  - "Ah sei l\xE1, um mo\xE7o de palet\xF3 surrado e um chap\xE9u velho."
-  - "Ah, \xE9 o Beto, fala pra ele que tu quer conversar com o senhor Afonso. "
-  - "Afonso? Quem \xE9 Afonso mano?"
+  - "Ah, sei l\xE1, \xE9 um tamandua de bon\xE9 velho."
+  - "\xC9 o Beto, s\xF3 fala pra ele que tu quer falar com o Seu Afonso."
+  - "Seu Afonso? Quem \xE9 esse cara?"
   npcFalando: 000100
   proximaFala: {fileID: 0}

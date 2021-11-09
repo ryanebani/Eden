@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Seq AR3
   m_EditorClassIdentifier: 
   sequencia:
-  - "A Madalena devia ter falado que tu \xE9 um p\xE9 no saco vacil\xE3o"
+  - "A Madalena devia ter falado que tu \xE9 chat\xE3o."
   - "Madalena!? C\xEA \xE9 uma das crias dela? "
-  - 'De certa forma. '
+  - E se eu for?
   npcFalando: 000100
   proximaFala: {fileID: 11400000, guid: d6b0e19074188544d9f6c7ede7aedb0a, type: 2}

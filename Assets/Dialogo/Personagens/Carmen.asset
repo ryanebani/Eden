@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 492a76340e5fc0f4dad1f2af229a7694, type: 3}
   m_Name: Carmen
   m_EditorClassIdentifier: 
-  cor: {r: 0, g: 0, b: 0, a: 0}
-  nome: 
+  cor: {r: 0.17858665, g: 0.745283, b: 0.66000736, a: 0}
+  nome: Carmen
   sprite: {fileID: 0}

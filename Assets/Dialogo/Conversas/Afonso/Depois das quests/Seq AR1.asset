@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Seq AR1
   m_EditorClassIdentifier: 
   sequencia:
-  - "Fiz tudo que voc\xEA queria, da pra me dar a chave agora?"
+  - "Fiz tudo. Ser\xE1 que da pra me dar a chave agora?"
   - "Voc\xEA fez bem moleque, mas v\xEA se aprende a respeitar os mais velhos hein"
-  - "Eu j\xE1 respeito."
+  - Ta, valeu.
   npcFalando: 000100
   proximaFala: {fileID: 0}

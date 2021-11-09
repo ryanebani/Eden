@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
   m_Name: Seq A
   m_EditorClassIdentifier: 
-  sequencia: []
-  npcFalando: 
+  sequencia:
+  - Vi teu panfleto de procura-se ajudante, ainda ta aceitando?
+  - "Opa, j\xE1 to pra fechar mas voc\xEA pode me ajudar a organizar as caixas aqui
+    atr\xE1s."
+  npcFalando: 0001
   proximaFala: {fileID: 0}
