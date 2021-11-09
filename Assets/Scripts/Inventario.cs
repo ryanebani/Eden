@@ -52,6 +52,7 @@ public class Inventario : MonoBehaviour
                 break;
             }
         }
+        DialogoController.podeClickar = true;
     }
 
     public void RemoverItem()

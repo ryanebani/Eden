@@ -6,11 +6,13 @@ public class FunctionsNPC : MonoBehaviour
 {
     public ItemOS item;
     public string chave;
+    public Inventario inventario;
 
     private bool itemDesejado;
     private bool infoDesejada;
+    private Animator animator;
 
-    public Inventario inventario;
+    private Fade fade;
     private DialogoController DC;
 
     [SerializeField]
@@ -19,6 +21,8 @@ public class FunctionsNPC : MonoBehaviour
     void Start()
     {
         DC = FindObjectOfType<DialogoController>();
+        fade = GetComponent<Fade>();
+        animator = GetComponentInChildren<Animator>();
     }
 
    
@@ -45,19 +49,26 @@ public class FunctionsNPC : MonoBehaviour
         NPCAlheio.infoDesejada = true;
     }
 
-    public void darItem()
+    public void darItem(bool precisaFade)
     {
         if (itemDesejado)
         {
             inventario.RemoverItem();
+            if (precisaFade)
+            {
+                fade.IniciarFade();
+            }
         }
     }
 
     public void receberItem()
     {
+        
         if (itemDesejado)
         {
             inventario.AdicionarItem(item, gameObject);
+            
+
         }
     }
 
@@ -83,5 +94,11 @@ public class FunctionsNPC : MonoBehaviour
     {
         if (infoDesejada)
             inventario.AdicionarItem(item, gameObject);
+    }
+
+    public void TriggarAnimacao(Animator animator)
+    {
+        Debug.Log(animator.name);
+        animator.SetTrigger("BelaFeliz");
     }
 }

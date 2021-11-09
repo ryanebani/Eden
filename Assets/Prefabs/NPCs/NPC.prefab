@@ -28,7 +28,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3744053794989155871}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3744053794989155865
 GameObject:
@@ -62,8 +62,8 @@ Transform:
   m_LocalPosition: {x: 5.35, y: -1.72, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 3744053794782568233}
   - {fileID: 5266518155573840106}
+  - {fileID: 3744053794782568233}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -108,10 +108,6 @@ MonoBehaviour:
   caixaIdle: {fileID: 5266518155573840104}
   npc: {fileID: 0}
   idle: 0
-  falasIdleNPC:
-  - Pode entrar, mano.
-  - "Quer que eu abra a porta tamb\xE9m?"
-  - "B\xF3ra, o Sr. Afonso t\xE1 la dentro."
 --- !u!114 &9160074225860728504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124,7 +120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841faddbbfbef29438952c4974320e92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 92f8b471a18c6d74bad6cb87bf646fc2, type: 2}
+  item: {fileID: 0}
   chave: "Ma\xE7\xE3"
   inventario: {fileID: 0}
   NPCAlheio: {fileID: 0}
@@ -161,7 +157,7 @@ MonoBehaviour:
       - m_Target: {fileID: 9160074225860728504}
         m_TargetAssemblyTypeName: FunctionsNPC, Assembly-CSharp
         m_MethodName: receberItem
-        m_Mode: 1
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -209,6 +205,9 @@ MonoBehaviour:
   falaQuestsSemMascara: []
   falaQuestsComMascara: []
   acabouAsQuests: 0
+  ue: []
+  index: 0
+  temIndex: 1
 --- !u!1001 &5915688522988362844
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -222,7 +221,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1949725510461052086, guid: 15ee23c8e0ee0d34c827a0b3af316388, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1949725510461052086, guid: 15ee23c8e0ee0d34c827a0b3af316388, type: 3}
       propertyPath: m_LocalPosition.x
