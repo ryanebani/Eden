@@ -44,7 +44,7 @@ public class CarroAmb : MonoBehaviour
     {
         if (mover)
         {
-            objeto.position = new Vector3(objeto.position.x + velocidade, objeto.position.y, objeto.position.z);
+            objeto.position = new Vector3(objeto.position.x + velocidade, objeto.position.y, objeto.position.z * Time.deltaTime);
         }
 
         if (!origem.isPlaying)
