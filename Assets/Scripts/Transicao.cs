@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Transicao : MonoBehaviour
 {
-    public  bool podeAction;
-    public  bool transicao;
+    public bool podeAction;
+    public bool transicao;
+    private Animator animator;
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -16,8 +17,8 @@ public class Transicao : MonoBehaviour
     {       
         if (transicao == true)
         {
-            GetComponent<Animator>().SetTrigger("FadeOut");
-            transicao = false;
+           animator.SetTrigger("FadeOut");
+           transicao = false;
         }
     }
 

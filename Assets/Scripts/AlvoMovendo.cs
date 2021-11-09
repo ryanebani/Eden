@@ -46,7 +46,7 @@ public class AlvoMovendo : MonoBehaviour
                 jogador.paraOndeVou = "";
                 gizmo.SetActive(false);
                 if(GetComponent<ObjInt>() == null)
-                    DialogoController.podeClickar = false;
+                DialogoController.podeClickar = false;
             }
         }
         else

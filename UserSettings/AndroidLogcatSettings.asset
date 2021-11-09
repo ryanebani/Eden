@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "0068120336",
         "name": "com.DefaultCompany.ProjetoEden",
-        "processId": 12136,
+        "processId": 25102,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,19 +11,43 @@
         {
             "deviceId": "0068120336",
             "name": "com.DefaultCompany.ProjetoEden",
-            "processId": 10941,
-            "exited": false
-        },
-        {
-            "deviceId": "0068120336",
-            "name": "com.DefaultCompany.ProjetoEden",
             "processId": 11669,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "0068120336",
             "name": "com.DefaultCompany.ProjetoEden",
             "processId": 12136,
+            "exited": true
+        },
+        {
+            "deviceId": "0068120336",
+            "name": "com.DefaultCompany.ProjetoEden",
+            "processId": 24195,
+            "exited": true
+        },
+        {
+            "deviceId": "0068120336",
+            "name": "com.DefaultCompany.ProjetoEden",
+            "processId": 24440,
+            "exited": true
+        },
+        {
+            "deviceId": "0068120336",
+            "name": "com.DefaultCompany.ProjetoEden",
+            "processId": 24824,
+            "exited": true
+        },
+        {
+            "deviceId": "0068120336",
+            "name": "com.motorola.launcher3",
+            "processId": 30592,
+            "exited": false
+        },
+        {
+            "deviceId": "0068120336",
+            "name": "com.DefaultCompany.ProjetoEden",
+            "processId": 25102,
             "exited": false
         }
     ],

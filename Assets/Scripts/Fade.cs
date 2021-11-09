@@ -6,11 +6,12 @@ using Cinemachine;
 
 public class Fade : MonoBehaviour
 {
-    [SerializeField] Transicao transi;
-    public UnityEvent OnFade;
-    public CinemachineVirtualCamera camAtual;
-    public CinemachineVirtualCamera camProx;
-    public bool fading;
+    [SerializeField] Transicao transicao;
+    [SerializeField] CinemachineVirtualCamera camAtual;
+    [SerializeField] CinemachineVirtualCamera camProx;
+
+    public UnityEvent OnFade;   
+    bool esteObj;
     
     void Start()
     {
@@ -20,28 +21,35 @@ public class Fade : MonoBehaviour
     
     void Update()
     {
-        if (transi.podeAction && fading == true)
+        if (transicao.podeAction && esteObj == true)
         {
             OnFade?.Invoke();
             Cameras();
-            fading = false;
-            transi.podeAction = false;
             Interagir.podeAndar = true;
+            DialogoController.podeClickar = true;
+            esteObj = false;
+            transicao.podeAction = false;
+            
         }
         
     }
 
     public void IniciarFade()
     {
-        transi.transicao = true;
+        transicao.transicao = true;
+        esteObj = true;
         Interagir.podeAndar = false;
-        fading = true;
+        
     }
 
     public void Cameras()
     {
-        camAtual.Priority = 0;
-        camProx.Priority = 1;
+        if(camAtual != null && camProx != null)
+        {
+            camAtual.Priority = 0;
+            camProx.Priority = 1;
+        }
+       
     }
 
 }
