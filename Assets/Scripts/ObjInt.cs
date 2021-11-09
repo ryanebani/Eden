@@ -7,12 +7,10 @@ using UnityEngine.UI;
 public class ObjInt : MonoBehaviour
 {
     [SerializeField] CaixaIdle inspecionar;
+    [SerializeField] ObjIntOS objOS;
 
-    public ObjIntOS objOS;
-    public string[] falasIdle;
-
+    string[] falasIdle;
     int indice;
-
     bool podeObservar;
 
     public void OnValidate()
@@ -24,29 +22,28 @@ public class ObjInt : MonoBehaviour
         }
        
     }
-        
+
+    private void Start()
+    {
+       // GameObject.FindGameObjectsWithTag("NPC");
+    }
     void Update() 
     {
 
     }
 
     public void PodeIdle()
-    {        
-        CaixaIdle.textoAbel = true;
-        RandomFala();
+    {
+        inspecionar.LigarTexto();
+        indice = Random.Range(0, falasIdle.Length);
         for (int i = 0; i < falasIdle.Length; i++)
         {
             if (indice == i)
             {
-                inspecionar.fala = falasIdle[i];
+                inspecionar.SetFala(falasIdle[i]);
                 break;
             }
         }
-        inspecionar.caixaAnim.SetTrigger("TriggarFala");
-    }
-
-    public void RandomFala()
-    {
-        indice = Random.Range(0,falasIdle.Length);
+        
     }
 }

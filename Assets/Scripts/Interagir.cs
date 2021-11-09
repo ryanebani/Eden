@@ -46,13 +46,13 @@ public class Interagir : MonoBehaviour
         }
         
         if (clickChao && podeAndar)
-        {
+        {            
             AndarChao();
         }
 
         if (posAtu != alvo)
         {
-
+            animator.SetTrigger("Andando");
             if (posAtu.x > alvo.x)
             {
                 olharDireita = false;
@@ -62,7 +62,6 @@ public class Interagir : MonoBehaviour
                 olharDireita = true;
             }
 
-            animator.SetTrigger("Andando");
             posAtu = Vector3.MoveTowards(posAtu, alvo, 5 * Time.deltaTime);
             posJogador.position = posAtu;
 
@@ -83,6 +82,7 @@ public class Interagir : MonoBehaviour
 
     public void AndarObj()
     {
+       
         ponto = new Vector3(alvoObj.position.x, alvoObj.position.y, alvoObj.position.z);
         mover = true;
         circ.SetActive(false);
@@ -97,12 +97,14 @@ public class Interagir : MonoBehaviour
 
     public void AndarChao()
     {
+       
         if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
             //Bolinha do toque
             if (touch.phase == TouchPhase.Began)
             {
+                
                 circ.SetActive(true);
                 ponto = Camera.main.ScreenToWorldPoint(touch.position);
                 circ.transform.position = new Vector2(ponto.x, ponto.y);
@@ -119,6 +121,7 @@ public class Interagir : MonoBehaviour
             //Movimento
             if (touch.phase == TouchPhase.Ended)
             {
+                
                 ponto = Camera.main.ScreenToWorldPoint(touch.position);
                 circ.SetActive(false);
                 clickChao = false;

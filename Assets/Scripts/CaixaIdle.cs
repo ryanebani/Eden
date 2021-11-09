@@ -6,33 +6,50 @@ using UnityEngine;
 public class CaixaIdle : MonoBehaviour
 {
     [SerializeField] TextMeshPro textoMesh;
-    [SerializeField] Transform alvo;
-
+    [SerializeField] bool abel;
     static public bool textoAbel;
-    public bool abel;
-    public Animator caixaAnim;       
-    public string fala;
+    Vector3 euler;
+    Transform pai;
+    Transform myTransform;
+    Animator caixaAnim;
 
     void Start()
     {
         caixaAnim = GetComponent<Animator>();
-        textoAbel = true;
+        euler = new Vector3(0, -180, 0);
+        myTransform = GetComponent<Transform>();
+        textoAbel = true;        
     }
 
     void Update()
     { 
-        if(abel == true && textoAbel == false)
+        if(textoAbel == false && abel)
         {
-            caixaAnim.SetTrigger("CancelarFala");
+            gameObject.SetActive(false);
             textoAbel = true;
         }
 
-        textoMesh.text = fala;
-        if (abel == true) { transform.position = alvo.position + new Vector3(0, 3, 0); }
+    }
+    
+    public void SetFala(string idle)
+    {
+        textoMesh.text = idle;
+        caixaAnim.SetTrigger("TriggarFala");
     }
 
     public void ResetarTexto()
     {
-        fala = "";        
+        gameObject.SetActive(false);
+        textoAbel = false;
+    }
+
+    public void LigarTexto()
+    {
+        /*if(pai.eulerAngles == euler)
+        {
+            myTransform.eulerAngles = new Vector3 (0,-180,0);
+        }*/
+        textoAbel = true;
+        gameObject.SetActive(true);
     }
 }

@@ -7,15 +7,14 @@ public class NPC : MonoBehaviour
 {
     [SerializeField] CaixaIdle caixaIdle;
 
-    public NPCOS npc;
+    [SerializeField] NPCOS npc;
+    string[] falasIdleNPC;
     public bool idle;
-    public string[] falasIdleNPC;
-
     int indice;
     
     void Start()
     {
-
+        falasIdleNPC = npc.falasIdle;
     }
 
     void Update()
@@ -27,28 +26,23 @@ public class NPC : MonoBehaviour
     {
         if (npc != null)
         {
-            falasIdleNPC = npc.falasIdle;
             gameObject.name = npc.nomeNPC;
         }
     }
 
     public void PodeIdleNPC()
     {
-        CaixaIdle.textoAbel = true;
-        RandomFala();
+        caixaIdle.LigarTexto();
+        indice = Random.Range(0, falasIdleNPC.Length);
         for (int i = 0; i < falasIdleNPC.Length; i++)
         {
             if (indice == i)
             {
-                caixaIdle.fala = falasIdleNPC[i];
+                caixaIdle.SetFala(falasIdleNPC[i]);
                 break;
             }
         }
-        caixaIdle.caixaAnim.SetTrigger("TriggarFala");
     }
 
-    public void RandomFala()
-    {
-        indice = Random.Range(0, falasIdleNPC.Length);
-    }
+
 }

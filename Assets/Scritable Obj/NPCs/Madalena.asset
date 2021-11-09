@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: Madalena
   m_EditorClassIdentifier: 
   nomeNPC: Madalena
-  falasIdle: []
+  falasIdle:
+  - Querido!
+  - "Voc\xEA vai descobrir logo!"
   prefab: {fileID: 6500309001499952011, guid: 2a02e4c08c4d72d46b2a5323ac2e09ee, type: 3}
   audioSource: {fileID: 0}
   voz: []

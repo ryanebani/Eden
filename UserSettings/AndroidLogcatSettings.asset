@@ -3,35 +3,11 @@
     "m_SelectedPackage": {
         "deviceId": "0068120336",
         "name": "com.DefaultCompany.ProjetoEden",
-        "processId": 25102,
+        "processId": 11444,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "0068120336",
-            "name": "com.DefaultCompany.ProjetoEden",
-            "processId": 11669,
-            "exited": true
-        },
-        {
-            "deviceId": "0068120336",
-            "name": "com.DefaultCompany.ProjetoEden",
-            "processId": 12136,
-            "exited": true
-        },
-        {
-            "deviceId": "0068120336",
-            "name": "com.DefaultCompany.ProjetoEden",
-            "processId": 24195,
-            "exited": true
-        },
-        {
-            "deviceId": "0068120336",
-            "name": "com.DefaultCompany.ProjetoEden",
-            "processId": 24440,
-            "exited": true
-        },
         {
             "deviceId": "0068120336",
             "name": "com.DefaultCompany.ProjetoEden",
@@ -42,12 +18,48 @@
             "deviceId": "0068120336",
             "name": "com.motorola.launcher3",
             "processId": 30592,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "0068120336",
             "name": "com.DefaultCompany.ProjetoEden",
             "processId": 25102,
+            "exited": true
+        },
+        {
+            "deviceId": "0068120336",
+            "name": "com.whatsapp",
+            "processId": 26824,
+            "exited": true
+        },
+        {
+            "deviceId": "0068120336",
+            "name": "com.DefaultCompany.ProjetoEden",
+            "processId": 9919,
+            "exited": true
+        },
+        {
+            "deviceId": "0068120336",
+            "name": "com.motorola.launcher3",
+            "processId": 3322,
+            "exited": false
+        },
+        {
+            "deviceId": "0068120336",
+            "name": "com.DefaultCompany.ProjetoEden",
+            "processId": 10562,
+            "exited": false
+        },
+        {
+            "deviceId": "0068120336",
+            "name": "com.DefaultCompany.ProjetoEden",
+            "processId": 11106,
+            "exited": false
+        },
+        {
+            "deviceId": "0068120336",
+            "name": "com.DefaultCompany.ProjetoEden",
+            "processId": 11444,
             "exited": false
         }
     ],
