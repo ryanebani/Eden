@@ -24,9 +24,6 @@ public class Dialogo : MonoBehaviour
     Dictionary<FalaNPC, bool> questsComMascara = new Dictionary<FalaNPC, bool>();
     Dictionary<FalaNPC, bool> questsSemMascara = new Dictionary<FalaNPC, bool>();
 
-    [SerializeField] int[] metaQuest;
-    int numQuest = 0;
-    int metaIndex;
     bool podeProximaQuest;
     
     public UnityEvent[] ue = new UnityEvent[0];
@@ -136,20 +133,10 @@ public class Dialogo : MonoBehaviour
 
     public void ProximaQuest()
     {
-        if (numQuest == metaQuest[metaIndex])
-        {
             if (mascara)
                 ProximaQuestComMascara();
             else
                 ProximaQuestSemMascara();
-
-            numQuest = 0;
-        }
-    }
-
-    public void AdicionarNumQuest()
-    {
-        numQuest++;
     }
 
     public void ProximaQuestSemMascara()
@@ -177,7 +164,6 @@ public class Dialogo : MonoBehaviour
                             else
                             {
                                 questsSemMascara[falaQuestsSemMascara[i + 1]] = true;
-                                metaIndex = i + 1;
                             }
                             break;
                         }
@@ -214,7 +200,6 @@ public class Dialogo : MonoBehaviour
                             else
                             {
                                 questsComMascara[falaQuestsComMascara[i + 1]] = true;
-                                metaIndex = i + 1;
                             }
                             break;
                         }
