@@ -102,9 +102,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de53902171c6def4b8d53e08bd813971, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gizmoTransform: {fileID: 9046201606421509007}
   chao: 0
-  jogador: {fileID: 0}
-  gizmo: {fileID: 2833355358119585074}
   OnCheguei:
     m_PersistentCalls:
       m_Calls:
@@ -132,7 +131,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 846c3a9f87558be4caa4704a5bb7896d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transi: {fileID: 0}
+  transicao: {fileID: 0}
+  camAtual: {fileID: 0}
+  camProx: {fileID: 0}
   OnFade:
     m_PersistentCalls:
       m_Calls:
@@ -148,6 +149,3 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  camAtual: {fileID: 0}
-  camProx: {fileID: 0}
-  fading: 0

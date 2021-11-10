@@ -18,14 +18,16 @@ public class ObjInt : MonoBehaviour
         if (objOS != null)
         {
             gameObject.name = objOS.nomeObj;
-            falasIdle = objOS.falasInspeção;
         }
        
     }
 
     private void Start()
     {
-       // GameObject.FindGameObjectsWithTag("NPC");
+        if (objOS != null)
+        {
+            falasIdle = objOS.falasInspeção;
+        }
     }
     void Update() 
     {

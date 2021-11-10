@@ -19,7 +19,9 @@ MonoBehaviour:
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: 873072fe9fc197f4c9549ffd5a703430, type: 2}
+  dadosNpc: {fileID: 0}
   recomecar: 0
   NPCNode: 1
   acao: 0
   proximaQuest: 0
+  acaoSequencial: 1

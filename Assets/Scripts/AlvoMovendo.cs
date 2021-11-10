@@ -2,56 +2,45 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.EventSystems;
 
 public class AlvoMovendo : MonoBehaviour
 {
+    [SerializeField] Transform gizmoTransform;
     public bool chao;
-    public Interagir jogador;
-    public GameObject gizmo;
+    Interagir jogador;    
+    Vector3 gizmoPos;
     public UnityEvent OnCheguei;
-    
+
 
     private void Start()
     {
-        //OnCheguei.AddListener();
+        gizmoPos = gizmoTransform.position;
+        jogador = FindObjectOfType<Interagir>();
     }
 
+
     private void OnMouseDown()
-    {
-        CaixaIdle.textoAbel = false;
-
-        if (chao && DialogoController.podeClickar)
-        {
-            jogador.clickChao = true;
-            jogador.paraOndeVou = gameObject.name;
-        }
-
-        if (!chao && DialogoController.podeClickar)
-        {
-            jogador.clickObj = true;
-            jogador.alvoObj = gizmo.transform;
-            jogador.paraOndeVou = gameObject.name;
-        }
-       
+    {        
+        jogador.paraOndeVou = gameObject.name;
     }
 
     private void Update()
-    {
+    {      
+
+
         if (jogador.paraOndeVou == gameObject.name)
         {
-            gizmo.SetActive(true);
-            if (jogador.posJogador.position.x == gizmo.transform.position.x)
-            {
+            jogador.Andar(gizmoPos, chao);
+            
+
+            if (jogador.posJogador.position.x == gizmoPos.x)
+            {  
                 OnCheguei?.Invoke();
                 jogador.paraOndeVou = "";
-                gizmo.SetActive(false);
-                if(GetComponent<ObjInt>() == null)
-                DialogoController.podeClickar = false;
+                DialogoController.podeClickar = false;                       
             }
         }
-        else
-        {
-            gizmo.SetActive(false);
-        }
+
     }
 }

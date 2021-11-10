@@ -8,14 +8,15 @@ public class Interagir : MonoBehaviour
     public static string itemSelecionado;
     public static bool podeAndar = true;
     public static bool olharDireita = true;
+    CaixaIdle caixaIdle;
 
     Vector2 alvo;    
     Vector2 posAtu;
     Vector3 ponto;
 
+    [SerializeField] Transform prefabAbel;
     public Transform posJogador;
     public GameObject circ;
-    public Transform alvoObj;
     public bool clickObj;
     public bool clickChao;
 
@@ -26,33 +27,28 @@ public class Interagir : MonoBehaviour
 
     void Start()
     {
-        itemSelecionado = null;
         Application.targetFrameRate = 60;
+        itemSelecionado = null;
+        caixaIdle = GetComponentInChildren<CaixaIdle>();
+
         posJogador = GetComponent<Transform>();
         posAtu = new Vector3(posJogador.position.x, posJogador.position.y, posJogador.position.z);
-        alvo = posAtu;
+        alvo = posAtu;        
     }
 
     void Update()
     {  
         if (olharDireita)
-            transform.eulerAngles = new Vector3(0, 0, 0);
+            prefabAbel.eulerAngles = new Vector3(0, 0, 0);
         else
-            transform.eulerAngles = new Vector3(0, 180, 0);
+            prefabAbel.eulerAngles = new Vector3(0, 180, 0);
 
-        if (clickObj && podeAndar)
-        {
-            AndarObj();
-        }
-        
-        if (clickChao && podeAndar)
-        {            
-            AndarChao();
-        }
 
         if (posAtu != alvo)
         {
+            CaixaIdle.cancelarTextoAbel = true;
             animator.SetTrigger("Andando");
+            
             if (posAtu.x > alvo.x)
             {
                 olharDireita = false;
@@ -80,36 +76,23 @@ public class Interagir : MonoBehaviour
         paraOndeVou = "";
     }
 
-    public void AndarObj()
-    {
-       
-        ponto = new Vector3(alvoObj.position.x, alvoObj.position.y, alvoObj.position.z);
-        mover = true;
-        circ.SetActive(false);
-        if (mover)
-        {
-            alvo = new Vector2(ponto.x, posJogador.position.y);
-            clickObj = false;
-            mover = false;
-        }        
-        
-    }
 
-    public void AndarChao()
-    {
-       
-        if (Input.touchCount > 0)
+    public void Andar(Vector3 alvoObj, bool chao)
+    {        
+
+        if (Input.touchCount > 0 && podeAndar)
         {
             Touch touch = Input.GetTouch(0);
+
             //Bolinha do toque
             if (touch.phase == TouchPhase.Began)
             {
-                
                 circ.SetActive(true);
                 ponto = Camera.main.ScreenToWorldPoint(touch.position);
                 circ.transform.position = new Vector2(ponto.x, ponto.y);
                 mover = true;
             }
+
             //Cancelar Movimento
             if (touch.phase == TouchPhase.Moved)
             {
@@ -121,17 +104,31 @@ public class Interagir : MonoBehaviour
             //Movimento
             if (touch.phase == TouchPhase.Ended)
             {
-                
                 ponto = Camera.main.ScreenToWorldPoint(touch.position);
                 circ.SetActive(false);
-                clickChao = false;
-                if (mover)
-                {
-                    alvo = new Vector2(ponto.x, posJogador.position.y);
-                    mover = false; 
-                }
 
+                if (mover && chao)
+                {                   
+                    alvo = new Vector2(ponto.x, posJogador.position.y);                 
+                }
+                else
+                {
+                    alvo = new Vector2(alvoObj.x, posJogador.position.y);
+                }
+                mover = false;
             }
         }
+        
+    }
+
+    public void PodeIdle(string falasIdle)
+    {
+        caixaIdle.LigarTexto();
+        caixaIdle.SetFala(falasIdle);
+    }
+
+    public void RestarParaOndeVou()
+    {
+        paraOndeVou = "";
     }
 }

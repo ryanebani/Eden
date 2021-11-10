@@ -127,9 +127,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de53902171c6def4b8d53e08bd813971, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gizmoTransform: {fileID: 166449535809506745}
   chao: 0
-  jogador: {fileID: 0}
-  gizmo: {fileID: 5507928521589283503}
   OnCheguei:
     m_PersistentCalls:
       m_Calls: []
