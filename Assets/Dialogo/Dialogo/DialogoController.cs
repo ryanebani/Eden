@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine;
 
 public class DialogoController : MonoBehaviour
 {
@@ -29,7 +29,7 @@ public class DialogoController : MonoBehaviour
 
     Touch touch;
 
-    public bool entregaItem;
+    public bool liberaResposta;
 
     bool repetiu;
 
@@ -99,7 +99,7 @@ public class DialogoController : MonoBehaviour
                         jogador = null;
                         NPC = null;
                         Interagir.podeAndar = true;
-                        entregaItem = false;
+                        liberaResposta = false;
                         podeClickar = true;
                     }
                 }
@@ -152,7 +152,7 @@ public class DialogoController : MonoBehaviour
                             jogador = null;
                             NPC = null;
                             repetiu = false;
-                            entregaItem = false;
+                            liberaResposta = false;
                             podeClickar = true;
                         }
 
@@ -180,7 +180,7 @@ public class DialogoController : MonoBehaviour
         //falaNPC.gameObject.SetActive(false);
         falaAtiva = false;
 
-        if (!entregaItem)
+        if (!liberaResposta)
         {
             for (int i = 0; i < falas.respostas.Length - 1; i++)
             {

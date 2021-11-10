@@ -16,5 +16,9 @@ MonoBehaviour:
   - "A Madalena devia ter falado que tu \xE9 chat\xE3o."
   - "Madalena!? C\xEA \xE9 uma das crias dela? "
   - E se eu for?
-  npcFalando: 000100
+  - "A\xED tu pode at\xE9 entrar"
+  - "Mas s\xF3 se fizer algo pra mim"
+  - "Fala a\xED ent\xE3o cara"
+  - Tu pode achar a roda do meu carrinho?
+  npcFalando: 00010001010001
   proximaFala: {fileID: 11400000, guid: d6b0e19074188544d9f6c7ede7aedb0a, type: 2}

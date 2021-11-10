@@ -139,6 +139,11 @@ public class Dialogo : MonoBehaviour
                 ProximaQuestSemMascara();
     }
 
+    public void novaInformacao()
+    {
+        dialogoController.liberaResposta = true;
+    }
+
     public void ProximaQuestSemMascara()
     {
         if (podeProximaQuest)
