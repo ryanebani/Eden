@@ -16,7 +16,9 @@ public class Interagir : MonoBehaviour
 
     [SerializeField] Transform prefabAbel;
     public Transform posJogador;
-    public GameObject circ;
+    [SerializeField] GameObject circ;
+    Animator circAnimator;
+
     public bool clickObj;
     public bool clickChao;
 
@@ -33,7 +35,8 @@ public class Interagir : MonoBehaviour
 
         posJogador = GetComponent<Transform>();
         posAtu = new Vector3(posJogador.position.x, posJogador.position.y, posJogador.position.z);
-        alvo = posAtu;        
+        alvo = posAtu;
+        circAnimator = circ.GetComponent<Animator>();
     }
 
     void Update()
@@ -86,26 +89,27 @@ public class Interagir : MonoBehaviour
 
             //Bolinha do toque
             if (touch.phase == TouchPhase.Began)
-            {
-                circ.SetActive(true);
+            {                
                 ponto = Camera.main.ScreenToWorldPoint(touch.position);
                 circ.transform.position = new Vector2(ponto.x, ponto.y);
                 mover = true;
             }
 
-            //Cancelar Movimento
+           /* //Cancelar Movimento
             if (touch.phase == TouchPhase.Moved)
             {
                 ponto = Camera.main.ScreenToWorldPoint(touch.position);
                 circ.transform.position = new Vector2(ponto.x, ponto.y);
+                alvo = posAtu;
                 mover = false;
-            }
+            }*/
 
             //Movimento
             if (touch.phase == TouchPhase.Ended)
             {
                 ponto = Camera.main.ScreenToWorldPoint(touch.position);
-                circ.SetActive(false);
+                circ.transform.position = new Vector2(ponto.x, ponto.y);
+                circAnimator.SetTrigger("Indicar");
 
                 if (mover && chao)
                 {                   

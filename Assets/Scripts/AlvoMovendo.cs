@@ -31,8 +31,7 @@ public class AlvoMovendo : MonoBehaviour
 
         if (jogador.paraOndeVou == gameObject.name)
         {
-            jogador.Andar(gizmoPos, chao);
-            
+            jogador.Andar(gizmoPos, chao);        
 
             if (jogador.posJogador.position.x == gizmoPos.x)
             {  

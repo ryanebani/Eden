@@ -72,9 +72,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de53902171c6def4b8d53e08bd813971, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gizmoTransform: {fileID: 8116409654337050802}
   chao: 0
-  jogador: {fileID: 0}
-  gizmo: {fileID: 3061267227139837455}
   OnCheguei:
     m_PersistentCalls:
       m_Calls:
@@ -104,7 +103,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inspecionar: {fileID: 0}
   objOS: {fileID: 0}
-  falasIdle: []
 --- !u!1 &3061267227139837455
 GameObject:
   m_ObjectHideFlags: 0
