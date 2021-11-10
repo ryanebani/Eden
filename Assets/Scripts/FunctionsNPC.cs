@@ -15,9 +15,6 @@ public class FunctionsNPC : MonoBehaviour
     private Fade fade;
     private DialogoController DC;
 
-    [SerializeField]
-    private FunctionsNPC NPCAlheio;
-
     void Start()
     {
         DC = FindObjectOfType<DialogoController>();
@@ -46,7 +43,7 @@ public class FunctionsNPC : MonoBehaviour
 
     public void InfoObtida()
     {
-        NPCAlheio.infoDesejada = true;
+        infoDesejada = true;
     }
 
     public void darItem(bool precisaFade)
@@ -67,8 +64,6 @@ public class FunctionsNPC : MonoBehaviour
         if (itemDesejado)
         {
             inventario.AdicionarItem(item, gameObject);
-            
-
         }
     }
 
@@ -76,7 +71,7 @@ public class FunctionsNPC : MonoBehaviour
     {
         if (itemDesejado)
         {
-            DC.entregaItem = true;
+            DC.liberaResposta = true;
             inventario.RemoverItem();
         }
     }
@@ -86,7 +81,7 @@ public class FunctionsNPC : MonoBehaviour
     {
         if (infoDesejada)
         {
-            DC.entregaItem = true;
+            DC.liberaResposta = true;
         }
     }
 
