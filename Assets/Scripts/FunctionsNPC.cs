@@ -98,7 +98,6 @@ public class FunctionsNPC : MonoBehaviour
 
     public void TriggarAnimacao(Animator animator)
     {
-        Debug.Log(animator.name);
         animator.SetTrigger("BelaFeliz");
     }
 }
