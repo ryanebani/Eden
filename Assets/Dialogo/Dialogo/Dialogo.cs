@@ -11,6 +11,7 @@ public class Dialogo : MonoBehaviour
     public FalaNPC[] falasComMascara = new FalaNPC[2];
     public UnityEvent OnFinalDialogo;
 
+    public bool liberaResposta;
     public bool dialogoConcluido = false;
     public bool mascara;
 
@@ -71,10 +72,10 @@ public class Dialogo : MonoBehaviour
 
     public void Ativar()
     {
-            if (Inventario.itemNaMao == false)
-            {
-                
-            podeProximaQuest = true;
+            if (Inventario.itemNaMao == false && DialogoController.podeClickar)
+            {                
+                podeProximaQuest = true;
+
                 if (!mascara)
                 {
                     if (questsSemMascara.ContainsValue(true))
@@ -133,7 +134,8 @@ public class Dialogo : MonoBehaviour
 
     public void ProximaQuest()
     {
-            if (mascara)
+        liberaResposta = false;
+        if (mascara)
                 ProximaQuestComMascara();
             else
                 ProximaQuestSemMascara();
@@ -141,7 +143,7 @@ public class Dialogo : MonoBehaviour
 
     public void novaInformacao()
     {
-        dialogoController.liberaResposta = true;
+        liberaResposta = true;
     }
 
     public void ProximaQuestSemMascara()
@@ -169,6 +171,7 @@ public class Dialogo : MonoBehaviour
                             else
                             {
                                 questsSemMascara[falaQuestsSemMascara[i + 1]] = true;
+                                liberaResposta = false;
                             }
                             break;
                         }
@@ -205,6 +208,7 @@ public class Dialogo : MonoBehaviour
                             else
                             {
                                 questsComMascara[falaQuestsComMascara[i + 1]] = true;
+                                liberaResposta = false;
                             }
                             break;
                         }

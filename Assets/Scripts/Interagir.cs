@@ -8,30 +8,31 @@ public class Interagir : MonoBehaviour
     public static string itemSelecionado;
     public static bool podeAndar = true;
     public static bool olharDireita = true;
-    CaixaIdle caixaIdle;
 
+    public Transform posJogador;
+
+    [SerializeField] GameObject prefabAbel;
+    [SerializeField] GameObject circ;
+   
     Vector2 alvo;    
     Vector2 posAtu;
     Vector3 ponto;
 
-    [SerializeField] Transform prefabAbel;
-    public Transform posJogador;
-    [SerializeField] GameObject circ;
-    Animator circAnimator;
-
-    public bool clickObj;
-    public bool clickChao;
-
-    bool mover;
-    
-    [SerializeField]
+    CaixaIdle caixaIdle;
     Animator animator;
+    Animator circAnimator;
+    Transform prefabTransform;
+    bool mover;
+
 
     void Start()
     {
         Application.targetFrameRate = 60;
         itemSelecionado = null;
         caixaIdle = GetComponentInChildren<CaixaIdle>();
+
+        animator = prefabAbel.GetComponent<Animator>();
+        prefabTransform = prefabAbel.transform;
 
         posJogador = GetComponent<Transform>();
         posAtu = new Vector3(posJogador.position.x, posJogador.position.y, posJogador.position.z);
@@ -42,10 +43,11 @@ public class Interagir : MonoBehaviour
     void Update()
     {  
         if (olharDireita)
-            prefabAbel.eulerAngles = new Vector3(0, 0, 0);
+            prefabTransform.eulerAngles = new Vector3(0, 0, 0);
         else
-            prefabAbel.eulerAngles = new Vector3(0, 180, 0);
+            prefabTransform.eulerAngles = new Vector3(0, 180, 0);
 
+        
 
         if (posAtu != alvo)
         {
@@ -110,16 +112,18 @@ public class Interagir : MonoBehaviour
                 ponto = Camera.main.ScreenToWorldPoint(touch.position);
                 circ.transform.position = new Vector2(ponto.x, ponto.y);
                 circAnimator.SetTrigger("Indicar");
-
-                if (mover && chao)
-                {                   
-                    alvo = new Vector2(ponto.x, posJogador.position.y);                 
-                }
-                else
+                if (mover)
                 {
-                    alvo = new Vector2(alvoObj.x, posJogador.position.y);
+                    if (chao)
+                    {
+                        alvo = new Vector2(ponto.x, posJogador.position.y);
+                    }
+                    else
+                    {
+                        alvo = new Vector2(alvoObj.x, posJogador.position.y);
+                    }
+                    mover = false;
                 }
-                mover = false;
             }
         }
         
@@ -131,7 +135,7 @@ public class Interagir : MonoBehaviour
         caixaIdle.SetFala(falasIdle);
     }
 
-    public void RestarParaOndeVou()
+    public void ResetarParaOndeVou()
     {
         paraOndeVou = "";
     }

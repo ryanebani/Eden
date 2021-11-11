@@ -22,6 +22,6 @@ MonoBehaviour:
   dadosNpc: {fileID: 0}
   recomecar: 0
   NPCNode: 0
-  acao: 1
+  acao: 0
   proximaQuest: 0
   acaoSequencial: 0

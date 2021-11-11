@@ -9,7 +9,6 @@ public class Fade : MonoBehaviour
     [SerializeField] Transicao transicao;
     [SerializeField] CinemachineVirtualCamera camAtual;
     [SerializeField] CinemachineVirtualCamera camProx;
-
     public UnityEvent OnFade;   
     bool esteObj;
     
@@ -48,6 +47,7 @@ public class Fade : MonoBehaviour
         {
             camAtual.Priority = 0;
             camProx.Priority = 1;
+            
         }
        
     }

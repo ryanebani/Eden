@@ -13,11 +13,11 @@ public class FunctionsNPC : MonoBehaviour
     private Animator animator;
 
     private Fade fade;
-    private DialogoController DC;
+    private Dialogo dialogo;
 
     void Start()
     {
-        DC = FindObjectOfType<DialogoController>();
+        dialogo = GetComponent<Dialogo>();
         fade = GetComponent<Fade>();
         animator = GetComponentInChildren<Animator>();
     }
@@ -48,9 +48,12 @@ public class FunctionsNPC : MonoBehaviour
 
     public void darItem(bool precisaFade)
     {
+        
         if (itemDesejado)
         {
             inventario.RemoverItem();
+            dialogo.ProximaQuest();
+            Debug.Log(Interagir.itemSelecionado);
             if (precisaFade)
             {
                 fade.IniciarFade();
@@ -71,7 +74,7 @@ public class FunctionsNPC : MonoBehaviour
     {
         if (itemDesejado)
         {
-            DC.liberaResposta = true;
+            //liberaResposta = true;
             inventario.RemoverItem();
         }
     }
@@ -81,7 +84,7 @@ public class FunctionsNPC : MonoBehaviour
     {
         if (infoDesejada)
         {
-            DC.liberaResposta = true;
+            //liberaResposta = true;
         }
     }
 
@@ -90,6 +93,7 @@ public class FunctionsNPC : MonoBehaviour
         if (infoDesejada)
             inventario.AdicionarItem(item, gameObject);
     }
+
 
     public void TriggarAnimacao(Animator animator)
     {

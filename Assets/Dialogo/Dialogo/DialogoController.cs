@@ -29,8 +29,6 @@ public class DialogoController : MonoBehaviour
 
     Touch touch;
 
-    public bool liberaResposta;
-
     bool repetiu;
 
     int index = 0;
@@ -99,7 +97,6 @@ public class DialogoController : MonoBehaviour
                         jogador = null;
                         NPC = null;
                         Interagir.podeAndar = true;
-                        liberaResposta = false;
                         podeClickar = true;
                     }
                 }
@@ -139,7 +136,7 @@ public class DialogoController : MonoBehaviour
                             {
                                 dialogo.ue[dialogo.index]?.Invoke();
                                 dialogo.index++;
-                                falas.acaoSequencial = false;
+                                naoAtivarAcao.Add(falas);
                             }
                             Interagir.podeAndar = true;
                             falaAtiva = false;
@@ -152,7 +149,6 @@ public class DialogoController : MonoBehaviour
                             jogador = null;
                             NPC = null;
                             repetiu = false;
-                            liberaResposta = false;
                             podeClickar = true;
                         }
 
@@ -179,8 +175,7 @@ public class DialogoController : MonoBehaviour
         }
         //falaNPC.gameObject.SetActive(false);
         falaAtiva = false;
-
-        if (!liberaResposta)
+        if (!dialogo.liberaResposta)
         {
             for (int i = 0; i < falas.respostas.Length - 1; i++)
             {
