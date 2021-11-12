@@ -28,7 +28,8 @@ public class Fade : MonoBehaviour
             DialogoController.podeClickar = true;
             esteObj = false;
             transicao.podeAction = false;
-            
+            DialogoController.podeClickar = true;
+
         }
         
     }
@@ -38,6 +39,7 @@ public class Fade : MonoBehaviour
         transicao.transicao = true;
         esteObj = true;
         Interagir.podeAndar = false;
+        DialogoController.podeClickar = false;
         
     }
 

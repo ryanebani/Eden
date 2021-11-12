@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class DialogoController : MonoBehaviour
 {
+    public GameObject painelComTudo;
     public static bool podeClickar = true;
 
     public static Dialogo dialogo;
@@ -87,6 +88,7 @@ public class DialogoController : MonoBehaviour
                             
                         }
                         falaAtiva = false;
+                        painelComTudo.SetActive(false);
                         painelDeNome.SetActive(false);
                         nomeNPC.gameObject.SetActive(false);
                         painelDeDialogo.SetActive(false);
@@ -139,6 +141,7 @@ public class DialogoController : MonoBehaviour
                                 naoAtivarAcao.Add(falas);
                             }
                             Interagir.podeAndar = true;
+                            painelComTudo.SetActive(false);
                             falaAtiva = false;
                             painelDeDialogo.SetActive(false);
                             falaNPC.gameObject.SetActive(false);
@@ -224,6 +227,7 @@ public class DialogoController : MonoBehaviour
         spritePlayer.sprite = falas.jogador.sprite;
         falaAtiva = true;
         painelDeNome.SetActive(true);
+        painelComTudo.SetActive(true);
         nomeNPC.gameObject.SetActive(true);
         painelDeDialogo.SetActive(true);
         falaNPC.gameObject.SetActive(true);

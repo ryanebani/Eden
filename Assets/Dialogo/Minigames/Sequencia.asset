@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Sequencia
   m_EditorClassIdentifier: 
   sequencia:
-  - Como assim
-  - Preciso disso!
+  - "Mas olha essa bagun\xE7a!"
+  - A Belinha andou se divertindo muito por aqui...
   npcFalando: 0000
-  proximaFala: {fileID: 0}
+  proximaFala: {fileID: 11400000, guid: a1d2b1290c8d91a43be7f57abaf56138, type: 2}

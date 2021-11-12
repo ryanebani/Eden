@@ -121,9 +121,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 0}
-  chave: "Ma\xE7\xE3"
+  chave: 
   inventario: {fileID: 0}
-  NPCAlheio: {fileID: 0}
 --- !u!114 &3744053794989155870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -199,12 +198,12 @@ MonoBehaviour:
   OnFinalDialogo:
     m_PersistentCalls:
       m_Calls: []
+  liberaResposta: 0
   dialogoConcluido: 0
   mascara: 0
   falaQuestsSemMascara: []
   falaQuestsComMascara: []
   acabouAsQuests: 0
-  metaQuest: 
   ue: []
   index: 0
   temIndex: 1

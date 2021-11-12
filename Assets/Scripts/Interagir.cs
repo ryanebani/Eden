@@ -139,4 +139,9 @@ public class Interagir : MonoBehaviour
     {
         paraOndeVou = "";
     }
+
+    public void PodeAndar(bool ligar)
+    {
+        podeAndar = ligar;
+    }
 }

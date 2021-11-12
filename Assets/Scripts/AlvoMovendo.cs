@@ -50,4 +50,6 @@ public class AlvoMovendo : MonoBehaviour
         }
 
     }
+
+   
 }
