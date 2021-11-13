@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3744053794782568233}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Alvo
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 9160074225860728504}
   - component: {fileID: 3744053794989155870}
   - component: {fileID: 3744053794989155869}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: NPC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,9 +120,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841faddbbfbef29438952c4974320e92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 0}
   chave: 
-  inventario: {fileID: 0}
+  item: {fileID: 0}
 --- !u!114 &3744053794989155870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,7 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de53902171c6def4b8d53e08bd813971, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gizmoTransform: {fileID: 3744053794782568233}
+  destinoTransform: {fileID: 3744053794782568233}
   chao: 0
   OnCheguei:
     m_PersistentCalls:
@@ -218,6 +217,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IdleNPC
       objectReference: {fileID: 0}
+    - target: {fileID: 1949725510461052083, guid: 15ee23c8e0ee0d34c827a0b3af316388, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1949725510461052086, guid: 15ee23c8e0ee0d34c827a0b3af316388, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -261,6 +264,10 @@ PrefabInstance:
     - target: {fileID: 1949725510461052086, guid: 15ee23c8e0ee0d34c827a0b3af316388, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949725511419070235, guid: 15ee23c8e0ee0d34c827a0b3af316388, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15ee23c8e0ee0d34c827a0b3af316388, type: 3}

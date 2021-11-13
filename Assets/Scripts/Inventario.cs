@@ -9,8 +9,6 @@ public class Inventario : MonoBehaviour
 
     public GameObject[] slots;
     public GameObject grid;
-    //public GameObject cancelar;
-
     public bool[] cheio;
     public bool fechado;
 
@@ -30,12 +28,10 @@ public class Inventario : MonoBehaviour
         if (fechado == true)
         {
             anim.SetBool("Fechar", true);
-            //cancelar.SetActive(false);
         }
         else
         {
             anim.SetBool("Fechar", false);
-            //cancelar.SetActive(true);
         }
     }
     public void AdicionarItem(ItemOS _item, GameObject destruir)
@@ -84,6 +80,7 @@ public class Inventario : MonoBehaviour
             }
         }
     }*/
+
     public void MenuToggle()
     {
         fechado = !fechado;

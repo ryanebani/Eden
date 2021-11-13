@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9046201606421509007}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AlvoJogador
   m_TagString: Untagged
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 5926643056319468389}
   - component: {fileID: 9081800504352249080}
   - component: {fileID: 4168832445283139366}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de53902171c6def4b8d53e08bd813971, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gizmoTransform: {fileID: 9046201606421509007}
+  destinoTransform: {fileID: 9046201606421509007}
   chao: 0
   OnCheguei:
     m_PersistentCalls:

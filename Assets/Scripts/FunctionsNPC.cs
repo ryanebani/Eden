@@ -4,41 +4,54 @@ using UnityEngine;
 
 public class FunctionsNPC : MonoBehaviour
 {
-    public ItemOS item;
-    public string chave;
-    public Inventario inventario;
+    Inventario inventario;
+    Animator animator;
+    Fade fade;
+    Dialogo dialogo;
+    //bool itemDesejado;
+    bool infoDesejada;
 
-    private bool itemDesejado;
-    private bool infoDesejada;
-    private Animator animator;
+    [SerializeField] string chave;
+    [SerializeField] ItemOS item;
 
-    private Fade fade;
-    private Dialogo dialogo;
 
     void Start()
     {
-        dialogo = GetComponent<Dialogo>();
-        fade = GetComponent<Fade>();
+        inventario = FindObjectOfType<Inventario>();
         animator = GetComponentInChildren<Animator>();
+        fade = GetComponent<Fade>();
+        dialogo = GetComponent<Dialogo>();   
     }
 
    
     void Update()
     {
-
+        //DetectarItem();
     }
 
-    private void detectarItemInfo()
+    public void SetarChave(string chave)
     {
-        if (Interagir.itemSelecionado == chave)
+        this.chave = chave;
+    }
+
+    public void SetarItem(ItemOS item)
+    {
+        this.item = item;
+    }
+
+    private void EntregarItem()
+    {
+        if(Interagir.itemSelecionado == chave)
         {
-            itemDesejado = true;
+            dialogo.ProximaQuest();
+            inventario.RemoverItem();
+            Debug.Log("parabens");
         }
     }
 
     private void OnMouseDown()
     {
-        detectarItemInfo();
+        EntregarItem();
     }
 
     public void InfoObtida()
@@ -46,7 +59,7 @@ public class FunctionsNPC : MonoBehaviour
         infoDesejada = true;
     }
 
-    public void darItem(bool precisaFade)
+    /*public void darItem(bool precisaFade)
     {
         
         if (itemDesejado)
@@ -59,25 +72,25 @@ public class FunctionsNPC : MonoBehaviour
                 fade.IniciarFade();
             }
         }
-    }
+    }*/
 
-    public void receberItem()
+  /*  public void receberItem()
     {
         
         if (itemDesejado)
         {
             inventario.AdicionarItem(item, gameObject);
         }
-    }
+    */
 
-    public void ItemPorInfo()
+    /*public void ItemPorInfo()
     {
         if (itemDesejado)
         {
             //liberaResposta = true;
             inventario.RemoverItem();
         }
-    }
+    }*/
 
 
     public void InfoPorInfo()
@@ -88,15 +101,15 @@ public class FunctionsNPC : MonoBehaviour
         }
     }
 
-    public void InfoPorItem()
+/*public void InfoPorItem()
     {
         if (infoDesejada)
             inventario.AdicionarItem(item, gameObject);
-    }
+    }*/
 
 
-    public void TriggarAnimacao(Animator animator)
+    public void TriggarAnimacao(Animator animator, string trigger)
     {
-        animator.SetTrigger("BelaFeliz");
+        animator.SetTrigger(trigger);
     }
 }

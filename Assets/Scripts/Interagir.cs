@@ -23,6 +23,7 @@ public class Interagir : MonoBehaviour
     Animator circAnimator;
     Transform prefabTransform;
     bool mover;
+    public bool chaoCheck;
 
 
     void Start()
@@ -46,13 +47,12 @@ public class Interagir : MonoBehaviour
             prefabTransform.eulerAngles = new Vector3(0, 0, 0);
         else
             prefabTransform.eulerAngles = new Vector3(0, 180, 0);
-
-        
+                
 
         if (posAtu != alvo)
         {
             CaixaIdle.cancelarTextoAbel = true;
-            animator.SetTrigger("Andando");
+            animator.SetBool("Andando", true);
             
             if (posAtu.x > alvo.x)
             {
@@ -69,8 +69,10 @@ public class Interagir : MonoBehaviour
         }
         else
         {
-            animator.SetTrigger("Parado");
+            animator.SetBool("Andando", false);
         }
+
+       
     }
 
     public void TeleportarJogador(Transform coordenada)
@@ -83,45 +85,43 @@ public class Interagir : MonoBehaviour
 
 
     public void Andar(Vector3 alvoObj, bool chao)
-    {        
-
+    {
+       
         if (Input.touchCount > 0 && podeAndar)
         {
             Touch touch = Input.GetTouch(0);
 
             //Bolinha do toque
-            if (touch.phase == TouchPhase.Began)
+            if (touch.phase == TouchPhase.Began )
             {                
                 ponto = Camera.main.ScreenToWorldPoint(touch.position);
                 circ.transform.position = new Vector2(ponto.x, ponto.y);
                 mover = true;
+                chaoCheck = true;
             }
-
-           /* //Cancelar Movimento
-            if (touch.phase == TouchPhase.Moved)
-            {
-                ponto = Camera.main.ScreenToWorldPoint(touch.position);
-                circ.transform.position = new Vector2(ponto.x, ponto.y);
-                alvo = posAtu;
-                mover = false;
-            }*/
 
             //Movimento
             if (touch.phase == TouchPhase.Ended)
             {
+                Debug.Log(Physics2D.OverlapPoint(ponto));
                 ponto = Camera.main.ScreenToWorldPoint(touch.position);
                 circ.transform.position = new Vector2(ponto.x, ponto.y);
-                circAnimator.SetTrigger("Indicar");
-                if (mover)
+                
+                
+                if (mover && Physics2D.OverlapPoint(ponto, 5))
                 {
                     if (chao)
-                    {
+                    {                        
                         alvo = new Vector2(ponto.x, posJogador.position.y);
+                        chaoCheck = false;
                     }
                     else
                     {
+                        
                         alvo = new Vector2(alvoObj.x, posJogador.position.y);
                     }
+                    Indicar();
+
                     mover = false;
                 }
             }
@@ -129,6 +129,10 @@ public class Interagir : MonoBehaviour
         
     }
 
+    public void Indicar()
+    {
+        circAnimator.SetTrigger("Indicar");
+    }
     public void PodeIdle(string falasIdle)
     {
         caixaIdle.LigarTexto();
