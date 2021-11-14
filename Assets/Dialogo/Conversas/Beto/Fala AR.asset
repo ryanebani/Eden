@@ -16,9 +16,9 @@ MonoBehaviour:
   respostas:
   - resposta: "Me deixa entrar vai, \xE9 importante!"
     proximaFala: {fileID: 11400000, guid: d0967d5fdd705f14a925f4468e0bffd5, type: 2}
-  - resposta: Deixa de ser chato vai!
+  - resposta: "Aff, esquece ent\xE3o!"
     proximaFala: {fileID: 11400000, guid: 11c079f22c324904e89637747025a387, type: 2}
-  - resposta: Quero falar com o Seu Afonso!
+  - resposta: "Ai! Teu nome \xE9 Beto n\xE9?"
     proximaFala: {fileID: 11400000, guid: 0da20dd86bf0ea64997aa0134a0346fb, type: 2}
   sequencia: {fileID: 0}
   npcFalando: 1

@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Seq AR3
   m_EditorClassIdentifier: 
   sequencia:
-  - "A Madalena devia ter falado que tu \xE9 chat\xE3o."
+  - "A Madalena falou de voc\xEA."
   - "Madalena!? C\xEA \xE9 uma das crias dela? "
   - E se eu for?
-  - "A\xED tu pode at\xE9 entrar"
-  - "Mas s\xF3 se fizer algo pra mim"
-  - "Fala a\xED ent\xE3o cara"
+  - "A\xED tu pode at\xE9 entrar,"
+  - "Mas s\xF3 se fizer algo pra mim."
+  - Fala ai o que tu quer.
   - Tu pode achar a roda do meu carrinho?
   npcFalando: 00010001010001
   proximaFala: {fileID: 11400000, guid: d6b0e19074188544d9f6c7ede7aedb0a, type: 2}
