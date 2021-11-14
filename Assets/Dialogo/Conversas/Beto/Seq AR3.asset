@@ -19,6 +19,6 @@ MonoBehaviour:
   - "A\xED tu pode at\xE9 entrar,"
   - "Mas s\xF3 se fizer algo pra mim."
   - Fala ai o que tu quer.
-  - Tu pode achar a roda do meu carrinho?
+  - Tu pode achar a roda do meu carrinho? Preciso dele
   npcFalando: 00010001010001
   proximaFala: {fileID: 11400000, guid: d6b0e19074188544d9f6c7ede7aedb0a, type: 2}

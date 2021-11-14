@@ -12,6 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
   m_Name: Seq BR2
   m_EditorClassIdentifier: 
-  sequencia: []
-  npcFalando: 
+  sequencia:
+  - "Perdi meu emprego uns anos atr\xE1s."
+  - "E n\xE3o queria voltar pra casa dos meus pais."
+  - "Porque n\xE3o?"
+  - "N\xE3o que seja da sua conta, mas eles n\xE3o eram muito legais."
+  - E ai ouvi falar desse lugar.
+  npcFalando: 0101000101
   proximaFala: {fileID: 0}

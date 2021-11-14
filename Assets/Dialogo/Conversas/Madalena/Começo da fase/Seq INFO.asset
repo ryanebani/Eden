@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequencia:
   - "Ah, sei l\xE1, \xE9 um tamandua de bon\xE9 velho."
-  - "\xC9 o Beto, s\xF3 fala pra ele que tu quer falar com o Seu Afonso."
-  - "Seu Afonso? Quem \xE9 esse cara?"
+  - "Ah, \xE9 o Beto, porque voc\xEA n\xE3o tenta perguntar se ele precisa de ajuda?"
+  - "Ta eu vou l\xE1."
   npcFalando: 000100
   proximaFala: {fileID: 0}
