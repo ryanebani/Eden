@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Seq AR0
   m_EditorClassIdentifier: 
   sequencia:
-  - "Que? N\xE3o! Nunca fico nervoso!"
-  - "Aham... Quer que eu v\xE1 com voc\xEA at\xE9 o orfanato?"
+  - "Que!? N\xE3o! Nunca fico nervoso!"
+  - "Aham, claro que n\xE3o... Quer que eu v\xE1 com voc\xEA at\xE9 o orfanato?"
   - "Mada, eu n\xE3o sou mais crian\xE7a! Consigo me virar."
   - Tem certeza? Sabe o que fazer primeiro?
   - "Claro! Eu s\xF3 preciso pedir os documentos no orfanato."
