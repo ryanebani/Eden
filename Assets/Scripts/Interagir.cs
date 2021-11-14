@@ -137,11 +137,11 @@ public class Interagir : MonoBehaviour
 
                 if (mover)
                 {
+                    alvo = new Vector2(destino.x, posJogador.position.y);
                     if (chao)
                     {
                         alvo = new Vector2(ponto.x, posJogador.position.y);
                     }
-                    alvo = new Vector2(destino.x, posJogador.position.y);
                 }                
             }
         }
