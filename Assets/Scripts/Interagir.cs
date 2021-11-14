@@ -14,9 +14,9 @@ public class Interagir : MonoBehaviour
     [SerializeField] GameObject prefabAbel;
     [SerializeField] GameObject circ;
    
-    public Vector2 alvo;    
+    Vector2 alvo;    
     Vector2 posAtu;
-    public Vector3 ponto;
+    Vector3 ponto;
 
     CaixaIdle caixaIdle;
     Animator animator;
@@ -81,6 +81,7 @@ public class Interagir : MonoBehaviour
         alvo = alvo + offSet;
         posJogador.position = posAtu;
     }
+
     public void TeleportarJogador(Transform coordenada)
     {
         posAtu = coordenada.position;

@@ -38,6 +38,7 @@ public class AlvoMovendo : MonoBehaviour
                 OnCheguei?.Invoke();
                 Debug.Log(jogador.paraOndeVou);
                 jogador.paraOndeVou = "";
+                jogador.OffSet();
                 DialogoController.podeClickar = false;                       
             }
             
