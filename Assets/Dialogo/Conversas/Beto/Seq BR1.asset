@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
-  m_Name: Seq null
+  m_Name: Seq BR1
   m_EditorClassIdentifier: 
   sequencia: []
   npcFalando: 
-  proximaFala: {fileID: 11400000, guid: 40d7b1959cdf585469c1688ca33bcd64, type: 2}
+  proximaFala: {fileID: 0}
