@@ -12,16 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
   m_Name: Fala A
   m_EditorClassIdentifier: 
-  fala: 
-  respostas: []
+  fala: Oi meu anjo!
+  respostas:
+  - resposta: "Como c\xEA conheceu o Beto Mada?"
+    proximaFala: {fileID: 11400000, guid: 35b1ca71096f00b49ba3c9677afce730, type: 2}
+  - resposta: "Como v\xE2o os negocios?"
+    proximaFala: {fileID: 11400000, guid: 3b06044293de3c247b9f30e428a854aa, type: 2}
+  - resposta: Acho que vou indo.
+    proximaFala: {fileID: 11400000, guid: a5693db4263ee3f45b7395353481564f, type: 2}
   sequencia: {fileID: 0}
-  npcFalando: 0
-  falaNode: 
-  jogador: {fileID: 0}
-  NPC: {fileID: 0}
+  npcFalando: 1
+  falaNode: Precisa de algo?
+  jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
+  NPC: {fileID: 11400000, guid: e4a17fde116e04f408fcbcaaae87bbc1, type: 2}
   dadosNpc: {fileID: 0}
   recomecar: 0
-  NPCNode: 0
+  NPCNode: 1
   acao: 0
   proximaQuest: 0
   acaoSequencial: 0

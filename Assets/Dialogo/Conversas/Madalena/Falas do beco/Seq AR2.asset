@@ -12,6 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
   m_Name: Seq AR2
   m_EditorClassIdentifier: 
-  sequencia: []
+  sequencia:
+  - "N\xE3o tem muitas gente nessa cidade que acreditam em tarot"
+  - "Acham que \xE9 s\xF3 eu falar qualquer coisa que aparece na cabe\xE7a."
+  - Mmas algumas pessoas ainda acreditam no poder das cartas
+  - E sempre me procuram.
+  - "C\xEA nunca leu minhas cartas n\xE9."
+  - "Voc\xEA nunca me pediu uma leitura."
   npcFalando: 
   proximaFala: {fileID: 0}
