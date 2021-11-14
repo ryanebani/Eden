@@ -5,9 +5,10 @@ using UnityEngine;
 public class Item : MonoBehaviour
 {
     public ItemOS item;
-    Inventario inventario;
     bool podeAdicionar;
+
     SpriteRenderer render;
+    [SerializeField] Inventario inventario;
 
     public void OnValidate()
     {
@@ -21,7 +22,6 @@ public class Item : MonoBehaviour
 
     public void Start()
     {
-        inventario = GameObject.FindObjectOfType<Inventario>();
         render = GetComponent<SpriteRenderer>();
         render.sprite = item.icone;
     }
@@ -30,7 +30,8 @@ public class Item : MonoBehaviour
     {
         if (podeAdicionar)
         {
-            inventario.AdicionarItem(item, gameObject);
+            inventario.AdicionarItem(item);
+            gameObject.SetActive(false);
             podeAdicionar = false;
         }
     }

@@ -23,6 +23,7 @@ public class AlvoMovendo : MonoBehaviour
     private void OnMouseDown()
     {
        jogador.paraOndeVou = gameObject.name;
+       jogador.Indicar();
     }
     
     private void Update()
@@ -35,9 +36,11 @@ public class AlvoMovendo : MonoBehaviour
             if (jogador.posJogador.position.x == destino.x && chao == false)
             { 
                 OnCheguei?.Invoke();
+                Debug.Log(jogador.paraOndeVou);
                 jogador.paraOndeVou = "";
                 DialogoController.podeClickar = false;                       
             }
+            
         }
 
     }

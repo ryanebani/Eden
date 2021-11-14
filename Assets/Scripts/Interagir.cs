@@ -14,9 +14,9 @@ public class Interagir : MonoBehaviour
     [SerializeField] GameObject prefabAbel;
     [SerializeField] GameObject circ;
    
-    Vector2 alvo;    
+    public Vector2 alvo;    
     Vector2 posAtu;
-    Vector3 ponto;
+    public Vector3 ponto;
 
     CaixaIdle caixaIdle;
     Animator animator;
@@ -74,7 +74,13 @@ public class Interagir : MonoBehaviour
 
        
     }
-
+    public void OffSet()
+    {
+        Vector2 offSet = new Vector2(0.005f, 0);
+        posAtu = posAtu + offSet;
+        alvo = alvo + offSet;
+        posJogador.position = posAtu;
+    }
     public void TeleportarJogador(Transform coordenada)
     {
         posAtu = coordenada.position;
@@ -83,47 +89,60 @@ public class Interagir : MonoBehaviour
         paraOndeVou = "";
     }
 
-
-    public void Andar(Vector3 alvoObj, bool chao)
+    public void AndarChao()
     {
-       
+        if (Input.touchCount > 0 && podeAndar)
+        {
+            Touch touch = Input.GetTouch(0);
+
+            //Bolinha do toque
+            if (touch.phase == TouchPhase.Began)
+            {
+                mover = true;
+            }
+
+            //Movimento
+            if (touch.phase == TouchPhase.Ended)
+            {
+
+                ponto = Camera.main.ScreenToWorldPoint(touch.position);
+                circ.transform.position = new Vector2(ponto.x, ponto.y);
+                //if (Physics2D.OverlapPoint(ponto))
+                if (mover)
+                {
+                    alvo = new Vector2(ponto.x, posJogador.position.y);
+                }
+
+            }
+        }
+    }
+
+    public void Andar(Vector3 destino, bool chao)
+    {        
         if (Input.touchCount > 0 && podeAndar)
         {
             Touch touch = Input.GetTouch(0);
 
             //Bolinha do toque
             if (touch.phase == TouchPhase.Began )
-            {                
-                ponto = Camera.main.ScreenToWorldPoint(touch.position);
-                circ.transform.position = new Vector2(ponto.x, ponto.y);
+            {     
                 mover = true;
-                chaoCheck = true;
             }
 
             //Movimento
             if (touch.phase == TouchPhase.Ended)
-            {
-                Debug.Log(Physics2D.OverlapPoint(ponto));
+            {               
                 ponto = Camera.main.ScreenToWorldPoint(touch.position);
-                circ.transform.position = new Vector2(ponto.x, ponto.y);
-                
-                
-                if (mover && Physics2D.OverlapPoint(ponto, 5))
+                circ.transform.position = new Vector2(ponto.x, ponto.y);                
+
+                if (mover)
                 {
                     if (chao)
-                    {                        
-                        alvo = new Vector2(ponto.x, posJogador.position.y);
-                        chaoCheck = false;
-                    }
-                    else
                     {
-                        
-                        alvo = new Vector2(alvoObj.x, posJogador.position.y);
+                        alvo = new Vector2(ponto.x, posJogador.position.y);
                     }
-                    Indicar();
-
-                    mover = false;
-                }
+                    alvo = new Vector2(destino.x, posJogador.position.y);
+                }                
             }
         }
         

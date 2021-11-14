@@ -16,8 +16,8 @@ public class AlvoChao : MonoBehaviour
     void Update()
     {
         oi();
-        if(jogador.paraOndeVou == gameObject.name)
-        jogador.Andar(ponto, false);
+        if (jogador.paraOndeVou == gameObject.name);
+        //jogador.Andar(ponto);
         
     }
 
