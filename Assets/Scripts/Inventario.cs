@@ -6,14 +6,12 @@ using UnityEngine.UI;
 public class Inventario : MonoBehaviour
 {
     [SerializeField] Text textoSelecao;
+    [SerializeField] Slots[] slots;
+    [SerializeField] GameObject grid;
+    bool fechado;
 
-    public GameObject[] slots;
-    public GameObject grid;
     public bool[] cheio;
-    public bool fechado;
-
     Animator anim;
-
     static public bool itemNaMao;
 
     public void Start()
@@ -34,7 +32,7 @@ public class Inventario : MonoBehaviour
             anim.SetBool("Fechar", false);
         }
     }
-    public void AdicionarItem(ItemOS _item, GameObject destruir)
+    public void AdicionarItem(ItemOS _item)
     {
         AbrirMenu();
         for (int i = 0; i < slots.Length; i++)
@@ -42,9 +40,8 @@ public class Inventario : MonoBehaviour
             if (cheio[i] == false)
             {
                 cheio[i] = true;
-                slots[i].gameObject.GetComponent<Slots>().Item = _item;
-                slots[i].gameObject.SetActive(true);
-                Destroy(destruir);
+                slots[i].Item = _item;
+                              
                 break;
             }
         }
@@ -55,12 +52,12 @@ public class Inventario : MonoBehaviour
     {
         for (int i = 0; i < slots.Length; i++)
         {
-            if (slots[i].GetComponent<Slots>().clicado)
+            if (slots[i].clicado)
             {
-                slots[i].GetComponent<Slots>().clicado = false;
+                slots[i].clicado = false;
                 cheio[i] = false;
-                slots[i].gameObject.SetActive(false);
-                slots[i].GetComponent<Slots>().Item = null;
+                //slots[i].gameObject.SetActive(false);
+                slots[i].Item = null;
                 Interagir.itemSelecionado = null;
                 break;    
             }

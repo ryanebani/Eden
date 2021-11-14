@@ -24,8 +24,6 @@ public class Dialogo : MonoBehaviour
     
     Dictionary<FalaNPC, bool> questsComMascara = new Dictionary<FalaNPC, bool>();
     Dictionary<FalaNPC, bool> questsSemMascara = new Dictionary<FalaNPC, bool>();
-
-    bool podeProximaQuest;
     
     public UnityEvent[] ue = new UnityEvent[0];
     public int index = 0;
@@ -72,9 +70,9 @@ public class Dialogo : MonoBehaviour
 
     public void Ativar()
     {
-            if (Inventario.itemNaMao == false && DialogoController.podeClickar)
+            if (DialogoController.podeClickar)
             {                
-                podeProximaQuest = true;
+                
 
                 if (!mascara)
                 {
@@ -148,11 +146,10 @@ public class Dialogo : MonoBehaviour
 
     public void ProximaQuestSemMascara()
     {
-        if (podeProximaQuest)
-        {
+        
             if (falaQuestsSemMascara.Length != 0)
             {
-                podeProximaQuest = false;
+                
                 if (!questsSemMascara.ContainsValue(true))
                 {
                     questsSemMascara[falaQuestsSemMascara[0]] = true;
@@ -166,7 +163,7 @@ public class Dialogo : MonoBehaviour
                             questsSemMascara[falaQuestsSemMascara[i]] = false;
                             if (i == falaQuestsSemMascara.Length - 1)
                             {
-                                npc.idle = true;
+                                //npc.idle = true;
                             }
                             else
                             {
@@ -180,16 +177,15 @@ public class Dialogo : MonoBehaviour
             }
             else
                 npc.idle = true;
-        }
+        
     }
 
     public void ProximaQuestComMascara()
     {
-        if (podeProximaQuest)
-        {
+        
             if (falaQuestsComMascara.Length != 0)
             {
-                podeProximaQuest = false;
+               
                 if (!questsComMascara.ContainsValue(true))
                 {
                     questsComMascara[falaQuestsComMascara[0]] = true;
@@ -203,7 +199,7 @@ public class Dialogo : MonoBehaviour
                             questsComMascara[falaQuestsComMascara[i]] = false;
                             if (i == falaQuestsComMascara.Length - 1)
                             {
-                                npc.idle = true;
+                                //npc.idle = true;
                             }
                             else
                             {
@@ -217,7 +213,7 @@ public class Dialogo : MonoBehaviour
             }
             else
                 npc.idle = true;
-        }
+        
     }
 
 }

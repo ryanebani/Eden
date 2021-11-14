@@ -11,8 +11,8 @@ public class FunctionsNPC : MonoBehaviour
     //bool itemDesejado;
     bool infoDesejada;
 
-    [SerializeField] string chave;
-    [SerializeField] ItemOS item;
+    public string chave;
+    public ItemOS item;
 
 
     void Start()
@@ -32,6 +32,7 @@ public class FunctionsNPC : MonoBehaviour
     public void SetarChave(string chave)
     {
         this.chave = chave;
+        Debug.Log("salve!");
     }
 
     public void SetarItem(ItemOS item)
@@ -39,19 +40,23 @@ public class FunctionsNPC : MonoBehaviour
         this.item = item;
     }
 
-    private void EntregarItem()
+    public void EntregarItem()
     {
         if(Interagir.itemSelecionado == chave)
         {
-            dialogo.ProximaQuest();
             inventario.RemoverItem();
+            dialogo.ProximaQuest();           
             Debug.Log("parabens");
+        }
+        else
+        {
+            Debug.Log("nada");
         }
     }
 
-    private void OnMouseDown()
+    public void ReceberItem()
     {
-        EntregarItem();
+        inventario.AdicionarItem(item);
     }
 
     public void InfoObtida()
