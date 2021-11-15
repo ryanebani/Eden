@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Interagir : MonoBehaviour
 {
-    public string paraOndeVou;
+    
+    public static string paraOndeVou;
     public static string itemSelecionado;
     public static bool podeAndar = true;
     public static bool olharDireita = true;
@@ -14,7 +15,7 @@ public class Interagir : MonoBehaviour
     [SerializeField] GameObject prefabAbel;
     [SerializeField] GameObject circ;
    
-    Vector2 alvo;    
+    public Vector2 alvo;    
     Vector2 posAtu;
     Vector3 ponto;
 
@@ -42,12 +43,14 @@ public class Interagir : MonoBehaviour
     }
 
     void Update()
-    {  
+    {
+      
         if (olharDireita)
             prefabTransform.eulerAngles = new Vector3(0, 0, 0);
         else
             prefabTransform.eulerAngles = new Vector3(0, 180, 0);
                 
+
 
         if (posAtu != alvo)
         {
@@ -90,33 +93,6 @@ public class Interagir : MonoBehaviour
         paraOndeVou = "";
     }
 
-    public void AndarChao()
-    {
-        if (Input.touchCount > 0 && podeAndar)
-        {
-            Touch touch = Input.GetTouch(0);
-
-            //Bolinha do toque
-            if (touch.phase == TouchPhase.Began)
-            {
-                mover = true;
-            }
-
-            //Movimento
-            if (touch.phase == TouchPhase.Ended)
-            {
-
-                ponto = Camera.main.ScreenToWorldPoint(touch.position);
-                circ.transform.position = new Vector2(ponto.x, ponto.y);
-                //if (Physics2D.OverlapPoint(ponto))
-                if (mover)
-                {
-                    alvo = new Vector2(ponto.x, posJogador.position.y);
-                }
-
-            }
-        }
-    }
 
     public void Andar(Vector3 destino, bool chao)
     {        
@@ -132,18 +108,23 @@ public class Interagir : MonoBehaviour
 
             //Movimento
             if (touch.phase == TouchPhase.Ended)
-            {               
+            {
                 ponto = Camera.main.ScreenToWorldPoint(touch.position);
-                circ.transform.position = new Vector2(ponto.x, ponto.y);                
+                circ.transform.position = new Vector2(ponto.x, ponto.y);
 
-                if (mover)
+                if (Physics2D.OverlapPoint(ponto, 1, -5, 5))
                 {
-                    alvo = new Vector2(destino.x, posJogador.position.y);
-                    if (chao)
+                    if (mover)
                     {
-                        alvo = new Vector2(ponto.x, posJogador.position.y);
+                        Indicar();
+                        alvo = new Vector2(destino.x, posJogador.position.y);
+                        if (chao)
+                        {
+
+                            alvo = new Vector2(ponto.x, posJogador.position.y);
+                        }
                     }
-                }                
+                }
             }
         }
         

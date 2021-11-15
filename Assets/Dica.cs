@@ -4,34 +4,50 @@ using UnityEngine;
 
 public class Dica : MonoBehaviour
 {
+    Animator anim;
     public float timer;
-    public bool check;
-    // Start is called before the first frame update
+    bool check;
     void Start()
     {
-        
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
+       
+
         if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
-            check = true;
-            timer += Time.deltaTime;
-            if (touch.phase == TouchPhase.Stationary && timer >= 2 && check)
+            if (touch.phase == TouchPhase.Began && check)
             {
-                timer = 0;
+                Interagir.podeAndar = true;
                 check = false;
-                Indicacao.indicar = true;
-                
+            }
+
+            if (touch.phase == TouchPhase.Stationary)
+            {
+                timer += Time.deltaTime;
+            }
+
+            if (touch.phase == TouchPhase.Ended && timer >= 2)
+            {
+                check = true;
+                Interagir.podeAndar = false;               
+                timer = 0;
             }
         }
-        else
+
+        if(timer >= 2f)
         {
-            check = false;
-            timer = 0;
-        }
+            anim.SetBool("Indicar", true);
+            Interagir.paraOndeVou = "";
+        }   
+    }
+
+    public void False()
+    {       
+       anim.SetBool("Indicar", false);       
     }
 }

@@ -43,6 +43,7 @@ SpriteAtlas:
     - {fileID: -5777764754529440571, guid: d2b4837b07e230f439514f6adcee9785, type: 3}
     - {fileID: 7337620667512743096, guid: abee625b572af3144bc031b99162d26e, type: 3}
     - {fileID: 6639971457909915247, guid: 32a7bff6497d6704c8f9157047cf8bb5, type: 3}
+    - {fileID: 2800000, guid: b8a7ba858a87c3341a1dee1939f6f2f7, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -91,6 +92,7 @@ SpriteAtlas:
   - {fileID: -872853542030391341, guid: 42f9b6255d6d3e6468cb80b253e74ba7, type: 3}
   - {fileID: -1207513556397443306, guid: 42f9b6255d6d3e6468cb80b253e74ba7, type: 3}
   - {fileID: 2013440678299254344, guid: 42f9b6255d6d3e6468cb80b253e74ba7, type: 3}
+  - {fileID: 21300000, guid: b8a7ba858a87c3341a1dee1939f6f2f7, type: 3}
   - {fileID: -363694166186496962, guid: 32a7bff6497d6704c8f9157047cf8bb5, type: 3}
   - {fileID: 4794812830723924413, guid: 32a7bff6497d6704c8f9157047cf8bb5, type: 3}
   - {fileID: -4447526034494362986, guid: 32a7bff6497d6704c8f9157047cf8bb5, type: 3}
@@ -228,6 +230,7 @@ SpriteAtlas:
   - cabeca
   - mao direita
   - biceps direito_1
+  - Sombra
   - "cabe\xE7a"
   - bigodes
   - perna direita

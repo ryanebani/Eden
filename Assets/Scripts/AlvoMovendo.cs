@@ -8,40 +8,47 @@ public class AlvoMovendo : MonoBehaviour
 {
     [SerializeField] Transform destinoTransform;
     public bool chao;
+    public bool NPC;
+    public bool direita;
+    public UnityEvent OnCheguei;
+
     Interagir jogador;
     Vector3 destino;
-    public UnityEvent OnCheguei;
-    Collider2D col;
-
+    Collider2D coll;
+       
     private void Start()
     {
         destino = destinoTransform.position;
         jogador = FindObjectOfType<Interagir>();
-        col = GetComponent<Collider2D>();
+        coll = GetComponent<Collider2D>();
     }
 
     private void OnMouseDown()
     {
-       jogador.paraOndeVou = gameObject.name;
-       jogador.Indicar();
+        if(Interagir.podeAndar)
+       Interagir.paraOndeVou = gameObject.name;
+         
     }
     
     private void Update()
     {
-        if (jogador.paraOndeVou == gameObject.name)
+        if (Interagir.paraOndeVou == gameObject.name)
         {
-            
-            jogador.Andar(destino, chao);
-
+            jogador.Andar(destino, chao);            
             if (jogador.posJogador.position.x == destino.x && chao == false)
-            { 
+            {                
+                if (direita)
+                {
+                    Interagir.olharDireita = true;
+                }
                 OnCheguei?.Invoke();
-                Debug.Log(jogador.paraOndeVou);
-                jogador.paraOndeVou = "";
-                jogador.OffSet();
+                if (NPC)
+                {
+                    jogador.OffSet();
+                }
+                Interagir.paraOndeVou = "";
                 DialogoController.podeClickar = false;                       
             }
-            
         }
 
     }

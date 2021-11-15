@@ -23,7 +23,7 @@ public class AlvoChao : MonoBehaviour
 
     void OnMouseDown()
     {
-        jogador.paraOndeVou = gameObject.name;
+        Interagir.paraOndeVou = gameObject.name;
     }
 
     public void oi()
