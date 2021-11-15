@@ -15,13 +15,13 @@ MonoBehaviour:
   fala: "E ai n\xE3o encontrou nada?"
   respostas:
   - resposta: "Voc\xEA vive disso?"
-    proximaFala: {fileID: 11400000, guid: 5567b50c0a4575e4493b4215e63228cc, type: 2}
+    proximaFala: {fileID: 11400000, guid: 764bd4a528345de4da08053d46796a07, type: 2}
   - resposta: Ha quanto tempo voce mora aqui?
-    proximaFala: {fileID: 11400000, guid: 5567b50c0a4575e4493b4215e63228cc, type: 2}
+    proximaFala: {fileID: 11400000, guid: 69b4ad81e32fce540abeb72856bd6269, type: 2}
   - resposta: "Ainda n\xE3o, vou procurar..."
-    proximaFala: {fileID: 11400000, guid: 8000ed0ddadd5264b8fb570ba79becae, type: 2}
+    proximaFala: {fileID: 11400000, guid: 7162e4087f213b148853b13d426dcdf2, type: 2}
   - resposta: "Ainda n\xE3o, vou procurar..."
-    proximaFala: {fileID: 11400000, guid: 5567b50c0a4575e4493b4215e63228cc, type: 2}
+    proximaFala: {fileID: 0}
   sequencia: {fileID: 0}
   npcFalando: 0
   falaNode: Precisa de algo?

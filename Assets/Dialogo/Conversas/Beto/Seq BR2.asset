@@ -10,15 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
-  m_Name: Seq AR3
+  m_Name: Seq BR2
   m_EditorClassIdentifier: 
   sequencia:
-  - "A Madalena falou de voc\xEA."
-  - "Madalena!? C\xEA \xE9 uma das crias dela? "
-  - E se eu for?
-  - "A\xED tu pode at\xE9 entrar,"
-  - "Mas s\xF3 se fizer algo pra mim."
-  - Fala ai o que tu quer.
-  - Tu pode achar a roda do meu carrinho? Preciso dele
-  npcFalando: 00010001010001
-  proximaFala: {fileID: 11400000, guid: d6b0e19074188544d9f6c7ede7aedb0a, type: 2}
+  - "Perdi meu emprego uns anos atr\xE1s."
+  - "E n\xE3o queria voltar pra casa dos meus pais."
+  - "Porque n\xE3o?"
+  - "N\xE3o que seja da sua conta, mas eles n\xE3o eram muito legais."
+  - E ai ouvi falar desse lugar.
+  npcFalando: 0101000101
+  proximaFala: {fileID: 0}
