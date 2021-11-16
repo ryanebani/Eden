@@ -27,6 +27,11 @@ public class Dialogo : MonoBehaviour
     public UnityEvent[] ue = new UnityEvent[0];
     public int index = 0;
     public bool temIndex = true;
+
+    private int contador = 0;
+    [SerializeField]
+    private int numQuest;
+
     void Start()
     {
         
@@ -136,6 +141,21 @@ public class Dialogo : MonoBehaviour
                 ProximaQuestComMascara();
             else
                 ProximaQuestSemMascara();
+    }
+
+    public void QuestsFeitas()
+    {
+        contador++;
+
+        if (contador == numQuest)
+        {
+            if (mascara)
+                ProximaQuestComMascara();
+            else
+                ProximaQuestSemMascara();
+
+            contador = 0;
+        }
     }
 
     public void novaInformacao()

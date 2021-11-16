@@ -10,11 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
-  m_Name: Seq A1
+  m_Name: Seq AR2
   m_EditorClassIdentifier: 
   sequencia:
-  - "Fiz tudo. Ser\xE1 que da pra me dar a chave agora?"
-  - "Voc\xEA fez bem moleque, mas v\xEA se aprende a respeitar os mais velhos hein"
-  - Ta, valeu.
-  npcFalando: 000100
-  proximaFala: {fileID: 11400000, guid: a803659460ca159488d0075faebc25d7, type: 2}
+  - "C\xEA sabe que isso a\xED \xE9 coisa ruim"
+  - "Tu n\xE3o se mete e eu n\xE3o me meto"
+  npcFalando: 0001
+  proximaFala: {fileID: 11400000, guid: 66d35c2be74b12e46826746b5d3a6c52, type: 2}

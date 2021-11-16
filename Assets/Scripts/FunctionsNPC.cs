@@ -9,7 +9,7 @@ public class FunctionsNPC : MonoBehaviour
     Fade fade;
     Dialogo dialogo;
     //bool itemDesejado;
-    bool infoDesejada;
+    //bool infoDesejada;
 
     public string chave;
     public ItemOS item;
@@ -111,7 +111,7 @@ public class FunctionsNPC : MonoBehaviour
     }*/
 
 
-    public void TriggarAnimacao(Animator animator, string trigger)
+    public void TriggarAnimacao(string trigger)
     {
         animator.SetTrigger(trigger);
     }

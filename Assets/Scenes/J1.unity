@@ -1672,6 +1672,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 031ea80d1271a6b4d8835608f67283f5, type: 2}
     - target: {fileID: 1136229130796787504, guid: af37497e0a2534b49a19c524a911b136, type: 3}
+      propertyPath: falaQuestsSemMascara.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136229130796787504, guid: af37497e0a2534b49a19c524a911b136, type: 3}
+      propertyPath: falaQuestsSemMascara.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136229130796787504, guid: af37497e0a2534b49a19c524a911b136, type: 3}
       propertyPath: OnFinalDialogo.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -1785,7 +1793,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1136229130796787506, guid: af37497e0a2534b49a19c524a911b136, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1136229130796787506, guid: af37497e0a2534b49a19c524a911b136, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1861,7 +1869,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1136229130796787518, guid: af37497e0a2534b49a19c524a911b136, type: 3}
       propertyPath: idle
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4840843692597843861, guid: af37497e0a2534b49a19c524a911b136, type: 3}
       propertyPath: item
@@ -6292,25 +6300,13 @@ MonoBehaviour:
   OnFade:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1003717011}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1003717014}
         m_TargetAssemblyTypeName: FunctionsNPC, Assembly-CSharp
         m_MethodName: TriggarAnimacao
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 1999210054}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: BelaFeliz
@@ -6318,12 +6314,12 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1095653842}
         m_TargetAssemblyTypeName: Dialogo, Assembly-CSharp
-        m_MethodName: AdicionarNumQuest
+        m_MethodName: QuestsFeitas
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6843,6 +6839,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ee6d8329ad1c520469756fb26c1fdd4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1095653844 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8952540352637742852, guid: c939f23972e80c043b665cec126eaa54, type: 3}
+  m_PrefabInstance: {fileID: 1562345178}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095653841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841faddbbfbef29438952c4974320e92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1146457335
@@ -8794,7 +8801,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501253559}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.425001, y: -0.0150004625, z: -10}
+  m_LocalPosition: {x: -16.26, y: -0.0150004625, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9292,6 +9299,10 @@ PrefabInstance:
       value: 1.8251536
       objectReference: {fileID: 0}
     - target: {fileID: 3519356313609527201, guid: c939f23972e80c043b665cec126eaa54, type: 3}
+      propertyPath: numQuest
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3519356313609527201, guid: c939f23972e80c043b665cec126eaa54, type: 3}
       propertyPath: metaQuest
       value: 1
       objectReference: {fileID: 0}
@@ -9374,7 +9385,7 @@ PrefabInstance:
     - target: {fileID: 3519356313609527201, guid: c939f23972e80c043b665cec126eaa54, type: 3}
       propertyPath: ue.Array.data[1].m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 656294950}
+      objectReference: {fileID: 1095653844}
     - target: {fileID: 3519356313609527201, guid: c939f23972e80c043b665cec126eaa54, type: 3}
       propertyPath: ue.Array.data[1].m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -11800,11 +11811,6 @@ PrefabInstance:
       objectReference: {fileID: 1444729729}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14fb544813ed8e844bc88a905812a8d9, type: 3}
---- !u!95 &1999210054 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 5723233777092268849, guid: eb8f21d3c8c85f348927b2640d54faa5, type: 3}
-  m_PrefabInstance: {fileID: 135198668}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2010632106
 GameObject:
   m_ObjectHideFlags: 0
@@ -12065,13 +12071,53 @@ PrefabInstance:
       value: 1.4372618
       objectReference: {fileID: 0}
     - target: {fileID: 3423308945583362293, guid: d00e9ec63ef94134087fe2b8e4ddf384, type: 3}
+      propertyPath: ue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423308945583362293, guid: d00e9ec63ef94134087fe2b8e4ddf384, type: 3}
       propertyPath: falasSemMascara.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 66d35c2be74b12e46826746b5d3a6c52, type: 2}
+      objectReference: {fileID: 11400000, guid: fc35d35f9c5f97649a14e1c4c0f2801c, type: 2}
     - target: {fileID: 3423308945583362293, guid: d00e9ec63ef94134087fe2b8e4ddf384, type: 3}
       propertyPath: falasSemMascara.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: 9db1f3e383bbfb74c8feac81ce1bc002, type: 2}
+      objectReference: {fileID: 11400000, guid: 66d35c2be74b12e46826746b5d3a6c52, type: 2}
+    - target: {fileID: 3423308945583362293, guid: d00e9ec63ef94134087fe2b8e4ddf384, type: 3}
+      propertyPath: falaQuestsSemMascara.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423308945583362293, guid: d00e9ec63ef94134087fe2b8e4ddf384, type: 3}
+      propertyPath: falaQuestsSemMascara.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: aa03564e27ad14a47bbfa299598dae64, type: 2}
+    - target: {fileID: 3423308945583362293, guid: d00e9ec63ef94134087fe2b8e4ddf384, type: 3}
+      propertyPath: ue.Array.data[0].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423308945583362293, guid: d00e9ec63ef94134087fe2b8e4ddf384, type: 3}
+      propertyPath: ue.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423308945583362293, guid: d00e9ec63ef94134087fe2b8e4ddf384, type: 3}
+      propertyPath: ue.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1095653842}
+    - target: {fileID: 3423308945583362293, guid: d00e9ec63ef94134087fe2b8e4ddf384, type: 3}
+      propertyPath: ue.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423308945583362293, guid: d00e9ec63ef94134087fe2b8e4ddf384, type: 3}
+      propertyPath: ue.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: QuestsFeitas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423308945583362293, guid: d00e9ec63ef94134087fe2b8e4ddf384, type: 3}
+      propertyPath: ue.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Dialogo, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423308945583362293, guid: d00e9ec63ef94134087fe2b8e4ddf384, type: 3}
+      propertyPath: ue.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3423308945583362294, guid: d00e9ec63ef94134087fe2b8e4ddf384, type: 3}
       propertyPath: jogador
       value: 

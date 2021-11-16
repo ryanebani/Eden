@@ -10,18 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
-  m_Name: Fala A1
+  m_Name: Fala A
   m_EditorClassIdentifier: 
-  fala: "Faz tempo que a gente n\xE3o v\xEA uma dessa..."
+  fala: O que tu quer aqui?
   respostas: []
-  sequencia: {fileID: 0}
+  sequencia: {fileID: 11400000, guid: 9dc1955ace13b4048b1f59031f400dc0, type: 2}
   npcFalando: 1
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: ff52b11db71fed34fae2910d27568abd, type: 2}
-  dadosNpc: {fileID: 0}
+  dadosNpc: {fileID: 11400000, guid: a3234ca1e30ba394a8aa3d2cc110d63d, type: 2}
   recomecar: 0
-  NPCNode: 1
-  acao: 0
+  NPCNode: 0
   proximaQuest: 0
   acaoSequencial: 0
