@@ -18,5 +18,6 @@ MonoBehaviour:
   - "Ai s\xE9rio mesmo?"
   - 'A gente tem que se ajudar menino! '
   - "Ta, ta. O que quer que eu fa\xE7a?"
+  - "Tem como voc\xEA acalmar a Belinha? Ela t\xE1 chorando"
   npcFalando: 010100010001
-  proximaFala: {fileID: 11400000, guid: 58506d8751cbeec40a75ede6edff316e, type: 2}
+  proximaFala: {fileID: 11400000, guid: eaec05dfbd71d07489096262bbcb9baf, type: 2}
