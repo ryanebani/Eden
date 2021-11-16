@@ -25,8 +25,6 @@ public class FalaNPC : ScriptableObject
     public bool recomecar;
     public bool NPCNode;
 
-    public bool acao;
-
     public bool proximaQuest;
 
     public bool acaoSequencial;
