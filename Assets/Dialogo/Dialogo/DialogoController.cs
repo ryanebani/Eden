@@ -204,10 +204,7 @@ public class DialogoController : MonoBehaviour
         falaNPC.text = "";
         Interagir.podeAndar = false;
         falas = fala;
-        if (falas.acao)
-        {
-            dialogo.OnFinalDialogo?.Invoke();
-        }
+ 
 
         LimparRespostas();
 
