@@ -11,7 +11,7 @@ public class Interagir : MonoBehaviour
     public static bool olharDireita = true;
 
     public Transform posJogador;
-
+    public bool mascara;
     [SerializeField] GameObject prefabAbel;
     [SerializeField] GameObject circ;
    
@@ -49,13 +49,30 @@ public class Interagir : MonoBehaviour
             prefabTransform.eulerAngles = new Vector3(0, 0, 0);
         else
             prefabTransform.eulerAngles = new Vector3(0, 180, 0);
-                
 
+        if (mascara)
+        {
+            animator.SetBool("Mascara", true);
+        }
+        else
+        {
+            animator.SetBool("Mascara", false);
+        }
+
+        
 
         if (posAtu != alvo)
         {
             CaixaIdle.cancelarTextoAbel = true;
-            animator.SetBool("Andando", true);
+            if (mascara)
+            {
+                animator.SetBool("AndandoMascara", true);
+            }
+            else
+            {
+                animator.SetBool("Andando", true);
+            }
+            
             
             if (posAtu.x > alvo.x)
             {
@@ -72,6 +89,11 @@ public class Interagir : MonoBehaviour
         }
         else
         {
+            if (mascara)
+            {
+                animator.SetBool("AndandoMascara", false);
+
+            }
             animator.SetBool("Andando", false);
         }
 
@@ -148,5 +170,12 @@ public class Interagir : MonoBehaviour
     public void PodeAndar(bool ligar)
     {
         podeAndar = ligar;
+    }
+
+    public void Mascara()
+    {
+        mascara = !mascara;
+        paraOndeVou = "";
+        alvo = posJogador.position;
     }
 }
