@@ -162,7 +162,7 @@ public class Dialogo : MonoBehaviour
                             questsSemMascara[falaQuestsSemMascara[i]] = false;
                             if (i == falaQuestsSemMascara.Length - 1)
                             {
-                                //npc.idle = true;
+                                npc.idle = true;
                             }
                             else
                             {
@@ -198,7 +198,7 @@ public class Dialogo : MonoBehaviour
                             questsComMascara[falaQuestsComMascara[i]] = false;
                             if (i == falaQuestsComMascara.Length - 1)
                             {
-                                //npc.idle = true;
+                                npc.idle = true;
                             }
                             else
                             {

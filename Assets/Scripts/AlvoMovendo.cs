@@ -20,7 +20,7 @@ public class AlvoMovendo : MonoBehaviour
     {
         destino = destinoTransform.position;
         jogador = FindObjectOfType<Interagir>();
-        coll = GetComponent<Collider2D>();
+        coll = GetComponent<Collider2D>();        
     }
 
     private void OnMouseUp()
@@ -38,9 +38,13 @@ public class AlvoMovendo : MonoBehaviour
             jogador.Andar(destino, chao);            
             if (jogador.posJogador.position.x == destino.x && chao == false)
             {                
-                if (direita)
+                if (destino.x < transform.position.x)
                 {
                     Interagir.olharDireita = true;
+                }
+                else
+                {
+                    Interagir.olharDireita = false;
                 }
                 OnCheguei?.Invoke();
                 if (NPC)

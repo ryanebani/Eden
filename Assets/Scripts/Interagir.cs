@@ -59,7 +59,10 @@ public class Interagir : MonoBehaviour
             animator.SetBool("Mascara", false);
         }
 
-        
+        if(paraOndeVou == "")
+        {
+            alvo = posJogador.position;
+        }
 
         if (posAtu != alvo)
         {
