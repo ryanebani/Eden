@@ -32,7 +32,6 @@ public class FunctionsNPC : MonoBehaviour
     public void SetarChave(string chave)
     {
         this.chave = chave;
-        Debug.Log("salve!");
     }
 
     public void SetarItem(ItemOS item)
@@ -58,12 +57,12 @@ public class FunctionsNPC : MonoBehaviour
         inventario.AdicionarItem(item);
     }
 
-    public void InfoObtida()
+    /* public void InfoObtida()
     {
         infoDesejada = true;
     }
 
-    /*public void darItem(bool precisaFade)
+    public void darItem(bool precisaFade)
     {
         
         if (itemDesejado)
@@ -76,36 +75,36 @@ public class FunctionsNPC : MonoBehaviour
                 fade.IniciarFade();
             }
         }
-    }*/
+    }
 
-  /*  public void receberItem()
+    public void receberItem()
     {
         
         if (itemDesejado)
         {
             inventario.AdicionarItem(item, gameObject);
         }
-    */
+    
 
-    /*public void ItemPorInfo()
+    public void ItemPorInfo()
     {
         if (itemDesejado)
         {
             //liberaResposta = true;
             inventario.RemoverItem();
         }
-    }*/
+    }
 
 
     public void InfoPorInfo()
     {
         if (infoDesejada)
         {
-            //liberaResposta = true;
+            liberaResposta = true;
         }
     }
 
-/*public void InfoPorItem()
+    public void InfoPorItem()
     {
         if (infoDesejada)
             inventario.AdicionarItem(item, gameObject);
