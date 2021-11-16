@@ -50,4 +50,9 @@ public class Slots : MonoBehaviour
             Interagir.itemSelecionado = null;
         }
     }
+
+    public void Ligar(bool ligar)
+    {
+        gameObject.SetActive(ligar);
+    }
 }

@@ -23,10 +23,11 @@ public class AlvoMovendo : MonoBehaviour
         coll = GetComponent<Collider2D>();
     }
 
-    private void OnMouseDown()
+    private void OnMouseUp()
     {
-        if(Interagir.podeAndar)
+       if(Interagir.podeAndar)
        Interagir.paraOndeVou = gameObject.name;
+       
          
     }
     

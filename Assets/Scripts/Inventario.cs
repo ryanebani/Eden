@@ -41,7 +41,7 @@ public class Inventario : MonoBehaviour
             {
                 cheio[i] = true;
                 slots[i].Item = _item;
-                              
+                slots[i].Ligar(true);                              
                 break;
             }
         }
@@ -56,27 +56,14 @@ public class Inventario : MonoBehaviour
             {
                 slots[i].clicado = false;
                 cheio[i] = false;
-                //slots[i].gameObject.SetActive(false);
+                slots[i].Ligar(true);
                 slots[i].Item = null;
                 Interagir.itemSelecionado = null;
                 break;    
             }
         }
     }
-
-    /*public void Selecionar(GameObject slotSelec)
-    {
-        
-        for(int i = 0; i < slots.Length; i++)
-        {
-            
-            if (slots[i] == slotSelec)
-            {
-                slots[i].GetComponent<Slots>().clicado = true;
-                Interagir.itemSelecionado = slotSelec.name;
-            }
-        }
-    }*/
+       
 
     public void MenuToggle()
     {
