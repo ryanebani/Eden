@@ -45,12 +45,11 @@ public class FunctionsNPC : MonoBehaviour
         if(Interagir.itemSelecionado == chave)
         {
             inventario.RemoverItem();
-            dialogo.ProximaQuest();           
-            Debug.Log("parabens");
+            dialogo.ProximaQuest();          
         }
         else
         {
-            Debug.Log("nada");
+
         }
     }
 

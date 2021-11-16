@@ -9,7 +9,6 @@ public class Dialogo : MonoBehaviour
 
     public FalaNPC[] falasSemMascara = new FalaNPC[2];
     public FalaNPC[] falasComMascara = new FalaNPC[2];
-    public UnityEvent OnFinalDialogo;
 
     public bool liberaResposta;
     public bool dialogoConcluido = false;
