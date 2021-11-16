@@ -12,7 +12,7 @@ public class Dialogo : MonoBehaviour
 
     public bool liberaResposta;
     public bool dialogoConcluido = false;
-    public bool mascara;
+    public static bool mascara;
 
     public FalaNPC[] falaQuestsSemMascara;
     public FalaNPC[] falaQuestsComMascara;

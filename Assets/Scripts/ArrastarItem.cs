@@ -43,6 +43,7 @@ public class ArrastarItem : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
         //dragging = true;
         posInicial = rectTrans.anchoredPosition;
         slots.clicado = true;
+        Interagir.itemSelecionado = slots.Item.nome;
     }
 
     public void OnDrag(PointerEventData eventData)

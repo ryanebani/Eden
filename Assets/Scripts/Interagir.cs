@@ -50,7 +50,7 @@ public class Interagir : MonoBehaviour
         else
             prefabTransform.eulerAngles = new Vector3(0, 180, 0);
 
-        if (mascara)
+        if (Dialogo.mascara)
         {
             animator.SetBool("Mascara", true);
         }
@@ -67,7 +67,7 @@ public class Interagir : MonoBehaviour
         if (posAtu != alvo)
         {
             CaixaIdle.cancelarTextoAbel = true;
-            if (mascara)
+            if (Dialogo.mascara)
             {
                 animator.SetBool("AndandoMascara", true);
             }
@@ -92,7 +92,7 @@ public class Interagir : MonoBehaviour
         }
         else
         {
-            if (mascara)
+            if (Dialogo.mascara)
             {
                 animator.SetBool("AndandoMascara", false);
 
@@ -177,7 +177,7 @@ public class Interagir : MonoBehaviour
 
     public void Mascara()
     {
-        mascara = !mascara;
+        Dialogo.mascara = !Dialogo.mascara;
         paraOndeVou = "";
         alvo = posJogador.position;
     }
