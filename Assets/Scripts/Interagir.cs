@@ -31,15 +31,16 @@ public class Interagir : MonoBehaviour
     {
         Application.targetFrameRate = 60;
         itemSelecionado = null;
+
         caixaIdle = GetComponentInChildren<CaixaIdle>();
-
+        circAnimator = circ.GetComponent<Animator>();
         animator = prefabAbel.GetComponent<Animator>();
-        prefabTransform = prefabAbel.transform;
-
         posJogador = GetComponent<Transform>();
+
+        prefabTransform = prefabAbel.transform;        
         posAtu = new Vector3(posJogador.position.x, posJogador.position.y, posJogador.position.z);
         alvo = posAtu;
-        circAnimator = circ.GetComponent<Animator>();
+       
     }
 
     void Update()

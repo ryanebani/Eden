@@ -42,8 +42,7 @@ public class ArrastarItem : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
     {
         //dragging = true;
         posInicial = rectTrans.anchoredPosition;
-        slots.clicado = true;
-        Interagir.itemSelecionado = slots.Item.nome;
+        slots.SelecionarParaQuest();
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -54,8 +53,6 @@ public class ArrastarItem : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
     public void OnEndDrag(PointerEventData eventData)
     {
         rectTrans.anchoredPosition = posInicial;
-
-        
 
         if (Input.touchCount > 0)
         {
@@ -68,7 +65,7 @@ public class ArrastarItem : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
                 if (hit.collider.tag == "NPC")
                 {
                     Interagir.paraOndeVou = hit.collider.name;
-                    slots.clicado = true;
+                    Interagir.itemSelecionado = slots.nome;
                     
                 }
             }

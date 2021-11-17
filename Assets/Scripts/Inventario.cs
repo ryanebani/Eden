@@ -5,14 +5,18 @@ using UnityEngine.UI;
 
 public class Inventario : MonoBehaviour
 {
-    [SerializeField] Text textoSelecao;
-    [SerializeField] Slots[] slots;
-    [SerializeField] GameObject grid;
-    bool fechado;
+    static public bool fecharIventario;
 
-    public bool[] cheio;
+    [SerializeField] Slots[] slots;    
+    //[SerializeField] GameObject grid;
+
+    bool fechado;
     Animator anim;
-    static public bool itemNaMao;
+
+    public Text textoSelecao;
+    public bool[] cheio;    
+        
+    //static public bool itemNaMao;
 
     public void Start()
     {
@@ -21,7 +25,14 @@ public class Inventario : MonoBehaviour
     }
     public void Update()
     {
-        textoSelecao.text = Interagir.itemSelecionado;
+        //textoSelecao.text = Interagir.itemSelecionado;
+
+        if (fecharIventario)
+        {
+            FecharMenu();
+            fecharIventario = false;
+
+        }
 
         if (fechado == true)
         {
@@ -56,12 +67,13 @@ public class Inventario : MonoBehaviour
             {
                 slots[i].clicado = false;
                 cheio[i] = false;
-                slots[i].Ligar(true);
+                slots[i].Ligar(false);
                 slots[i].Item = null;
                 Interagir.itemSelecionado = null;
                 break;    
             }
         }
+        FecharMenu();
     }
        
 
@@ -73,13 +85,19 @@ public class Inventario : MonoBehaviour
     public void FecharMenu()
     {
         fechado = true;
+        textoSelecao.text = "";
+        foreach (var slot in slots)
+        {
+            slot.clicado = false;
+        }
     }
 
     public void AbrirMenu()
-    {
+    { 
         fechado = false;
     }
 
+    
 
 
 }
