@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
+  m_Name: Fala AR0
+  m_EditorClassIdentifier: 
+  fala: "O que tu t\xE1 querendo?"
+  respostas:
+  - resposta: "Por que voc\xEA t\xE1 aqui?"
+    proximaFala: {fileID: 11400000, guid: 48da812e6f8414e4b89fc9dab27a4ce9, type: 2}
+  - resposta: "O que \xE9 isso na sua m\xE3o?"
+    proximaFala: {fileID: 11400000, guid: b7969b9ad49962f4bb58a84f91db7950, type: 2}
+  - resposta: Tchau
+    proximaFala: {fileID: 11400000, guid: 20010bbde94e1a8489b2632ccd8ac7ff, type: 2}
+  - resposta: "At\xE9 mais"
+    proximaFala: {fileID: 0}
+  sequencia: {fileID: 0}
+  npcFalando: 1
+  falaNode: 
+  jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
+  NPC: {fileID: 11400000, guid: ff52b11db71fed34fae2910d27568abd, type: 2}
+  dadosNpc: {fileID: 11400000, guid: a3234ca1e30ba394a8aa3d2cc110d63d, type: 2}
+  recomecar: 1
+  NPCNode: 1
+  proximaQuest: 0
+  acaoSequencial: 0

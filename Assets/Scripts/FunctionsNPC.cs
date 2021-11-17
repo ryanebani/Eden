@@ -5,11 +5,12 @@ using UnityEngine;
 public class FunctionsNPC : MonoBehaviour
 {
     Inventario inventario;
+    [SerializeField]
     Animator animator;
     Fade fade;
     Dialogo dialogo;
-    //bool itemDesejado;
-    bool infoDesejada;
+    bool itemDesejado;
+    //bool infoDesejada;
 
     public string chave;
     public ItemOS item;
@@ -18,7 +19,6 @@ public class FunctionsNPC : MonoBehaviour
     void Start()
     {
         inventario = FindObjectOfType<Inventario>();
-        animator = GetComponentInChildren<Animator>();
         fade = GetComponent<Fade>();
         dialogo = GetComponent<Dialogo>();   
     }
@@ -39,8 +39,13 @@ public class FunctionsNPC : MonoBehaviour
         this.item = item;
     }
 
-    public void EntregarItem()
+    public void EntregarItem(bool receber)
     {
+        if (receber && Interagir.itemSelecionado == chave)
+        {
+            ReceberItem();
+        }
+
         if(Interagir.itemSelecionado == chave)
         {
             inventario.RemoverItem();
@@ -111,7 +116,7 @@ public class FunctionsNPC : MonoBehaviour
     }*/
 
 
-    public void TriggarAnimacao(Animator animator, string trigger)
+    public void TriggarAnimacao(string trigger)
     {
         animator.SetTrigger(trigger);
     }

@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class Dialogo : MonoBehaviour
 {
-    [SerializeField] public NPC npc;
+    public NPC npc;
 
     public FalaNPC[] falasSemMascara = new FalaNPC[2];
     public FalaNPC[] falasComMascara = new FalaNPC[2];
@@ -27,6 +27,11 @@ public class Dialogo : MonoBehaviour
     public UnityEvent[] ue = new UnityEvent[0];
     public int index = 0;
     public bool temIndex = true;
+
+    private int contador = 0;
+    [SerializeField]
+    private int numQuest;
+
     void Start()
     {
         
@@ -42,6 +47,8 @@ public class Dialogo : MonoBehaviour
         }
 
         dialogoController = FindObjectOfType<DialogoController>();
+
+        npc = GetComponent<NPC>();
     }
 
     
@@ -56,6 +63,7 @@ public class Dialogo : MonoBehaviour
     public void Conversar()
     {
         DialogoController.dialogo = GetComponent<Dialogo>();
+
         if (npc.idle)
         {
             npc.PodeIdleNPC();
@@ -138,9 +146,30 @@ public class Dialogo : MonoBehaviour
                 ProximaQuestSemMascara();
     }
 
+    public void QuestsFeitas()
+    {
+        contador++;
+
+        if (contador == numQuest)
+        {
+            if (mascara)
+                ProximaQuestComMascara();
+            else
+                ProximaQuestSemMascara();
+
+            contador = 0;
+        }
+    }
+
     public void novaInformacao()
     {
         liberaResposta = true;
+        npc.sinalInfo.SetBool("ativar", true);
+    }
+
+    public void desativarSinal()
+    {
+        npc.sinalInfo.SetBool("ativar", false);
     }
 
     public void ProximaQuestSemMascara()

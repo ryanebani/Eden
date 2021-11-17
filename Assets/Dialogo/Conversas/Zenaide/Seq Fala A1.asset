@@ -15,7 +15,7 @@ MonoBehaviour:
   fala: "S\xF3 tenta n\xE3o falar de novo ok?"
   respostas: []
   sequencia: {fileID: 0}
-  npcFalando: 0
+  npcFalando: 1
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: 22e5b31dcc6aa6f40a94d94e62403c10, type: 2}

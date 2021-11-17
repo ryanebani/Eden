@@ -76,8 +76,8 @@ public class Interagir : MonoBehaviour
             {
                 animator.SetBool("Andando", true);
             }
-            
-            
+
+
             if (posAtu.x > alvo.x)
             {
                 olharDireita = false;
