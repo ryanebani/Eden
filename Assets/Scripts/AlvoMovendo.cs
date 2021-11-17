@@ -47,12 +47,13 @@ public class AlvoMovendo : MonoBehaviour
                     Interagir.olharDireita = false;
                 }
                 OnCheguei?.Invoke();
+
                 if (NPC)
                 {
                     jogador.OffSet();
                 }
                 Interagir.paraOndeVou = "";
-                DialogoController.podeClickar = false;                       
+                //DialogoController.podeClickar = false;                       
             }
         }
 

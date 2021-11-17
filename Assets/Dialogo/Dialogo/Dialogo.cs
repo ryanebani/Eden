@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class Dialogo : MonoBehaviour
 {
-    [SerializeField] public NPC npc;
+    public NPC npc;
 
     public FalaNPC[] falasSemMascara = new FalaNPC[2];
     public FalaNPC[] falasComMascara = new FalaNPC[2];
@@ -47,6 +47,8 @@ public class Dialogo : MonoBehaviour
         }
 
         dialogoController = FindObjectOfType<DialogoController>();
+
+        npc = GetComponent<NPC>();
     }
 
     
@@ -61,6 +63,7 @@ public class Dialogo : MonoBehaviour
     public void Conversar()
     {
         DialogoController.dialogo = GetComponent<Dialogo>();
+
         if (npc.idle)
         {
             npc.PodeIdleNPC();
@@ -161,6 +164,12 @@ public class Dialogo : MonoBehaviour
     public void novaInformacao()
     {
         liberaResposta = true;
+        npc.sinalInfo.SetBool("ativar", true);
+    }
+
+    public void desativarSinal()
+    {
+        npc.sinalInfo.SetBool("ativar", false);
     }
 
     public void ProximaQuestSemMascara()

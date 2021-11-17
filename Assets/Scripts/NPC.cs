@@ -11,6 +11,9 @@ public class NPC : MonoBehaviour
     string[] falasIdleNPC;
     public bool idle;
     int indice;
+
+    [SerializeField]
+    public Animator sinalInfo;
     
     void Start()
     {

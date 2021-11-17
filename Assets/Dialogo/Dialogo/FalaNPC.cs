@@ -29,6 +29,4 @@ public class FalaNPC : ScriptableObject
 
     public bool acaoSequencial;
     
-
-    
 }
