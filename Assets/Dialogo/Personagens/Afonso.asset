@@ -15,3 +15,7 @@ MonoBehaviour:
   cor: {r: 0.9339623, g: 0.4577828, b: 0.2599235, a: 1}
   nome: Afonso
   sprite: {fileID: 21300000, guid: 9c6985714e06f854f91cebf1d426d081, type: 3}
+  clipes:
+  - {fileID: 8300000, guid: 08bb2cbb5ec2faf44853061732f2955c, type: 3}
+  - {fileID: 8300000, guid: eeebe8245030913458bd7be5f7721e29, type: 3}
+  - {fileID: 8300000, guid: 5faa497a8d3fee248b29296ec1b2c0fc, type: 3}

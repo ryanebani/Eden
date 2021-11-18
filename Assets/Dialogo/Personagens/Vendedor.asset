@@ -15,3 +15,7 @@ MonoBehaviour:
   cor: {r: 0.735849, g: 0.17632605, b: 0.25461304, a: 1}
   nome: Vendedor
   sprite: {fileID: 21300000, guid: 93f2ce18c22795048a5a9245f49e8376, type: 3}
+  clipes:
+  - {fileID: 8300000, guid: 08bb2cbb5ec2faf44853061732f2955c, type: 3}
+  - {fileID: 8300000, guid: eeebe8245030913458bd7be5f7721e29, type: 3}
+  - {fileID: 8300000, guid: 5faa497a8d3fee248b29296ec1b2c0fc, type: 3}

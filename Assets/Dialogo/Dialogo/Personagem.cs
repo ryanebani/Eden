@@ -13,4 +13,6 @@ public class Personagem : ScriptableObject
 
     public Sprite sprite;
 
+    public AudioClip[] clipes;
+
 }
