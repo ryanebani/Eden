@@ -22,9 +22,14 @@ MonoBehaviour:
   - "Ah... \xC9 que... \xE9 que eu to indo pra uma entrevista de emprego e acho que
     esqueceram de me mandar um..."
   - "Ah! mas que irrespons\xE1veis!"
-  - "Aqui, eu tenho um extra que voc\xEA pode usar"
-  - Tem certeza dona?
-  - "Por favor pega, voc\xEA merece ir pra essa entrevista."
-  - Eu... Obrigado.
-  npcFalando: 0000010001000101000100
+  - "Olha, n\xE3o fui eu que te contei isso..."
+  - "Mas tem um lugar onde voc\xEA pode conseguir um passe"
+  - "Pelo menos at\xE9 a empresa te dar um."
+  - Onde fica?
+  - "N\xE3o tenho certeza de onde ele fica, mas procura um rato,"
+  - E pede um passe falso.
+  - "Uau, n\xE3o tinha ideia que isso existia."
+  - "\xC9, mas lembra..."
+  - "N\xE3o foi a senhora que me contou."
+  npcFalando: 00000100010001010101000101000100
   proximaFala: {fileID: 0}
