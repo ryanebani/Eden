@@ -19,4 +19,4 @@ MonoBehaviour:
     sozinho."
   - Ta, mas foi vacilo.
   npcFalando: 00000100
-  proximaFala: {fileID: 0}
+  proximaFala: {fileID: 11400000, guid: fc2eb6518bf752d49a99265c1ef85f03, type: 2}

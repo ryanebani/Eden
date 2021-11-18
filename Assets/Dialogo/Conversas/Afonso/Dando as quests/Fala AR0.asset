@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
   m_Name: Fala AR0
   m_EditorClassIdentifier: 
-  fala: "Voc\xEA parece curioso..."
+  fala: "Meu nome \xB4Seu Afonso e eu cuido desse lugar."
   respostas:
-  - resposta: O que aconteceu aqui?
+  - resposta: O que... o que rolou aqui?
     proximaFala: {fileID: 11400000, guid: 14460aea58a22cf41b4c92186d662fd7, type: 2}
-  - resposta: "Porque c\xEA achou que eu queria levar os \"largados\" embora?"
+  - resposta: Aqui ta bem lotado.
     proximaFala: {fileID: 11400000, guid: 0eda02dfbaaac4a49809cb1b80969e50, type: 2}
   - resposta: "T\xF4 tentando achar meu irm\xE3o, tem algum documento escondido aqui?"
     proximaFala: {fileID: 11400000, guid: c27eeb1c08027454ba83f802e78ba98f, type: 2}
-  - resposta: "T\xF4 tentando achar meu irm\xE3o, tem algum documento escondido aqui?"
-    proximaFala: {fileID: 11400000, guid: c27eeb1c08027454ba83f802e78ba98f, type: 2}
+  - resposta: Vou dar uma olhada por ai
+    proximaFala: {fileID: 11400000, guid: cdeda00d4d0f9a24688f3342f5070133, type: 2}
   sequencia: {fileID: 0}
   npcFalando: 1
-  falaNode: 
+  falaNode: Que foi?
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: 308963aa3073f2d4fbd8e0ae183748fc, type: 2}
   dadosNpc: {fileID: 0}

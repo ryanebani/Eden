@@ -18,7 +18,7 @@ MonoBehaviour:
   npcFalando: 0
   falaNode: 
   jogador: {fileID: 0}
-  NPC: {fileID: 0}
+  NPC: {fileID: 11400000, guid: dd1bb926006476d448d49116820dc980, type: 2}
   dadosNpc: {fileID: 0}
   recomecar: 0
   NPCNode: 0
