@@ -217,7 +217,7 @@ public class DialogoController : MonoBehaviour
         LimparRespostas();
 
         
-        if(jogador == null)
+        if(falas.jogador != null)
         {
             jogador = falas.jogador;
             NPC = falas.NPC;
