@@ -27,7 +27,7 @@ public class Arrastar : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     
     public void OnPointerUp(PointerEventData eventData)
     {
-        Zoom();
+        //Zoom();
     }
     public void OnPointerDown(PointerEventData eventData)
     {
@@ -37,7 +37,7 @@ public class Arrastar : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     public void OnBeginDrag(PointerEventData eventData)
     {
         dragging = true;
-        Sibbling();
+        //Sibbling();
     }
 
     public void OnDrag(PointerEventData eventData)

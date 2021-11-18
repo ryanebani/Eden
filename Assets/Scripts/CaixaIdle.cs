@@ -8,21 +8,11 @@ public class CaixaIdle : MonoBehaviour
     [SerializeField] TextMeshPro textoMesh;
     [SerializeField] bool abel;
     static public bool cancelarTextoAbel;
-    Vector3 euler;
-    Transform pai;
-    Transform myTransform;
     Animator caixaAnim;
 
-    void Awake()
-    {
-        caixaAnim = GetComponent<Animator>();
-        euler = new Vector3(0, -180, 0);
-        myTransform = GetComponent<Transform>();
-        cancelarTextoAbel = false;
-    }
     void Start()
     {
-           
+        caixaAnim = GetComponent<Animator>();
     }
 
     void Update()
@@ -34,15 +24,10 @@ public class CaixaIdle : MonoBehaviour
         }
 
     }
-    public void LigarTexto()
-    {
-        gameObject.SetActive(true);
-
-    }
 
     public void ResetarTexto()
     {
-        gameObject.SetActive(false);
+        textoMesh.text = "";
     }
 
     public void SetFala(string idle)
@@ -50,7 +35,6 @@ public class CaixaIdle : MonoBehaviour
         cancelarTextoAbel = false;
         textoMesh.text = idle;
         caixaAnim.SetTrigger("TriggarFala");
-
     }
 
     

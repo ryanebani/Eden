@@ -35,7 +35,6 @@ public class NPC : MonoBehaviour
 
     public void PodeIdleNPC()
     {
-        caixaIdle.LigarTexto();
         indice = Random.Range(0, falasIdleNPC.Length);
         for (int i = 0; i < falasIdleNPC.Length; i++)
         {

@@ -9,6 +9,7 @@ TagManager:
   - Correto
   - Doc B
   - NPC
+  - ObjInt
   layers:
   - Default
   - TransparentFX

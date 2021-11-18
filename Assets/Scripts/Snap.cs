@@ -14,7 +14,8 @@ public class Snap : MonoBehaviour
     RectTransform myRectT;
     
 
-    bool canSnap;
+    public bool canSnap;
+    public bool parentear;
 
     public UnityEvent OnTrigger;
     public UnityEvent OnGanhar;
@@ -34,6 +35,20 @@ public class Snap : MonoBehaviour
         StartCoroutine(Timer());
     }
   
+    public void OnCanSnap2()
+    {
+        canSnap = true;
+    }
+
+    public void CancelSnap()
+    {
+        canSnap = false;
+    }
+
+    public void Parentear(GameObject filho)
+    {
+        filho.transform.parent = gameObject.transform;
+    }
     void OnTriggerStay2D(Collider2D colisor)
     {
 
@@ -42,13 +57,18 @@ public class Snap : MonoBehaviour
                 
             RectTransform colRectT = colisor.GetComponent<RectTransform>();
             myRectT.anchoredPosition = new Vector2(colRectT.anchoredPosition.x + snapX, colRectT.anchoredPosition.y + snapY);
+
+            /*if (parentear)
+            {
+                canSnap = false;
+                colisor.gameObject.transform.SetParent(gameObject.transform);
+            }*/
+
             OnTrigger?.Invoke();
 
             if (colisor.gameObject.GetComponent<Snap>().correto)
             {
-                OnGanhar?.Invoke();
-                Debug.Log("ganhou");
-                
+                OnGanhar?.Invoke();               
             }            
         }
 
