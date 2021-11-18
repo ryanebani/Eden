@@ -58,15 +58,31 @@ public class ArrastarItem : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
         {
             Touch touch = Input.GetTouch(0);
             if (touch.phase == TouchPhase.Ended)
-            {
-                ponto = Camera.main.ScreenToWorldPoint(touch.position);
-                RaycastHit2D hit = Physics2D.Raycast(ponto, -Vector2.up, 0.05f);
-                
-                if (hit.collider.tag == "NPC")
+            {         
+
+                if (CanvasItens.CanvasAberto == false)
                 {
-                    Interagir.paraOndeVou = hit.collider.name;
-                    Interagir.itemSelecionado = slots.nome;
-                    
+                    ponto = Camera.main.ScreenToWorldPoint(touch.position);
+                    RaycastHit2D hit = Physics2D.Raycast(ponto, -Vector2.up, 0.05f);
+
+                    if (hit.collider.tag == "NPC" || hit.collider.tag == "ObjInt")
+                    {
+                        Interagir.paraOndeVou = hit.collider.name;
+                        Interagir.itemSelecionado = slots.nome;
+                        Interagir.itemNaMao = true;
+                    }
+                }
+                else
+                {
+                    RaycastHit2D hit = Physics2D.Raycast(touch.position, -Vector2.up, 0.05f);
+                    if(hit.collider.tag == "Finish")
+                    {
+                        Interagir.itemSelecionado = slots.nome;
+                        Interagir.itemNaMao = true;
+                        CanvasItens canvasItens;
+                        canvasItens = hit.collider.gameObject.GetComponent<CanvasItens>();
+                        canvasItens.EntregarItem();
+                    }
                 }
             }
         }

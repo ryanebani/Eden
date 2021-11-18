@@ -7,6 +7,7 @@ public class Interagir : MonoBehaviour
     
     public static string paraOndeVou;
     public static string itemSelecionado;
+    static public bool itemNaMao;
     public static bool podeAndar = true;
     public static bool olharDireita = true;
 
@@ -45,9 +46,8 @@ public class Interagir : MonoBehaviour
 
     void Update()
     {
-      
         if (olharDireita)
-            prefabTransform.eulerAngles = new Vector3(0, 0, 0);
+        prefabTransform.eulerAngles = new Vector3(0, 0, 0);
         else
             prefabTransform.eulerAngles = new Vector3(0, 180, 0);
 
@@ -162,7 +162,6 @@ public class Interagir : MonoBehaviour
     }
     public void PodeIdle(string falasIdle)
     {
-        caixaIdle.LigarTexto();
         caixaIdle.SetFala(falasIdle);
     }
 

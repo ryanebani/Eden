@@ -9,13 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
-  m_Name: Seq AR2
+  m_Script: {fileID: 11500000, guid: 5052d03188da00a4e834499d398411d7, type: 3}
+  m_Name: P_Belinha
   m_EditorClassIdentifier: 
-  sequencia:
-  - Vou ir dar uma volta.
-  - Se precisar de mim me procura.
-  - "Onde que c\xEA vai?"
-  - "N\xE3o vou pra longe, n\xE3o se preocupa."
-  npcFalando: 01010001
-  proximaFala: {fileID: 0}
+  nomeNPC: P_Belinha
+  falasIdle:
+  - 
+  prefab: {fileID: 0}
+  audioSource: {fileID: 0}
+  voz: []

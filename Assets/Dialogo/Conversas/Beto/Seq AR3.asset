@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequencia:
   - "A Madalena falou de voc\xEA."
-  - "Madalena!? C\xEA \xE9 uma das crias dela? "
-  - E se eu for?
-  - "A\xED tu pode at\xE9 entrar,"
-  - "Mas s\xF3 se fizer algo pra mim."
-  - Fala ai o que tu quer.
-  - Tu pode achar uns trocado pra mim?
-  npcFalando: 00010001010001
+  - "Ah claro! Aquelha velha n\xE3o consegue manter o focinho fechado."
+  - "Ela s\xF3 ta tentando me ajudar."
+  - "E eu tamb\xE9m to tentando te ajudar."
+  - E como tu vai me ajudar moleque?
+  - "Ah, sei l\xE1, tem algo que c\xEA precisa?"
+  - "At\xE9 tem, vai me ajudar mesmo?"
+  npcFalando: 00010000010001
   proximaFala: {fileID: 11400000, guid: d6b0e19074188544d9f6c7ede7aedb0a, type: 2}

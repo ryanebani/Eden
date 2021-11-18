@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Seq A
   m_EditorClassIdentifier: 
   sequencia:
-  - Que? eu preciso de ajuda do Seu Afonso na real.
-  - Sou eu, do que precisa menino?
+  - "H\xE3... O mo\xE7o na porta."
+  - "Ah, o Beto, se ele te deixou entrar voc\xEA deve ser de boa."
+  - "O que voc\xEA quer nesse pr\xE9dio abandonado?"
   npcFalando: 0001
   proximaFala: {fileID: 11400000, guid: 748cb893f08f2c24d9e4738eb91cc7ed, type: 2}

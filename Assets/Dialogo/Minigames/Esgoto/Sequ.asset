@@ -10,12 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
-  m_Name: Seq AR2
+  m_Name: Sequ
   m_EditorClassIdentifier: 
   sequencia:
-  - Vou ir dar uma volta.
-  - Se precisar de mim me procura.
-  - "Onde que c\xEA vai?"
-  - "N\xE3o vou pra longe, n\xE3o se preocupa."
-  npcFalando: 01010001
+  - Se eu tivess alguma coisa que dessa pra puxar pra cima...
+  npcFalando: 00
   proximaFala: {fileID: 0}

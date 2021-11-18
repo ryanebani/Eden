@@ -13,18 +13,17 @@ MonoBehaviour:
   m_Name: Seq AR1
   m_EditorClassIdentifier: 
   sequencia:
-  - Me largaram aqui
-  - "Eu lembro de voc\xEA, Abel n\xE9? Voc\xEA tava sempre com um molequinho."
-  - "Era meu irm\xE3o. "
-  - "Voc\xEA lembra como as coisas estavam antes n\xE9?"
-  - "Poucos funcion\xE1rios, pouca grana, depois que voc\xEA foi embora as coisas
-    s\xF3 pioraram."
-  - "O governo cortou nossa verba, a diretora tentou segurar as pontas diminuindo
-    meu salario mas n\xE3o rolou."
-  - No fim os gravatinhas preferem dar dinheiro pra carrocinha, como se isso ajudassem
-    em algo!
-  - "Eles nem enxergam a gente, s\xF3 nos veem como lixo no ch\xE3o!"
-  - "Eu n\xE3o tinha ideia que as coisas tavam t\xE3o ruins aqui..."
-  - "Sempre foi ruim garoto, mas voc\xEA era crian\xE7a n\xE3o ia perceber. "
+  - Eu cresci aqui.
+  - "Na real, voc\xEA me \xE9 familiar..."
+  - "C\xEA me conhece?"
+  - "Cohecer \xE9 uma palavra forte, eu era zelador aqui,"
+  - "Antes do lugar cair aos peda\xE7os."
+  - O que rolou afinal?
+  - "O governo cortou a verba e ai diretora foi a fal\xEAncia."
+  - "Ela largou tudo pra tr\xE1s e fechou o lugar."
+  - "Ent\xE3o porque c\xEA ta aqui?"
+  - "Eu n\xE3o tinha lugar pra ir, sempre morei aqui, ent\xE3o simplesmente continuei."
+  - E ai algumas pessoas precisando de abrigo me procuraram e bom,
+  - "Acabou virando um abrigo n\xE3o oficial."
   npcFalando: 00010001010101010001
   proximaFala: {fileID: 11400000, guid: 748cb893f08f2c24d9e4738eb91cc7ed, type: 2}

@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: P_Documentos
   m_EditorClassIdentifier: 
   nomeNPC: P_Documentos
-  falasIdle: []
+  falasIdle:
+  - 
   prefab: {fileID: 0}
   audioSource: {fileID: 0}
   voz: []

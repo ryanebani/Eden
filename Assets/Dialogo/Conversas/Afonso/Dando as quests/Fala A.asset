@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
   m_Name: Fala A
   m_EditorClassIdentifier: 
-  fala: "N\xE3o tem nenhum \"largado\" aqui pra levar embora! sai daqui!"
+  fala: Quem foi que te deixou entrar?
   respostas: []
   sequencia: {fileID: 11400000, guid: 8c3162fc8c092504d9bbda8d5cafa33b, type: 2}
   npcFalando: 1
@@ -22,6 +22,5 @@ MonoBehaviour:
   dadosNpc: {fileID: 0}
   recomecar: 0
   NPCNode: 0
-  acao: 0
   proximaQuest: 0
   acaoSequencial: 0

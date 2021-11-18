@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class Dialogo : MonoBehaviour
 {
     public NPC npc;
+    public AlvoMovendo alvo;
 
     public FalaNPC[] falasSemMascara = new FalaNPC[2];
     public FalaNPC[] falasComMascara = new FalaNPC[2];
@@ -49,6 +50,7 @@ public class Dialogo : MonoBehaviour
         dialogoController = FindObjectOfType<DialogoController>();
 
         npc = GetComponent<NPC>();
+        alvo = GetComponent<AlvoMovendo>();
     }
 
     
@@ -64,15 +66,17 @@ public class Dialogo : MonoBehaviour
     {
         DialogoController.dialogo = GetComponent<Dialogo>();
 
-        if (npc.idle)
+        if(alvo.negarItem == false)
         {
-            npc.PodeIdleNPC();
-        }
-        else
-        {
-            Ativar();
-        }
-
+            if (npc.idle)
+            {
+                npc.PodeIdleNPC();
+            }
+            else
+            {
+                Ativar();
+            }
+        }       
     }
 
     public void Ativar()

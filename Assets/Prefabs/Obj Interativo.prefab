@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 8295875213640138693}
   - component: {fileID: 5001860155073800066}
   - component: {fileID: 8792484484471612211}
+  - component: {fileID: 8233145364481246931}
   m_Layer: 0
   m_Name: Obj Interativo
-  m_TagString: Untagged
+  m_TagString: ObjInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75,16 +76,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destinoTransform: {fileID: 8116409654337050802}
+  negarItem: 0
+  receberItem: 0
   chao: 0
+  Item: 0
   NPC: 0
   direita: 0
-  OnCheguei:
+  CheckEntregarItem:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5001860155073800066}
-        m_TargetAssemblyTypeName: ObjInt, Assembly-CSharp
-        m_MethodName: PodeIdle
-        m_Mode: 1
+      - m_Target: {fileID: 8233145364481246931}
+        m_TargetAssemblyTypeName: FunctionsNPC, Assembly-CSharp
+        m_MethodName: EntregarItem
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -93,6 +97,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  OnCheguei:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &5001860155073800066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,8 +112,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b62536afee5a874bb88328c340be31c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inspecionar: {fileID: 0}
   objOS: {fileID: 0}
+  falaRandomizada: 
 --- !u!114 &8792484484471612211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,6 +143,22 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &8233145364481246931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2805290635578991312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841faddbbfbef29438952c4974320e92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  semDialogo: 1
+  chave: 
+  item: {fileID: 0}
 --- !u!1 &3061267227139837455
 GameObject:
   m_ObjectHideFlags: 0

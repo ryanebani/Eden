@@ -4,23 +4,29 @@ using UnityEngine;
 
 public class FunctionsNPC : MonoBehaviour
 {
+    [SerializeField] Animator animator;
     Inventario inventario;
-    [SerializeField]
-    Animator animator;
-    Fade fade;
     Dialogo dialogo;
+    AlvoMovendo alvo;
+    Fade fade;    
     bool itemDesejado;
-    //bool infoDesejada;
 
+    public bool semDialogo;
     public string chave;
     public ItemOS item;
 
 
     void Start()
     {
+        
         inventario = FindObjectOfType<Inventario>();
         fade = GetComponent<Fade>();
-        dialogo = GetComponent<Dialogo>();   
+        if(semDialogo == false)
+        {
+            dialogo = GetComponent<Dialogo>();
+        }
+       
+        alvo = GetComponent<AlvoMovendo>();
     }
 
    
@@ -41,19 +47,24 @@ public class FunctionsNPC : MonoBehaviour
 
     public void EntregarItem(bool receber)
     {
-        if (receber && Interagir.itemSelecionado == chave)
-        {
-            ReceberItem();
-        }
 
-        if(Interagir.itemSelecionado == chave)
+        if (Interagir.itemNaMao)
         {
-            inventario.RemoverItem();
-            dialogo.ProximaQuest();          
-        }
-        else
-        {
-
+            if (receber && Interagir.itemSelecionado == chave)
+            {
+                ReceberItem();
+                Interagir.itemNaMao = false;
+            }
+            else if (Interagir.itemSelecionado == chave)
+            {
+                inventario.RemoverItem();
+                dialogo.ProximaQuest();
+                Interagir.itemNaMao = false;
+            }
+            else
+            {
+                alvo.negarItem = true;
+            }
         }
     }
 

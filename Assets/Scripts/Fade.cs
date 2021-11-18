@@ -48,8 +48,7 @@ public class Fade : MonoBehaviour
         if(camAtual != null && camProx != null)
         {
             camAtual.Priority = 0;
-            camProx.Priority = 1;
-            
+            camProx.Priority = 1;            
         }
        
     }

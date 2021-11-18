@@ -13,18 +13,17 @@ MonoBehaviour:
   m_Name: Seq A1
   m_EditorClassIdentifier: 
   sequencia:
-  - Veio pra ajudar com as marmitas?
-  - O senhor Afonso me pediu pra te ajudar
-  - Com umas marmitas ou algo assim
-  - Pra quem eu tenho que entregar?
-  - Tem dois rapazes no beco aqui do lado
-  - "\xC9 meu irm\xE3o e o namorado, entrega pra eles por favor"
-  - "Eles v\xE3o enteder"
-  - "Seu irm\xE3o?"
-  - Aham, ele teve uma vida dificil e eu ajudo ele como posso
-  - "S\xF3 dou um empurr\xE3ozinho pra ele se encontrar"
-  - Espera, a senhora ta falando dos dois "largatos"?
-  - "Esse nome n\xE3o \xE9 muito legal sabia?"
-  - "Ah... Foi mal... N\xE3o tive a inten\xE7\xE3o de ofender"
-  npcFalando: 0100000001010100010100010001
-  proximaFala: {fileID: 11400000, guid: 034bdbf70c08a9542b19762e41c3361b, type: 2}
+  - "C\xEA \xE9 a Zenaide?"
+  - Sou sim querido, precisa de algo?
+  - "O seu Afonso comentou que c\xEA precisava de ajuda,"
+  - "Ent\xE3o vim oferecer."
+  - "Ah mas que gentil voc\xEA!"
+  - Eu preciso entregar essas marmitas aqui.
+  - "Mas o fog\xE3o ta ruim e n\xE3o quero tirar o olho dele."
+  - "Ent\xE3o se n\xE3o for incomodo, poderia levar essas marmitas?"
+  - Posso, mas pra quem?
+  - "Tem dois mo\xE7os no beco aqui perto."
+  - Entrega pra eles,  por favor.
+  - Ok sem problema.
+  npcFalando: 
+  proximaFala: {fileID: 0}

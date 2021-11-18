@@ -17,5 +17,10 @@ MonoBehaviour:
   - "Ent\xE3o eu cato essas latinhas e vendo pra um centro de reciclagem."
   - E eles te pagam?
   - "N\xE3o muito, mas \xE9 o suficiente pra comer."
-  npcFalando: 01010001
+  - "E voc\xEA moleque, faz algo ou fica s\xF3 debaixo da saia da Madalena?"
+  - "Ah, fico por ai, tento pedir umas esmolas na rua, mas \xE9 raro darem."
+  - Maior parte das vezes me ignoram.
+  - Ou me olham feio e continuam andando.
+  - "T\xEDpico dessa cidade de merda!"
+  npcFalando: 010100010100000001
   proximaFala: {fileID: 0}

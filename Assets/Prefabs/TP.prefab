@@ -105,9 +105,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destinoTransform: {fileID: 9046201606421509007}
+  negarItem: 0
+  receberItem: 0
   chao: 0
+  Item: 1
   NPC: 0
   direita: 0
+  CheckEntregarItem:
+    m_PersistentCalls:
+      m_Calls: []
   OnCheguei:
     m_PersistentCalls:
       m_Calls:
