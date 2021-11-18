@@ -16,6 +16,8 @@ MonoBehaviour:
   respostas:
   - resposta: O orfanato ta abandonado?
     proximaFala: {fileID: 11400000, guid: 61d4ccfaac03a4749bf69b680ea8556a, type: 2}
+  - resposta: Preciso ir.
+    proximaFala: {fileID: 11400000, guid: 3dc0b98579976a4459a6bcd721359c2a, type: 2}
   - resposta: Tem um chato me barrando!
     proximaFala: {fileID: 11400000, guid: f213eb1583e39954cb7179346e1135c3, type: 2}
   - resposta: Preciso ir.

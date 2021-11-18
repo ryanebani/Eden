@@ -17,5 +17,9 @@ MonoBehaviour:
   - Se precisar de mim me procura.
   - "Onde que c\xEA vai?"
   - "N\xE3o vou pra longe, n\xE3o se preocupa."
+<<<<<<< HEAD
   npcFalando: 
+=======
+  npcFalando: 01010001
+>>>>>>> 695ceac3cae7fd3e6759a1e8c5c8d328dcdbfa0a
   proximaFala: {fileID: 0}

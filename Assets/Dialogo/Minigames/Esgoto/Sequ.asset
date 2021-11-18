@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequencia:
   - Se eu tivess alguma coisa que dessa pra puxar pra cima...
-  npcFalando: 
+  npcFalando: 00
   proximaFala: {fileID: 0}
