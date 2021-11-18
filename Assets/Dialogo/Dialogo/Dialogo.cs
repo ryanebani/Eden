@@ -77,10 +77,10 @@ public class Dialogo : MonoBehaviour
 
     public void Ativar()
     {
-            if (DialogoController.podeClickar)
-            {                
-                
 
+            if (DialogoController.podeClickar)
+            {
+                
                 if (!mascara)
                 {
                     if (questsSemMascara.ContainsValue(true))

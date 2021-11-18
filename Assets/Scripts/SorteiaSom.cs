@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class SorteiaSom : MonoBehaviour
 {
-    [SerializeField]
-    private AudioClip[] clipes;
 
     private AudioSource origem;
 
@@ -14,8 +12,9 @@ public class SorteiaSom : MonoBehaviour
         origem = GetComponent<AudioSource>();
     }
 
-    protected void EscolherSom()
+    public void EscolherSom(AudioClip[] clipes)
     {
+        origem.clip = null;
         origem.clip = clipes[Random.Range(0, clipes.Length)];
         origem.Play();
     }

@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class DialogoController : MonoBehaviour
 {
+    private bool tocarSom = true;
+    private SorteiaSom som;
+
     public GameObject painelComTudo;
     public static bool podeClickar = true;
 
@@ -44,6 +47,10 @@ public class DialogoController : MonoBehaviour
 
     List<FalaNPC> naoAtivarAcao = new List<FalaNPC>();
 
+    private void Start()
+    {
+        som = GetComponent<SorteiaSom>();
+    }
 
     void Awake()
     {
@@ -100,6 +107,7 @@ public class DialogoController : MonoBehaviour
                         NPC = null;
                         Interagir.podeAndar = true;
                         podeClickar = true;
+                        tocarSom = true;
                     }
                 }
                 else
@@ -153,6 +161,7 @@ public class DialogoController : MonoBehaviour
                             NPC = null;
                             repetiu = false;
                             podeClickar = true;
+                            tocarSom = true;
                         }
 
                     }
@@ -204,7 +213,6 @@ public class DialogoController : MonoBehaviour
         falaNPC.text = "";
         Interagir.podeAndar = false;
         falas = fala;
- 
 
         LimparRespostas();
 
@@ -230,6 +238,12 @@ public class DialogoController : MonoBehaviour
         falaNPC.gameObject.SetActive(true);
         spriteNPC.gameObject.SetActive(true);
         spritePlayer.gameObject.SetActive(true);
+
+        if (tocarSom)
+        {
+            tocarSom = false;
+            som.EscolherSom(NPC.clipes);
+        }
 
         if (falas.recomecar && repetiu)
         {
