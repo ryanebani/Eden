@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: Seq BR1
   m_EditorClassIdentifier: 
   sequencia:
-  - "Mas a gente n\xE3o sabe onde ela deixou, poderia achar o ursinho dela, pode
-    por favor achar?"
-  - Ta, eu procuro ele
+  - "Ela chegou chorando, mas ningu\xE9m sabe porque."
+  - "T\xE1, vou tentar descobrir."
   npcFalando: 0100
   proximaFala: {fileID: 11400000, guid: 58506d8751cbeec40a75ede6edff316e, type: 2}

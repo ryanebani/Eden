@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
   m_Name: Seq AR2
   m_EditorClassIdentifier: 
-  sequencia: []
+  sequencia:
+  - Vou ir dar uma volta.
+  - Se precisar de mim me procura.
+  - "Onde que c\xEA vai?"
+  - "N\xE3o vou pra longe, n\xE3o se preocupa."
   npcFalando: 
   proximaFala: {fileID: 0}

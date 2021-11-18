@@ -10,12 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
-  m_Name: Seq A
+  m_Name: Seq tudo junto
   m_EditorClassIdentifier: 
-  sequencia:
-  - Ele ta mexendo no lixo!
-  - Que nojo! Deve ta procurando comida!
-  - "Viu filhinho \xE9 por isso que voc\xEA tem que estudar!"
-  - "Voc\xEA n\xE3o quer acabar iguall aquele... treco."
-  npcFalando: 01010101
+  sequencia: []
+  npcFalando: 
   proximaFala: {fileID: 0}

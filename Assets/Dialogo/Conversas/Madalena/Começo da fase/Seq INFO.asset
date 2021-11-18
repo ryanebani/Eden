@@ -14,7 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequencia:
   - "Ah, sei l\xE1, \xE9 um tamandua de bon\xE9 velho."
-  - "Ah, \xE9 o Beto, porque voc\xEA n\xE3o tenta perguntar se ele precisa de ajuda?"
-  - "Ta eu vou l\xE1."
-  npcFalando: 000100
+  - "Ah, \xE9 o Beto, ele \xE9 meio desconfiado."
+  - "N\xE3o confia em quem ele n\xE3o conhece."
+  - "Ent\xE3o n\xE3o tem chance dele me deixar passar?"
+  - "N\xE3o disse isso, voc\xEA s\xF3 tem que fazer ele confiar em voc\xEA."
+  - Todo mundo aqui se ajuda bastante.
+  - "Ent\xE3o... Eu devia oferecer ajuda pra ele?"
+  - Talvez.
+  - Ai que saco, eu to com pressa poxa.
+  npcFalando: 000101000101000100
   proximaFala: {fileID: 0}

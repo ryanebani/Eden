@@ -15,9 +15,10 @@ MonoBehaviour:
   sequencia:
   - 'Se ficou algo, pode ta na sala de arquivo. '
   - "Que tal voc\xEA me ajudar um pouquinho e ai eu te dou a chave?"
-  - "Ai s\xE9rio mesmo?"
+  - "Ai s\xE9rio mesmo? Eu to com pressa."
   - 'A gente tem que se ajudar menino! '
   - "Ta, ta. O que quer que eu fa\xE7a?"
-  - "Tem como voc\xEA acalmar a Belinha? Ela t\xE1 chorando"
+  - "Seguinte, preciso que que voc\xEA fale com a Belinha pra ver porque ela ta chorando,"
+  - "Seguinte, preciso qE que voc\xEA v\xE1 na cozinha falar com a Zenaide."
   npcFalando: 010100010001
-  proximaFala: {fileID: 11400000, guid: eaec05dfbd71d07489096262bbcb9baf, type: 2}
+  proximaFala: {fileID: 0}

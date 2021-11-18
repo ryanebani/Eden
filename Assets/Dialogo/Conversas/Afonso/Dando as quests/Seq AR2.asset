@@ -13,12 +13,17 @@ MonoBehaviour:
   m_Name: Seq AR2
   m_EditorClassIdentifier: 
   sequencia:
-  - "Eles nem perguntam nada, s\xF3 te pegam e levam pra interna\xE7\xE3o compuls\xF3ria,
-    como se fossem resolver algo com isso... "
-  - "Essas pessoas precisam de carinho e alternativas, igual as crian\xE7as que viviam
-    aqui. "
-  - E porque "largados"?
-  - 'Eles usam tanta erva de gato que acabam largados por ai. Mas cuidado com esse
-    nome, pode ser ofensivo. '
-  npcFalando: 01010001
+  - Eu te ofereceria um lugar, mas a gente ta lotado...
+  - "Ah, n\xE3o n\xE3o, eu tenho um lugar pra ficar"
+  - "Ah! Ent\xE3o voc\xEA foi adotado? Que \xF3timo saber disso."
+  - "Bom, n\xE3o exatamente..."
+  - "Eu fugi quando fiz 18 pra achar meu irm\xE3o."
+  - "Me lembro dele, Caio n\xE9? Foi adotado quando voc\xEAs eram pequenos."
+  - "Isso, eu queria achar ele, mas n\xE3o planejei direito."
+  - "E como eu n\xE3o tinha pra onde ir, acabei debaixo de uma ponte"
+  - E uma senhora cabra me acolheu.
+  - "Ah, devia ter imaginado que voc\xEA era uma das crias da Madalena."
+  - "C\xEA conhece ela?"
+  - Somos... velhos amigos.
+  npcFalando: 010001000001000000010001
   proximaFala: {fileID: 11400000, guid: 748cb893f08f2c24d9e4738eb91cc7ed, type: 2}

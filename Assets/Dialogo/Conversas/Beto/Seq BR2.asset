@@ -18,5 +18,12 @@ MonoBehaviour:
   - "Porque n\xE3o?"
   - "N\xE3o que seja da sua conta, mas eles n\xE3o eram muito legais."
   - E ai ouvi falar desse lugar.
-  npcFalando: 0101000101
+  - "E voc\xEA, qual tua hist\xF3ria moleque?"
+  - "N\xE3o \xE9 da sua conta!"
+  - "Qual \xE9 mano, abri meu cora\xE7\xE3o pra ti agora!"
+  - "T\xE1 t\xE1... Faz uns dois anos que eu to na rua,"
+  - "Fugi do orfanato pra achar meu irm\xE3o."
+  - "Tu deve amar mesmo teu irm\xE3o hein?"
+  - "Ele \xE9 minha \xFAnica fam\xEDlia calro que eu amo ele!"
+  npcFalando: 010100010101000100000100
   proximaFala: {fileID: 0}
