@@ -4,13 +4,19 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 3237067221796685598
-    second: Guarda-Chuva
+    second: Ursinho esgoto_0
   - first:
       213: -1205600522390594433
-    second: Esgoto
+    second: Ursinho esgoto_1
   - first:
       213: 909894873470335963
     second: Ursinho
+  - first:
+      213: 3258306886352632847
+    second: Ursinho esgoto_3
+  - first:
+      213: -1275208775818957642
+    second: Ursinho esgoto_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -112,15 +118,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Guarda-Chuva
+      name: Ursinho esgoto_0
       rect:
         serializedVersion: 2
-        x: 38
-        y: 1171
-        width: 43
-        height: 841
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 8
+        y: 1164
+        width: 157
+        height: 732
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -133,12 +139,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Esgoto
+      name: Ursinho esgoto_1
       rect:
         serializedVersion: 2
-        x: 178
+        x: 176
         y: 1133
-        width: 1631
+        width: 1633
         height: 879
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -154,13 +160,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ursinho
+      name: Ursinho esgoto_3
       rect:
         serializedVersion: 2
-        x: 45
-        y: 684
-        width: 267
-        height: 372
+        x: 30
+        y: 608
+        width: 465
+        height: 460
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,8 +174,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdbf52c019890ac00800000000000000
-      internalID: 909894873470335963
+      spriteID: f0cf14299d4d73d20800000000000000
+      internalID: 3258306886352632847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ursinho esgoto_4
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 679
+        width: 497
+        height: 423
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bca9deef5c8d4ee0800000000000000
+      internalID: -1275208775818957642
       vertices: []
       indices: 
       edges: []
