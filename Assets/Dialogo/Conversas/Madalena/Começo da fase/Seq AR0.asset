@@ -23,4 +23,5 @@ MonoBehaviour:
   - "N\xE3o da pra ter certeza se v\xE3o te dar os documentos"
   - "Eles tem que dar, eu sou a fam\xEDlia dele!"
   npcFalando: 000100010000010100
+  proximaCutscene: 000000000000000000
   proximaFala: {fileID: 0}

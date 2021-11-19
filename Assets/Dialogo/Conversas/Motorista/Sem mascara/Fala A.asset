@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fala: "Gente da sua laia n\xE3o entra!"
   respostas: []
-  sequencia: {fileID: 0}
+  sequencia: {fileID: 11400000, guid: 1a65da554d3b7f941b61a00e36e7d6be, type: 2}
   npcFalando: 0
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
@@ -22,6 +22,7 @@ MonoBehaviour:
   dadosNpc: {fileID: 0}
   recomecar: 0
   NPCNode: 0
-  acao: 0
   proximaQuest: 0
   acaoSequencial: 0
+  proximaCutscene: 0
+  cutscene: {fileID: 0}

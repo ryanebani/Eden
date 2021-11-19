@@ -11,14 +11,24 @@ public class Arrastar : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     [SerializeField] GameObject panel;
     [SerializeField] Image panelChild;
     [SerializeField] Sprite zoom;
+    [SerializeField] Arrastar controller;
 
     public UnityEvent DragEnd;
+    public UnityEvent Contador;
     public bool dragging;
 
     RectTransform rectTrans;
     CanvasGroup canvasGroup;
-      
+    public int contador;
+    public int marca;
 
+    public void Update()
+    {
+        if(contador >= marca)
+        {
+            Contador?.Invoke();
+        }
+    }
 
     void Awake()
     {
@@ -64,6 +74,12 @@ public class Arrastar : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     public void Sibbling()
     {
         gameObject.transform.SetAsLastSibling();
+    }
+
+    public void Coletar()
+    {
+        gameObject.SetActive(false);
+        controller.contador ++;
     }
 
 }

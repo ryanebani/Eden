@@ -83,6 +83,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1601109920}
+        m_TargetAssemblyTypeName: CanvasItens, Assembly-CSharp
+        m_MethodName: ReceberItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnGanhar:
     m_PersistentCalls:
       m_Calls: []
@@ -99,7 +111,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 411.6}
+  m_Offset: {x: 0, y: 453}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -308,7 +320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameObj: {fileID: 7535524340507371732}
   chave: Guarda-Chuva
-  item: {fileID: 0}
+  item: {fileID: 11400000, guid: b7617fabcf4dd284a9664f86df38a640, type: 2}
 --- !u!1 &7535524339495289841
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,8 +357,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 101, y: -336}
-  m_SizeDelta: {x: 247.22221, y: 344.44443}
+  m_AnchoredPosition: {x: -18, y: -254.2}
+  m_SizeDelta: {x: 460.18518, y: 391.66666}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7535524339495289842
 CanvasRenderer:
@@ -376,7 +388,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 909894873470335963, guid: 8689d8b30d93dd249a311c35117f0c20, type: 3}
+  m_Sprite: {fileID: -1275208775818957642, guid: 8689d8b30d93dd249a311c35117f0c20, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -471,7 +483,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -100, y: -247}
+  m_AnchoredPosition: {x: 321, y: -215}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &7535524339737355489
@@ -498,7 +510,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 50, y: 50}
+  m_Size: {x: 70, y: 70}
   m_EdgeRadius: 0
 --- !u!114 &7535524339737355494
 MonoBehaviour:
@@ -758,8 +770,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.729686}
   m_AnchorMax: {x: 0.5, y: 0.729686}
-  m_AnchoredPosition: {x: 0, y: 364}
-  m_SizeDelta: {x: 39.81481, y: 778.7037}
+  m_AnchoredPosition: {x: 0, y: 399}
+  m_SizeDelta: {x: 145.37036, y: 677.7778}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7535524340507371731
 CanvasRenderer:
@@ -888,10 +900,16 @@ MonoBehaviour:
   panel: {fileID: 0}
   panelChild: {fileID: 0}
   zoom: {fileID: 0}
+  controller: {fileID: 0}
   DragEnd:
     m_PersistentCalls:
       m_Calls: []
+  Contador:
+    m_PersistentCalls:
+      m_Calls: []
   dragging: 0
+  contador: 0
+  marca: 0
 --- !u!61 &7535524340507371820
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -905,7 +923,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -378.31}
+  m_Offset: {x: 0, y: -321.23}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -973,8 +991,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 100, y: 28}
-  m_SizeDelta: {x: 247.22221, y: 344.44443}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 430.55554, y: 425.9259}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7535524340554100013
 CanvasRenderer:
@@ -1004,7 +1022,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 909894873470335963, guid: 8689d8b30d93dd249a311c35117f0c20, type: 3}
+  m_Sprite: {fileID: 3258306886352632847, guid: 8689d8b30d93dd249a311c35117f0c20, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
