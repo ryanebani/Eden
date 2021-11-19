@@ -9,10 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: beb09db3f743c354591c99baabbc8900, type: 3}
-  m_Name: Lixo
+  m_Script: {fileID: 11500000, guid: 5052d03188da00a4e834499d398411d7, type: 3}
+  m_Name: P_Lixo
   m_EditorClassIdentifier: 
-  nomeObj: Lixo
-  "falasInspe\xE7\xE3o":
-  - "Ser\xE1 que ela precisa de ajuda com o lixo?"
-  - "T\xE1 tudo t\xE3o limpo, algu\xE9m s\xF3 precisa jogar o lixo fora."
+  nomeNPC: 
+  falasIdle: []
+  prefab: {fileID: 0}
+  audioSource: {fileID: 0}
+  voz: []
