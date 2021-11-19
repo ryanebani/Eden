@@ -9,20 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
+  m_Script: {fileID: 11500000, guid: 5052d03188da00a4e834499d398411d7, type: 3}
   m_Name: Madalena Orfanato
   m_EditorClassIdentifier: 
-  fala: 
-  respostas: []
-  sequencia: {fileID: 0}
-  npcFalando: 0
-  falaNode: 
-  jogador: {fileID: 0}
-  NPC: {fileID: 0}
-  dadosNpc: {fileID: 0}
-  recomecar: 0
-  NPCNode: 0
-  proximaQuest: 0
-  acaoSequencial: 0
-  proximaCutscene: 0
-  cutscene: {fileID: 0}
+  nomeNPC: Madalena Orfanato
+  prefab: {fileID: 0}
+  audioSource: {fileID: 0}
+  voz: []
+  falasIdle: []
+  falasIdleMascara: []

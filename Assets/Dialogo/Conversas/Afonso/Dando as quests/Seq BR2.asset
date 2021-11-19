@@ -16,4 +16,5 @@ MonoBehaviour:
   - Ela deve ta na cozinha.
   - Procura ela que ela te explica tudo.
   npcFalando: 
-  proximaFala: {fileID: 0}
+  proximaCutscene: 
+  proximaFala: {fileID: 11400000, guid: 58506d8751cbeec40a75ede6edff316e, type: 2}

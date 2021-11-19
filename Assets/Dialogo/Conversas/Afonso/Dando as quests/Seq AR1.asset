@@ -16,14 +16,15 @@ MonoBehaviour:
   - Eu cresci aqui.
   - "Na real, voc\xEA me \xE9 familiar..."
   - "C\xEA me conhece?"
-  - "Cohecer \xE9 uma palavra forte, eu era zelador aqui,"
+  - "Conhecer \xE9 uma palavra forte, eu era zelador aqui,"
   - "Antes do lugar cair aos peda\xE7os."
   - O que rolou afinal?
-  - "O governo cortou a verba e ai diretora foi a fal\xEAncia."
+  - "O governo cortou a verba e a\xED a diretora foi a fal\xEAncia."
   - "Ela largou tudo pra tr\xE1s e fechou o lugar."
   - "Ent\xE3o porque c\xEA ta aqui?"
   - "Eu n\xE3o tinha lugar pra ir, sempre morei aqui, ent\xE3o simplesmente continuei."
   - E ai algumas pessoas precisando de abrigo me procuraram e bom,
   - "Acabou virando um abrigo n\xE3o oficial."
-  npcFalando: 00010001010101010001
+  npcFalando: 000100010100010100010101
+  proximaCutscene: 000000000000000000000000
   proximaFala: {fileID: 11400000, guid: 748cb893f08f2c24d9e4738eb91cc7ed, type: 2}

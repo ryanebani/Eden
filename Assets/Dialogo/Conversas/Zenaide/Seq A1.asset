@@ -12,18 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
   m_Name: Seq A1
   m_EditorClassIdentifier: 
-  sequencia:
-  - "C\xEA \xE9 a Zenaide?"
-  - Sou sim querido, precisa de algo?
-  - "O seu Afonso comentou que c\xEA precisava de ajuda,"
-  - "Ent\xE3o vim oferecer."
-  - "Ah mas que gentil voc\xEA!"
-  - Eu preciso entregar essas marmitas aqui.
-  - "Mas o fog\xE3o ta ruim e n\xE3o quero tirar o olho dele."
-  - "Ent\xE3o se n\xE3o for incomodo, poderia levar essas marmitas?"
-  - Posso, mas pra quem?
-  - "Tem dois mo\xE7os no beco aqui perto."
-  - Entrega pra eles,  por favor.
-  - Ok sem problema.
+  sequencia: []
   npcFalando: 
+  proximaCutscene: 
   proximaFala: {fileID: 0}

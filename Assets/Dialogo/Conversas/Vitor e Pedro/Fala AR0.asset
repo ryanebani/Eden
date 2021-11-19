@@ -18,7 +18,7 @@ MonoBehaviour:
     proximaFala: {fileID: 11400000, guid: 48da812e6f8414e4b89fc9dab27a4ce9, type: 2}
   - resposta: "O que \xE9 isso na sua m\xE3o?"
     proximaFala: {fileID: 11400000, guid: b7969b9ad49962f4bb58a84f91db7950, type: 2}
-  - resposta: Tchau
+  - resposta: "At\xE9 mais!"
     proximaFala: {fileID: 11400000, guid: 20010bbde94e1a8489b2632ccd8ac7ff, type: 2}
   - resposta: "At\xE9 mais"
     proximaFala: {fileID: 0}
@@ -32,3 +32,5 @@ MonoBehaviour:
   NPCNode: 1
   proximaQuest: 0
   acaoSequencial: 0
+  proximaCutscene: 0
+  cutscene: {fileID: 0}

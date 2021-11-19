@@ -15,12 +15,12 @@ MonoBehaviour:
   sequencia:
   - "N\xE3o \xE9 da sua conta!"
   - "Ent\xE3o tu n\xE3o vai entrar."
-  - "Saco... T\xE1, eu to procurando meu irm\xE3o e queria procurar pistas dele."
+  - "Saco... T\xE1, eu to procurando meu irm\xE3o Caio e queria procurar pistas dele."
   - "N\xE3o vai ter nada aqui."
   - Pelo menos me deixa dar uma olhada!
   - "N\xE3o, desiste, se teu irm\xE3o foi adotado ele ta muito melhor agora."
   - "Voc\xEA n\xE3o sabe nada do meu irm\xE3o!"
-  - "Seu teu irrm\xE3o quisesse falar com voc\xEA ele mesmo teria entrao em contato."
+  - "Seu teu irm\xE3o quisesse falar com voc\xEA ele mesmo teria entrao em contato."
   - "J\xE1 pensou nisso moleque?"
   - "Cala a boca! C\xEA n\xE3o sabe do que ta falando!"
   npcFalando: 00010001000100010101
