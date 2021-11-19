@@ -14,5 +14,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequencia:
   - "Consegui mas n\xE3o sei como chegar l\xE1"
+  - "O que voc\xEA quer saber?"
+  - "Voc\xEA sabe onde fica essa Rua Dourada?"
+  - Rua Dourada? Uau
+  - Rua Dourada fica na cidade alta.
+  - "Sabe o que \xE9 isso n\xE9?"
+  - "N\xE3o tenho ideia."
+  - "\xC9 a parte rica da cidade."
+  - "Como eu chego l\xE1?"
+  - "\xC9 meio complicado..."
+  - "\xD4nibus \xE9 o melhor jeito."
+  - "Mas voc\xEA precisa conseguir dinheiro pra passagem."
+  - "N\xE3o parece dif\xEDcil. Isso \xE9 tudo?"
+  - "Voc\xEA vai precisar de mais uma coisinha."
+  - "Voc\xEA ta realmente disposto a ir pra l\xE1 n\xE9?"
+  - "\xD3bvio!"
+  - "\xC9 minha chance de ver meu irm\xE3o de novo!"
+  - Eu faria qualquer coisa pra ver ele de novo!
+  - "Ent\xE3o acho que voc\xEA vai precisar disso aqui."
+  - Uma mascara? Quer que eu me infiltre numa festa de halloween?
+  - "Claro que n\xE3o anjo."
+  - "Ela \xE9 uma esp\xE9cie de... disfarce"
+  - Ah claro, porque isso vai esconder minha roupa surrada
+  - "E ningu\xE9m vai desconfiar que moro na rua."
+  - "\xC9... Quase isso"
+  - "Ent\xE3o, porque voc\xEA n\xE3o vai l\xE1 fora e tenta conversar com algu\xE9m?"
+  - "Mada, o que voc\xEA ta planejando?"
+  - "N\xE3o to planejando nada."
   npcFalando: 00
-  proximaFala: {fileID: 11400000, guid: 481a0d004d0304f4daa34e6568c53854, type: 2}
+  proximaCutscene: 
+  proximaFala: {fileID: 0}
