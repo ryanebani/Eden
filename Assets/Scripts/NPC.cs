@@ -9,7 +9,9 @@ public class NPC : MonoBehaviour
 
     [SerializeField] NPCOS npc;
     string[] falasIdleNPC;
+    string[] falasIdleMascara;
     public bool idle;
+    public bool idleMascara;
     int indice;
 
     [SerializeField]
@@ -18,6 +20,7 @@ public class NPC : MonoBehaviour
     void Start()
     {
         falasIdleNPC = npc.falasIdle;
+        falasIdleMascara = npc.falasIdleMascara;
     }
 
     void Update()
@@ -35,16 +38,42 @@ public class NPC : MonoBehaviour
 
     public void PodeIdleNPC()
     {
-        indice = Random.Range(0, falasIdleNPC.Length);
-        for (int i = 0; i < falasIdleNPC.Length; i++)
+        if (Dialogo.mascara == false)
         {
-            if (indice == i)
+            indice = Random.Range(0, falasIdleNPC.Length);
+            for (int i = 0; i < falasIdleNPC.Length; i++)
             {
-                caixaIdle.SetFala(falasIdleNPC[i]);
-                break;
+                if (indice == i)
+                {
+                    caixaIdle.SetFala(falasIdleNPC[i]);
+                    break;
+                }
             }
         }
+        else
+        {
+            indice = Random.Range(0, falasIdleMascara.Length);
+            for (int i = 0; i < falasIdleMascara.Length; i++)
+            {
+                if (indice == i)
+                {
+                    caixaIdle.SetFala(falasIdleMascara[i]);
+                    break;
+                }
+            }
+        }
+
+
+       
     }
 
+    public void LigarIdle(bool ligar)
+    {
+        idle = ligar;
+    }
 
+    public void LigarIdleMascara(bool ligar)
+    {
+        idleMascara = ligar;
+    }
 }

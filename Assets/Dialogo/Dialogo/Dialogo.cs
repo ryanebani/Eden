@@ -68,7 +68,7 @@ public class Dialogo : MonoBehaviour
 
         if(alvo.negarItem == false)
         {
-            if (npc.idle)
+            if (npc.idle || npc.idleMascara)
             {
                 npc.PodeIdleNPC();
             }
@@ -231,7 +231,7 @@ public class Dialogo : MonoBehaviour
                             questsComMascara[falaQuestsComMascara[i]] = false;
                             if (i == falaQuestsComMascara.Length - 1)
                             {
-                                npc.idle = true;
+                                npc.idleMascara = true;
                             }
                             else
                             {
@@ -244,7 +244,7 @@ public class Dialogo : MonoBehaviour
                 }
             }
             else
-                npc.idle = true;
+                npc.idleMascara = true;
         
     }
 
