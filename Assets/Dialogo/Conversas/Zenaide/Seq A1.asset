@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
   m_Name: Seq A1
   m_EditorClassIdentifier: 
-  sequencia: []
-  npcFalando: 
+  sequencia:
+  - Aconteceu algo?
+  - "Ah nada espec\xEDfico, a vida s\xF3 ta dif\xEDcil. "
+  - "Sabe como \xE9, pa\xEDs em crise e o governo n\xE3o ajuda."
+  npcFalando: 000101
   proximaCutscene: 
-  proximaFala: {fileID: 0}
+  proximaFala: {fileID: 11400000, guid: 342a50ec32680a540a926fa39ca524d0, type: 2}
