@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5052d03188da00a4e834499d398411d7, type: 3}
   m_Name: Marcelo
   m_EditorClassIdentifier: 
-  nomeNPC: Feirante
-  falasIdle:
-  - A
-  - B
-  - C
+  nomeNPC: Marcelo
   prefab: {fileID: 0}
   audioSource: {fileID: 0}
   voz:
   - {fileID: 0}
+  falasIdle:
+  - A
+  - B
+  - C
+  falasIdleMascara: []

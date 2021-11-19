@@ -25,8 +25,8 @@ public class Dialogo : MonoBehaviour
     Dictionary<FalaNPC, bool> questsComMascara = new Dictionary<FalaNPC, bool>();
     Dictionary<FalaNPC, bool> questsSemMascara = new Dictionary<FalaNPC, bool>();
     
-    public UnityEvent[] ueMask = new UnityEvent[0];
     public UnityEvent[] ueSemMask = new UnityEvent[0];
+    public UnityEvent[] ueMask = new UnityEvent[0];
     public int indexMask = 0;
     public int indexSemMask = 0;
     public bool temIndexMask = true;
