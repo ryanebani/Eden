@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fala: "Sei l\xE1, no lixo ou jogado no ch\xE3o."
   respostas: []
-  sequencia: {fileID: 0}
-  npcFalando: 0
+  sequencia: {fileID: 11400000, guid: ce620da5dc7c2f4469d70c560cfedc48, type: 2}
+  npcFalando: 1
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: 873072fe9fc197f4c9549ffd5a703430, type: 2}
@@ -24,3 +24,5 @@ MonoBehaviour:
   NPCNode: 0
   proximaQuest: 0
   acaoSequencial: 0
+  proximaCutscene: 0
+  cutscene: {fileID: 0}

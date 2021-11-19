@@ -21,6 +21,8 @@ MonoBehaviour:
   - resposta: E onde eu pego isso?
     proximaFala: {fileID: 11400000, guid: 7162e4087f213b148853b13d426dcdf2, type: 2}
   - resposta: "Ainda n\xE3o, vou procurar..."
+    proximaFala: {fileID: 11400000, guid: 21fcb6b415849454386d22b7df9d1b9f, type: 2}
+  - resposta: "Ainda n\xE3o, vou procurar..."
     proximaFala: {fileID: 0}
   sequencia: {fileID: 0}
   npcFalando: 0
@@ -32,3 +34,5 @@ MonoBehaviour:
   NPCNode: 1
   proximaQuest: 0
   acaoSequencial: 0
+  proximaCutscene: 0
+  cutscene: {fileID: 0}

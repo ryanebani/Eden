@@ -14,7 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequencia:
   - "N\xE3o t\xF4 entendendo o que \xE9 isso"
-  - "N\xE3o t\xF4 entendendo o que \xE9 isso"
-  npcFalando: 
-  proximaCutscene: 
+  npcFalando: 00
+  proximaCutscene: 00
   proximaFala: {fileID: 0}

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5052d03188da00a4e834499d398411d7, type: 3}
   m_Name: Victor e Pedro
   m_EditorClassIdentifier: 
-  nomeNPC: Victor
-  falasIdle: []
-  spriteNPC: {fileID: 0}
-  animator: {fileID: 0}
+  nomeNPC: Victor e Pedro
+  prefab: {fileID: 0}
   audioSource: {fileID: 0}
   voz: []
+  falasIdle: []
+  falasIdleMascara: []

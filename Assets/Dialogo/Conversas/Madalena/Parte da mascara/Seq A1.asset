@@ -41,6 +41,6 @@ MonoBehaviour:
   - "Ent\xE3o, porque voc\xEA n\xE3o vai l\xE1 fora e tenta conversar com algu\xE9m?"
   - "Mada, o que voc\xEA ta planejando?"
   - "N\xE3o to planejando nada."
-  npcFalando: 00
-  proximaCutscene: 
-  proximaFala: {fileID: 0}
+  npcFalando: 00010001010100010001010100010100000001000101000001010001
+  proximaCutscene: 00000000000000000000000000000000000000000000000000000000
+  proximaFala: {fileID: 11400000, guid: c46f956ed5339bd449fbb538f5251ad1, type: 2}

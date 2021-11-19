@@ -14,13 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fala: "O que pode ser t\xE3o importante pra tu ter que entrar num pr\xE9dio abandonado?"
   respostas: []
-  sequencia: {fileID: 0}
+  sequencia: {fileID: 11400000, guid: fa6cfd964a1b6664280dca451e65d427, type: 2}
   npcFalando: 1
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: 873072fe9fc197f4c9549ffd5a703430, type: 2}
-  dadosNpc: {fileID: 0}
+  dadosNpc: {fileID: 11400000, guid: 77e90ab3054c95a49a9e1cb63e7216af, type: 2}
   recomecar: 0
   NPCNode: 1
   proximaQuest: 0
   acaoSequencial: 1
+  proximaCutscene: 0
+  cutscene: {fileID: 0}
