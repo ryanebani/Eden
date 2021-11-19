@@ -20,5 +20,6 @@ MonoBehaviour:
   - Tu fede e ta espantando os meus clientes!
   - Agora xispa daqui antes que eu chame a policia!
   - "Aposto que \xE9 a comida dele que fede."
-  npcFalando: 010100010100
+  npcFalando: 01010001010100
+  proximaCutscene: 00000000000000
   proximaFala: {fileID: 0}

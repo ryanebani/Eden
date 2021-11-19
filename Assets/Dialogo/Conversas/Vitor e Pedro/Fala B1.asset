@@ -15,7 +15,7 @@ MonoBehaviour:
   fala: "Faz tempo que n\xE3o vejo uma dessa!"
   respostas: []
   sequencia: {fileID: 0}
-  npcFalando: 0
+  npcFalando: 1
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: ff52b11db71fed34fae2910d27568abd, type: 2}
@@ -24,3 +24,5 @@ MonoBehaviour:
   NPCNode: 0
   proximaQuest: 0
   acaoSequencial: 1
+  proximaCutscene: 0
+  cutscene: {fileID: 0}

@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
-  m_Name: Seq BR2
+  m_Name: Seq AR1
   m_EditorClassIdentifier: 
   sequencia:
-  - Ela deve ta na cozinha.
-  - Procura ela que ela te explica tudo.
-  npcFalando: 0101
-  proximaCutscene: 0000
-  proximaFala: {fileID: 11400000, guid: 58506d8751cbeec40a75ede6edff316e, type: 2}
+  - Aconteceu algo?
+  - "Ah nada espec\xEDfico, a vida s\xF3 ta dif\xEDcil. "
+  - "Sabe como \xE9, pa\xEDs em crise e o governo n\xE3o nos ajuda."
+  npcFalando: 000101
+  proximaCutscene: 000000
+  proximaFala: {fileID: 11400000, guid: 342a50ec32680a540a926fa39ca524d0, type: 2}

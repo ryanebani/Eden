@@ -13,17 +13,13 @@ MonoBehaviour:
   m_Name: Fala A
   m_EditorClassIdentifier: 
   fala: "Oi menino, \xE9 novo aqui?"
-  respostas:
-  - resposta: "Como t\xE3o as coisas?"
-    proximaFala: {fileID: 11400000, guid: 3eb982e2535564646a18986197a0f18e, type: 2}
-  - resposta: Tchau
-    proximaFala: {fileID: 11400000, guid: d682679139c36d84d90cacd9782bd466, type: 2}
-  sequencia: {fileID: 0}
-  npcFalando: 0
-  falaNode: Posso te ajudar?
+  respostas: []
+  sequencia: {fileID: 11400000, guid: c1299f95b8fb7494f87b5782531c885c, type: 2}
+  npcFalando: 1
+  falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: 22e5b31dcc6aa6f40a94d94e62403c10, type: 2}
-  dadosNpc: {fileID: 0}
+  dadosNpc: {fileID: 11400000, guid: 4a8db2274a9bf7b47ba3e85fdc6e9c52, type: 2}
   recomecar: 0
   NPCNode: 0
   proximaQuest: 0
