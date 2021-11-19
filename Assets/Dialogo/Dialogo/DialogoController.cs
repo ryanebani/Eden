@@ -27,6 +27,8 @@ public class DialogoController : MonoBehaviour
 
     public Image spritePlayer;
 
+    public Image imagemCutscene;
+
     private bool falaAtiva = false;
 
     public FalaNPC falas;
@@ -36,6 +38,10 @@ public class DialogoController : MonoBehaviour
     bool repetiu;
 
     int index = 0;
+
+    int indexCutscene = 0;
+
+    Cutscene cutscene;
 
     Personagem jogador;
     Personagem NPC;
@@ -108,12 +114,25 @@ public class DialogoController : MonoBehaviour
                         Interagir.podeAndar = true;
                         podeClickar = true;
                         tocarSom = true;
+                        imagemCutscene.gameObject.SetActive(false);
+                        indexCutscene = 0;
                     }
                 }
                 else
                 {
+                    if(falas.sequencia.proximaCutscene.Length != falas.sequencia.sequencia.Length)
+                    {
+                        falas.sequencia.proximaCutscene = new bool[falas.sequencia.sequencia.Length];
+                    }
+                    
                     if (index < falas.sequencia.sequencia.Length)
                     {
+                        if(falas.sequencia.proximaCutscene[index])
+                        {
+                            indexCutscene++;
+                            Cutscene();
+                        }
+
                         falaNPC.text = falas.sequencia.sequencia[index];
                         if (falas.sequencia.npcFalando[index])
                         {
@@ -162,6 +181,8 @@ public class DialogoController : MonoBehaviour
                             repetiu = false;
                             podeClickar = true;
                             tocarSom = true;
+                            imagemCutscene.gameObject.SetActive(false);
+                            indexCutscene = 0;
                         }
 
                     }
@@ -228,6 +249,8 @@ public class DialogoController : MonoBehaviour
             falas.NPC = NPC;
         }
 
+       
+
         spriteNPC.sprite = falas.NPC.sprite;
         spritePlayer.sprite = falas.jogador.sprite;
         falaAtiva = true;
@@ -238,6 +261,22 @@ public class DialogoController : MonoBehaviour
         falaNPC.gameObject.SetActive(true);
         spriteNPC.gameObject.SetActive(true);
         spritePlayer.gameObject.SetActive(true);
+
+        if (falas.proximaCutscene)
+        {
+            if (falas.cutscene != null)
+            {
+                imagemCutscene.gameObject.SetActive(true);
+                cutscene = falas.cutscene;
+                indexCutscene = 0;
+            }
+            else
+            {
+                indexCutscene++;
+            }
+            Cutscene();
+        }
+        
 
         if (tocarSom)
         {
@@ -293,5 +332,22 @@ public class DialogoController : MonoBehaviour
         }
 
         return true;
+    }
+
+    void Cutscene()
+    {
+
+            if (indexCutscene >= cutscene.imagens.Length)
+            {
+                imagemCutscene.gameObject.SetActive(false);
+                indexCutscene = 0;
+            }
+            else
+            {
+                imagemCutscene.sprite = cutscene.imagens[indexCutscene];
+
+            }
+
+        
     }
 }
