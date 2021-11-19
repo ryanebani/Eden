@@ -25,9 +25,12 @@ public class Dialogo : MonoBehaviour
     Dictionary<FalaNPC, bool> questsComMascara = new Dictionary<FalaNPC, bool>();
     Dictionary<FalaNPC, bool> questsSemMascara = new Dictionary<FalaNPC, bool>();
     
-    public UnityEvent[] ue = new UnityEvent[0];
-    public int index = 0;
-    public bool temIndex = true;
+    public UnityEvent[] ueMask = new UnityEvent[0];
+    public UnityEvent[] ueSemMask = new UnityEvent[0];
+    public int indexMask = 0;
+    public int indexSemMask = 0;
+    public bool temIndexMask = true;
+    public bool temIndexSemMask = true;
 
     private int contador = 0;
     [SerializeField]
@@ -56,9 +59,19 @@ public class Dialogo : MonoBehaviour
     
     void Update()
     {
-        if(index >= ue.Length)
+        if (mascara)
         {
-            temIndex = false;
+            if (indexMask >= ueMask.Length)
+            {
+                temIndexMask = false;
+            }
+        }
+        else
+        {
+            if (indexSemMask >= ueSemMask.Length)
+            {
+                temIndexSemMask = false;
+            }
         }
     }
 

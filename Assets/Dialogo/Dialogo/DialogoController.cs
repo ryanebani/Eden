@@ -247,12 +247,21 @@ public class DialogoController : MonoBehaviour
         spriteNPC.gameObject.SetActive(true);
         spritePlayer.gameObject.SetActive(true);
 
-        if (falas.acaoSequencial && dialogo.temIndex)
+        if (falas.acaoSequencial && dialogo.temIndexSemMask && !Dialogo.mascara)
         {
             if (ConferirAcao())
             {
-                dialogo.ue[dialogo.index]?.Invoke();
-                dialogo.index++;
+                dialogo.ueSemMask[dialogo.indexSemMask]?.Invoke();
+                dialogo.indexSemMask++;
+                naoAtivarAcao.Add(falas);
+            }
+        }
+        else if (falas.acaoSequencial && dialogo.temIndexMask && Dialogo.mascara)
+        {
+            if (ConferirAcao())
+            {
+                dialogo.ueMask[dialogo.indexMask]?.Invoke();
+                dialogo.indexMask++;
                 naoAtivarAcao.Add(falas);
             }
         }
