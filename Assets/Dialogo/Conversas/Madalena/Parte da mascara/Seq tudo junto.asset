@@ -12,6 +12,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
   m_Name: Seq tudo junto
   m_EditorClassIdentifier: 
-  sequencia: []
-  npcFalando: 
+  sequencia:
+  - "Voc\xEA sabe onde fica essa Rua Dourada?"
+  - Rua Dourada? Uau
+  - Rua Dourada fica na cidade alta.
+  - "Sabe o que \xE9 isso n\xE9?"
+  - "N\xE3o tenho ideia."
+  - "\xC9 a parte rica da cidade."
+  - "Como eu chego l\xE1?"
+  - "\xC9 meio complicado..."
+  - "\xD4nibus \xE9 o melhor jeito."
+  - "Mas voc\xEA precisa conseguir dinheiro pra passagem."
+  - "N\xE3o parece dif\xEDcil."
+  - "Eu n\xE3o acabei!"
+  - "Voc\xEA vai precisar de um passe de trabalhador pra passar pelo port\xE3o da
+    entrada."
+  - "Sem ele jamais deixariam algu\xE9m como a gente entrar."
+  - "Algu\xE9m como a gente?"
+  - "Voc\xEA sabe o que eu quero dizer."
+  - "Isso \xE9 tudo?"
+  - "Voc\xEA vai precisar de mais uma coisinha."
+  - "Voc\xEA ta realmente disposto a ir pra l\xE1 n\xE9?"
+  - "\xD3bvio!"
+  - "\xC9 minha chance de ver meu irm\xE3o de novo!"
+  - Eu faria qualquer coisa pra ver ele de novo!
+  - "Ent\xE3o acho que voc\xEA vai precisar disso aqui."
+  - Uma mascara? Quer que eu me infiltre numa festa de halloween?
+  - "Claro que n\xE3o anjo."
+  - "Ela \xE9 uma esp\xE9cie de... disfarce"
+  - 'Ah claro, porque isso vai esconder minha roupa surrada e '
+  - "E ningu\xE9m vai desconfiar que moro na rua."
+  - "\xC9... Quase isso"
+  - "Se eu te explica o que ela faz, n\xE3o iria acreditar em mim."
+  - "Ent\xE3o, porque voc\xEA n\xE3o vai l\xE1 fora e tenta conversar com algu\xE9m?"
+  - "Mada, o que voc\xEA ta planejando?"
+  - "N\xE3o to planejando nada."
+  - "S\xF3 ajudando meu protegido favorito!"
+  npcFalando: 00010101000100010101000101010001000101000000010001010000010101000100
   proximaFala: {fileID: 0}
