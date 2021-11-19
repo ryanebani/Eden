@@ -79,6 +79,7 @@ public class DialogoController : MonoBehaviour
 
             if (touch.phase == TouchPhase.Began && falaAtiva)
             {
+                AcaoSequencial();
                 if (falas.sequencia == null)
                 {
                     if (falas.respostas.Length > 0)
@@ -247,24 +248,7 @@ public class DialogoController : MonoBehaviour
         spriteNPC.gameObject.SetActive(true);
         spritePlayer.gameObject.SetActive(true);
 
-        if (falas.acaoSequencial && dialogo.temIndexSemMask && !Dialogo.mascara)
-        {
-            if (ConferirAcao())
-            {
-                dialogo.ueSemMask[dialogo.indexSemMask]?.Invoke();
-                dialogo.indexSemMask++;
-                naoAtivarAcao.Add(falas);
-            }
-        }
-        else if (falas.acaoSequencial && dialogo.temIndexMask && Dialogo.mascara)
-        {
-            if (ConferirAcao())
-            {
-                dialogo.ueMask[dialogo.indexMask]?.Invoke();
-                dialogo.indexMask++;
-                naoAtivarAcao.Add(falas);
-            }
-        }
+        
 
         if (falas.proximaCutscene)
         {
@@ -353,5 +337,27 @@ public class DialogoController : MonoBehaviour
             }
 
         
+    }
+
+    void AcaoSequencial()
+    {
+        if (falas.acaoSequencial && dialogo.temIndexSemMask && !Dialogo.mascara)
+        {
+            if (ConferirAcao())
+            {
+                dialogo.ueSemMask[dialogo.indexSemMask]?.Invoke();
+                dialogo.indexSemMask++;
+                naoAtivarAcao.Add(falas);
+            }
+        }
+        else if (falas.acaoSequencial && dialogo.temIndexMask && Dialogo.mascara)
+        {
+            if (ConferirAcao())
+            {
+                dialogo.ueMask[dialogo.indexMask]?.Invoke();
+                dialogo.indexMask++;
+                naoAtivarAcao.Add(falas);
+            }
+        }
     }
 }
