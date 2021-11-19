@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
-  m_Name: Fala AR3
+  m_Name: Fala B1
   m_EditorClassIdentifier: 
-  fala: "Voc\xEA vai precisar de mais uma coisinha."
+  fala: "Tu n\xE3o precisa usar isso comigo"
   respostas: []
-  sequencia: {fileID: 11400000, guid: befb82b7461ba1b4486e81f91d06e8c5, type: 2}
-  npcFalando: 0
+  sequencia: {fileID: 11400000, guid: e1d268bb4dee62e42af76fe3dc1e86f2, type: 2}
+  npcFalando: 1
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: e4a17fde116e04f408fcbcaaae87bbc1, type: 2}
@@ -24,3 +24,5 @@ MonoBehaviour:
   NPCNode: 0
   proximaQuest: 0
   acaoSequencial: 0
+  proximaCutscene: 0
+  cutscene: {fileID: 0}

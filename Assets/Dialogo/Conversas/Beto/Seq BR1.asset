@@ -23,4 +23,5 @@ MonoBehaviour:
   - Ou me olham feio e continuam andando.
   - "T\xEDpico dessa cidade de merda!"
   npcFalando: 010100010100000001
-  proximaFala: {fileID: 0}
+  proximaCutscene: 000000000000000000
+  proximaFala: {fileID: 11400000, guid: 40d7b1959cdf585469c1688ca33bcd64, type: 2}

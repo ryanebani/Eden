@@ -26,4 +26,5 @@ MonoBehaviour:
   - "Tu deve amar mesmo teu irm\xE3o hein?"
   - "Ele \xE9 minha \xFAnica fam\xEDlia calro que eu amo ele!"
   npcFalando: 010100010101000100000100
-  proximaFala: {fileID: 0}
+  proximaCutscene: 000000000000000000000000
+  proximaFala: {fileID: 11400000, guid: 40d7b1959cdf585469c1688ca33bcd64, type: 2}

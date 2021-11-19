@@ -23,5 +23,6 @@ MonoBehaviour:
   - "Seu teu irrm\xE3o quisesse falar com voc\xEA ele mesmo teria entrao em contato."
   - "J\xE1 pensou nisso moleque?"
   - "Cala a boca! C\xEA n\xE3o sabe do que ta falando!"
-  npcFalando: 00010001000100010100
-  proximaFala: {fileID: 0}
+  npcFalando: 00010001000100010101
+  proximaCutscene: 00000000000000000000
+  proximaFala: {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}

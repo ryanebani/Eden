@@ -21,6 +21,6 @@ MonoBehaviour:
   - Todo mundo aqui se ajuda bastante.
   - "Ent\xE3o... Eu devia oferecer ajuda pra ele?"
   - Talvez.
-  - Ai que saco, eu to com pressa poxa.
-  npcFalando: 000101000101000100
-  proximaFala: {fileID: 0}
+  npcFalando: 0001010001010001
+  proximaCutscene: 0000000000000000
+  proximaFala: {fileID: 11400000, guid: 4fd4ab5059423304b8fcedbcf942a0f1, type: 2}
