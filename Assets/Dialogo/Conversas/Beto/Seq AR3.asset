@@ -20,5 +20,7 @@ MonoBehaviour:
   - E como tu vai me ajudar moleque?
   - "Ah, sei l\xE1, tem algo que c\xEA precisa?"
   - "At\xE9 tem, vai me ajudar mesmo?"
-  npcFalando: 00010000010001
+  - "Vou! S\xF3 fala logo o que c\xEA quer!"
+  npcFalando: 0001000001000100
+  proximaCutscene: 0000000000000000
   proximaFala: {fileID: 11400000, guid: d6b0e19074188544d9f6c7ede7aedb0a, type: 2}

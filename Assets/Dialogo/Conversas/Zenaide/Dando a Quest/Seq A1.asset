@@ -24,6 +24,6 @@ MonoBehaviour:
   - Posso, mas pra quem?
   - "Tem dois mo\xE7os no beco aqui perto."
   - Entrega pra eles,  por favor.
-  - Ok sem problema.
-  npcFalando: 
-  proximaFala: {fileID: 0}
+  npcFalando: 0001000001010101000101
+  proximaCutscene: 000000000000000000000000
+  proximaFala: {fileID: 11400000, guid: 59607bd22bee2434a93dbdd165397997, type: 2}
