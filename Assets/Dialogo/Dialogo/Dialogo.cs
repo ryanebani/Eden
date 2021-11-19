@@ -81,13 +81,27 @@ public class Dialogo : MonoBehaviour
 
         if(alvo.negarItem == false)
         {
-            if (npc.idle || npc.idleMascara)
+            if (mascara)
             {
-                npc.PodeIdleNPC();
+                if (npc.idleMascara)
+                {
+                    npc.PodeIdleNPC();
+                }
+                else
+                {
+                    Ativar();
+                }
             }
             else
             {
-                Ativar();
+                if (npc.idle)
+                {
+                    npc.PodeIdleNPC();
+                }
+                else
+                {
+                    Ativar();
+                }
             }
         }       
     }
