@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
+  m_Name: Fala AR2
+  m_EditorClassIdentifier: 
+  fala: "\xC9 meio complicado..."
+  respostas: []
+  sequencia: {fileID: 0}
+  npcFalando: 0
+  falaNode: "Ent\xE3o escuta bem"
+  jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
+  NPC: {fileID: 11400000, guid: e4a17fde116e04f408fcbcaaae87bbc1, type: 2}
+  dadosNpc: {fileID: 11400000, guid: 50240a8bca3efb54997e78c77ddc2052, type: 2}
+  recomecar: 0
+  NPCNode: 1
+  proximaQuest: 0
+  acaoSequencial: 0

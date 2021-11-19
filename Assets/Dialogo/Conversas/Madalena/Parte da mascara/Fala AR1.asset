@@ -10,24 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
-  m_Name: Fala A2
+  m_Name: Fala AR1
   m_EditorClassIdentifier: 
-  fala: "Eu conhe\xE7o a cidade com a palma do meu casco."
-  respostas:
-  - resposta: "Voc\xEA sabe onde fica essa Rua Dourada?"
-    proximaFala: {fileID: 11400000, guid: d96478022c745a344b0941e83e18293b, type: 2}
-  - resposta: "Como eu chego l\xE1?"
-    proximaFala: {fileID: 11400000, guid: 9c62d04949274454395bba27c9cd5679, type: 2}
-  - resposta: "Isso \xE9 tudo?"
-    proximaFala: {fileID: 11400000, guid: 8cd5cf824dc77184bac64a12dac023be, type: 2}
+  fala: Rua Dourada? Uau
+  respostas: []
   sequencia: {fileID: 0}
   npcFalando: 0
-  falaNode: Pode me perguntar qualquer coisa
+  falaNode: "Eu conhe\xE7o"
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: e4a17fde116e04f408fcbcaaae87bbc1, type: 2}
-  dadosNpc: {fileID: 0}
+  dadosNpc: {fileID: 11400000, guid: 50240a8bca3efb54997e78c77ddc2052, type: 2}
   recomecar: 0
   NPCNode: 1
-  acao: 0
   proximaQuest: 0
   acaoSequencial: 0
