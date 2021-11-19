@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5052d03188da00a4e834499d398411d7, type: 3}
   m_Name: P_Lixo
   m_EditorClassIdentifier: 
-  nomeNPC: Lixo
+  nomeNPC: P_Lixo
   prefab: {fileID: 0}
   audioSource: {fileID: 0}
   voz: []
-  falasIdle: []
+  falasIdle:
+  - 
   falasIdleMascara: []

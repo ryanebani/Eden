@@ -12,9 +12,12 @@ public class Arrastar : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     [SerializeField] Image panelChild;
     [SerializeField] Sprite zoom;
     [SerializeField] Arrastar controller;
+    [SerializeField]AudioSource audioSource;
+    [SerializeField] AudioClip[] clips;
 
-    AudioSource audioSource;
-    AudioClip[] clips;
+    public bool naoMexer;
+
+
     int indice;
 
 
@@ -37,6 +40,7 @@ public class Arrastar : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         if(contador >= marca)
         {
             Contador?.Invoke();
+            contador = 0;
         }
     }
 
@@ -62,6 +66,7 @@ public class Arrastar : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
     public void OnDrag(PointerEventData eventData)
     {
+        if(naoMexer == false)
        rectTrans.anchoredPosition += eventData.delta / canvas.scaleFactor;
     }
 

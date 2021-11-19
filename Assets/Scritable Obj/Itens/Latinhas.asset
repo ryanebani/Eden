@@ -9,13 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5052d03188da00a4e834499d398411d7, type: 3}
-  m_Name: P_Documentos
+  m_Script: {fileID: 11500000, guid: d62838668339a474280e419b21110864, type: 3}
+  m_Name: Latinhas
   m_EditorClassIdentifier: 
-  nomeNPC: P_Documentos
-  prefab: {fileID: 0}
-  audioSource: {fileID: 0}
-  voz: []
-  falasIdle:
-  - 
-  falasIdleMascara: []
+  nome: Latinhas
+  descricao: 
+  icone: {fileID: 4749367379176292346, guid: d62d03254bebcbe4ca4dcc8c672006df, type: 3}

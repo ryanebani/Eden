@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Events;
 public class CanvasItens : MonoBehaviour
 {
     static public bool CanvasAberto;
@@ -9,6 +9,7 @@ public class CanvasItens : MonoBehaviour
     Inventario inventario;
     public string chave;
     public ItemOS item;
+    public UnityEvent evento;
 
     private void OnEnable()
     {
@@ -39,10 +40,7 @@ public class CanvasItens : MonoBehaviour
                 inventario.RemoverItem();
                 //dialogo.ProximaQuest();
                 Interagir.itemNaMao = false;
-                if (gameObj)
-                {
-                    gameObj.SetActive(true);
-                }
+                evento?.Invoke();
             }
             else
             {

@@ -22,7 +22,7 @@ public class Paralaxe : MonoBehaviour
         cam = Camera.main.transform;
     }
 
-    void Update()
+    void LateUpdate()
     {
         //posRestart = cam.transform.position.x * (1 - efeitoParalaxe);
 
