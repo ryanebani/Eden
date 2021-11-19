@@ -9,6 +9,7 @@ public class Fade : MonoBehaviour
     [SerializeField] Transicao transicao;
     [SerializeField] CinemachineVirtualCamera camAtual;
     [SerializeField] CinemachineVirtualCamera camProx;
+    AudioSource audioSource;
     public UnityEvent OnFade;   
     bool esteObj;
     
@@ -29,7 +30,6 @@ public class Fade : MonoBehaviour
             esteObj = false;
             transicao.podeAction = false;
             DialogoController.podeClickar = true;
-
         }
         
     }
@@ -51,6 +51,11 @@ public class Fade : MonoBehaviour
             camProx.Priority = 1;            
         }
        
+    }
+
+    public void Som(AudioClip audioClip)
+    {
+
     }
 
 }

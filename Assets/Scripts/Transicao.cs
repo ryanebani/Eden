@@ -6,9 +6,11 @@ public class Transicao : MonoBehaviour
 {
     public bool podeAction;
     public bool transicao;
+    AudioSource audioSource;
     private Animator animator;
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
     }
 
@@ -27,4 +29,8 @@ public class Transicao : MonoBehaviour
         podeAction = true;       
     }
         
+    public void Som(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
+    }
 }
