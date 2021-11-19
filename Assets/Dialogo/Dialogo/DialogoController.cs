@@ -89,17 +89,7 @@ public class DialogoController : MonoBehaviour
                     {
                         if (falas.proximaQuest)
                             dialogo.ProximaQuest();
-                        if (falas.acaoSequencial && dialogo.temIndex)
-                        {
-                            if(ConferirAcao())
-                            {
-                                dialogo.ue[dialogo.index]?.Invoke();
-                                dialogo.index++;
-                                naoAtivarAcao.Add(falas);
-                            }
-                            
-                            
-                        }
+                        
                         falaAtiva = false;
                         painelComTudo.SetActive(false);
                         painelDeNome.SetActive(false);
@@ -161,12 +151,7 @@ public class DialogoController : MonoBehaviour
                         {
                             if (falas.proximaQuest)
                                 dialogo.ProximaQuest();
-                            if (falas.acaoSequencial && dialogo.temIndex)
-                            {
-                                dialogo.ue[dialogo.index]?.Invoke();
-                                dialogo.index++;
-                                naoAtivarAcao.Add(falas);
-                            }
+                            
                             Interagir.podeAndar = true;
                             painelComTudo.SetActive(false);
                             falaAtiva = false;
@@ -261,6 +246,16 @@ public class DialogoController : MonoBehaviour
         falaNPC.gameObject.SetActive(true);
         spriteNPC.gameObject.SetActive(true);
         spritePlayer.gameObject.SetActive(true);
+
+        if (falas.acaoSequencial && dialogo.temIndex)
+        {
+            if (ConferirAcao())
+            {
+                dialogo.ue[dialogo.index]?.Invoke();
+                dialogo.index++;
+                naoAtivarAcao.Add(falas);
+            }
+        }
 
         if (falas.proximaCutscene)
         {
