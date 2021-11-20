@@ -10,12 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
-  m_Name: Seq A
+  m_Name: Seq A2
   m_EditorClassIdentifier: 
-  sequencia:
-  - "S\xF3 passando pra olhar"
-  - "Aqui n\xE3o \xE9 lugar de crian\xE7a n\xE3o"
-  - "N\xE3o me interessa"
-  - "Pode p\xE1 ent\xE3o"
-  npcFalando: 00010001
-  proximaFala: {fileID: 11400000, guid: 66d35c2be74b12e46826746b5d3a6c52, type: 2}
+  sequencia: []
+  npcFalando: 
+  proximaCutscene: 
+  proximaFala: {fileID: 0}
