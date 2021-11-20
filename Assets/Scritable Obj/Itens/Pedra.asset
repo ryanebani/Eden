@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nome: Pedra
   descricao: 
-  icone: {fileID: 3247288509954160731, guid: d62d03254bebcbe4ca4dcc8c672006df, type: 3}
+  icone: {fileID: 5911709333110346455, guid: 4af4d2ca89335df4eb6575fd0e7b78b4, type: 3}
