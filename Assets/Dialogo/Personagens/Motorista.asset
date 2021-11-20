@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 492a76340e5fc0f4dad1f2af229a7694, type: 3}
   m_Name: Motorista
   m_EditorClassIdentifier: 
-  cor: {r: 0.73161715, g: 0.8584906, b: 0.26240656, a: 0}
+  cor: {r: 0.73161715, g: 0.8584906, b: 0.26240656, a: 0.92941177}
   nome: Motorista
   sprite: {fileID: 0}
   clipes:

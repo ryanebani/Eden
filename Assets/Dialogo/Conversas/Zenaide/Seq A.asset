@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
-  m_Name: Seq BR2
+  m_Name: Seq A
   m_EditorClassIdentifier: 
   sequencia:
-  - Ela deve ta na cozinha.
-  - Procura ela que ela te explica tudo.
-  npcFalando: 0101
+  - "N\xE3o. T\xF4 s\xF3 de passagem."
+  - "Ent\xE3o o que tu precisar, \xE9 s\xF3 me dizer."
+  npcFalando: 0001
   proximaCutscene: 0000
-  proximaFala: {fileID: 11400000, guid: 58506d8751cbeec40a75ede6edff316e, type: 2}
+  proximaFala: {fileID: 11400000, guid: 342a50ec32680a540a926fa39ca524d0, type: 2}

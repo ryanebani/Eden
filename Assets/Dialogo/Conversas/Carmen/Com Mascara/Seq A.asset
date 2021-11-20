@@ -10,11 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
-  m_Name: Seq BR2
+  m_Name: Seq A
   m_EditorClassIdentifier: 
   sequencia:
-  - Ela deve ta na cozinha.
-  - Procura ela que ela te explica tudo.
-  npcFalando: 0101
-  proximaCutscene: 0000
-  proximaFala: {fileID: 11400000, guid: 58506d8751cbeec40a75ede6edff316e, type: 2}
+  - "Voc\xEA t\xE1 falando comigo?"
+  - "Por que eu n\xE3o estaria?"
+  - "Voc\xEA tava me desprezando antes"
+  - "Mas eu te conhe\xE7o?"
+  - Desculpa, acho que me enganei
+  npcFalando: 0001000100
+  proximaCutscene: 0000000000
+  proximaFala: {fileID: 11400000, guid: 943cf1f496a964443a4e97cc7efd680a, type: 2}
