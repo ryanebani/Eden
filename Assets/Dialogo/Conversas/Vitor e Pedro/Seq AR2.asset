@@ -13,7 +13,16 @@ MonoBehaviour:
   m_Name: Seq AR2
   m_EditorClassIdentifier: 
   sequencia:
-  - "C\xEA sabe que isso a\xED \xE9 coisa ruim"
-  - "Tu n\xE3o se mete e eu n\xE3o me meto"
-  npcFalando: 0001
+  - "H\xE3... Eu, o Abel."
+  - "Voc\xEA n\xE3o \xE9 policial n\xE3o n\xE9?"
+  - Eu to de chinelo cara, nenhum policial anda de chinelo.
+  - "Voc\xEA tem um ponto."
+  - "Ent\xE3o, porque voc\xEAs t\xE3o aqui?"
+  - "O povo do bairro n\xE3o curte muito a gente."
+  - "Sabe como \xE9, ningu\xE9m curte dois drogados andando por ai."
+  - O porco ali reclama mas nunca expulsou a gente.
+  - Complicado cara.
+  - "A vida \xE9 complicada."
+  npcFalando: 00010001000101010001
+  proximaCutscene: 
   proximaFala: {fileID: 11400000, guid: 66d35c2be74b12e46826746b5d3a6c52, type: 2}

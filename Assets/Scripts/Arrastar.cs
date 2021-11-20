@@ -12,21 +12,35 @@ public class Arrastar : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     [SerializeField] Image panelChild;
     [SerializeField] Sprite zoom;
     [SerializeField] Arrastar controller;
+    [SerializeField]AudioSource audioSource;
+    [SerializeField] AudioClip[] clips;
+
+    public bool naoMexer;
+
+
+    int indice;
+
 
     public UnityEvent DragEnd;
     public UnityEvent Contador;
     public bool dragging;
 
+    
     RectTransform rectTrans;
-    CanvasGroup canvasGroup;
     public int contador;
     public int marca;
+
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     public void Update()
     {
         if(contador >= marca)
         {
             Contador?.Invoke();
+            contador = 0;
         }
     }
 
@@ -52,6 +66,7 @@ public class Arrastar : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
     public void OnDrag(PointerEventData eventData)
     {
+        if(naoMexer == false)
        rectTrans.anchoredPosition += eventData.delta / canvas.scaleFactor;
     }
 
@@ -80,6 +95,19 @@ public class Arrastar : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     {
         gameObject.SetActive(false);
         controller.contador ++;
+    }
+
+    public void Som()
+    {
+        indice = Random.Range(0, clips.Length);
+        for (int i = 0; i < clips.Length; i++)
+        {
+            if (indice == i)
+            {
+                audioSource.PlayOneShot(clips[i]);
+                break;
+            }
+        }
     }
 
 }

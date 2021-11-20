@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
+  m_Name: Seq AR3
+  m_EditorClassIdentifier: 
+  sequencia:
+  - "Foi uma mo\xE7a ali no ponto, eu n\xE3o sei o nome dela."
+  - Ela... Ah... Carmen meu amor!!
+  - "H\xE3..."
+  - "Ela deve me amar muito pra recomendar mues servi\xE7os."
+  - Que mulher maravilhosa.
+  - Ah se eu pudesse me livrar do marido dela....
+  - "H\xE3... Eu volto depois."
+  - "N\xE3o! Quer dizer, n\xE3o precisa."
+  - "Consigo o que tu quiser de gra\xE7a, tudo por um amigo da Carmen."
+  - Certo...
+  - "Ent\xE3o do que voc\xEA precisa meu chapa?"
+  - Um passe pra cidade alta.
+  - "Ah s\xF3 isso? Mel na chupeta."
+  - "J\xE1 tenho um aqui, toma meu chapa."
+  - "E n\xE3o esquece de falar pra Carmen de como eu te ajudei!"
+  npcFalando: 000100010101000101000100010101
+  proximaCutscene: 
+  proximaFala: {fileID: 11400000, guid: bed0301581082d240ac0cd0164f65ba7, type: 2}

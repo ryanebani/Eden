@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
+  m_Name: Fala A1
+  m_EditorClassIdentifier: 
+  fala: "Mam\xE3e n\xE3o me deixa falar com estranhos... "
+  respostas: []
+  sequencia: {fileID: 11400000, guid: a628c8cb97af8b94d97c5feebab3c2ac, type: 2}
+  npcFalando: 0
+  falaNode: 
+  jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
+  NPC: {fileID: 11400000, guid: 65d39ed4d76c273418992c03a3a30393, type: 2}
+  dadosNpc: {fileID: 0}
+  recomecar: 0
+  NPCNode: 0
+  proximaQuest: 0
+  acaoSequencial: 0
+  proximaCutscene: 0
+  cutscene: {fileID: 0}

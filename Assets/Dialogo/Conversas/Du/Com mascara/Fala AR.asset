@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
+  m_Name: Fala AR
+  m_EditorClassIdentifier: 
+  fala: "Se me pagar fa\xE7o qualquer coisa amigo!"
+  respostas:
+  - resposta: "Como que a policia n\xE3o te pegou ainda?"
+    proximaFala: {fileID: 11400000, guid: 7c119af73525d63469066222ed2d79e4, type: 2}
+  - resposta: Acho que preciso ir.
+    proximaFala: {fileID: 11400000, guid: 9c2e9a68cf791694baf1a216ab4075ff, type: 2}
+  - resposta: "H\xE3... Me falaram que voc\xEA pode conseguir um neg\xF3cio pra mim."
+    proximaFala: {fileID: 11400000, guid: 65fd156a7a9bb384ca69f19f7784e2a8, type: 2}
+  sequencia: {fileID: 0}
+  npcFalando: 0
+  falaNode: O que vai ser compadre?
+  jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
+  NPC: {fileID: 11400000, guid: 94132dcf3aa8f4a4c87756f28377e658, type: 2}
+  dadosNpc: {fileID: 11400000, guid: 52b7ea8541878af478e2c1b7fd5880b0, type: 2}
+  recomecar: 1
+  NPCNode: 0
+  proximaQuest: 0
+  acaoSequencial: 0
+  proximaCutscene: 0
+  cutscene: {fileID: 0}

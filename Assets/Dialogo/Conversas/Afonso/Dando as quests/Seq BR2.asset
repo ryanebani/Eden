@@ -15,6 +15,6 @@ MonoBehaviour:
   sequencia:
   - Ela deve ta na cozinha.
   - Procura ela que ela te explica tudo.
-  npcFalando: 
-  proximaCutscene: 
+  npcFalando: 0101
+  proximaCutscene: 0000
   proximaFala: {fileID: 11400000, guid: 58506d8751cbeec40a75ede6edff316e, type: 2}
