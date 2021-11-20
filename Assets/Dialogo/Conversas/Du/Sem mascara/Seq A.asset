@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
-  m_Name: Seq A1
+  m_Name: Seq A
   m_EditorClassIdentifier: 
   sequencia:
-  - Que tipo de documentos?
-  - "Qualquer um que voc\xEA precisar meu chapa."
-  npcFalando: 0001
+  - "Minha mercadoria n\xE3o \xE9 pra gente do teu tipo"
+  - "E o que \xE9 tua mercadoria?"
+  - "Coisa l\xEDcita, pode ter certeza."
+  - "Vaza da\xED moleque!"
+  npcFalando: 01000101
   proximaCutscene: 
   proximaFala: {fileID: 0}
