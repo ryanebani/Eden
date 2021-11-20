@@ -10,16 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
-  m_Name: Fala B
+  m_Name: Fala AR3
   m_EditorClassIdentifier: 
-  fala: "Conseguiu uns trocados \xE9?"
+  fala: "Sim, eu trabalho l\xE1 mas vou me atrasar por causa desse motorista pregui\xE7oso
+    que n\xE3o me deixa entrar"
   respostas: []
-  sequencia: {fileID: 11400000, guid: 51665562b284bfd40a29384e42f7192c, type: 2}
+  sequencia: {fileID: 11400000, guid: c5970faee2a3b4c48954c5b80d3935ce, type: 2}
   npcFalando: 1
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
-  NPC: {fileID: 11400000, guid: f71cc40913af3164e8f52f390c472b4b, type: 2}
-  dadosNpc: {fileID: 11400000, guid: 57cac9a33c09fa046bfbbeecc5190b5f, type: 2}
+  NPC: {fileID: 11400000, guid: dd1bb926006476d448d49116820dc980, type: 2}
+  dadosNpc: {fileID: 11400000, guid: 80b243fd6f623b84da054489de33337e, type: 2}
   recomecar: 0
   NPCNode: 0
   proximaQuest: 0
