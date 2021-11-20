@@ -13077,7 +13077,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 52b7ea8541878af478e2c1b7fd5880b0, type: 2}
     - target: {fileID: 1433078325998349370, guid: f04ee4c05aa7ec84688c327a14388bf8, type: 3}
       propertyPath: m_Name
-      value: Edu
+      value: Du
       objectReference: {fileID: 0}
     - target: {fileID: 1433078325998349370, guid: f04ee4c05aa7ec84688c327a14388bf8, type: 3}
       propertyPath: m_IsActive
@@ -15564,7 +15564,7 @@ PrefabInstance:
     - target: {fileID: 3423308945583362293, guid: d00e9ec63ef94134087fe2b8e4ddf384, type: 3}
       propertyPath: falasSemMascara.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: fc35d35f9c5f97649a14e1c4c0f2801c, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 3423308945583362293, guid: d00e9ec63ef94134087fe2b8e4ddf384, type: 3}
       propertyPath: falasSemMascara.Array.data[1]
       value: 
