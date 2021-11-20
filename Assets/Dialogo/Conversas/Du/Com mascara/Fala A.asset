@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
   m_Name: Fala A
   m_EditorClassIdentifier: 
-  fala: 
+  fala: "Se me pagar fa\xE7o qualquer coisa amigo!"
   respostas:
-  - resposta: 
-    proximaFala: {fileID: 0}
-  - resposta: 
-    proximaFala: {fileID: 0}
-  - resposta: 
+  - resposta: "H\xE3... Me falaram que voc\xEA pode conseguir um neg\xF3cio pra mim."
+    proximaFala: {fileID: 11400000, guid: 65fd156a7a9bb384ca69f19f7784e2a8, type: 2}
+  - resposta: "Como que a policia n\xE3o te pegou ainda?"
+    proximaFala: {fileID: 11400000, guid: 7c119af73525d63469066222ed2d79e4, type: 2}
+  - resposta: Acho que preciso ir.
     proximaFala: {fileID: 0}
   sequencia: {fileID: 0}
   npcFalando: 0
-  falaNode: 
+  falaNode: O que vai ser compadre?
   jogador: {fileID: 0}
   NPC: {fileID: 0}
   dadosNpc: {fileID: 0}

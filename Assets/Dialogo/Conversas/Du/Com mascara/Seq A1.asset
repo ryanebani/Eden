@@ -12,7 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
   m_Name: Seq A1
   m_EditorClassIdentifier: 
-  sequencia: []
-  npcFalando: 
+  sequencia:
+  - "E pagar \xE9 claro."
+  - Eu preciso entrar na cidade alta.
+  - "Pra que voc\xEA quer ir naquele lugar?"
+  - "Os focinho em p\xE9 v\xE3o te comer vivo."
+  - 'Hum... '
+  - "Ta certo, voc\xEA tem seus segredos e eu tenho os meus."
+  - "Voc\xEA precisa de um passe de trabalhador ent\xE3o."
+  - Me da uns segundos que te consigo um.
+  npcFalando: 0100010100010101
   proximaCutscene: 
-  proximaFala: {fileID: 0}
+  proximaFala: {fileID: 11400000, guid: bed0301581082d240ac0cd0164f65ba7, type: 2}

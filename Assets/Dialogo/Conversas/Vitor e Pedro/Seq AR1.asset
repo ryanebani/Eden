@@ -13,7 +13,13 @@ MonoBehaviour:
   m_Name: Seq AR1
   m_EditorClassIdentifier: 
   sequencia:
-  - Por que mesmo?
-  - "Porque parece que a gente n\xE3o \xE9 humano"
-  npcFalando: 0001
+  - Nunca ouvi falar...
+  - "To falando da droga mais famosa do pa\xEDs cara!"
+  - "Ah, eu n\xE3o sei muito dessas coisas..."
+  - "Mam\xE3e n\xE3o deixava chegar perto?"
+  - "Sei l\xE1, n\xE3o lembro dela."
+  - "Ah foi mal cara... N\xE3o sabia."
+  - Tranquilo, nem ligo mais.
+  npcFalando: 00010001000100
+  proximaCutscene: 
   proximaFala: {fileID: 11400000, guid: 66d35c2be74b12e46826746b5d3a6c52, type: 2}
