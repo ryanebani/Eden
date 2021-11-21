@@ -62,10 +62,10 @@ public class DialogoController : MonoBehaviour
     
     void Update()
     {
-        if (animDiag.GetCurrentAnimatorStateInfo(0).IsName("DialogoVazio"))
+        /*if (animDiag.GetCurrentAnimatorStateInfo(0).IsName("DialogoVazio"))
         {
             painelComTudo.SetActive(false);
-        }
+        }*/
 
         if(dialogo != null)
         {

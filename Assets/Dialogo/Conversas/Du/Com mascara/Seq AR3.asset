@@ -29,5 +29,5 @@ MonoBehaviour:
   - "J\xE1 tenho um aqui, toma meu chapa."
   - "E n\xE3o esquece de falar pra Carmen de como eu te ajudei!"
   npcFalando: 000100010101000101000100010101
-  proximaCutscene: 
-  proximaFala: {fileID: 11400000, guid: bed0301581082d240ac0cd0164f65ba7, type: 2}
+  proximaCutscene: 000000000000000000000000000000
+  proximaFala: {fileID: 11400000, guid: c718a4f85257d6a4a9d649bd159aeceb, type: 2}
