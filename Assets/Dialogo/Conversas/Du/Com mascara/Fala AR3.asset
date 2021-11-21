@@ -15,7 +15,7 @@ MonoBehaviour:
   fala: Quem te contou colega?
   respostas: []
   sequencia: {fileID: 11400000, guid: fdaa612c4b8cacb43a8f4d99984e6794, type: 2}
-  npcFalando: 0
+  npcFalando: 1
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: 94132dcf3aa8f4a4c87756f28377e658, type: 2}

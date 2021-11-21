@@ -15,11 +15,11 @@ MonoBehaviour:
   fala: "Tu conseguiu o visto ent\xE3o, que maravilha!"
   respostas: []
   sequencia: {fileID: 11400000, guid: 1dd77f47c807e5d4eb75ca73539c22a9, type: 2}
-  npcFalando: 0
+  npcFalando: 1
   falaNode: 
-  jogador: {fileID: 0}
-  NPC: {fileID: 0}
-  dadosNpc: {fileID: 0}
+  jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
+  NPC: {fileID: 11400000, guid: f71cc40913af3164e8f52f390c472b4b, type: 2}
+  dadosNpc: {fileID: 11400000, guid: 57cac9a33c09fa046bfbbeecc5190b5f, type: 2}
   recomecar: 0
   NPCNode: 0
   proximaQuest: 0

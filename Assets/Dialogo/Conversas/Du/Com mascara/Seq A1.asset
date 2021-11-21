@@ -16,5 +16,5 @@ MonoBehaviour:
   - Que tipo de documentos?
   - "Qualquer um que voc\xEA precisar meu chapa."
   npcFalando: 0001
-  proximaCutscene: 
-  proximaFala: {fileID: 0}
+  proximaCutscene: 0000
+  proximaFala: {fileID: 11400000, guid: bed0301581082d240ac0cd0164f65ba7, type: 2}
