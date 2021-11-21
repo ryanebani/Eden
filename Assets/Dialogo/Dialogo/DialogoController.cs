@@ -56,12 +56,17 @@ public class DialogoController : MonoBehaviour
     void Awake()
     {
         animDiag = painelComTudo.GetComponent<Animator>();
-        painelComTudo.SetActive(true);
+        //painelComTudo.SetActive(true);
     }
 
     
     void Update()
     {
+        if (animDiag.GetCurrentAnimatorStateInfo(0).IsName("DialogoVazio"))
+        {
+            painelComTudo.SetActive(false);
+        }
+
         if(dialogo != null)
         {
             if(dialogo.npc.idle)
@@ -228,6 +233,7 @@ public class DialogoController : MonoBehaviour
         spriteNPC.sprite = falas.NPC.sprite;
         spritePlayer.sprite = falas.jogador.sprite;
         falaAtiva = true;
+        painelComTudo.SetActive(true);
         painelComTudo.gameObject.GetComponent<Animator>().SetBool("Aberto", true);        
 
         if (falas.proximaCutscene)
