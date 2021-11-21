@@ -13,14 +13,21 @@ MonoBehaviour:
   m_Name: Seq AR3
   m_EditorClassIdentifier: 
   sequencia:
-  - "E pagar \xE9 claro."
-  - Eu preciso entrar na cidade alta.
-  - "Pra que voc\xEA quer ir naquele lugar?"
-  - "Os focinho em p\xE9 v\xE3o te comer vivo."
-  - 'Hum... '
-  - "Ta certo, voc\xEA tem seus segredos e eu tenho os meus."
-  - "Voc\xEA precisa de um passe de trabalhador ent\xE3o."
-  - Me da uns segundos que te consigo um.
-  npcFalando: 0100010100010101
+  - "Foi uma mo\xE7a ali no ponto, eu n\xE3o sei o nome dela."
+  - Ela... Ah... Carmen meu amor!!
+  - "H\xE3..."
+  - "Ela deve me amar muito pra recomendar mues servi\xE7os."
+  - Que mulher maravilhosa.
+  - Ah se eu pudesse me livrar do marido dela....
+  - "H\xE3... Eu volto depois."
+  - "N\xE3o! Quer dizer, n\xE3o precisa."
+  - "Consigo o que tu quiser de gra\xE7a, tudo por um amigo da Carmen."
+  - Certo...
+  - "Ent\xE3o do que voc\xEA precisa meu chapa?"
+  - Um passe pra cidade alta.
+  - "Ah s\xF3 isso? Mel na chupeta."
+  - "J\xE1 tenho um aqui, toma meu chapa."
+  - "E n\xE3o esquece de falar pra Carmen de como eu te ajudei!"
+  npcFalando: 000100010101000101000100010101
   proximaCutscene: 
   proximaFala: {fileID: 11400000, guid: bed0301581082d240ac0cd0164f65ba7, type: 2}
