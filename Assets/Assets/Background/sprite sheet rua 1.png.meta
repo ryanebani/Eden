@@ -4,37 +4,37 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 5878187699788025717
-    second: sprite sheet rua 1_0
+    second: Mesa
   - first:
       213: 629855393630666553
-    second: sprite sheet rua 1_1
+    second: Lixeira
   - first:
       213: 2854620562646461334
-    second: sprite sheet rua 1_2
+    second: fioPreto
   - first:
       213: 847158103027518908
-    second: sprite sheet rua 1_3
+    second: Bancada
   - first:
       213: 1305353920425819864
-    second: sprite sheet rua 1_4
+    second: Sofa
   - first:
       213: 4446699353264082824
-    second: sprite sheet rua 1_5
+    second: FioMarrom
   - first:
       213: -2615220319740597623
-    second: sprite sheet rua 1_6
+    second: PosteFrente
   - first:
       213: 3095266580460353502
-    second: sprite sheet rua 1_7
+    second: Luz
   - first:
       213: 3831116614268079170
-    second: sprite sheet rua 1_8
+    second: CaixaFeira
   - first:
       213: 6595909509991557957
-    second: sprite sheet rua 1_9
+    second: PontoDonibus
   - first:
       213: -1959452344240883844
-    second: sprite sheet rua 1_10
+    second: Busao
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -79,7 +79,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 108
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,11 +120,35 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sprite sheet rua 1_0
+      name: Mesa
       rect:
         serializedVersion: 2
         x: 0
@@ -132,7 +156,7 @@ TextureImporter:
         width: 831
         height: 360
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -145,7 +169,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite sheet rua 1_1
+      name: Lixeira
       rect:
         serializedVersion: 2
         x: 859
@@ -153,7 +177,7 @@ TextureImporter:
         width: 596
         height: 380
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -166,7 +190,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite sheet rua 1_2
+      name: fioPreto
       rect:
         serializedVersion: 2
         x: 1461
@@ -174,7 +198,7 @@ TextureImporter:
         width: 579
         height: 363
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -187,7 +211,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite sheet rua 1_3
+      name: Bancada
       rect:
         serializedVersion: 2
         x: 0
@@ -195,7 +219,7 @@ TextureImporter:
         width: 556
         height: 317
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -208,7 +232,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite sheet rua 1_4
+      name: Sofa
       rect:
         serializedVersion: 2
         x: 581
@@ -216,7 +240,7 @@ TextureImporter:
         width: 1198
         height: 372
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -229,7 +253,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite sheet rua 1_5
+      name: FioMarrom
       rect:
         serializedVersion: 2
         x: 0
@@ -237,7 +261,7 @@ TextureImporter:
         width: 471
         height: 315
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -250,15 +274,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite sheet rua 1_6
+      name: PosteFrente
       rect:
         serializedVersion: 2
         x: 476
-        y: 76
+        y: 0
         width: 557
-        height: 1025
+        height: 1101
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -271,7 +295,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite sheet rua 1_7
+      name: Luz
       rect:
         serializedVersion: 2
         x: 0
@@ -279,7 +303,7 @@ TextureImporter:
         width: 442
         height: 411
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -292,7 +316,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite sheet rua 1_8
+      name: CaixaFeira
       rect:
         serializedVersion: 2
         x: 0
@@ -300,7 +324,7 @@ TextureImporter:
         width: 357
         height: 247
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -313,7 +337,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite sheet rua 1_9
+      name: PontoDonibus
       rect:
         serializedVersion: 2
         x: 1064
@@ -321,7 +345,7 @@ TextureImporter:
         width: 652
         height: 917
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -334,7 +358,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite sheet rua 1_10
+      name: Busao
       rect:
         serializedVersion: 2
         x: 1742
@@ -342,7 +366,7 @@ TextureImporter:
         width: 306
         height: 1098
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
