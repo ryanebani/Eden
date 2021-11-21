@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 492a76340e5fc0f4dad1f2af229a7694, type: 3}
   m_Name: Afonso
   m_EditorClassIdentifier: 
-  cor: {r: 0.9339623, g: 0.4577828, b: 0.2599235, a: 1}
+  cor: {r: 1, g: 1, b: 1, a: 1}
   nome: Afonso
-  sprite: {fileID: 21300000, guid: 9c6985714e06f854f91cebf1d426d081, type: 3}
+  sprite: {fileID: -5079984596714570864, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   clipes:
   - {fileID: 8300000, guid: 08bb2cbb5ec2faf44853061732f2955c, type: 3}
   - {fileID: 8300000, guid: eeebe8245030913458bd7be5f7721e29, type: 3}
