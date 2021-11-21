@@ -30,15 +30,23 @@ public class Slots : MonoBehaviour
             icone.enabled = false;            
         }
 
+        if (clicado)
+        {
+            selecionado.SetActive(true);
+        }
+        else
+        {
+            selecionado.SetActive(false);
+        }
+
         if (clicado == true && inventario.textoSelecao.text != nome)
         {
-            clicado = false;
-            //selecionado.SetActive(true);
+            clicado = false;     
             //Inventario.itemNaMao = true;
         }
-       /* else
+        /*else
         {
-            //selecionado.SetActive(false);
+            selecionado.SetActive(false);
             clicado = false;
             //Inventario.itemNaMao = false;
         }*/
