@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -1339481797049128157
-    second: sprite sheet rua 2_0
+    second: TAXI
   - first:
       213: 2329675418197589630
-    second: sprite sheet rua 2_1
+    second: CARRIM
   - first:
       213: 1367075240446302300
-    second: sprite sheet rua 2_2
+    second: CAMIAO
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -55,7 +55,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 138
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -124,7 +124,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sprite sheet rua 2_0
+      name: TAXI
       rect:
         serializedVersion: 2
         x: 5
@@ -132,7 +132,7 @@ TextureImporter:
         width: 1745
         height: 622
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -145,7 +145,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite sheet rua 2_1
+      name: CARRIM
       rect:
         serializedVersion: 2
         x: 0
@@ -153,7 +153,7 @@ TextureImporter:
         width: 1504
         height: 516
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -166,15 +166,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite sheet rua 2_2
+      name: CAMIAO
       rect:
         serializedVersion: 2
         x: 8
-        y: 0
+        y: 2
         width: 2040
         height: 922
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
