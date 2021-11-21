@@ -7,24 +7,19 @@ public class DialogoController : MonoBehaviour
 {
     private bool tocarSom = true;
     private SorteiaSom som;
-
+    Animator animDiag;
     public GameObject painelComTudo;
+    public GameObject painelDeDialogo;
     public static bool podeClickar = true;
 
     public static Dialogo dialogo;
 
-    public GameObject painelDeDialogo;
-
     public Text falaNPC;
-
-    public GameObject painelDeNome;
-
     public Text nomeNPC;
 
     public GameObject resposta;
 
     public Image spriteNPC;
-
     public Image spritePlayer;
 
     public Image imagemCutscene;
@@ -60,7 +55,8 @@ public class DialogoController : MonoBehaviour
 
     void Awake()
     {
-       
+        animDiag = painelComTudo.GetComponent<Animator>();
+        painelComTudo.SetActive(true);
     }
 
     
@@ -77,7 +73,7 @@ public class DialogoController : MonoBehaviour
         {
             touch = Input.GetTouch(0);
 
-            if (touch.phase == TouchPhase.Began && falaAtiva)
+            if (touch.phase == TouchPhase.Began && falaAtiva && animDiag.GetCurrentAnimatorStateInfo(0).IsName("DialogoParado"))
             {
                 AcaoSequencial();
                 if (falas.sequencia == null)
@@ -92,13 +88,7 @@ public class DialogoController : MonoBehaviour
                             dialogo.ProximaQuest();
                         
                         falaAtiva = false;
-                        painelComTudo.SetActive(false);
-                        painelDeNome.SetActive(false);
-                        nomeNPC.gameObject.SetActive(false);
-                        painelDeDialogo.SetActive(false);
-                        falaNPC.gameObject.SetActive(false);
-                        spriteNPC.gameObject.SetActive(false);
-                        spritePlayer.gameObject.SetActive(false);
+                        painelComTudo.gameObject.GetComponent<Animator>().SetBool("Aberto", false); 
                         repetiu = false;
                         jogador = null;
                         NPC = null;
@@ -127,17 +117,22 @@ public class DialogoController : MonoBehaviour
                         falaNPC.text = falas.sequencia.sequencia[index];
                         if (falas.sequencia.npcFalando[index])
                         {
-                            spritePlayer.color = transparente;
-                            spriteNPC.color = opaco;
+                            spritePlayer.gameObject.GetComponent<Animator>().SetBool("Falando", false);
+                            spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", true);
+                            //spritePlayer.color = transparente;
+                            //spriteNPC.color = opaco;
                             nomeNPC.text = falas.NPC.nome;
-                            falaNPC.color = falas.NPC.cor;
+                            //falaNPC.color = falas.NPC.cor;
                         }
                         else
                         {
-                            spritePlayer.color = opaco;
-                            spriteNPC.color = transparente;
+
+                            spritePlayer.gameObject.GetComponent<Animator>().SetBool("Falando", true);
+                            spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", false);
+                            // spritePlayer.color = opaco;
+                            // spriteNPC.color = transparente;
                             nomeNPC.text = falas.jogador.nome;
-                            falaNPC.color = falas.jogador.cor;
+                           // falaNPC.color = falas.jogador.cor;
                         }
                         index++;
                     }
@@ -154,14 +149,8 @@ public class DialogoController : MonoBehaviour
                                 dialogo.ProximaQuest();
                             
                             Interagir.podeAndar = true;
-                            painelComTudo.SetActive(false);
+                            painelComTudo.gameObject.GetComponent<Animator>().SetBool("Aberto", false);
                             falaAtiva = false;
-                            painelDeDialogo.SetActive(false);
-                            falaNPC.gameObject.SetActive(false);
-                            painelDeNome.SetActive(false);
-                            nomeNPC.gameObject.SetActive(false);
-                            spriteNPC.gameObject.SetActive(false);
-                            spritePlayer.gameObject.SetActive(false);
                             jogador = null;
                             NPC = null;
                             repetiu = false;
@@ -180,17 +169,16 @@ public class DialogoController : MonoBehaviour
 
     void MostrarRespostas()
     {
-        painelDeNome.SetActive(false);
         nomeNPC.gameObject.SetActive(false);
-        spritePlayer.color = opaco;
-        spriteNPC.color = transparente;
+        spritePlayer.gameObject.GetComponent<Animator>().SetBool("Falando", true);
+        spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", false);
         if (falas.falaNode != "")
         {
             falaNPC.text = falas.falaNode;
-            if (falas.NPCNode)
-                falaNPC.color = falas.NPC.cor;
+            /*if (falas.NPCNode)
+                //falaNPC.color = falas.NPC.cor;
             else
-                falaNPC.color = falas.jogador.cor;
+                //falaNPC.color = falas.jogador.cor;*/
         }
         //falaNPC.gameObject.SetActive(false);
         falaAtiva = false;
@@ -240,15 +228,7 @@ public class DialogoController : MonoBehaviour
         spriteNPC.sprite = falas.NPC.sprite;
         spritePlayer.sprite = falas.jogador.sprite;
         falaAtiva = true;
-        painelDeNome.SetActive(true);
-        painelComTudo.SetActive(true);
-        nomeNPC.gameObject.SetActive(true);
-        painelDeDialogo.SetActive(true);
-        falaNPC.gameObject.SetActive(true);
-        spriteNPC.gameObject.SetActive(true);
-        spritePlayer.gameObject.SetActive(true);
-
-        
+        painelComTudo.gameObject.GetComponent<Animator>().SetBool("Aberto", true);        
 
         if (falas.proximaCutscene)
         {
@@ -286,17 +266,17 @@ public class DialogoController : MonoBehaviour
 
             if (falas.npcFalando)
             {
-                spritePlayer.color = transparente;
-                spriteNPC.color = opaco;
+                spritePlayer.gameObject.GetComponent<Animator>().SetBool("Falando", false);
+                spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", true);
                 nomeNPC.text = falas.NPC.nome;
-                falaNPC.color = falas.NPC.cor;
+                //falaNPC.color = falas.NPC.cor;
             }
             else
             {
-                spriteNPC.color = transparente;
-                spritePlayer.color = opaco;
+                spritePlayer.gameObject.GetComponent<Animator>().SetBool("Falando", true);
+                spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", false);
                 nomeNPC.text = falas.jogador.nome;
-                falaNPC.color = falas.jogador.cor;
+                //falaNPC.color = falas.jogador.cor;
             }
         }
         
