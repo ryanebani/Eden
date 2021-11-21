@@ -15,7 +15,7 @@ MonoBehaviour:
   fala: Ok menino
   respostas: []
   sequencia: {fileID: 0}
-  npcFalando: 0
+  npcFalando: 1
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: 308963aa3073f2d4fbd8e0ae183748fc, type: 2}
@@ -24,3 +24,5 @@ MonoBehaviour:
   NPCNode: 0
   proximaQuest: 0
   acaoSequencial: 0
+  proximaCutscene: 0
+  cutscene: {fileID: 0}
