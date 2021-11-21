@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nome: Latinhas
   descricao: 
-  icone: {fileID: 4749367379176292346, guid: d62d03254bebcbe4ca4dcc8c672006df, type: 3}
+  icone: {fileID: 21300000, guid: b8a7ba858a87c3341a1dee1939f6f2f7, type: 3}
