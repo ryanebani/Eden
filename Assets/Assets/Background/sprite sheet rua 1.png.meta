@@ -1,13 +1,40 @@
 fileFormatVersion: 2
-guid: b6eb0b1fa59cba144ac0ee52a473e200
+guid: 4e12396c091f9734096028ebf1effa14
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7327052089685331280
-    second: sprite sheet 2_15
+      213: 5878187699788025717
+    second: sprite sheet rua 1_0
   - first:
-      213: -5690395474740376342
-    second: sprite sheet 2_16
+      213: 629855393630666553
+    second: sprite sheet rua 1_1
+  - first:
+      213: 2854620562646461334
+    second: sprite sheet rua 1_2
+  - first:
+      213: 847158103027518908
+    second: sprite sheet rua 1_3
+  - first:
+      213: 1305353920425819864
+    second: sprite sheet rua 1_4
+  - first:
+      213: 4446699353264082824
+    second: sprite sheet rua 1_5
+  - first:
+      213: -2615220319740597623
+    second: sprite sheet rua 1_6
+  - first:
+      213: 3095266580460353502
+    second: sprite sheet rua 1_7
+  - first:
+      213: 3831116614268079170
+    second: sprite sheet rua 1_8
+  - first:
+      213: 6595909509991557957
+    second: sprite sheet rua 1_9
+  - first:
+      213: -1959452344240883844
+    second: sprite sheet rua 1_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -52,7 +79,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 108
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,71 +120,80 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sprite sheet 2_0
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 905
-        width: 386
-        height: 204
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98cabd32a6b156a90800000000000000
-      internalID: -7321415476538790775
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite sheet 2_1
+      name: sprite sheet rua 1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 684
-        width: 493
-        height: 184
+        y: 1688
+        width: 831
+        height: 360
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 0, y: 14, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56179bb8682dcd670800000000000000
-      internalID: 8564952066663477605
+      spriteID: 57f8fe8a194839150800000000000000
+      internalID: 5878187699788025717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite sheet 2_2
+      name: sprite sheet rua 1_1
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1668
+        width: 596
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f3835b422bdb800800000000000000
+      internalID: 629855393630666553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rua 1_2
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 1685
+        width: 579
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b611df646ad9720800000000000000
+      internalID: 2854620562646461334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rua 1_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 283
-        width: 474
-        height: 401
+        y: 1274
+        width: 556
+        height: 317
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,230 +201,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb9a0c23b1ed58b30800000000000000
-      internalID: 4289078428537235903
+      spriteID: cbd8c876ec5b1cb00800000000000000
+      internalID: 847158103027518908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite sheet 2_3
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 20
-        width: 255
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f82e463d34b346030800000000000000
-      internalID: 3486977173987058319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite sheet 2_4
-      rect:
-        serializedVersion: 2
-        x: 493
-        y: 0
-        width: 94
-        height: 942
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68a952c871a9e6be0800000000000000
-      internalID: -1482077801432114554
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite sheet 2_5
-      rect:
-        serializedVersion: 2
-        x: 630
-        y: 76
-        width: 141
-        height: 812
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dcb7f0e769675f210800000000000000
-      internalID: 1366128450708929485
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite sheet 2_7
-      rect:
-        serializedVersion: 2
-        x: 803
-        y: 45
-        width: 587
-        height: 610
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f6263e53f39b9850800000000000000
-      internalID: 6384859570194753264
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite sheet 2_8
-      rect:
-        serializedVersion: 2
-        x: 1401
-        y: 0
-        width: 372
-        height: 865
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a70a04d1cc70a2f0800000000000000
-      internalID: -963633148329326684
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite sheet 2_6
-      rect:
-        serializedVersion: 2
-        x: 837
-        y: 664
-        width: 420
-        height: 207
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 74734dc6ceab8a760800000000000000
-      internalID: 7469425506594862919
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite sheet 2_9
-      rect:
-        serializedVersion: 2
-        x: 1033
-        y: 902
-        width: 411
-        height: 426
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58172974ae5eecf50800000000000000
-      internalID: 6903708073191436677
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite sheet 2_10
-      rect:
-        serializedVersion: 2
-        x: 1515
-        y: 888
-        width: 303
-        height: 383
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5644605258748d3f0800000000000000
-      internalID: -875871490346171291
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite sheet 2_11
-      rect:
-        serializedVersion: 2
-        x: 125
-        y: 1186
-        width: 246
-        height: 161
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d628627db0f7d8380800000000000000
-      internalID: -8967371594193796499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite sheet 2_12
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1362
-        width: 559
-        height: 258
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 480ee3db7d7ac3f30800000000000000
-      internalID: 4556701468026921092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite sheet 2_13
+      name: sprite sheet rua 1_4
       rect:
         serializedVersion: 2
         x: 581
-        y: 1356
-        width: 1135
-        height: 204
+        y: 1254
+        width: 1198
+        height: 372
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -396,62 +222,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e87d6cc6aecfc020800000000000000
-      internalID: 2364335545182419172
+      spriteID: 8def42d797c8d1210800000000000000
+      internalID: 1305353920425819864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite sheet 2_14
-      rect:
-        serializedVersion: 2
-        x: 1736
-        y: 1376
-        width: 278
-        height: 613
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c05ba3b4d7a3aca0800000000000000
-      internalID: -6006772945992855359
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite sheet 2_15
-      rect:
-        serializedVersion: 2
-        x: 862
-        y: 1739
-        width: 616
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05d4a702e0beea560800000000000000
-      internalID: 7327052089685331280
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite sheet 2_16
+      name: sprite sheet rua 1_5
       rect:
         serializedVersion: 2
         x: 0
-        y: 1662
-        width: 848
-        height: 386
+        y: 689
+        width: 471
+        height: 315
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,8 +243,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aec0c98f677a701b0800000000000000
-      internalID: -5690395474740376342
+      spriteID: 88fc34e8089d5bd30800000000000000
+      internalID: 4446699353264082824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rua 1_6
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 76
+        width: 557
+        height: 1025
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a6a78a9fed4bbd0800000000000000
+      internalID: -2615220319740597623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rua 1_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 275
+        width: 442
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed73a753e8894fa20800000000000000
+      internalID: 3095266580460353502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rua 1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 357
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ccb86334cda2530800000000000000
+      internalID: 3831116614268079170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rua 1_9
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 181
+        width: 652
+        height: 917
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54beaa1b0c0698b50800000000000000
+      internalID: 6595909509991557957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rua 1_10
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 113
+        width: 306
+        height: 1098
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77373b7970aec4e0800000000000000
+      internalID: -1959452344240883844
       vertices: []
       indices: 
       edges: []
