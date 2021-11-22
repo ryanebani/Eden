@@ -18,7 +18,5 @@ MonoBehaviour:
   voz: []
   falasIdle:
   - Querido!
-  - "Voc\xEA vai descobrir logo!"
-  falasIdleMascara:
-  - "N\xE3o te conhe\xE7o"
-  - Vaza
+  - "Voc\xEA vai achar seu irm\xE3o."
+  falasIdleMascara: []

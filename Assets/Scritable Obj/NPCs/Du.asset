@@ -16,5 +16,9 @@ MonoBehaviour:
   prefab: {fileID: 0}
   audioSource: {fileID: 0}
   voz: []
-  falasIdle: []
-  falasIdleMascara: []
+  falasIdle:
+  - "J\xE1 te mandei embora vagabundo."
+  falasIdleMascara:
+  - Fala de mim pra Carmen camarada.
+  - To contando contigo.
+  - Eu dou um jeito no marido dela depois.

@@ -17,8 +17,10 @@ MonoBehaviour:
   audioSource: {fileID: 0}
   voz:
   - {fileID: 0}
-  falasIdle: []
+  falasIdle:
+  - "Minha mam\xE2e que fez o Pufi pra mim, mas ai ela foi embora..."
+  - "Tenho saudades da mam\xE3e."
   falasIdleMascara:
-  - A
-  - B
-  - C
+  - "O tio Fonso n\xE3o me deixa falar com estranhos."
+  - "Voc\xEA n\xE3o \xE9 malvado n\xE9?"
+  - Um tio legal pegou meu ursinho pra mim.

@@ -19,6 +19,6 @@ MonoBehaviour:
   - {fileID: 0}
   falasIdle: []
   falasIdleMascara:
-  - A
-  - B
-  - C
+  - "N\xE3o te deixei entrar!"
+  - Tu ta invadindo propriedade!
+  - "Tu vai ver s\xF3 uma coisa quando eu te pegar!"

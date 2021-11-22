@@ -13,18 +13,8 @@ MonoBehaviour:
   m_Name: Seq AR1
   m_EditorClassIdentifier: 
   sequencia:
-  - Eu cresci aqui.
-  - "Na real, voc\xEA me \xE9 familiar..."
-  - "C\xEA me conhece?"
-  - "Conhecer \xE9 uma palavra forte, eu era zelador aqui,"
-  - "Antes do lugar cair aos peda\xE7os."
-  - O que rolou afinal?
-  - "O governo cortou a verba e a\xED a diretora foi a fal\xEAncia."
-  - "Ela largou tudo pra tr\xE1s e fechou o lugar."
-  - "Ent\xE3o porque c\xEA ta aqui?"
-  - "Eu n\xE3o tinha lugar pra ir, sempre morei aqui, ent\xE3o simplesmente continuei."
-  - E ai algumas pessoas precisando de abrigo me procuraram e bom,
-  - "Acabou virando um abrigo n\xE3o oficial."
-  npcFalando: 000100010100010100010101
-  proximaCutscene: 000000000000000000000000
-  proximaFala: {fileID: 11400000, guid: 748cb893f08f2c24d9e4738eb91cc7ed, type: 2}
+  - B
+  - C
+  npcFalando: 0000
+  proximaCutscene: 
+  proximaFala: {fileID: 11400000, guid: 1996d7e9721f90945bcbf31a5ec3c312, type: 2}

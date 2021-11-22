@@ -53,6 +53,15 @@ public class Fade : MonoBehaviour
        
     }
 
+    public void InvertCameras()
+    {
+        if (camAtual != null && camProx != null)
+        {
+            camAtual.Priority = 1;
+            camProx.Priority = 0;
+        }
+
+    }
     public void Som(AudioClip audioClip)
     {
 

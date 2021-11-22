@@ -10,17 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
-  m_Name: Fala AR4
+  m_Name: Fala BR
   m_EditorClassIdentifier: 
-  fala: Ok menino
-  respostas: []
+  fala: ABCD
+  respostas:
+  - resposta: A
+    proximaFala: {fileID: 11400000, guid: df982542d236414439b1956c3a5eb94d, type: 2}
+  - resposta: B
+    proximaFala: {fileID: 11400000, guid: b576d96935424254588ecec60eebb32e, type: 2}
+  - resposta: Tchau
+    proximaFala: {fileID: 11400000, guid: 20b6960d1f41a71468f5cfa09b3c8482, type: 2}
+  - resposta: C
+    proximaFala: {fileID: 0}
   sequencia: {fileID: 0}
   npcFalando: 1
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
-  NPC: {fileID: 11400000, guid: 308963aa3073f2d4fbd8e0ae183748fc, type: 2}
-  dadosNpc: {fileID: 0}
-  recomecar: 0
+  NPC: {fileID: 11400000, guid: 22e5b31dcc6aa6f40a94d94e62403c10, type: 2}
+  dadosNpc: {fileID: 11400000, guid: 4a8db2274a9bf7b47ba3e85fdc6e9c52, type: 2}
+  recomecar: 1
   NPCNode: 0
   proximaQuest: 0
   acaoSequencial: 0

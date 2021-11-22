@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
+  m_Name: Seq CR2
+  m_EditorClassIdentifier: 
+  sequencia:
+  - Eu te ofereceria um lugar, mas a gente ta lotado...
+  - "Ah, n\xE3o n\xE3o, eu tenho um lugar pra ficar"
+  - "Ah! Ent\xE3o voc\xEA foi adotado? Que \xF3timo saber disso."
+  - "Bom, n\xE3o exatamente..."
+  - "Eu fugi quando fiz 18 pra achar meu irm\xE3o."
+  - "Me lembro dele, Caio n\xE9? Foi adotado quando voc\xEAs eram pequenos."
+  - "Isso, eu queria achar ele, mas n\xE3o planejei direito."
+  - "E como eu n\xE3o tinha pra onde ir, acabei debaixo de uma ponte"
+  - E uma senhora cabra me acolheu.
+  - "Ah, devia ter imaginado que voc\xEA era uma das crias da Madalena."
+  - "C\xEA conhece ela?"
+  - Somos... velhos amigos.
+  npcFalando: 010001000001000000010001
+  proximaFala: {fileID: 11400000, guid: 748cb893f08f2c24d9e4738eb91cc7ed, type: 2}
