@@ -88,10 +88,10 @@ TextureImporter:
     second: Caixa de Texto
   - first:
       213: 6591117602678790530
-    second: Graffit 2
+    second: Hud-Atualizada_28
   - first:
       213: 3448041919802742627
-    second: Graffit 1
+    second: Hud-Atualizada_29
   - first:
       213: -764864524558796101
     second: Hud-Atualizada_30
@@ -802,15 +802,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Graffit 2
+      name: Hud-Atualizada_28
       rect:
         serializedVersion: 2
-        x: 1655
-        y: 856
-        width: 185
-        height: 198
+        x: 1512
+        y: 897
+        width: 135
+        height: 133
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -823,15 +823,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Graffit 1
+      name: Hud-Atualizada_29
       rect:
         serializedVersion: 2
-        x: 1409
-        y: 862
-        width: 170
-        height: 111
+        x: 1505
+        y: 787
+        width: 147
+        height: 98
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -839,27 +839,6 @@ TextureImporter:
       bones: []
       spriteID: 3679f788bd7e9df20800000000000000
       internalID: 3448041919802742627
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hud-Atualizada_30
-      rect:
-        serializedVersion: 2
-        x: 1558
-        y: 652
-        width: 185
-        height: 192
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bbaff5074c7a265f0800000000000000
-      internalID: -764864524558796101
       vertices: []
       indices: 
       edges: []
@@ -873,7 +852,7 @@ TextureImporter:
         width: 84
         height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -894,7 +873,7 @@ TextureImporter:
         width: 84
         height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -915,7 +894,7 @@ TextureImporter:
         width: 85
         height: 79
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -936,7 +915,7 @@ TextureImporter:
         width: 99
         height: 65
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -957,7 +936,7 @@ TextureImporter:
         width: 89
         height: 66
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -978,7 +957,7 @@ TextureImporter:
         width: 93
         height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
