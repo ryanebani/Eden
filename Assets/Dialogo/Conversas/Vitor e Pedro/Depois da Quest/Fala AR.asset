@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
-  m_Name: Fala AR0
+  m_Name: Fala AR
   m_EditorClassIdentifier: 
   fala: Valeu pelas marmitas, a gente tava precisando.
   respostas:

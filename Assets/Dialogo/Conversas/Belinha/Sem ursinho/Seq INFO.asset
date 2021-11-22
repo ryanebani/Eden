@@ -10,13 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
-  m_Name: Seq A
+  m_Name: Seq INFO
   m_EditorClassIdentifier: 
   sequencia:
-  - Vi teu panfleto de procura-se ajudante, ainda ta aceitando?
-  - "Opa, j\xE1 tava pra fechar."
-  - Tu sabe algo de encanamento?
-  - "O g\xE1s n\xE3o t\xE1 indo pra m\xE1quina."
-  npcFalando: 00010101
-  proximaCutscene: 
-  proximaFala: {fileID: 11400000, guid: 1e56ed4151ce4574e8def233a8b6f7f6, type: 2}
+  - O que aconteceu com seu pufi?
+  - Ele tava na rua
+  - "E a\xED, n\xE3o tava mais :c"
+  npcFalando: 000101
+  proximaCutscene: 000000
+  proximaFala: {fileID: 11400000, guid: 8b39bec6dd0b4e543ab99c0693a98c82, type: 2}
