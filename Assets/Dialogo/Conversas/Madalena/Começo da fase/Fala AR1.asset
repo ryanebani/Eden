@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
   m_Name: Fala AR1
   m_EditorClassIdentifier: 
-  fala: Eu ouvi rumores sobre...
+  fala: Esse lugar sempre foi abandonado.
   respostas: []
   sequencia: {fileID: 11400000, guid: ffaec6a74dfdfa748944cfe2e4618150, type: 2}
   npcFalando: 1
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: e4a17fde116e04f408fcbcaaae87bbc1, type: 2}
-  dadosNpc: {fileID: 0}
+  dadosNpc: {fileID: 11400000, guid: 50240a8bca3efb54997e78c77ddc2052, type: 2}
   recomecar: 0
   NPCNode: 0
   proximaQuest: 0
