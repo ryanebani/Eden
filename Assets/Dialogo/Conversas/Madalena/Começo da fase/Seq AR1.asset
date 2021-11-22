@@ -15,8 +15,9 @@ MonoBehaviour:
   sequencia:
   - "E n\xE3o pensou em me contar!?"
   - "E se eu tiver perdido a minha \xFAnica chance de ver meu irm\xE3o!?"
-  - "Abel, calma, n\xE3o te contei porque era algo que voc\xEA tinha que descobrir
-    sozinho."
-  - Ta, mas foi vacilo.
+  - "Abel, calma, n\xE3o te contei porque era algo que voc\xEA tinha que ver com
+    seus pr\xF3prios olhos."
+  - "Ta, mas ainda eu t\xF4 bravo contigo"
   npcFalando: 00000100
+  proximaCutscene: 00000000
   proximaFala: {fileID: 11400000, guid: fc2eb6518bf752d49a99265c1ef85f03, type: 2}
