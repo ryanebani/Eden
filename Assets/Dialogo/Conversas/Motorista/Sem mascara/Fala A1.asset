@@ -22,7 +22,7 @@ MonoBehaviour:
   dadosNpc: {fileID: 0}
   recomecar: 0
   NPCNode: 0
-  proximaQuest: 0
+  proximaQuest: 1
   acaoSequencial: 0
   proximaCutscene: 0
   cutscene: {fileID: 0}

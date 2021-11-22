@@ -13,6 +13,7 @@ public class FunctionsNPC : MonoBehaviour
 
     public bool semDialogo;
     public string chave;
+    public string chaveMascara;
     public ItemOS item;
 
 
@@ -40,6 +41,11 @@ public class FunctionsNPC : MonoBehaviour
         this.chave = chave;
     }
 
+    public void SetarChaveMascara(string chaveMascara)
+    {
+        this.chaveMascara = chaveMascara;
+    }
+
     public void SetarItem(ItemOS item)
     {
         this.item = item;
@@ -55,12 +61,22 @@ public class FunctionsNPC : MonoBehaviour
                 ReceberItem();
                 Interagir.itemNaMao = false;
             }
-            else if (Interagir.itemSelecionado == chave)
+
+            else if (Dialogo.mascara == false && Interagir.itemSelecionado == chave)
+               
             {
                 inventario.RemoverItem();
-                dialogo.ProximaQuest();
+                dialogo.ProximaQuestSemMascara();
                 Interagir.itemNaMao = false;
             }
+            else if (Dialogo.mascara == true && Interagir.itemSelecionado == chaveMascara)
+
+            {
+                inventario.RemoverItem();
+                dialogo.ProximaQuestComMascara();
+                Interagir.itemNaMao = false;
+            }
+
             else
             {
                 alvo.negarItem = true;
