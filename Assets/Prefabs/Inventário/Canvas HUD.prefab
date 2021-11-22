@@ -376,8 +376,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -26.62}
-  m_SizeDelta: {x: -394, y: -92.241}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -358.9734, y: -50.2089}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7193271568906699070
 CanvasRenderer:
@@ -455,7 +455,7 @@ GameObject:
   - component: {fileID: 1151724147396498478}
   - component: {fileID: 7583793218470377418}
   m_Layer: 5
-  m_Name: NomeNPC
+  m_Name: NomeJogador
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -478,7 +478,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.000061035156, y: -217.00003}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 332, y: 256}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1151724147396498478
 CanvasRenderer:
@@ -508,7 +508,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 3979909993157166776, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -584,7 +584,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c17fd7fef2ecb2d438230be07cd2b05f, type: 3}
+    m_Font: {fileID: 12800000, guid: 184bc9edaf3f67e43be21941c2365217, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -954,8 +954,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -257.38995}
-  m_SizeDelta: {x: 1548, y: 375}
+  m_AnchoredPosition: {x: 0, y: -290.003}
+  m_SizeDelta: {x: 1548, y: 285.7733}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7889479244852676142
 CanvasRenderer:
@@ -1172,7 +1172,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.000061035156, y: -217}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 318, y: 214}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3376402437491973283
 CanvasRenderer:
@@ -1202,7 +1202,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -7013519121814834549, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
