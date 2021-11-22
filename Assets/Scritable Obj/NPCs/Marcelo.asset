@@ -18,7 +18,10 @@ MonoBehaviour:
   voz:
   - {fileID: 0}
   falasIdle:
-  - A
-  - B
-  - C
-  falasIdleMascara: []
+  - Que fedro podre!
+  - "N\xE3o sei o que \xE9 pior, voc\xEA ou aqueles drogadors!"
+  - Para de espantar meus clientes!
+  falasIdleMascara:
+  - Boa tarde rapaz!
+  - "N\xE3o liga pra aqueles drogados."
+  - "Meus produtos s\xE3o os melhores do pa\xEDs!"

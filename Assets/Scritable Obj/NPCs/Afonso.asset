@@ -18,4 +18,7 @@ MonoBehaviour:
   voz:
   - {fileID: 0}
   falasIdle: []
-  falasIdleMascara: []
+  falasIdleMascara:
+  - Ai que dor nas costas!
+  - "N\xE3o te conhe\xE7o e n\xE3o te quero perto das crian\xE7as."
+  - "Preciso de um \xF3culos."

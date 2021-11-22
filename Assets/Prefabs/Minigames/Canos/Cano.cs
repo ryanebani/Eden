@@ -37,15 +37,15 @@ public class Cano : MonoBehaviour
             int rand = Random.Range(0, 2);
             if(rand == 0)
             {
-                cima = true;
-                baixo = true;
+                esq = true;
+                dir = true;
                 
             }
             else if(rand == 1)
             {
                 image.gameObject.GetComponent<RectTransform>().Rotate(new Vector3(0, 0, -90));
-                esq = true;
-                dir = true;
+                cima = true;
+                baixo = true;
             }
         }
         else if(forma == "L")
@@ -54,26 +54,26 @@ public class Cano : MonoBehaviour
             int rand = Random.Range(0, 4);
             if(rand == 0)
             {
-                cima = true;
-                dir = true;
+                esq = true;
+                baixo = true;
             }
             else if(rand == 1)
             {
                 image.gameObject.GetComponent<RectTransform>().Rotate(new Vector3(0, 0, -90));
-                dir = true;
-                baixo = true;
+                cima = true;
+                esq = true;
             }
             else if(rand == 2)
             {
                 image.gameObject.GetComponent<RectTransform>().Rotate(new Vector3(0, 0, -180));
-                baixo = true;
-                esq = true;
+                cima = true;
+                dir = true;
             }
             else if(rand == 3)
             {
                 image.gameObject.GetComponent<RectTransform>().Rotate(new Vector3(0, 0, -270));
-                esq = true;
-                cima = true;
+                dir = true;
+                baixo = true;
             }
         }
         else if(forma == "T")
@@ -130,28 +130,28 @@ public class Cano : MonoBehaviour
         {
             image.sprite = canos.sprites[5];
             trancado = true;
-            if(direcaoFinal == "esquerda")
+            if(direcaoFinal == "direita")
             {
-                esq = true;
-            }
-            else if (direcaoFinal == "cima")
-            {
-                image.gameObject.GetComponent<RectTransform>().Rotate(new Vector3(0, 0, -90));
-                cima = true;
-            }
-            else if (direcaoFinal == "direita")
-            {
-                image.gameObject.GetComponent<RectTransform>().Rotate(new Vector3(0, 0, -180));
                 dir = true;
             }
             else if (direcaoFinal == "baixo")
             {
-                image.gameObject.GetComponent<RectTransform>().Rotate(new Vector3(0, 0, -270));
+                image.gameObject.GetComponent<RectTransform>().Rotate(new Vector3(0, 0, -90));
                 baixo = true;
+            }
+            else if (direcaoFinal == "esquerda")
+            {
+                image.gameObject.GetComponent<RectTransform>().Rotate(new Vector3(0, 0, -180));
+                esq = true;
+            }
+            else if (direcaoFinal == "cima")
+            {
+                image.gameObject.GetComponent<RectTransform>().Rotate(new Vector3(0, 0, -270));
+                cima = true;
             }
             else
             {
-                esq = true;
+                dir = true;
             }
         }
         else
@@ -165,6 +165,7 @@ public class Cano : MonoBehaviour
 
     private void Update()
     {
+        /*
         if (trancado && ativo || permAtivo)
         {
             image.color = Color.green;
@@ -181,7 +182,7 @@ public class Cano : MonoBehaviour
         {
             image.color = Color.white;
         }
-
+        */
         if(forma == "X" && ativo)
         {
             OnFinalGame?.Invoke();

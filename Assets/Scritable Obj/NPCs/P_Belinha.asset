@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: P_Belinha
   m_EditorClassIdentifier: 
   nomeNPC: P_Belinha
-  falasIdle:
-  - 
   prefab: {fileID: 0}
   audioSource: {fileID: 0}
   voz: []
+  falasIdle:
+  - Eu quero o Pufi! Buaaaaa!
+  - Pufiii Buaaaaaaa!
+  falasIdleMascara: []

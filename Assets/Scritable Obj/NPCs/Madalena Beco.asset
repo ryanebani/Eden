@@ -16,5 +16,7 @@ MonoBehaviour:
   prefab: {fileID: 0}
   audioSource: {fileID: 0}
   voz: []
-  falasIdle: []
+  falasIdle:
+  - Quer um cachorro quente querido?
+  - Ainda tenho o dinheiro da minha ultima leitura.
   falasIdleMascara: []

@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 4942525129125761551}
   - component: {fileID: 8484795441829805295}
   m_Layer: 5
-  m_Name: fundoCanos
+  m_Name: conjuntoCanos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123,12 +123,12 @@ RectTransform:
   - {fileID: 4042764768443783288}
   - {fileID: 8682467683009984114}
   m_Father: {fileID: 1696218098076636193}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 900, y: 900}
+  m_SizeDelta: {x: 801, y: 801}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4461493639981489940
 CanvasRenderer:
@@ -151,14 +151,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 275922308344580436, guid: 64c5e28df31adab45b83bbb760c89002, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -222,13 +222,13 @@ MonoBehaviour:
   - {fileID: 4166842160523528446}
   - {fileID: 8770482811685594868}
   sprites:
-  - {fileID: 21300000, guid: 69d8182e27aebbf4aac24bbfa0d13668, type: 3}
-  - {fileID: 21300000, guid: 8123a057f525f2a4195464e488d4e1de, type: 3}
+  - {fileID: -5200777205745087293, guid: 64c5e28df31adab45b83bbb760c89002, type: 3}
+  - {fileID: -5223331555626985155, guid: 64c5e28df31adab45b83bbb760c89002, type: 3}
   - {fileID: 21300000, guid: aa0daaa55ba5f894fa8029bf3b9012e2, type: 3}
   - {fileID: 21300000, guid: a77574ddf25f75747ab20433ef4d1831, type: 3}
-  - {fileID: 21300000, guid: 424c5fab5998f1847a948f681084019b, type: 3}
-  - {fileID: 21300000, guid: 4027cf6f97aebdc40a72b96d6fd74bc0, type: 3}
-  - {fileID: 21300000, guid: 15b12ec5bb96a944a81f06fd179b87f1, type: 3}
+  - {fileID: -3182527629469598020, guid: 64c5e28df31adab45b83bbb760c89002, type: 3}
+  - {fileID: -3182527629469598020, guid: 64c5e28df31adab45b83bbb760c89002, type: 3}
+  - {fileID: 275922308344580436, guid: 64c5e28df31adab45b83bbb760c89002, type: 3}
 --- !u!1 &4506293034469197466
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,6 +260,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 2823960699960172381}
+  - {fileID: 63133816109607879}
   - {fileID: 6610148098922368294}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -330,6 +331,106 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!1 &8028341057709928695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 63133816109607879}
+  - component: {fileID: 3926066222448218653}
+  - component: {fileID: 1987086084965221858}
+  - component: {fileID: 9210397630432783685}
+  m_Layer: 5
+  m_Name: fundoCanos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &63133816109607879
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8028341057709928695}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1696218098076636193}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1631, y: 879}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3926066222448218653
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8028341057709928695}
+  m_CullTransparentMesh: 1
+--- !u!114 &1987086084965221858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8028341057709928695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -8944199146605941162, guid: 64c5e28df31adab45b83bbb760c89002, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &9210397630432783685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8028341057709928695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 200, y: 200}
+  m_Spacing: {x: 0, y: 0}
+  m_Constraint: 0
+  m_ConstraintCount: 2
 --- !u!1001 &120600682713250004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -345,13 +446,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cano (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6152358056645466172, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: forma
       value: X
       objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: direcaoFinal
-      value: cima
+      value: esquerda
       objectReference: {fileID: 0}
     - target: {fileID: 8778122559994760870, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: m_Pivot.x
@@ -470,13 +575,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cano (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6152358056645466172, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: forma
-      value: X
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: direcaoFinal
-      value: cima
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8778122559994760870, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: m_Pivot.x
@@ -595,13 +704,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cano (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6152358056645466172, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: forma
-      value: X
+      value: L
       objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: direcaoFinal
-      value: cima
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8778122559994760870, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: m_Pivot.x
@@ -720,13 +833,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cano (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6152358056645466172, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: forma
-      value: X
+      value: L
       objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: direcaoFinal
-      value: cima
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8778122559994760870, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: m_Pivot.x
@@ -845,13 +962,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cano (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6152358056645466172, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: forma
-      value: X
+      value: L
       objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: direcaoFinal
-      value: cima
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8778122559994760870, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: m_Pivot.x
@@ -970,13 +1091,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cano (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6152358056645466172, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: forma
-      value: X
+      value: L
       objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: direcaoFinal
-      value: baixo
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8778122559994760870, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: m_Pivot.x
@@ -1095,13 +1220,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cano (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6152358056645466172, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: forma
-      value: X
+      value: I
       objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: direcaoFinal
-      value: cima
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8778122559994760870, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: m_Pivot.x
@@ -1189,6 +1318,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
+--- !u!224 &6858752676849089868 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8778122559994760870, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
+  m_PrefabInstance: {fileID: 2809411422844220394}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &6838292470820203978 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
@@ -1200,11 +1334,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2a072b5390bd0b429d50cc4b338c3ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!224 &6858752676849089868 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 8778122559994760870, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
-  m_PrefabInstance: {fileID: 2809411422844220394}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3519030506249296501
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1220,13 +1349,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cano
       objectReference: {fileID: 0}
+    - target: {fileID: 6152358056645466172, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: forma
-      value: X
+      value: O
       objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: direcaoFinal
-      value: cima
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8778122559994760870, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: m_Pivot.x
@@ -1345,13 +1478,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cano (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6152358056645466172, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: forma
-      value: X
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: direcaoFinal
-      value: cima
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8778122559994760870, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: m_Pivot.x
@@ -1470,13 +1607,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cano (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6152358056645466172, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: forma
-      value: X
+      value: I
       objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: direcaoFinal
-      value: cima
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8778122559994760870, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: m_Pivot.x
@@ -1595,13 +1736,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cano (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6152358056645466172, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: forma
-      value: X
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: direcaoFinal
-      value: esquerda
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8778122559994760870, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: m_Pivot.x
@@ -1689,11 +1834,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
---- !u!224 &5163649241110956107 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 8778122559994760870, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
-  m_PrefabInstance: {fileID: 4502139844733355757}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &5071517575797299405 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
@@ -1705,6 +1845,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2a072b5390bd0b429d50cc4b338c3ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!224 &5163649241110956107 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8778122559994760870, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
+  m_PrefabInstance: {fileID: 4502139844733355757}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4740301213295892190
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1720,13 +1865,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cano (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6152358056645466172, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: forma
-      value: X
+      value: I
       objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: direcaoFinal
-      value: cima
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8778122559994760870, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: m_Pivot.x
@@ -1845,13 +1994,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cano (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6152358056645466172, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: forma
-      value: X
+      value: I
       objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: direcaoFinal
-      value: cima
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8778122559994760870, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: m_Pivot.x
@@ -1970,13 +2123,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cano (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6152358056645466172, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: forma
-      value: X
+      value: L
       objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: direcaoFinal
-      value: cima
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8778122559994760870, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: m_Pivot.x
@@ -2095,9 +2252,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cano (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6152358056645466172, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: forma
-      value: X
+      value: I
       objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: direcaoFinal
@@ -2220,13 +2381,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cano (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6152358056645466172, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: forma
-      value: X
+      value: I
       objectReference: {fileID: 0}
     - target: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: direcaoFinal
-      value: direita
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8778122559994760870, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
       propertyPath: m_Pivot.x
@@ -2314,11 +2479,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
---- !u!224 &350202838481044803 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 8778122559994760870, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
-  m_PrefabInstance: {fileID: 9011153467882572773}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &366333486066374085 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8654640888472575520, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
@@ -2330,3 +2490,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2a072b5390bd0b429d50cc4b338c3ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!224 &350202838481044803 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8778122559994760870, guid: 4d1e9c5f2b21bda4eb12aa7a06dc827e, type: 3}
+  m_PrefabInstance: {fileID: 9011153467882572773}
+  m_PrefabAsset: {fileID: 0}

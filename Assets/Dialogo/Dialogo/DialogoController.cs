@@ -27,6 +27,7 @@ public class DialogoController : MonoBehaviour
 
     private bool falaAtiva = false;
 
+    [HideInInspector]
     public FalaNPC falas;
 
     Touch touch;
@@ -48,6 +49,9 @@ public class DialogoController : MonoBehaviour
     Color transparente = new Color(1, 1, 1, 0.5f);
 
     List<FalaNPC> naoAtivarAcao = new List<FalaNPC>();
+
+    public Sprite abelMask;
+    public Sprite nomeMask;
 
     private void Start()
     {
@@ -229,14 +233,27 @@ public class DialogoController : MonoBehaviour
 
        
 
-        spriteNPC.sprite = falas.NPC.sprite;
-        spritePlayer.sprite = falas.jogador.sprite;
+        
         falaAtiva = true;
         painelComTudo.SetActive(true);
         painelComTudo.gameObject.GetComponent<Animator>().SetBool("Aberto", true);
-        nomeJogador.sprite = jogador.nome;
+
+        if(!Dialogo.mascara)
+        {
+            spritePlayer.sprite = falas.jogador.sprite;
+            nomeJogador.sprite = jogador.nome;
+            nomeJogador.SetNativeSize();
+        }
+        else
+        {
+            spritePlayer.sprite = abelMask;
+            nomeJogador.sprite = nomeMask;
+            nomeJogador.SetNativeSize();
+        }
+
+        //Setagem NPC
+        spriteNPC.sprite = falas.NPC.sprite;
         nomeNPC.sprite = NPC.nome;
-        nomeJogador.SetNativeSize();
         nomeNPC.SetNativeSize();
 
         if (falas.proximaCutscene)
