@@ -15,14 +15,14 @@ MonoBehaviour:
   fala: Ta falando com a gente porque?
   respostas: []
   sequencia: {fileID: 0}
-  npcFalando: 0
+  npcFalando: 1
   falaNode: 
-  jogador: {fileID: 0}
-  NPC: {fileID: 0}
-  dadosNpc: {fileID: 0}
+  jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
+  NPC: {fileID: 11400000, guid: ff52b11db71fed34fae2910d27568abd, type: 2}
+  dadosNpc: {fileID: 11400000, guid: a3234ca1e30ba394a8aa3d2cc110d63d, type: 2}
   recomecar: 0
   NPCNode: 0
-  proximaQuest: 0
+  proximaQuest: 1
   acaoSequencial: 0
   proximaCutscene: 0
   cutscene: {fileID: 0}

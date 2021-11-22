@@ -10,27 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
-  m_Name: Fala AR
+  m_Name: Seq Fala AR2
   m_EditorClassIdentifier: 
-  fala: ABC
-  respostas:
-  - resposta: A
-    proximaFala: {fileID: 11400000, guid: c91f68394e8263944a751c816bede75c, type: 2}
-  - resposta: "T\xF4 tentando achar meu irm\xE3o, tu sabe de algo?"
-    proximaFala: {fileID: 11400000, guid: c27eeb1c08027454ba83f802e78ba98f, type: 2}
-  - resposta: Tchau
-    proximaFala: {fileID: 11400000, guid: 6ecb37730b5a14f40b9efd560b83640a, type: 2}
-  - resposta: Tchau
-    proximaFala: {fileID: 0}
+  fala: E ajudar a Zenaide? Ela disse que tava precisando
+  respostas: []
   sequencia: {fileID: 0}
-  npcFalando: 0
+  npcFalando: 1
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: 308963aa3073f2d4fbd8e0ae183748fc, type: 2}
   dadosNpc: {fileID: 11400000, guid: c8d8911989a748944bd485fb2334bb47, type: 2}
-  recomecar: 1
+  recomecar: 0
   NPCNode: 0
   proximaQuest: 0
-  acaoSequencial: 0
-  proximaCutscene: 0
-  cutscene: {fileID: 0}
+  acaoSequencial: 1

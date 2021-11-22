@@ -12,14 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
   m_Name: Fala AR1
   m_EditorClassIdentifier: 
-  fala: "Voc\xEA j\xE1 esteve aqui antes?"
+  fala: 
   respostas: []
-  sequencia: {fileID: 11400000, guid: adcd44dddebdd664083a8c244566ff6f, type: 2}
+  sequencia: {fileID: 0}
   npcFalando: 0
   falaNode: 
-  jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
-  NPC: {fileID: 11400000, guid: 308963aa3073f2d4fbd8e0ae183748fc, type: 2}
+  jogador: {fileID: 0}
+  NPC: {fileID: 0}
+  dadosNpc: {fileID: 0}
   recomecar: 0
-  NPCNode: 1
-  acao: 0
+  NPCNode: 0
   proximaQuest: 0
+  acaoSequencial: 0
+  proximaCutscene: 0
+  cutscene: {fileID: 0}

@@ -17,4 +17,7 @@ MonoBehaviour:
   audioSource: {fileID: 0}
   voz: []
   falasIdle: []
-  falasIdleMascara: []
+  falasIdleMascara:
+  - A
+  - B
+  - C
