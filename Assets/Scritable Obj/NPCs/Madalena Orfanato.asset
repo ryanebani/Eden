@@ -17,4 +17,6 @@ MonoBehaviour:
   audioSource: {fileID: 0}
   voz: []
   falasIdle: []
-  falasIdleMascara: []
+  falasIdleMascara:
+  - "A m\xE1scara ta \xF3tima em voc\xEA meu anjo."
+  - Todo mundo vai querer convesar contigo.

@@ -13,7 +13,11 @@ MonoBehaviour:
   m_Name: Motorista
   m_EditorClassIdentifier: 
   nomeNPC: Motorista
-  falasIdle: []
   prefab: {fileID: 0}
   audioSource: {fileID: 0}
   voz: []
+  falasIdle:
+  - "Sua laia n\xE3o entra."
+  falasIdleMascara:
+  - "O \xF4nibus j\xE1 vai sair."
+  - "Deixa eu tomar meu caf\xE9 em paz."
