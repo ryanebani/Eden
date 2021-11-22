@@ -17,4 +17,4 @@ MonoBehaviour:
   - "Ah, o Beto, se ele te deixou entrar voc\xEA deve ser de boa."
   npcFalando: 0001
   proximaCutscene: 0000
-  proximaFala: {fileID: 11400000, guid: 748cb893f08f2c24d9e4738eb91cc7ed, type: 2}
+  proximaFala: {fileID: 11400000, guid: 1996d7e9721f90945bcbf31a5ec3c312, type: 2}

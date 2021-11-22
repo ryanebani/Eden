@@ -9,13 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5052d03188da00a4e834499d398411d7, type: 3}
-  m_Name: Afonso
+  m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
+  m_Name: Seq B
   m_EditorClassIdentifier: 
-  nomeNPC: Afonso
-  prefab: {fileID: 0}
-  audioSource: {fileID: 0}
-  voz:
-  - {fileID: 0}
-  falasIdle: []
-  falasIdleMascara: []
+  sequencia:
+  - A
+  - B
+  npcFalando: 0100
+  proximaCutscene: 0000
+  proximaFala: {fileID: 11400000, guid: abbb660e1f384124d97abbb55cf55ee9, type: 2}

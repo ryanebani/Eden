@@ -15,14 +15,15 @@ MonoBehaviour:
   fala: "Bom dia meu consagrado! Tenho a ra\xE7\xE3o mais fina da cidade aqui! O
     que vai ser?"
   respostas: []
-  sequencia: {fileID: 0}
-  npcFalando: 0
+  sequencia: {fileID: 11400000, guid: c3dba72f951e3a34492e8de15d81124f, type: 2}
+  npcFalando: 1
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: 4960aedad818f614482600f088cf9c3f, type: 2}
-  dadosNpc: {fileID: 0}
+  dadosNpc: {fileID: 11400000, guid: c8d8911989a748944bd485fb2334bb47, type: 2}
   recomecar: 0
   NPCNode: 0
-  acao: 0
   proximaQuest: 0
   acaoSequencial: 0
+  proximaCutscene: 0
+  cutscene: {fileID: 0}
