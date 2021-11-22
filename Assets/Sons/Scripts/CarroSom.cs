@@ -13,8 +13,9 @@ public class CarroSom : MonoBehaviour
     [SerializeField] private float velMin;
     [SerializeField] private float velMax;
 
+    SpriteRenderer sprite;
     public float velocidade;
-    AudioSource audio;
+    AudioSource audioSource;
     Vector3 coordenadaD;
     Vector3 coordenadaE;
 
@@ -23,7 +24,8 @@ public class CarroSom : MonoBehaviour
     void Start()
     {
         mover = false;
-        audio = GetComponent<AudioSource>();
+        sprite = GetComponent<SpriteRenderer>();
+        audioSource = GetComponent<AudioSource>();
         coordenadaD = new Vector3(100, transform.position.y, 0);
         coordenadaE = new Vector3(-100, transform.position.y, 0);
         StartCoroutine(Timer());
@@ -38,7 +40,7 @@ public class CarroSom : MonoBehaviour
             if(transform.position.x > coordenadaD.x || transform.position.x < coordenadaE.x)
             {
                 
-                if(audio.isPlaying == false)
+                if(audioSource.isPlaying == false)
                 {
                     mover = false;
                     StartCoroutine(Timer());
@@ -54,7 +56,7 @@ public class CarroSom : MonoBehaviour
 
         SetCoordenada();
         SetVelocidade();
-        audio.Play();
+        audioSource.Play();
         mover = true;
     }
 
@@ -64,13 +66,15 @@ public class CarroSom : MonoBehaviour
         if (indice == 0)
         {
             transform.position = coordenadaD;
+            sprite.flipX = true;
         }
         else
         {
             transform.position = coordenadaE;
+            sprite.flipX = false;
         }
 
-        Debug.Log(indice);
+        //Debug.Log(indice);
     }
 
     private void SetVelocidade()
@@ -80,11 +84,13 @@ public class CarroSom : MonoBehaviour
         if (transform.position == coordenadaE)
         {
             velocidade = velocidade * 1;
+            
             transform.eulerAngles = new Vector3(0, 180, 0);
         }
         else
         {
             velocidade = velocidade * -1;
+            
             transform.eulerAngles = new Vector3(0, -180, 0);
         }
     }
