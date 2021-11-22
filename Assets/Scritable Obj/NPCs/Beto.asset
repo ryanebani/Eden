@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: Beto
   m_EditorClassIdentifier: 
   nomeNPC: Beto
-  falasIdle:
-  - Pode entrar, mano.
-  - "Quer que eu abra a porta tamb\xE9m?"
-  - "B\xF3ra, o Sr. Afonso t\xE1 la dentro."
-  spriteNPC: {fileID: -2334010328091201995, guid: b77568095c779754e8fa136c513546c7, type: 3}
-  animator: {fileID: 0}
-  voz: {fileID: 0}
+  prefab: {fileID: 0}
+  audioSource: {fileID: 0}
+  voz:
+  - {fileID: 0}
+  falasIdle: []
+  falasIdleMascara:
+  - A
+  - B
+  - C

@@ -9,7 +9,7 @@ public class Personagem : ScriptableObject
 {
     public Color cor;
 
-    public string nome;
+    public Sprite nome;
 
     public Sprite sprite;
 

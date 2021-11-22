@@ -13,7 +13,12 @@ MonoBehaviour:
   m_Name: Belinha
   m_EditorClassIdentifier: 
   nomeNPC: Belinha
+  prefab: {fileID: 0}
+  audioSource: {fileID: 0}
+  voz:
+  - {fileID: 0}
   falasIdle: []
-  spriteNPC: {fileID: 0}
-  animator: {fileID: 0}
-  voz: {fileID: 0}
+  falasIdleMascara:
+  - A
+  - B
+  - C

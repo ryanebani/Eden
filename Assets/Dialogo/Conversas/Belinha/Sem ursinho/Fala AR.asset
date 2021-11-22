@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
+  m_Name: Fala AR
+  m_EditorClassIdentifier: 
+  fala: O Pufi sumiu!! Buaa!!
+  respostas:
+  - resposta: A
+    proximaFala: {fileID: 11400000, guid: 2b1ef755ee53bbc4eacd974c6556e446, type: 2}
+  - resposta: Tchau!
+    proximaFala: {fileID: 11400000, guid: 95db3cb9f8836b24cb6678617e72b611, type: 2}
+  - resposta: "Afonso me falou que o Pufi sumiu, \xE9 verdade?"
+    proximaFala: {fileID: 11400000, guid: 63de7bd3155248b459e3e8c25fcd0617, type: 2}
+  sequencia: {fileID: 0}
+  npcFalando: 1
+  falaNode: 
+  jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
+  NPC: {fileID: 11400000, guid: df653774ab4d6de4c98806a87fb31dcf, type: 2}
+  dadosNpc: {fileID: 11400000, guid: 871808f3dfbea624ea17df78a7f27de0, type: 2}
+  recomecar: 1
+  NPCNode: 0
+  proximaQuest: 0
+  acaoSequencial: 0
+  proximaCutscene: 0
+  cutscene: {fileID: 0}

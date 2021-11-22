@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequencia:
   - Vi teu panfleto de procura-se ajudante, ainda ta aceitando?
-  - "Opa, j\xE1 to pra fechar mas voc\xEA pode me ajudar a organizar as caixas aqui
-    atr\xE1s."
-  npcFalando: 0001
-  proximaFala: {fileID: 0}
+  - "Opa, j\xE1 tava pra fechar."
+  - Tu sabe algo de encanamento?
+  - "O g\xE1s n\xE3o t\xE1 indo pra m\xE1quina."
+  npcFalando: 00010101
+  proximaCutscene: 
+  proximaFala: {fileID: 11400000, guid: 1e56ed4151ce4574e8def233a8b6f7f6, type: 2}
