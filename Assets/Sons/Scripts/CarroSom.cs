@@ -21,6 +21,8 @@ public class CarroSom : MonoBehaviour
 
     private bool mover = false;
 
+    public Sprite[] carro;
+
     void Start()
     {
         mover = false;
@@ -62,6 +64,10 @@ public class CarroSom : MonoBehaviour
 
     public void SetCoordenada()
     {
+        int rand = Random.Range(0, carro.Length);
+        Debug.Log(rand);
+        sprite.sprite = carro[rand];
+
         int indice = Random.Range(0, 2);
         if (indice == 0)
         {
