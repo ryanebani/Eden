@@ -28,7 +28,11 @@ public class Transicao : MonoBehaviour
     {
         podeAction = true;       
     }
-        
+
+    public void CantAction()
+    {
+        podeAction = false;
+    }
     public void Som(AudioClip clip)
     {
         audioSource.PlayOneShot(clip);
