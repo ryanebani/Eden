@@ -9447,6 +9447,8 @@ MonoBehaviour:
   spritePlayer: {fileID: 331651637}
   imagemCutscene: {fileID: 7889479244994633833}
   falas: {fileID: 0}
+  abelMask: {fileID: 0}
+  nomeMask: {fileID: 0}
 --- !u!4 &1007075631
 Transform:
   m_ObjectHideFlags: 0
@@ -17568,7 +17570,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: ueMask.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SetarChave
+      value: SetarChaveMascara
       objectReference: {fileID: 0}
     - target: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: ueMask.Array.data[1].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -17628,10 +17630,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1574849455717194806, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574849455755257094, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.36
       objectReference: {fileID: 0}
     - target: {fileID: 6426758522726673559, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: chave
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6426758522726673559, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
+      propertyPath: chaveMascara
       value: Moedas
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -19158,7 +19168,7 @@ PrefabInstance:
     - target: {fileID: 5001860155073800066, guid: 2a38fc13b81b7a44c9983c30de1e55a2, type: 3}
       propertyPath: objOS
       value: 
-      objectReference: {fileID: 11400000, guid: d72fa005b4a332040bd5084279928501, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 5001860155073800066, guid: 2a38fc13b81b7a44c9983c30de1e55a2, type: 3}
       propertyPath: inspecionar
       value: 

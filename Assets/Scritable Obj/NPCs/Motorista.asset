@@ -18,6 +18,7 @@ MonoBehaviour:
   voz: []
   falasIdle:
   - "Sua laia n\xE3o entra."
+  - "N\xE3o quero dinheiro de vagabundo"
   falasIdleMascara:
   - "O \xF4nibus j\xE1 vai sair."
   - "Deixa eu tomar meu caf\xE9 em paz."
