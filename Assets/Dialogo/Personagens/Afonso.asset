@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Afonso
   m_EditorClassIdentifier: 
   cor: {r: 1, g: 1, b: 1, a: 1}
-  nome: Afonso
+  nome: {fileID: 5100854194883956461, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
   sprite: {fileID: -5079984596714570864, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   clipes:
   - {fileID: 8300000, guid: 08bb2cbb5ec2faf44853061732f2955c, type: 3}

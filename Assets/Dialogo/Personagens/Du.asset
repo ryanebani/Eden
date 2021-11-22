@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Du
   m_EditorClassIdentifier: 
   cor: {r: 1, g: 1, b: 1, a: 1}
-  nome: Du
+  nome: {fileID: 2511040075949732606, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
   sprite: {fileID: 8963582278925298795, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   clipes:
   - {fileID: 8300000, guid: d094733a58011f944a36f624db821844, type: 3}

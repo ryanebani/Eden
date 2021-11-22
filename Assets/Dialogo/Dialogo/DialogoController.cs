@@ -15,7 +15,8 @@ public class DialogoController : MonoBehaviour
     public static Dialogo dialogo;
 
     public Text falaNPC;
-    public Text nomeNPC;
+    public Image nomeNPC;
+    public Image nomeJogador;
 
     public GameObject resposta;
 
@@ -126,7 +127,6 @@ public class DialogoController : MonoBehaviour
                             spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", true);
                             //spritePlayer.color = transparente;
                             //spriteNPC.color = opaco;
-                            nomeNPC.text = falas.NPC.nome;
                             //falaNPC.color = falas.NPC.cor;
                         }
                         else
@@ -136,7 +136,6 @@ public class DialogoController : MonoBehaviour
                             spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", false);
                             // spritePlayer.color = opaco;
                             // spriteNPC.color = transparente;
-                            nomeNPC.text = falas.jogador.nome;
                            // falaNPC.color = falas.jogador.cor;
                         }
                         index++;
@@ -234,7 +233,11 @@ public class DialogoController : MonoBehaviour
         spritePlayer.sprite = falas.jogador.sprite;
         falaAtiva = true;
         painelComTudo.SetActive(true);
-        painelComTudo.gameObject.GetComponent<Animator>().SetBool("Aberto", true);        
+        painelComTudo.gameObject.GetComponent<Animator>().SetBool("Aberto", true);
+        nomeJogador.sprite = jogador.nome;
+        nomeNPC.sprite = NPC.nome;
+        nomeJogador.SetNativeSize();
+        nomeNPC.SetNativeSize();
 
         if (falas.proximaCutscene)
         {
@@ -274,14 +277,12 @@ public class DialogoController : MonoBehaviour
             {
                 spritePlayer.gameObject.GetComponent<Animator>().SetBool("Falando", false);
                 spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", true);
-                nomeNPC.text = falas.NPC.nome;
                 //falaNPC.color = falas.NPC.cor;
             }
             else
             {
                 spritePlayer.gameObject.GetComponent<Animator>().SetBool("Falando", true);
                 spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", false);
-                nomeNPC.text = falas.jogador.nome;
                 //falaNPC.color = falas.jogador.cor;
             }
         }
