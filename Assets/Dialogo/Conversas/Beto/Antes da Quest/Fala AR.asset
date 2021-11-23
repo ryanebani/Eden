@@ -12,21 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
   m_Name: Fala AR
   m_EditorClassIdentifier: 
-  fala: "H\xC1! Boa piada moleque, o orfanato ta abandonado, agora vaza"
+  fala: "Por que tu ainda t\xE1 aqui? Circulando."
   respostas:
   - resposta: "Me deixa entrar vai, \xE9 importante!"
     proximaFala: {fileID: 11400000, guid: d0967d5fdd705f14a925f4468e0bffd5, type: 2}
-  - resposta: "Aff, esquece ent\xE3o! "
+  - resposta: "P\xF4, esquece ent\xE3o."
     proximaFala: {fileID: 11400000, guid: 11c079f22c324904e89637747025a387, type: 2}
-  - resposta: "Oi, h\xE3... voc\xEA chama Beto n\xE9?"
+  - resposta: "Voc\xEA que \xE9 o Beto, n\xE9?"
     proximaFala: {fileID: 11400000, guid: 0da20dd86bf0ea64997aa0134a0346fb, type: 2}
   sequencia: {fileID: 0}
   npcFalando: 1
-  falaNode: O que tu ta querendo?
+  falaNode: "Por que tu ainda t\xE1 aqui? Circulando."
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: 873072fe9fc197f4c9549ffd5a703430, type: 2}
-  dadosNpc: {fileID: 0}
+  dadosNpc: {fileID: 11400000, guid: 77e90ab3054c95a49a9e1cb63e7216af, type: 2}
   recomecar: 1
   NPCNode: 1
   proximaQuest: 0
   acaoSequencial: 0
+  proximaCutscene: 0
+  cutscene: {fileID: 0}

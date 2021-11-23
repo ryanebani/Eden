@@ -1692,11 +1692,11 @@ PrefabInstance:
     - target: {fileID: 3865464108308025048, guid: 329929b7378a02642a5b3292892a2b13, type: 3}
       propertyPath: falasSemMascara.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: dba22f56922956d4788978efaf101617, type: 2}
+      objectReference: {fileID: 11400000, guid: 78f8fa7efa193dd4ea4727f8645d14ae, type: 2}
     - target: {fileID: 3865464108308025048, guid: 329929b7378a02642a5b3292892a2b13, type: 3}
       propertyPath: falasSemMascara.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: a1d2b1290c8d91a43be7f57abaf56138, type: 2}
+      objectReference: {fileID: 11400000, guid: fcb1d9dfdb87d054c95350abb90b1366, type: 2}
     - target: {fileID: 3865464108308025048, guid: 329929b7378a02642a5b3292892a2b13, type: 3}
       propertyPath: falaQuestsSemMascara.Array.size
       value: 0
@@ -8544,7 +8544,7 @@ PrefabInstance:
     - target: {fileID: 484556649302489607, guid: 1c55cdfb5d04a4c46b9d99b0dc568926, type: 3}
       propertyPath: falasSemMascara.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}
+      objectReference: {fileID: 11400000, guid: 5b251644beac4de4da9829ec48bce042, type: 2}
     - target: {fileID: 484556649302489607, guid: 1c55cdfb5d04a4c46b9d99b0dc568926, type: 3}
       propertyPath: falasSemMascara.Array.data[1]
       value: 
@@ -8923,7 +8923,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 484556649302489607, guid: 1c55cdfb5d04a4c46b9d99b0dc568926, type: 3}
       propertyPath: ueSemMask.Array.data[1].m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: Moedas
+      value: Latinhas
       objectReference: {fileID: 0}
     - target: {fileID: 484556649302489607, guid: 1c55cdfb5d04a4c46b9d99b0dc568926, type: 3}
       propertyPath: ueSemMask.Array.data[1].m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
@@ -9649,8 +9649,8 @@ MonoBehaviour:
   spritePlayer: {fileID: 331651637}
   imagemCutscene: {fileID: 7889479244994633833}
   falas: {fileID: 0}
-  abelMask: {fileID: 0}
-  nomeMask: {fileID: 0}
+  abelMask: {fileID: -4883974678191042152, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
+  nomeMask: {fileID: 3979909993157166776, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
 --- !u!4 &1007075631
 Transform:
   m_ObjectHideFlags: 0
@@ -10423,11 +10423,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6787056619173625680, guid: 14fb544813ed8e844bc88a905812a8d9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.14
+      value: -16.72
       objectReference: {fileID: 0}
     - target: {fileID: 6787056619173625680, guid: 14fb544813ed8e844bc88a905812a8d9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.51
+      value: -29.51
       objectReference: {fileID: 0}
     - target: {fileID: 6787056619173625680, guid: 14fb544813ed8e844bc88a905812a8d9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14216,7 +14216,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501253559}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.875002, y: -0.0150004625, z: -10}
+  m_LocalPosition: {x: -16.26, y: -0.0150004625, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -20756,6 +20756,14 @@ PrefabInstance:
     - target: {fileID: 7435076066603842054, guid: 42475340a898b384c86a86754fe095a1, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889479244852676140, guid: 42475340a898b384c86a86754fe095a1, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 359.5702
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889479244852676140, guid: 42475340a898b384c86a86754fe095a1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -253.10457
       objectReference: {fileID: 0}
     - target: {fileID: 7889479244852676141, guid: 42475340a898b384c86a86754fe095a1, type: 3}
       propertyPath: m_Enabled

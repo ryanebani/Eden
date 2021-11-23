@@ -13,14 +13,13 @@ MonoBehaviour:
   m_Name: Seq INFO
   m_EditorClassIdentifier: 
   sequencia:
-  - "Ah, sei l\xE1, \xE9 um tamandua de bon\xE9 velho."
-  - "Ah, \xE9 o Beto, ele \xE9 meio desconfiado."
+  - "Ah, sei l\xE1, \xE9 um tamandu\xE1 de bon\xE9 velho."
+  - "Ah, \xE9 o Beto, ele \xE9 meio cismado."
   - "N\xE3o confia em quem ele n\xE3o conhece."
-  - "Ent\xE3o n\xE3o tem chance dele me deixar passar?"
-  - "N\xE3o disse isso, voc\xEA s\xF3 tem que fazer ele confiar em voc\xEA."
-  - Todo mundo aqui se ajuda bastante.
-  - "Ent\xE3o... Eu devia oferecer ajuda pra ele?"
-  - Talvez.
-  npcFalando: 0001010001010001
-  proximaCutscene: 0000000000000000
+  - O pessoal aqui sempre se ajuda muito.
+  - "V\xEA se ele precisa de ajuda pra alguma coisa."
+  - "Que rol\xEA, viu."
+  - Vou ver se consigo algo pra gente comer, querido.
+  npcFalando: 00010101010001
+  proximaCutscene: 00000000000000
   proximaFala: {fileID: 11400000, guid: 4fd4ab5059423304b8fcedbcf942a0f1, type: 2}

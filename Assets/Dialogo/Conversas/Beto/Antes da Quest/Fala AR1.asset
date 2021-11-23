@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
   m_Name: Fala AR1
   m_EditorClassIdentifier: 
-  fala: "O que pode ser t\xE3o importante pra tu ter que entrar num pr\xE9dio abandonado?"
+  fala: "E o que \xE9 t\xE3o importante pra tu fazer a\xED dentro? "
   respostas: []
   sequencia: {fileID: 11400000, guid: fa6cfd964a1b6664280dca451e65d427, type: 2}
   npcFalando: 1

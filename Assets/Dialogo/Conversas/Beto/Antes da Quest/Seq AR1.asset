@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Seq AR1
   m_EditorClassIdentifier: 
   sequencia:
-  - "N\xE3o \xE9 da sua conta!"
-  - "Ent\xE3o tu n\xE3o vai entrar."
-  - "Saco... T\xE1, eu to procurando meu irm\xE3o Caio e queria procurar pistas dele."
+  - "N\xE3o \xE9 da tua conta!"
+  - Escuta aqui, garoto.
+  - "Nem te conhe\xE7o. At\xE9 queria ser bonzinho..."
+  - "Mas n\xE3o posso deixar qualquer um entrar assim."
+  - "Vacilo... \xC9 que eu t\xF4 atr\xE1s do meu irm\xE3o."
+  - "\xC9 uma longa hist\xF3ria."
   - "N\xE3o vai ter nada aqui."
-  - Pelo menos me deixa dar uma olhada!
-  - "N\xE3o, desiste, se teu irm\xE3o foi adotado ele ta muito melhor agora."
-  - "Voc\xEA n\xE3o sabe nada do meu irm\xE3o!"
-  - "Seu teu irm\xE3o quisesse falar com voc\xEA ele mesmo teria entrao em contato."
-  - "J\xE1 pensou nisso moleque?"
-  - "Cala a boca! C\xEA n\xE3o sabe do que ta falando!"
-  npcFalando: 00010001000100010101
+  - Pelo menos me deixa dar uma olhada.
+  - "Desiste. Se teu irm\xE3o foi adotado, ele t\xE1 num lugar melhor que aqui."
+  - "Voc\xEA n\xE3o sabe nada dele."
+  npcFalando: 00010101000001000100
   proximaCutscene: 00000000000000000000
   proximaFala: {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}

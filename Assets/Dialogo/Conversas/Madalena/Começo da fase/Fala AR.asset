@@ -22,7 +22,7 @@ MonoBehaviour:
     proximaFala: {fileID: 11400000, guid: f213eb1583e39954cb7179346e1135c3, type: 2}
   sequencia: {fileID: 0}
   npcFalando: 1
-  falaNode: 
+  falaNode: "U\xE9 querido, n\xE3o entrou?"
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: e4a17fde116e04f408fcbcaaae87bbc1, type: 2}
   dadosNpc: {fileID: 0}
