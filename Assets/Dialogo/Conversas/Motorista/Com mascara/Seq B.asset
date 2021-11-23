@@ -13,19 +13,16 @@ MonoBehaviour:
   m_Name: Seq B
   m_EditorClassIdentifier: 
   sequencia:
-  - E pra onde tu quer ir?
-  - Tenho que ir pra cidade alta
-  - Cidade alta?! Mas tu tem o visto?
-  - "Visto? Visto de qu\xEA?"
-  - "S\xF3 pessoas autorizadas podem entrar na cidade alta"
-  - "Voc\xEA precisa ser rico e importante"
-  - "Ou trabalhar para algu\xE9m que seja"
-  - E como eu consigo isso?
-  - "Acho que eu n\xE3o posso te ajudar"
-  - Mas aquela gazela chata tava reclamando no meu ouvido
-  - Dizendo que ela tava atrasada pra cidade alta
-  - Talvez ela pode saber de algo
-  - Beleza, vou ver com ela.
-  npcFalando: 01000100010101000101010100
+  - "Esse \xF4nibus cruza a ponte e vai pra Cidade Alta."
+  - "Mas n\xE3o t\xE1 podendo entrar sem o passe."
+  - E onde eu consigo um desses?
+  - "N\xE3o \xE9 algo que se consegue f\xE1cil."
+  - "\xC9 aquela velha hist\xF3ria, ou voc\xEA \xE9 rico..."
+  - "Ou limpa a privada de quem \xE9."
+  - "N\xE3o posso fazer nada."
+  - "Mas aquela gazela me atazanou a manh\xE3 inteira sobre o atraso."
+  - "Acho que ela vai pra l\xE1 tamb\xE9m."
+  - Vai ver, ela pode te ajudar.
+  npcFalando: 01010001010101010101010101
   proximaCutscene: 00000000000000000000000000
   proximaFala: {fileID: 0}

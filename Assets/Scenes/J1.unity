@@ -535,7 +535,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4726403699315860979, guid: 21babc27acac6f4469749d3f7e217b2a, type: 3}
       propertyPath: ueSemMask.Array.data[0].m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4726403699315860979, guid: 21babc27acac6f4469749d3f7e217b2a, type: 3}
       propertyPath: OnFinalDialogo.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -646,6 +646,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1304735114}
     - target: {fileID: 4726403699315860979, guid: 21babc27acac6f4469749d3f7e217b2a, type: 3}
+      propertyPath: ueSemMask.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 632796303}
+    - target: {fileID: 4726403699315860979, guid: 21babc27acac6f4469749d3f7e217b2a, type: 3}
       propertyPath: ueSemMask.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
@@ -656,6 +660,10 @@ PrefabInstance:
     - target: {fileID: 4726403699315860979, guid: 21babc27acac6f4469749d3f7e217b2a, type: 3}
       propertyPath: ueSemMask.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 4726403699315860979, guid: 21babc27acac6f4469749d3f7e217b2a, type: 3}
+      propertyPath: ueSemMask.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ProximaQuestSemMascara
       objectReference: {fileID: 0}
     - target: {fileID: 4726403699315860979, guid: 21babc27acac6f4469749d3f7e217b2a, type: 3}
       propertyPath: OnFinalDialogo.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -694,7 +702,15 @@ PrefabInstance:
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4726403699315860979, guid: 21babc27acac6f4469749d3f7e217b2a, type: 3}
+      propertyPath: ueSemMask.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Dialogo, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4726403699315860979, guid: 21babc27acac6f4469749d3f7e217b2a, type: 3}
       propertyPath: ueSemMask.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4726403699315860979, guid: 21babc27acac6f4469749d3f7e217b2a, type: 3}
+      propertyPath: ueSemMask.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4726403699315860979, guid: 21babc27acac6f4469749d3f7e217b2a, type: 3}
@@ -723,6 +739,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4726403699315860979, guid: 21babc27acac6f4469749d3f7e217b2a, type: 3}
       propertyPath: ueSemMask.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4726403699315860979, guid: 21babc27acac6f4469749d3f7e217b2a, type: 3}
+      propertyPath: ueSemMask.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4726403699315860983, guid: 21babc27acac6f4469749d3f7e217b2a, type: 3}
@@ -5398,7 +5418,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3154686898295245293, guid: 3583b0f2df9ec1d4ba86b9409bbfad2a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4168832445283139366, guid: 3583b0f2df9ec1d4ba86b9409bbfad2a, type: 3}
       propertyPath: size
@@ -6476,6 +6496,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1574849455717194806, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
   m_PrefabInstance: {fileID: 1950765196}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &632796303 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
+  m_PrefabInstance: {fileID: 1950765196}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632796301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6d8329ad1c520469756fb26c1fdd4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &635950305
 GameObject:
   m_ObjectHideFlags: 0
@@ -7910,6 +7941,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4726403699315860979, guid: 21babc27acac6f4469749d3f7e217b2a, type: 3}
+      propertyPath: falasSemMascara.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 6f11456b896cfaf4f952c6098da5694d, type: 2}
+    - target: {fileID: 4726403699315860979, guid: 21babc27acac6f4469749d3f7e217b2a, type: 3}
+      propertyPath: falasSemMascara.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 6f11456b896cfaf4f952c6098da5694d, type: 2}
     - target: {fileID: 4726403699315860983, guid: 21babc27acac6f4469749d3f7e217b2a, type: 3}
       propertyPath: m_Name
       value: Madalena Beco
@@ -13164,11 +13203,11 @@ PrefabInstance:
     - target: {fileID: 1433078325998349374, guid: f04ee4c05aa7ec84688c327a14388bf8, type: 3}
       propertyPath: falasSemMascara.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: a5b1e0cb42222604097def8111ca8b77, type: 2}
+      objectReference: {fileID: 11400000, guid: 19977559cc4adea44968c37ac56e04a3, type: 2}
     - target: {fileID: 1433078325998349374, guid: f04ee4c05aa7ec84688c327a14388bf8, type: 3}
       propertyPath: falasSemMascara.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: a5b1e0cb42222604097def8111ca8b77, type: 2}
+      objectReference: {fileID: 11400000, guid: 19977559cc4adea44968c37ac56e04a3, type: 2}
     - target: {fileID: 1433078325998349374, guid: f04ee4c05aa7ec84688c327a14388bf8, type: 3}
       propertyPath: falaQuestsComMascara.Array.size
       value: 0
@@ -17455,7 +17494,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: falaQuestsSemMascara.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: falaQuestsComMascara.Array.data[0]
@@ -17472,7 +17511,7 @@ PrefabInstance:
     - target: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: falaQuestsSemMascara.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: effc5cedfed28234c97ca3ab9a5a2da7, type: 2}
     - target: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: falaQuestsSemMascara.Array.data[1]
       value: 
@@ -17599,7 +17638,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1574849455717194806, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1574849455755257094, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18868,11 +18907,11 @@ PrefabInstance:
     - target: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: falasSemMascara.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 19977559cc4adea44968c37ac56e04a3, type: 2}
+      objectReference: {fileID: 11400000, guid: a5b1e0cb42222604097def8111ca8b77, type: 2}
     - target: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: falasSemMascara.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: 19977559cc4adea44968c37ac56e04a3, type: 2}
+      objectReference: {fileID: 11400000, guid: a5b1e0cb42222604097def8111ca8b77, type: 2}
     - target: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: falaQuestsComMascara.Array.size
       value: 0

@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: Seq AR2
   m_EditorClassIdentifier: 
   sequencia:
-  - "N\xE3o tem muitas gente nessa cidade que acreditam em tarot"
+  - "N\xE3o tem muita gente nessa cidade que acredita em tarot."
   - "Acham que \xE9 s\xF3 eu falar qualquer coisa que aparece na cabe\xE7a."
-  - Mmas algumas pessoas ainda acreditam no poder das cartas
+  - Mas algumas pessoas ainda acreditam no poder das cartas.
   - E sempre me procuram.
   - "C\xEA nunca leu minhas cartas n\xE9."
   - "Voc\xEA nunca me pediu uma leitura."
-  npcFalando: 
-  proximaFala: {fileID: 0}
+  npcFalando: 010101010001
+  proximaCutscene: 000000000000
+  proximaFala: {fileID: 11400000, guid: 6f11456b896cfaf4f952c6098da5694d, type: 2}

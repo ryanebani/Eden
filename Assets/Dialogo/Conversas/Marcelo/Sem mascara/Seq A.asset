@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: Seq A
   m_EditorClassIdentifier: 
   sequencia:
-  - "Vou ligar pra policia se voc\xEA chegar perto daqui!"
+  - "Tu n\xE3o vai querer me ver bravo!"
   - "J\xE1 me basta aqueles dois vagabundos que n\xE3o saem daqui!"
   - "Mas eu s\xF3..."
   - "N\xE3o ligo se tu tem dinheiro ou n\xE3o!"
   - Tu fede e ta espantando os meus clientes!
   - Agora xispa daqui antes que eu chame a policia!
-  - "Aposto que \xE9 a comida dele que fede."
-  npcFalando: 01010001010100
-  proximaCutscene: 00000000000000
+  - "Mas eu sou o \xFAnico cliente aqui."
+  - "Eu n\xE3o t\xF4 vendo ningu\xE9m."
+  - Iludido...
+  npcFalando: 010100010101000100
+  proximaCutscene: 000000000000000000
   proximaFala: {fileID: 0}

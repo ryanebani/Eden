@@ -16,9 +16,10 @@ MonoBehaviour:
   - Conta vai! Fiquei curioso.
   - "N\xE3o \xE9 nada emocionante."
   - "Algumas das pessoas que moram no pr\xE9dio do orfanato me pedem pra consultar
-    o tarot"
+    o tarot."
   - "Ele aparece uma vez por m\xEAs me pedindo pra ler a carta do amor dele."
   - "Ele n\xE3o parece do tipo rom\xE2ntico."
   - "Voc\xEA sabe que n\xE3o da pra julgar algu\xE9m pela cara."
   npcFalando: 000101010001
-  proximaFala: {fileID: 0}
+  proximaCutscene: 000000000000
+  proximaFala: {fileID: 11400000, guid: 6f11456b896cfaf4f952c6098da5694d, type: 2}

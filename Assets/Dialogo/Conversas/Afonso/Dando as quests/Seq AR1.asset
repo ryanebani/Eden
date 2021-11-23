@@ -15,6 +15,6 @@ MonoBehaviour:
   sequencia:
   - B
   - C
-  npcFalando: 0000
+  npcFalando: 0001
   proximaCutscene: 
   proximaFala: {fileID: 11400000, guid: 1996d7e9721f90945bcbf31a5ec3c312, type: 2}
