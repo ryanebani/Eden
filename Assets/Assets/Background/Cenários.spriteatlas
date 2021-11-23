@@ -43,30 +43,77 @@ SpriteAtlas:
     secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
-    - {fileID: 2800000, guid: 92540a449e0280f499197a21bd94e81e, type: 3}
-    - {fileID: 2800000, guid: eb4dc38dcdf49a94286bd909be1229d9, type: 3}
-    - {fileID: 2800000, guid: 885f2ade873aad441bab41148add1f5e, type: 3}
-    - {fileID: 2800000, guid: 0a48e8605c9bc514687d49e6f1b7a3c1, type: 3}
-    - {fileID: 2800000, guid: 6578d2f8ff7207145806bd12573d81b0, type: 3}
-    - {fileID: 2800000, guid: c3830be33ff75b7409369a1dd3e15986, type: 3}
+    - {fileID: 2800000, guid: 9e8366e0569c8f946b733134d51dd486, type: 3}
+    - {fileID: 2800000, guid: e0dd738431c406d46874721ff2b0b15f, type: 3}
+    - {fileID: 2800000, guid: 4e12396c091f9734096028ebf1effa14, type: 3}
+    - {fileID: 2800000, guid: 6cad66b3f66fe4744bc84d25379ce158, type: 3}
+    - {fileID: 2800000, guid: cbe6cbc93b5ae1b4c8740520d6d9d383, type: 3}
+    - {fileID: 352175378716780859, guid: c560cb666a6f53f4689db8845efa4199, type: 3}
+    - {fileID: -84282704650880573, guid: 53f0257e6807e4a458896f0ca1871789, type: 3}
+    - {fileID: 2208845913961802618, guid: f2817f0d354de83498a14227df0e04df, type: 3}
+    - {fileID: 4421878021429284569, guid: ffa1c29b608b08e4ba0a2202d4bade0b, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: 21300000, guid: 0a48e8605c9bc514687d49e6f1b7a3c1, type: 3}
-  - {fileID: 21300000, guid: c3830be33ff75b7409369a1dd3e15986, type: 3}
-  - {fileID: 21300000, guid: 92540a449e0280f499197a21bd94e81e, type: 3}
-  - {fileID: 21300000, guid: 6578d2f8ff7207145806bd12573d81b0, type: 3}
-  - {fileID: 21300000, guid: eb4dc38dcdf49a94286bd909be1229d9, type: 3}
-  - {fileID: 21300000, guid: 885f2ade873aad441bab41148add1f5e, type: 3}
+  - {fileID: 7070533837900422527, guid: 9e8366e0569c8f946b733134d51dd486, type: 3}
+  - {fileID: -3075191273766854371, guid: 9e8366e0569c8f946b733134d51dd486, type: 3}
+  - {fileID: -3658196989391792220, guid: 9e8366e0569c8f946b733134d51dd486, type: 3}
+  - {fileID: 3715874513674109901, guid: 9e8366e0569c8f946b733134d51dd486, type: 3}
+  - {fileID: 1367075240446302300, guid: 6cad66b3f66fe4744bc84d25379ce158, type: 3}
+  - {fileID: -1339481797049128157, guid: 6cad66b3f66fe4744bc84d25379ce158, type: 3}
+  - {fileID: 2329675418197589630, guid: 6cad66b3f66fe4744bc84d25379ce158, type: 3}
+  - {fileID: 21300000, guid: e0dd738431c406d46874721ff2b0b15f, type: 3}
+  - {fileID: 4836836819195732184, guid: c560cb666a6f53f4689db8845efa4199, type: 3}
+  - {fileID: -8562512767024721407, guid: cbe6cbc93b5ae1b4c8740520d6d9d383, type: 3}
+  - {fileID: 1895987443230227621, guid: cbe6cbc93b5ae1b4c8740520d6d9d383, type: 3}
+  - {fileID: -6679799805558283948, guid: cbe6cbc93b5ae1b4c8740520d6d9d383, type: 3}
+  - {fileID: -5049794765543475470, guid: cbe6cbc93b5ae1b4c8740520d6d9d383, type: 3}
+  - {fileID: -1521337630462717969, guid: cbe6cbc93b5ae1b4c8740520d6d9d383, type: 3}
+  - {fileID: -8848717879368381756, guid: ffa1c29b608b08e4ba0a2202d4bade0b, type: 3}
+  - {fileID: 3095266580460353502, guid: 4e12396c091f9734096028ebf1effa14, type: 3}
+  - {fileID: 5878187699788025717, guid: 4e12396c091f9734096028ebf1effa14, type: 3}
+  - {fileID: 3831116614268079170, guid: 4e12396c091f9734096028ebf1effa14, type: 3}
+  - {fileID: -1959452344240883844, guid: 4e12396c091f9734096028ebf1effa14, type: 3}
+  - {fileID: 2854620562646461334, guid: 4e12396c091f9734096028ebf1effa14, type: 3}
+  - {fileID: 847158103027518908, guid: 4e12396c091f9734096028ebf1effa14, type: 3}
+  - {fileID: 629855393630666553, guid: 4e12396c091f9734096028ebf1effa14, type: 3}
+  - {fileID: 1305353920425819864, guid: 4e12396c091f9734096028ebf1effa14, type: 3}
+  - {fileID: 6595909509991557957, guid: 4e12396c091f9734096028ebf1effa14, type: 3}
+  - {fileID: -2615220319740597623, guid: 4e12396c091f9734096028ebf1effa14, type: 3}
+  - {fileID: 4446699353264082824, guid: 4e12396c091f9734096028ebf1effa14, type: 3}
+  - {fileID: -4751559560659288430, guid: f2817f0d354de83498a14227df0e04df, type: 3}
+  - {fileID: -1755660011954258288, guid: 53f0257e6807e4a458896f0ca1871789, type: 3}
   m_PackedSpriteNamesToIndex:
-  - dentro orfanato final atualizado 1
-  - fundo 1
-  - 2 paineis orfanato cozinha reduzido 2
-  - fundo
-  - 2 paineis orfanato sala de arquivos reduzido 2
-  - assets fundo  fase 1
+  - Bg Cozinha
+  - Bg Orfanato
+  - Bg Sala Arquivos
+  - Bg Beco
+  - CAMIAO
+  - TAXI
+  - CARRIM
+  - rua final final final
+  - Layer2
+  - sprite fundos 1_4
+  - sprite fundos 1_3
+  - sprite fundos 1_2
+  - sprite fundos 1_1
+  - sprite fundos 1_0
+  - Layer1
+  - Luz
+  - Mesa
+  - CaixaFeira
+  - Busao
+  - fioPreto
+  - Bancada
+  - Lixeira
+  - Sofa
+  - PontoDonibus
+  - PosteFrente
+  - FioMarrom
+  - Layer1
+  - Layer5
   m_RenderDataMap: {}
   m_Tag: "Cen\xE1rios"
   m_IsVariant: 0

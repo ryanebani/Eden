@@ -1,0 +1,1008 @@
+fileFormatVersion: 2
+guid: 6553f828841e34b4f9d3e85a45334068
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8324146514239719048
+    second: Hud-Atualizada_0
+  - first:
+      213: -4883974678191042152
+    second: Hud-Atualizada_1
+  - first:
+      213: 8600804835049849707
+    second: Hud-Atualizada_2
+  - first:
+      213: -8002964629792364334
+    second: Hud-Atualizada_3
+  - first:
+      213: -1770843275405764024
+    second: Hud-Atualizada_4
+  - first:
+      213: -5204179313624234103
+    second: Hud-Atualizada_5
+  - first:
+      213: 1004795382690144903
+    second: Hud-Atualizada_6
+  - first:
+      213: -7073260863043244959
+    second: Hud-Atualizada_7
+  - first:
+      213: 8963582278925298795
+    second: Hud-Atualizada_8
+  - first:
+      213: -2758373594113670613
+    second: Hud-Atualizada_9
+  - first:
+      213: -5079984596714570864
+    second: Hud-Atualizada_10
+  - first:
+      213: 2357475965668191905
+    second: Hud-Atualizada_11
+  - first:
+      213: -7824245229276021725
+    second: Hud-Atualizada_12
+  - first:
+      213: -7773532745674825026
+    second: Hud-Atualizada_13
+  - first:
+      213: 5850671669083562489
+    second: Hud-Atualizada_14
+  - first:
+      213: 1118351251490920763
+    second: Hud-Atualizada_15
+  - first:
+      213: 3112999281396265285
+    second: Hud-Atualizada_16
+  - first:
+      213: -9004618700847530662
+    second: Hud-Atualizada_17
+  - first:
+      213: -6659443967756931260
+    second: Hud-Atualizada_18
+  - first:
+      213: 3342847833328705456
+    second: Hud-Atualizada_19
+  - first:
+      213: 7712610716002124682
+    second: Hud-Atualizada_20
+  - first:
+      213: -5350110011520325321
+    second: Hud-Atualizada_21
+  - first:
+      213: 4027147436164578303
+    second: Hud-Atualizada_22
+  - first:
+      213: -4571783692393343899
+    second: Hud-Atualizada_23
+  - first:
+      213: -6269582877764428260
+    second: "Invent\xE1rio"
+  - first:
+      213: 4676325366144051101
+    second: Hud-Atualizada_25
+  - first:
+      213: 8933877862238196679
+    second: Hud-Atualizada_26
+  - first:
+      213: -9031043637154654092
+    second: Caixa de Texto
+  - first:
+      213: 6591117602678790530
+    second: Hud-Atualizada_28
+  - first:
+      213: 3448041919802742627
+    second: Hud-Atualizada_29
+  - first:
+      213: -764864524558796101
+    second: NPC vazio
+  - first:
+      213: 1061865526430812375
+    second: Selecionado1
+  - first:
+      213: -2994256988980595613
+    second: Selecionado2
+  - first:
+      213: 159296925535123288
+    second: Selecionado3
+  - first:
+      213: -7757388639002142934
+    second: Info 1
+  - first:
+      213: -5573100950718700862
+    second: Info 2
+  - first:
+      213: -6373471521285455200
+    second: Info 3
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hud-Atualizada_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1558
+        width: 331
+        height: 451
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8797f6839d0ba7c80800000000000000
+      internalID: -8324146514239719048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_1
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1558
+        width: 331
+        height: 451
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8919b6618e2a83cb0800000000000000
+      internalID: -4883974678191042152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_2
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1558
+        width: 331
+        height: 451
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63cb9fad623c5770800000000000000
+      internalID: 8600804835049849707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_3
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1558
+        width: 331
+        height: 451
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8e53b1212cfe090800000000000000
+      internalID: -8002964629792364334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_4
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1558
+        width: 331
+        height: 451
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84adc806c63bc67e0800000000000000
+      internalID: -1770843275405764024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_5
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1888
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987cdf7bc7a07c7b0800000000000000
+      internalID: -5204179313624234103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_6
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1757
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782e231b310c1fd00800000000000000
+      internalID: 1004795382690144903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_7
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1619
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c62a688bab6dd90800000000000000
+      internalID: -7073260863043244959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_8
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1102
+        width: 331
+        height: 451
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c2452779a056c70800000000000000
+      internalID: 8963582278925298795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_9
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1102
+        width: 331
+        height: 451
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b228905a4d948b9d0800000000000000
+      internalID: -2758373594113670613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_10
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1102
+        width: 331
+        height: 451
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b3f589ce44089b0800000000000000
+      internalID: -5079984596714570864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_11
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1102
+        width: 331
+        height: 451
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae6c2c76ef67b020800000000000000
+      internalID: 2357475965668191905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_12
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1102
+        width: 331
+        height: 451
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c35792b62ba6390800000000000000
+      internalID: -7824245229276021725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_13
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1480
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb26f2c572dde1490800000000000000
+      internalID: -7773532745674825026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_14
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1349
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1ea2582e2c13150800000000000000
+      internalID: 5850671669083562489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_15
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1211
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39da37b98e258f00800000000000000
+      internalID: 1118351251490920763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_16
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 646
+        width: 331
+        height: 451
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541bba16a58933b20800000000000000
+      internalID: 3112999281396265285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_17
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 646
+        width: 331
+        height: 451
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5db426000b290380800000000000000
+      internalID: -9004618700847530662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_18
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 646
+        width: 331
+        height: 451
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fea3c9ef6e493a0800000000000000
+      internalID: -6659443967756931260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_19
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 646
+        width: 331
+        height: 451
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfddbba46e246e20800000000000000
+      internalID: 3342847833328705456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_20
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1072
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a838d224592b80b60800000000000000
+      internalID: 7712610716002124682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_21
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 941
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739e1166a4790c5b0800000000000000
+      internalID: -5350110011520325321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_22
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 803
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbf6b6a14d43e730800000000000000
+      internalID: 4027147436164578303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_23
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 664
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56498f044f2cd80c0800000000000000
+      internalID: -4571783692393343899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invent\xE1rio"
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 362
+        width: 1712
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1edaf02797fdf8a0800000000000000
+      internalID: -6269582877764428260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_25
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 533
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d972a2fe425a5e040800000000000000
+      internalID: 4676325366144051101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_26
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 395
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c31f6df4928bfb70800000000000000
+      internalID: 8933877862238196679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caixa de Texto
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 8
+        width: 1548
+        height: 344
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478585819a94ba280800000000000000
+      internalID: -9031043637154654092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_28
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 914
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2895e74d98a587b50800000000000000
+      internalID: 6591117602678790530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_29
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 820
+        width: 117
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3679f788bd7e9df20800000000000000
+      internalID: 3448041919802742627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selecionado1
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 215
+        width: 84
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8442ef1118cbe00800000000000000
+      internalID: 1061865526430812375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selecionado2
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 212
+        width: 84
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364b49df1234276d0800000000000000
+      internalID: -2994256988980595613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selecionado3
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 208
+        width: 85
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8573554b5bfe53200800000000000000
+      internalID: 159296925535123288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Info 1
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 133
+        width: 99
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2750ab1228385490800000000000000
+      internalID: -7757388639002142934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Info 2
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 132
+        width: 89
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2250f763e58a2b0800000000000000
+      internalID: -5573100950718700862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Info 3
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 130
+        width: 93
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a246b36b61ec87a0800000000000000
+      internalID: -6373471521285455200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC vazio
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 907
+        width: 132
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbaff5074c7a265f0800000000000000
+      internalID: -764864524558796101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
