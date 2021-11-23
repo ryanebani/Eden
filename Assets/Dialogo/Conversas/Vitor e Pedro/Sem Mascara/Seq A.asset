@@ -13,8 +13,14 @@ MonoBehaviour:
   m_Name: Seq A
   m_EditorClassIdentifier: 
   sequencia:
-  - B
-  - C
-  npcFalando: 0000
+  - Ah oi.
+  - Ta tudo bem?
+  - "U\xE9, ta sim."
+  - "C\xEAs parecem meio cansados."
+  - "Tamo sem grana pra uns neg\xF3cios."
+  - "Ficar sem a verdinha de gato \xE9 d\xEDficil."
+  - "Voc\xEA tem grana cara?"
+  - "Foi mal mano to quebrado tamb\xE9m."
+  npcFalando: 0000010001010100
   proximaCutscene: 
   proximaFala: {fileID: 0}

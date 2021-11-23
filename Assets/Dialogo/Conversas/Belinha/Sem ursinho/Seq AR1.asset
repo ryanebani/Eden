@@ -13,8 +13,11 @@ MonoBehaviour:
   m_Name: Seq AR1
   m_EditorClassIdentifier: 
   sequencia:
-  - C
-  - D
-  npcFalando: 0100
+  - "A mam\xE3e me deu ele, antes... Buaaaa!!"
+  - Antes do que Belinha?
+  - Antes dela ir embora e me deixar sozinha!!
+  - Ah...
+  - Eu quero o Pufi, tio! Buaaaaa!!
+  npcFalando: 0100010001
   proximaCutscene: 0000
   proximaFala: {fileID: 11400000, guid: 4cffcc81f19dcc746affc492b76e6a36, type: 2}

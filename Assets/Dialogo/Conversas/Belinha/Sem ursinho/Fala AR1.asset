@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
   m_Name: Fala AR1
   m_EditorClassIdentifier: 
-  fala: B
+  fala: "Ele... ele \xE9 meu melhor amigo! Buaaaa!!"
   respostas: []
   sequencia: {fileID: 11400000, guid: a758100cfd2c90346b1746c17920e516, type: 2}
   npcFalando: 1

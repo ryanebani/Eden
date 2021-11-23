@@ -13,8 +13,18 @@ MonoBehaviour:
   m_Name: Seq AR1
   m_EditorClassIdentifier: 
   sequencia:
-  - B
-  - C
-  npcFalando: 0000
+  - Mais... abandonado.
+  - Isso aqui sempre foi abandonado.
+  - "Sim, eu sei, mas nunca foi t\xE3o bagun\xE7ado."
+  - Eu costumava ter mais energia pra limpar o lugar, quando ele ainda tava aberto.
+  - "Mas agora, minha dor no casco me impede de fazer muito esfor\xE7o."
+  - "Espera, c\xEA era o zelador daqui n\xE3o era?"
+  - Ainda sou de certa forma.
+  - "C\xEA lembra de mim?"
+  - "Hum... voc\xEA \xE9 familiar menino."
+  - "Voc\xEA fugiu uns anos atr\xE1s n\xE3o foi?"
+  - "Sim, meu nome \xE9 Abel."
+  - O que ta fazendo aqui?
+  npcFalando: 000100010100010001010001
   proximaCutscene: 
   proximaFala: {fileID: 11400000, guid: 1996d7e9721f90945bcbf31a5ec3c312, type: 2}
