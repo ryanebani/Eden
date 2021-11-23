@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fala: O Pufi sumiu!! Buaa!!
   respostas:
-  - resposta: A
+  - resposta: "Quem \xE9 Pufi Belinha?"
     proximaFala: {fileID: 11400000, guid: 2b1ef755ee53bbc4eacd974c6556e446, type: 2}
   - resposta: Tchau!
     proximaFala: {fileID: 11400000, guid: 95db3cb9f8836b24cb6678617e72b611, type: 2}

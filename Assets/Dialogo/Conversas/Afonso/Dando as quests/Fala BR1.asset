@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
   m_Name: Fala BR1
   m_EditorClassIdentifier: 
-  fala: "\xE9 aquela menininha no sof\xE1."
+  fala: "\xC9 aquela menininha no sof\xE1."
   respostas: []
   sequencia: {fileID: 11400000, guid: 8672348dd7764b945bd218f5f0874856, type: 2}
   npcFalando: 1
@@ -24,3 +24,5 @@ MonoBehaviour:
   NPCNode: 1
   proximaQuest: 0
   acaoSequencial: 0
+  proximaCutscene: 0
+  cutscene: {fileID: 0}
