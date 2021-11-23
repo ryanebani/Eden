@@ -16931,6 +16931,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4726403699315860979, guid: 21babc27acac6f4469749d3f7e217b2a, type: 3}
+      propertyPath: falasComMascara.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4726403699315860979, guid: 21babc27acac6f4469749d3f7e217b2a, type: 3}
       propertyPath: falasSemMascara.Array.data[0]
       value: 
       objectReference: {fileID: 11400000, guid: 3a41c08cb82356e4baacdad809b8f95c, type: 2}
