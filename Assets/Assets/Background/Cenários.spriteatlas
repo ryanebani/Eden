@@ -60,6 +60,7 @@ SpriteAtlas:
   - {fileID: 7070533837900422527, guid: 9e8366e0569c8f946b733134d51dd486, type: 3}
   - {fileID: -3075191273766854371, guid: 9e8366e0569c8f946b733134d51dd486, type: 3}
   - {fileID: -3658196989391792220, guid: 9e8366e0569c8f946b733134d51dd486, type: 3}
+  - {fileID: 1923518840705412352, guid: 9e8366e0569c8f946b733134d51dd486, type: 3}
   - {fileID: 3715874513674109901, guid: 9e8366e0569c8f946b733134d51dd486, type: 3}
   - {fileID: 1367075240446302300, guid: 6cad66b3f66fe4744bc84d25379ce158, type: 3}
   - {fileID: -1339481797049128157, guid: 6cad66b3f66fe4744bc84d25379ce158, type: 3}
@@ -89,6 +90,7 @@ SpriteAtlas:
   - Bg Cozinha
   - Bg Orfanato
   - Bg Sala Arquivos
+  - lixeira
   - Bg Beco
   - CAMIAO
   - TAXI

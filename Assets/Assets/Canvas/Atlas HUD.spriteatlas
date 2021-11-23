@@ -119,6 +119,7 @@ SpriteAtlas:
   - {fileID: -5573100950718700862, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: -7757388639002142934, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: -6269582877764428260, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
+  - {fileID: 9193648647969540968, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: 159296925535123288, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: -2994256988980595613, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: 1061865526430812375, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
@@ -132,6 +133,7 @@ SpriteAtlas:
   - {fileID: 3891758045307867865, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
   - {fileID: 2378868942718877771, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
   - {fileID: 5100854194883956461, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
+  - {fileID: 1542511533193789442, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
   - {fileID: 5479679824079679298, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
   - {fileID: -668949482840890278, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
   - {fileID: -8997145250483010749, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
@@ -218,6 +220,7 @@ SpriteAtlas:
   - Info 2
   - Info 1
   - "Invent\xE1rio"
+  - Seta menu
   - Selecionado3
   - Selecionado2
   - Selecionado1
@@ -231,6 +234,7 @@ SpriteAtlas:
   - logo_vitor_pedro
   - logo_chico
   - logo_afonso
+  - Caixa hud
   - logo_belinha
   - logo_carmem
   - logo_madalena

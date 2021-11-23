@@ -113,6 +113,9 @@ TextureImporter:
   - first:
       213: -6373471521285455200
     second: Info 3
+  - first:
+      213: 9193648647969540968
+    second: Seta menu
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -747,7 +750,7 @@ TextureImporter:
         width: 98
         height: 94
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -768,7 +771,7 @@ TextureImporter:
         width: 98
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -986,6 +989,27 @@ TextureImporter:
       bones: []
       spriteID: bbaff5074c7a265f0800000000000000
       internalID: -764864524558796101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seta menu
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 35
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b89fb3cb6669f70800000000000000
+      internalID: 9193648647969540968
       vertices: []
       indices: 
       edges: []
