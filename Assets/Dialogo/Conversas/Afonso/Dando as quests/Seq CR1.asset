@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
-  m_Name: Seq AR1
+  m_Name: Seq CR1
   m_EditorClassIdentifier: 
   sequencia:
-  - "Muitos pais n\xE3o tem o que fazer com seus filhos."
-  - "N\xE3o \xE9 todo mundo que tem dinheiro pra pagar creche..."
-  - "Mas a energia das crian\xE7as faz bem pra esse lugar."
-  - "Ent\xE3o eu fa\xE7o o que posso."
-  - "J\xE1 com adulto, \xE9 mais dif\xEDcil."
-  - Os problemas aumentam com a idade.
-  - "E os mais velhos ficam pra tr\xE1s."
-  npcFalando: 01010101010101
+  - 'Mais... abandonado. '
+  - Isso aqui sempre foi abandonado.
+  - "Sim, eu sei, mas nunca foi t\xE3o bagun\xE7ado."
+  - Eu costumava ter mais energia pra limpar o lugar, quando ele ainda tava aberto.
+  - "Mas agora, minha dor no casco me impede de fazer muito esfor\xE7o"
+  - "Espera, c\xEA era o zelador daqui n\xE3o era papo."
+  - "C\xEA lembra de mim"
+  npcFalando: 0000000000
   proximaCutscene: 
   proximaFala: {fileID: 11400000, guid: 1996d7e9721f90945bcbf31a5ec3c312, type: 2}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fala: Quem foi que te deixou entrar?
   respostas: []
-  sequencia: {fileID: 11400000, guid: 8c3162fc8c092504d9bbda8d5cafa33b, type: 2}
+  sequencia: {fileID: 11400000, guid: adcd44dddebdd664083a8c244566ff6f, type: 2}
   npcFalando: 1
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}

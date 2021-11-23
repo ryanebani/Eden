@@ -13,12 +13,17 @@ MonoBehaviour:
   m_Name: Seq AR2
   m_EditorClassIdentifier: 
   sequencia:
-  - "Se ficou algo, pode t\xE1 na sala de arquivo. "
-  - "Que tal voc\xEA me ajudar um pouquinho e ai eu te dou a chave?"
+  - "Voc\xEAs sempre andavam juntos..."
+  - "Mas n\xE3o tem jeito, os pais sempre preferem crian\xE7as mais novas."
+  - "Voc\xEA n\xE3o tem ideia de pra onde o Caio foi?"
+  - "O tempo n\xE3o foi gentil com a funda\xE7\xE3o."
+  - "Se ficou algo dele, pode t\xE1 na sala de arquivos."
+  - "Vamos fazer assim, voc\xEA me ajuda, e eu te ajudo."
+  - "Seguinte, preciso que voc\xEA fale com a Belinha pra ver por que ela ta chorando"
   - "Ai s\xE9rio mesmo? Eu to com pressa."
   - 'A gente tem que se ajudar menino! '
   - "Ta, ta. O que quer que eu fa\xE7a?"
   - "Seguinte, preciso que voc\xEA fale com a Belinha pra ver por que ela ta chorando"
-  npcFalando: 010100010001
+  npcFalando: 01010001000101
   proximaCutscene: 000000000000
   proximaFala: {fileID: 11400000, guid: eaec05dfbd71d07489096262bbcb9baf, type: 2}
