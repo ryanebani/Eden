@@ -22,7 +22,6 @@ MonoBehaviour:
   - "N\xE3o posso fazer nada."
   - "Mas aquela gazela me atazanou a manh\xE3 inteira sobre o atraso."
   - "Acho que ela vai pra l\xE1 tamb\xE9m."
-  - Vai ver, ela pode te ajudar.
-  npcFalando: 01010001010101010101010101
-  proximaCutscene: 00000000000000000000000000
-  proximaFala: {fileID: 0}
+  npcFalando: 010100010101010101
+  proximaCutscene: 000000000000000000
+  proximaFala: {fileID: 11400000, guid: b915e55200867f44488ea960e7638d23, type: 2}
