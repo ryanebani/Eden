@@ -14,8 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequencia:
   - "Achei que s\xF3 faziam isso na Cidade Alta."
-  - Como eu odeio mexer no lixo.
-  - "Espero que algum o dia eu n\xE3o precise mais fazer isso."
-  npcFalando: 000000
-  proximaCutscene: 
+  npcFalando: 00
+  proximaCutscene: 00
   proximaFala: {fileID: 11400000, guid: fcb1d9dfdb87d054c95350abb90b1366, type: 2}

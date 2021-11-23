@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Seq AR1
   m_EditorClassIdentifier: 
   sequencia:
-  - "S\xF3 quero que d\xEA a hora do motorista logo"
-  - Pra eu poder sair desse lugar
-  - E deixar meu filho longe dessas pessoas sujas que tem aqui
+  - "S\xF3 quero que d\xEA a hora do motorista logo."
+  - Pra eu poder sair desse lugar.
+  - E deixar meu filho longe das pessoas sujas que tem aqui.
   npcFalando: 010101
   proximaCutscene: 000000
   proximaFala: {fileID: 11400000, guid: 943cf1f496a964443a4e97cc7efd680a, type: 2}
