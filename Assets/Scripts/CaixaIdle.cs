@@ -9,10 +9,13 @@ public class CaixaIdle : MonoBehaviour
     [SerializeField] bool abel;
     static public bool cancelarTextoAbel;
     Animator caixaAnim;
+    SpriteRenderer sprite;
 
     void Start()
     {
+        sprite = GetComponent<SpriteRenderer>();
         caixaAnim = GetComponent<Animator>();
+        sprite.enabled = false;
     }
 
     void Update()
@@ -27,11 +30,13 @@ public class CaixaIdle : MonoBehaviour
 
     public void ResetarTexto()
     {
+        sprite.enabled = false;
         textoMesh.text = "";
     }
 
     public void SetFala(string idle)
     {
+        sprite.enabled = true;
         cancelarTextoAbel = false;
         textoMesh.text = idle;
         caixaAnim.SetTrigger("TriggarFala");
