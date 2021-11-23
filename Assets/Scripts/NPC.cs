@@ -13,6 +13,7 @@ public class NPC : MonoBehaviour
     public bool idle;
     public bool idleMascara;
     int indice;
+    public bool animar;
 
     [SerializeField]
     public Animator sinalInfo;
@@ -25,7 +26,10 @@ public class NPC : MonoBehaviour
 
     void Update()
     {
-
+        if(animar)
+            sinalInfo.SetBool("ativar", true);
+        else
+            sinalInfo.SetBool("ativar", false);
     }
 
     public void OnValidate()

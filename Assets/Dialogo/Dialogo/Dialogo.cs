@@ -195,12 +195,12 @@ public class Dialogo : MonoBehaviour
     public void novaInformacao()
     {
         liberaResposta = true;
-        npc.sinalInfo.SetBool("ativar", true);
+        npc.animar = true;
     }
 
     public void desativarSinal()
     {
-        npc.sinalInfo.SetBool("ativar", false);
+        npc.animar = false;
     }
 
     public void ProximaQuestSemMascara()
