@@ -14,6 +14,9 @@ TextureImporter:
   - first:
       213: 7070533837900422527
     second: Bg Cozinha
+  - first:
+      213: 1923518840705412352
+    second: lixeira
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -123,7 +126,7 @@ TextureImporter:
         width: 3841
         height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -144,7 +147,7 @@ TextureImporter:
         width: 1370
         height: 685
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -165,7 +168,7 @@ TextureImporter:
         width: 1376
         height: 684
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -186,7 +189,7 @@ TextureImporter:
         width: 1370
         height: 685
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,6 +197,27 @@ TextureImporter:
       bones: []
       spriteID: f7d1f6470159f1260800000000000000
       internalID: 7070533837900422527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lixeira
+      rect:
+        serializedVersion: 2
+        x: 3071
+        y: 2356
+        width: 356
+        height: 408
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d6403c136b1ba10800000000000000
+      internalID: 1923518840705412352
       vertices: []
       indices: 
       edges: []
