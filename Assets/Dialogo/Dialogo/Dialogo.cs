@@ -196,6 +196,7 @@ public class Dialogo : MonoBehaviour
     {
         liberaResposta = true;
         npc.animar = true;
+        dialogoController.rumor.SetTrigger("Trigger");
     }
 
     public void desativarSinal()

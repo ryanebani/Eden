@@ -14,12 +14,14 @@ public class Inventario : MonoBehaviour
     Animator anim;
 
     public Text textoSelecao;
-    public bool[] cheio;    
+    public bool[] cheio;
+    AudioSource som;
         
     //static public bool itemNaMao;
 
     public void Start()
     {
+        som = GetComponent<AudioSource>();
         anim = gameObject.GetComponent<Animator>();
         fechado = true;
     }
@@ -56,6 +58,7 @@ public class Inventario : MonoBehaviour
                 break;
             }
         }
+        som.PlayOneShot(som.clip);
         DialogoController.podeClickar = true;
     }
 

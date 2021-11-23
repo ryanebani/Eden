@@ -17,6 +17,7 @@ public class DialogoController : MonoBehaviour
     public Text falaNPC;
     public Image nomeNPC;
     public Image nomeJogador;
+    public Animator rumor;
 
     public GameObject resposta;
 
