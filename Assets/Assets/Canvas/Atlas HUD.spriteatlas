@@ -26,8 +26,8 @@ SpriteAtlas:
       padding: 4
       blockOffset: 1
       allowAlphaSplitting: 0
-      enableRotation: 1
-      enableTightPacking: 1
+      enableRotation: 0
+      enableTightPacking: 0
     secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
@@ -95,16 +95,16 @@ SpriteAtlas:
   - {fileID: 2357475965668191905, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: 3448041919802742627, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: -5079984596714570864, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
-  - {fileID: 4027147436164578303, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
-  - {fileID: -4571783692393343899, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: 7712610716002124682, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: 3342847833328705456, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: -5350110011520325321, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: -6659443967756931260, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
-  - {fileID: 8933877862238196679, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
-  - {fileID: 4676325366144051101, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: -764864524558796101, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: -9031043637154654092, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
+  - {fileID: -4571783692393343899, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
+  - {fileID: 4676325366144051101, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
+  - {fileID: 8933877862238196679, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
+  - {fileID: 4027147436164578303, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: 8963582278925298795, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: -2758373594113670613, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: -1770843275405764024, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
@@ -119,6 +119,7 @@ SpriteAtlas:
   - {fileID: -5573100950718700862, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: -7757388639002142934, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: -6269582877764428260, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
+  - {fileID: 9193648647969540968, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: 159296925535123288, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: -2994256988980595613, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: 1061865526430812375, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
@@ -132,6 +133,7 @@ SpriteAtlas:
   - {fileID: 3891758045307867865, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
   - {fileID: 2378868942718877771, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
   - {fileID: 5100854194883956461, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
+  - {fileID: 1542511533193789442, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
   - {fileID: 5479679824079679298, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
   - {fileID: -668949482840890278, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
   - {fileID: -8997145250483010749, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
@@ -194,16 +196,16 @@ SpriteAtlas:
   - Hud-Atualizada_11
   - Hud-Atualizada_29
   - Hud-Atualizada_10
-  - Hud-Atualizada_22
-  - Hud-Atualizada_23
   - Hud-Atualizada_20
   - Hud-Atualizada_19
   - Hud-Atualizada_21
   - Hud-Atualizada_18
-  - Hud-Atualizada_26
-  - Hud-Atualizada_25
   - NPC vazio
   - Caixa de Texto
+  - X 1
+  - X 3
+  - X 2
+  - x 4
   - Hud-Atualizada_8
   - Hud-Atualizada_9
   - Hud-Atualizada_4
@@ -218,6 +220,7 @@ SpriteAtlas:
   - Info 2
   - Info 1
   - "Invent\xE1rio"
+  - Seta menu
   - Selecionado3
   - Selecionado2
   - Selecionado1
@@ -231,6 +234,7 @@ SpriteAtlas:
   - logo_vitor_pedro
   - logo_chico
   - logo_afonso
+  - Caixa hud
   - logo_belinha
   - logo_carmem
   - logo_madalena

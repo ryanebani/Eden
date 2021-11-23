@@ -70,19 +70,19 @@ TextureImporter:
     second: Hud-Atualizada_21
   - first:
       213: 4027147436164578303
-    second: Hud-Atualizada_22
+    second: x 4
   - first:
       213: -4571783692393343899
-    second: Hud-Atualizada_23
+    second: X 1
   - first:
       213: -6269582877764428260
     second: "Invent\xE1rio"
   - first:
       213: 4676325366144051101
-    second: Hud-Atualizada_25
+    second: X 3
   - first:
       213: 8933877862238196679
-    second: Hud-Atualizada_26
+    second: X 2
   - first:
       213: -9031043637154654092
     second: Caixa de Texto
@@ -113,6 +113,9 @@ TextureImporter:
   - first:
       213: -6373471521285455200
     second: Info 3
+  - first:
+      213: 9193648647969540968
+    second: Seta menu
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -676,13 +679,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hud-Atualizada_22
+      name: x 4
       rect:
         serializedVersion: 2
-        x: 1868
-        y: 803
-        width: 121
-        height: 121
+        x: 1931
+        y: 398
+        width: 98
+        height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -697,13 +700,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hud-Atualizada_23
+      name: X 1
       rect:
         serializedVersion: 2
-        x: 1868
-        y: 664
-        width: 121
-        height: 121
+        x: 1785
+        y: 535
+        width: 98
+        height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -739,13 +742,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hud-Atualizada_25
+      name: X 3
       rect:
         serializedVersion: 2
-        x: 1868
-        y: 533
-        width: 121
-        height: 121
+        x: 1785
+        y: 398
+        width: 98
+        height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -760,13 +763,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hud-Atualizada_26
+      name: X 2
       rect:
         serializedVersion: 2
-        x: 1868
-        y: 395
-        width: 121
-        height: 121
+        x: 1933
+        y: 535
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -978,7 +981,7 @@ TextureImporter:
         width: 132
         height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -986,6 +989,27 @@ TextureImporter:
       bones: []
       spriteID: bbaff5074c7a265f0800000000000000
       internalID: -764864524558796101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seta menu
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 35
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b89fb3cb6669f70800000000000000
+      internalID: 9193648647969540968
       vertices: []
       indices: 
       edges: []

@@ -41,6 +41,9 @@ TextureImporter:
   - first:
       213: 1192693720714388642
     second: Fundo Idle
+  - first:
+      213: 1542511533193789442
+    second: Caixa hud
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -414,7 +417,7 @@ TextureImporter:
         width: 864
         height: 145
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -422,6 +425,27 @@ TextureImporter:
       bones: []
       spriteID: 2a4250dae9c4d8010800000000000000
       internalID: 1192693720714388642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caixa hud
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 696
+        width: 672
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20085fd111a186510800000000000000
+      internalID: 1542511533193789442
       vertices: []
       indices: 
       edges: []

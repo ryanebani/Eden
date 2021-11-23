@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Seq A
   m_EditorClassIdentifier: 
   sequencia:
-  - "Qual \xE9 cara, preciso ir pra cidade alta!"
-  - Como se fossem te deixar entrar, se liga moleque!
-  - "S\xF3 entra quem paga."
-  npcFalando: 000101
+  - "S\xF3 por que eu cheguei perto, Tu acha que eu quero entrar?"
+  - "Eu n\xE3o preciso de caridade."
+  - "De qualquer jeito, s\xF3 entra quem paga."
+  npcFalando: 000001
+  proximaCutscene: 000000
   proximaFala: {fileID: 0}

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Seq AR1
   m_EditorClassIdentifier: 
   sequencia:
+<<<<<<< HEAD
   - Mais... abandonado.
   - Isso aqui sempre foi abandonado.
   - "Sim, eu sei, mas nunca foi t\xE3o bagun\xE7ado."
@@ -26,5 +27,10 @@ MonoBehaviour:
   - "Sim, meu nome \xE9 Abel."
   - O que ta fazendo aqui?
   npcFalando: 000100010100010001010001
+=======
+  - B
+  - C
+  npcFalando: 0001
+>>>>>>> fc7e8bc32854aee91199f5adda71b80770d1f303
   proximaCutscene: 
   proximaFala: {fileID: 11400000, guid: 1996d7e9721f90945bcbf31a5ec3c312, type: 2}
