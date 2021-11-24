@@ -16,4 +16,6 @@ MonoBehaviour:
   nome: {fileID: 2511040075949732606, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
   sprite: {fileID: 8963582278925298795, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   clipes:
-  - {fileID: 8300000, guid: d094733a58011f944a36f624db821844, type: 3}
+  - {fileID: 8300000, guid: 1b3b8176d2710e54b92d75516f24b15d, type: 3}
+  - {fileID: 8300000, guid: e252d460d282cf44fae3097acdbae1fd, type: 3}
+  - {fileID: 8300000, guid: ab6e6aaaa9d325f48b91ee0ba4d8651f, type: 3}
