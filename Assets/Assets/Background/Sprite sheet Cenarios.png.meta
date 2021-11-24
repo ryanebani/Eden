@@ -17,6 +17,9 @@ TextureImporter:
   - first:
       213: 1923518840705412352
     second: lixeira
+  - first:
+      213: -5341391532714395681
+    second: vazio
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -218,6 +221,27 @@ TextureImporter:
       bones: []
       spriteID: 00d6403c136b1ba10800000000000000
       internalID: 1923518840705412352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vazio
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 1244
+        width: 568
+        height: 450
+      alignment: 9
+      pivot: {x: 0.17014323, y: 0.96177274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7774e63b09fd5b0800000000000000
+      internalID: -5341391532714395681
       vertices: []
       indices: 
       edges: []
