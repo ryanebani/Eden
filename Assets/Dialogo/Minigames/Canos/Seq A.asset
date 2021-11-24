@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
-  m_Name: Seq B
+  m_Name: Seq A
   m_EditorClassIdentifier: 
   sequencia:
-  - "N\xE3o tenho dinheiro pra comprar outro carrinho desses.."
-  npcFalando: 01
+  - Tem gordura pra todo lado.
+  - Vamos ver o que posso fazer.
+  npcFalando: 00
   proximaCutscene: 
-  proximaFala: {fileID: 0}
+  proximaFala: {fileID: 11400000, guid: 17f1de61ee2524248bff527c360eb204, type: 2}

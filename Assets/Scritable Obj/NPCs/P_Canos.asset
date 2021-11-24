@@ -9,11 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
-  m_Name: Seq B
+  m_Script: {fileID: 11500000, guid: 5052d03188da00a4e834499d398411d7, type: 3}
+  m_Name: P_Canos
   m_EditorClassIdentifier: 
-  sequencia:
-  - "N\xE3o tenho dinheiro pra comprar outro carrinho desses.."
-  npcFalando: 01
-  proximaCutscene: 
-  proximaFala: {fileID: 0}
+  nomeNPC: P_Canos
+  falasIdle: []
+  falasIdleMascara: []
