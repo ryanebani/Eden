@@ -51,6 +51,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correto: 0
+  alternativo: Saida
   tagCompare: Doc
   snapX: 0
   snapY: 0
@@ -95,6 +96,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  OnAlternativo:
+    m_PersistentCalls:
+      m_Calls: []
   OnGanhar:
     m_PersistentCalls:
       m_Calls: []
@@ -452,12 +456,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correto: 0
+  alternativo: Saida
   tagCompare: 
   snapX: 0
   snapY: 0
   canSnap: 0
   parentear: 0
   OnTrigger:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAlternativo:
     m_PersistentCalls:
       m_Calls: []
   OnGanhar:
@@ -540,12 +548,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correto: 0
+  alternativo: Ursinho
   tagCompare: 
   snapX: 0
   snapY: 0
   canSnap: 0
   parentear: 0
   OnTrigger:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAlternativo:
     m_PersistentCalls:
       m_Calls: []
   OnGanhar:
@@ -569,7 +581,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7535524340040293846
 RectTransform:
   m_ObjectHideFlags: 0
@@ -663,7 +675,6 @@ GameObject:
   - component: {fileID: 7535524340254449998}
   - component: {fileID: 7535524340254449995}
   - component: {fileID: 7535524340254449992}
-  - component: {fileID: 7535524340254449993}
   m_Layer: 5
   m_Name: Esgoto
   m_TagString: Doc
@@ -731,20 +742,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &7535524340254449993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7535524340254449999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding: {x: 0, y: 0, z: 0, w: 0}
-  m_Softness: {x: 0, y: 0}
 --- !u!1 &7535524340507371732
 GameObject:
   m_ObjectHideFlags: 0
@@ -839,6 +836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correto: 0
+  alternativo: Ursinho
   tagCompare: Doc
   snapX: 0
   snapY: 250
@@ -883,6 +881,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  OnAlternativo:
+    m_PersistentCalls:
+      m_Calls: []
   OnGanhar:
     m_PersistentCalls:
       m_Calls: []
@@ -1074,7 +1075,7 @@ MonoBehaviour:
           m_MethodName: PlayOneShot
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: f8160f9eee462734cb5d19a62cb17cb5, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: 17bcbe6fa98da79499419a944185cb84, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
