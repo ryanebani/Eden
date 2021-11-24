@@ -16,4 +16,4 @@ MonoBehaviour:
   - "Achei que s\xF3 faziam isso na Cidade Alta."
   npcFalando: 00
   proximaCutscene: 00
-  proximaFala: {fileID: 11400000, guid: fcb1d9dfdb87d054c95350abb90b1366, type: 2}
+  proximaFala: {fileID: 11400000, guid: 9d38809166420144f803f2130424a6ee, type: 2}
