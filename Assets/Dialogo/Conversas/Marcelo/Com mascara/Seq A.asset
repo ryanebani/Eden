@@ -15,11 +15,11 @@ MonoBehaviour:
   sequencia:
   - Ei, moleque. Chega mais.
   - "Ser\xE1 que tu n\xE3o pode me ajudar?"
-  - "Essa merda de g\xE1s n\xE3o t\xE1 indo pra o carrinho."
+  - "A merda de g\xE1s n\xE3o t\xE1 indo pra o carrinho."
   - "Eu n\xE3o consigo mexer no encanamento com meus dedos de porco."
   - "Ser\xE1 que tu pode dar uma olhada?"
   - E o que eu ganho com isso?
   - Se tu conseguir eu te dou umas moedas.
-  npcFalando: 00010101010001
-  proximaCutscene: 00000000
+  npcFalando: 01010101010001
+  proximaCutscene: 00000000000000
   proximaFala: {fileID: 11400000, guid: 1e56ed4151ce4574e8def233a8b6f7f6, type: 2}
