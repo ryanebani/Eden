@@ -13,17 +13,15 @@ MonoBehaviour:
   m_Name: Seq CR2
   m_EditorClassIdentifier: 
   sequencia:
-  - Eu te ofereceria um lugar, mas a gente ta lotado...
-  - "Ah, n\xE3o n\xE3o, eu tenho um lugar pra ficar"
+  - "Eu te ofereceria um lugar, mas a gente t\xE1 cheio..."
+  - "Ah, n\xE3o, eu tenho um lugar pra ficar."
   - "Ah! Ent\xE3o voc\xEA foi adotado? Que \xF3timo saber disso."
   - "Bom, n\xE3o exatamente..."
-  - "Eu fugi quando fiz 18 pra achar meu irm\xE3o."
-  - "Me lembro dele, Caio n\xE9? Foi adotado quando voc\xEAs eram pequenos."
-  - "Isso, eu queria achar ele, mas n\xE3o planejei direito."
-  - "E como eu n\xE3o tinha pra onde ir, acabei debaixo de uma ponte"
+  - Eu fugi quando fiz 16 anos.
   - E uma senhora cabra me acolheu.
-  - "Ah, devia ter imaginado que voc\xEA era uma das crias da Madalena."
+  - "Ah! Devia ter imaginado que voc\xEA era uma das crias da Madalena."
   - "C\xEA conhece ela?"
   - Somos... velhos amigos.
-  npcFalando: 010001000001000000010001
+  npcFalando: 010001000000010001
+  proximaCutscene: 000000000000000000
   proximaFala: {fileID: 11400000, guid: 748cb893f08f2c24d9e4738eb91cc7ed, type: 2}

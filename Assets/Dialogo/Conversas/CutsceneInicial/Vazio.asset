@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 492a76340e5fc0f4dad1f2af229a7694, type: 3}
+  m_Name: Vazio
+  m_EditorClassIdentifier: 
+  cor: {r: 0, g: 0, b: 0, a: 0}
+  nome: {fileID: -5341391532714395681, guid: 9e8366e0569c8f946b733134d51dd486, type: 3}
+  sprite: {fileID: -5341391532714395681, guid: 9e8366e0569c8f946b733134d51dd486, type: 3}
+  clipes:
+  - {fileID: 8300000, guid: 17bcbe6fa98da79499419a944185cb84, type: 3}

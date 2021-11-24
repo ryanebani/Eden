@@ -13,16 +13,22 @@ MonoBehaviour:
   m_Name: Seq AR2
   m_EditorClassIdentifier: 
   sequencia:
-  - "H\xE3... Eu, o Abel."
+  - "H\xE3? Sou eu, o Abel."
   - "Voc\xEA n\xE3o \xE9 policial n\xE3o n\xE9?"
-  - Eu to de chinelo cara, nenhum policial anda de chinelo.
-  - "Voc\xEA tem um ponto."
-  - "Ent\xE3o, porque voc\xEAs t\xE3o aqui?"
-  - "O povo do bairro n\xE3o curte muito a gente."
-  - "Sabe como \xE9, ningu\xE9m curte dois drogados andando por ai."
-  - O porco ali reclama mas nunca expulsou a gente.
-  - Complicado cara.
-  - "A vida \xE9 complicada."
-  npcFalando: 00010001000101010001
-  proximaCutscene: 
+  - "Eu t\xF4 de chinelo cara, nenhum policial anda de chinelo."
+  - "Tem uns que v\xE3o \xE0 paisana."
+  - "Ent\xE3o, por que voc\xEAs t\xE3o aqui?"
+  - "Sabe como \xE9, ningu\xE9m curte gente do nosso tipo andando por a\xED."
+  - "O porc\xE3o ali reclama, mas nunca expulsou a gente."
+  - "Mas voc\xEAs parecem bem legais."
+  - "Talvez se voc\xEAs se esfor\xE7arem..."
+  - "N\xE3o \xE9 bem assim, cara."
+  - "O amor nem sempre \xE9 bem visto pelas pessoas."
+  - "Tem muita gente que responde com \xF3dio."
+  - "Ent\xE3o a gente s\xF3 pode contar um com o outro."
+  - "Quando eu ficar rico, eu tiro voc\xEAs dessa rua."
+  - "Relaxa, a rua n\xE3o \xE9 ruim. E sim, a falta de amor."
+  - "Queria ter essa cabe\xE7a quando tinha sua idade."
+  npcFalando: 00010001000101000001010101000101
+  proximaCutscene: 00000000000000000000000000000000
   proximaFala: {fileID: 11400000, guid: 66d35c2be74b12e46826746b5d3a6c52, type: 2}

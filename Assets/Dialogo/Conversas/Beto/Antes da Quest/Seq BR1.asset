@@ -13,15 +13,7 @@ MonoBehaviour:
   m_Name: Seq BR1
   m_EditorClassIdentifier: 
   sequencia:
-  - "Nenhuma empresa contrata algu\xE9m sem endere\xE7o fisico."
-  - "Ent\xE3o eu cato essas latinhas e vendo pra um centro de reciclagem."
-  - E eles te pagam?
-  - "N\xE3o muito, mas \xE9 o suficiente pra comer."
-  - "E voc\xEA moleque, faz algo ou fica s\xF3 debaixo da saia da Madalena?"
-  - "Ah, fico por ai, tento pedir umas esmolas na rua, mas \xE9 raro darem."
-  - Maior parte das vezes me ignoram.
-  - Ou me olham feio e continuam andando.
-  - "T\xEDpico dessa cidade de merda!"
-  npcFalando: 010100010100000001
-  proximaCutscene: 000000000000000000
+  - "Ent\xE3o, t\xE1."
+  npcFalando: 00
+  proximaCutscene: 
   proximaFala: {fileID: 11400000, guid: 40d7b1959cdf585469c1688ca33bcd64, type: 2}

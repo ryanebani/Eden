@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
+  m_Name: Seq CR1
+  m_EditorClassIdentifier: 
+  sequencia:
+  - "A gente pode n\xE3o se lembrar."
+  - "Mas n\xE3o se esquece da nossa origem."
+  - "Por que voc\xEA t\xE1 preocupado?"
+  - "E se ele gostar tanto da fam\xEDlia nova dele..."
+  - "E n\xE3o quiser mais falar comigo?"
+  - "Fam\xEDlia \xE9 quem ama."
+  - "O pessoal do orfanato \xE9 minha fam\xEDlia."
+  - "\xC0s vezes eles v\xE3o embora daqui."
+  - "Mas n\xE3o deixam de ser."
+  npcFalando: 010101000001010101
+  proximaCutscene: 000000000000000000
+  proximaFala: {fileID: 11400000, guid: 748cb893f08f2c24d9e4738eb91cc7ed, type: 2}

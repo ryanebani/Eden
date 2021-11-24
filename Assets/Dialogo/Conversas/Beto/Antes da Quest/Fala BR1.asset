@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
   m_Name: Fala BR1
   m_EditorClassIdentifier: 
-  fala: "N\xE3o \xE9 como se tivesse muita op\xE7\xE3o."
+  fala: "J\xE1 te falei moleque, em algum lat\xE3o aqui da rua."
   respostas: []
-  sequencia: {fileID: 11400000, guid: 1de2a7ac071632049ac9ba2d3b010c4f, type: 2}
+  sequencia: {fileID: 11400000, guid: fa48b0c380f46aa4297ae4f092bfb0a3, type: 2}
   npcFalando: 1
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}

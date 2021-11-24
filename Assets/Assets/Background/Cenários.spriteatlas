@@ -58,6 +58,7 @@ SpriteAtlas:
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 7070533837900422527, guid: 9e8366e0569c8f946b733134d51dd486, type: 3}
+  - {fileID: -5341391532714395681, guid: 9e8366e0569c8f946b733134d51dd486, type: 3}
   - {fileID: -3075191273766854371, guid: 9e8366e0569c8f946b733134d51dd486, type: 3}
   - {fileID: -3658196989391792220, guid: 9e8366e0569c8f946b733134d51dd486, type: 3}
   - {fileID: 1923518840705412352, guid: 9e8366e0569c8f946b733134d51dd486, type: 3}
@@ -88,6 +89,7 @@ SpriteAtlas:
   - {fileID: -1755660011954258288, guid: 53f0257e6807e4a458896f0ca1871789, type: 3}
   m_PackedSpriteNamesToIndex:
   - Bg Cozinha
+  - vazio
   - Bg Orfanato
   - Bg Sala Arquivos
   - lixeira

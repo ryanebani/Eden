@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
   m_Name: Fala CR1
   m_EditorClassIdentifier: 
-  fala: Diferente como?
+  fala: "Voc\xEAs eram muito pr\xF3ximos."
   respostas: []
-  sequencia: {fileID: 11400000, guid: adcd44dddebdd664083a8c244566ff6f, type: 2}
-  npcFalando: 0
+  sequencia: {fileID: 11400000, guid: ea97e2e6075dfcb458423a5ec40858b8, type: 2}
+  npcFalando: 1
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: 308963aa3073f2d4fbd8e0ae183748fc, type: 2}

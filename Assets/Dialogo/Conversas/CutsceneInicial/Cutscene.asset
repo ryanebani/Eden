@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
+  m_Name: Cutscene
+  m_EditorClassIdentifier: 
+  sequencia:
+  - 
+  - 
+  - "Nunca te vi por aqui, t\xE1 perdido querido?"
+  - ...
+  - Tu ta todo molhado, se perdeu dos seus pais?
+  - ...
+  - "Pode falar, eu n\xE3o mordo querido."
+  - Eu fugi...
+  - "Prefere a rua \xE9?"
+  - "Melhor aqui que o orfanato... Levaram meu irm\xE3o."
+  - E?
+  - "Eu s\xF3 quero achar ele! Deixa de ser enxerida!"
+  - Vai me levar de volta?
+  - "S\xF3 se voc\xEA quiser."
+  - "N\xE3o... Eu n\xE3o... Eu n\xE3o quero."
+  - "Ent\xE3o tudo bem."
+  npcFalando: 01010100010001000100010000010001
+  proximaCutscene: 01010000000000000000000000000000
+  proximaFala: {fileID: 0}
