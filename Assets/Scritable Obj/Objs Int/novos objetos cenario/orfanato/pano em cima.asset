@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beb09db3f743c354591c99baabbc8900, type: 3}
   m_Name: pano em cima
   m_EditorClassIdentifier: 
-  nomeObj: 
+  nomeObj: Pano em cima
   "falasInspe\xE7\xE3o": []
