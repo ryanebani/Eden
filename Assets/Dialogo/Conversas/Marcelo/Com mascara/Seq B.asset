@@ -10,13 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
-  m_Name: Seq A
+  m_Name: Seq B
   m_EditorClassIdentifier: 
   sequencia:
-  - "Vi teu panfleto de procura-se ajudante, ainda t\xE1 aceitando?"
-  - Opa! Tu sabe algo de encanamento?
-  - "Essa merda de g\xE1s, n\xE3o t\xE1 indo pra m\xE1quina"
-  - Posso dar uma mexida.
-  npcFalando: 00010101
-  proximaCutscene: 00000000
-  proximaFala: {fileID: 11400000, guid: 1e56ed4151ce4574e8def233a8b6f7f6, type: 2}
+  - "N\xE3o tenho dinheiro pra comprar outra dessas."
+  npcFalando: 01
+  proximaCutscene: 
+  proximaFala: {fileID: 0}

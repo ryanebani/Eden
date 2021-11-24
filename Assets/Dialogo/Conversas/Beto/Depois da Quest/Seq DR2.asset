@@ -15,16 +15,10 @@ MonoBehaviour:
   sequencia:
   - "Perdi meu emprego uns anos atr\xE1s."
   - "E n\xE3o queria voltar pra casa dos meus pais."
-  - "Porque n\xE3o?"
+  - "Por que n\xE3o?"
   - "N\xE3o que seja da sua conta, mas eles n\xE3o eram muito legais."
-  - E ai ouvi falar desse lugar.
-  - "E voc\xEA, qual tua hist\xF3ria moleque?"
-  - "N\xE3o \xE9 da sua conta!"
-  - "Qual \xE9 mano, abri meu cora\xE7\xE3o pra ti agora!"
-  - "T\xE1 t\xE1... Faz uns dois anos que eu to na rua,"
-  - "Fugi do orfanato pra achar meu irm\xE3o."
-  - "Tu deve amar mesmo teu irm\xE3o hein?"
-  - "Ele \xE9 minha \xFAnica fam\xEDlia calro que eu amo ele!"
-  npcFalando: 010100010101000100000100
+  - "E a\xED ouvi falar desse lugar."
+  - Naquela hora, qualquer coisa era melhor que minha casa.
+  npcFalando: 010100010101
   proximaCutscene: 000000000000000000000000
   proximaFala: {fileID: 11400000, guid: 8183b4a8124374144a77b4c7eabb015e, type: 2}
