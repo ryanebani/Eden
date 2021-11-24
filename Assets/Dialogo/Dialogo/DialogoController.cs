@@ -60,7 +60,7 @@ public class DialogoController : MonoBehaviour
     private void Start()
     {
         som = GetComponent<SorteiaSom>();
-        ProximaFala(primeiraCut);
+        //ProximaFala(primeiraCut);
     }
 
     void Awake()
