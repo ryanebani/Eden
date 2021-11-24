@@ -59,7 +59,8 @@ public class DialogoController : MonoBehaviour
     private void Start()
     {
         som = GetComponent<SorteiaSom>();
-        //ProximaFala(primeiraCut);
+        if(primeiraCut != null)
+            ProximaFala(primeiraCut);
     }
 
     void Awake()
@@ -133,18 +134,14 @@ public class DialogoController : MonoBehaviour
                         {
                             spritePlayer.gameObject.GetComponent<Animator>().SetBool("Falando", false);
                             spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", true);
-                            //spritePlayer.color = transparente;
-                            //spriteNPC.color = opaco;
-                            //falaNPC.color = falas.NPC.cor;
+                            falaNPC.color = falas.NPC.cor;
                         }
                         else
                         {
 
                             spritePlayer.gameObject.GetComponent<Animator>().SetBool("Falando", true);
                             spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", false);
-                            // spritePlayer.color = opaco;
-                            // spriteNPC.color = transparente;
-                           // falaNPC.color = falas.jogador.cor;
+                            falaNPC.color = falas.jogador.cor;
                         }
                         index++;
                     }
@@ -186,12 +183,11 @@ public class DialogoController : MonoBehaviour
         if (falas.falaNode != "")
         {
             falaNPC.text = falas.falaNode;
-            /*if (falas.NPCNode)
-                //falaNPC.color = falas.NPC.cor;
+            if (falas.NPCNode)
+                falaNPC.color = falas.NPC.cor;
             else
-                //falaNPC.color = falas.jogador.cor;*/
+                falaNPC.color = falas.jogador.cor;
         }
-        //falaNPC.gameObject.SetActive(false);
         falaAtiva = false;
         if (!dialogo.liberaResposta)
         {
@@ -279,7 +275,7 @@ public class DialogoController : MonoBehaviour
         }
         
 
-        if (tocarSom)
+        if (tocarSom && NPC.clipes.Length != 0)
         {
             tocarSom = false;
             som.EscolherSom(NPC.clipes);
@@ -301,13 +297,13 @@ public class DialogoController : MonoBehaviour
             {
                 spritePlayer.gameObject.GetComponent<Animator>().SetBool("Falando", false);
                 spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", true);
-                //falaNPC.color = falas.NPC.cor;
+                falaNPC.color = falas.NPC.cor;
             }
             else
             {
                 spritePlayer.gameObject.GetComponent<Animator>().SetBool("Falando", true);
                 spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", false);
-                //falaNPC.color = falas.jogador.cor;
+                falaNPC.color = falas.jogador.cor;
             }
         }
         
