@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class DialogoController : MonoBehaviour
 {
+    public FalaNPC primeiraCut;
+
+
     private bool tocarSom = true;
     private SorteiaSom som;
     Animator animDiag;
@@ -57,6 +60,7 @@ public class DialogoController : MonoBehaviour
     private void Start()
     {
         som = GetComponent<SorteiaSom>();
+        ProximaFala(primeiraCut);
     }
 
     void Awake()
