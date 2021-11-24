@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "0068120336",
         "name": "com.DefaultCompany.ProjetoEden",
-        "processId": 8328,
+        "processId": 20087,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -48,6 +48,12 @@
             "deviceId": "0068120336",
             "name": "com.DefaultCompany.ProjetoEden",
             "processId": 8328,
+            "exited": false
+        },
+        {
+            "deviceId": "0068120336",
+            "name": "com.DefaultCompany.ProjetoEden",
+            "processId": 20087,
             "exited": false
         }
     ],
