@@ -372,7 +372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   caixaIdle: {fileID: 0}
-  npc: {fileID: 11400000, guid: 6897b63d819f10d49a10f8b45f0efbc3, type: 2}
+  npc: {fileID: 0}
   idle: 0
   idleMascara: 0
   animar: 0
@@ -966,7 +966,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   caixaIdle: {fileID: 0}
-  npc: {fileID: 11400000, guid: 6897b63d819f10d49a10f8b45f0efbc3, type: 2}
+  npc: {fileID: 0}
   idle: 0
   idleMascara: 0
   animar: 0
@@ -1710,7 +1710,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   caixaIdle: {fileID: 0}
-  npc: {fileID: 11400000, guid: 6897b63d819f10d49a10f8b45f0efbc3, type: 2}
+  npc: {fileID: 0}
   idle: 0
   idleMascara: 0
   animar: 0
@@ -2231,7 +2231,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   caixaIdle: {fileID: 0}
-  npc: {fileID: 11400000, guid: 6897b63d819f10d49a10f8b45f0efbc3, type: 2}
+  npc: {fileID: 0}
   idle: 0
   idleMascara: 0
   animar: 0
@@ -2621,7 +2621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   caixaIdle: {fileID: 0}
-  npc: {fileID: 11400000, guid: 6897b63d819f10d49a10f8b45f0efbc3, type: 2}
+  npc: {fileID: 0}
   idle: 0
   idleMascara: 0
   animar: 0
@@ -3709,7 +3709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   caixaIdle: {fileID: 0}
-  npc: {fileID: 11400000, guid: 6897b63d819f10d49a10f8b45f0efbc3, type: 2}
+  npc: {fileID: 0}
   idle: 0
   idleMascara: 0
   animar: 0
