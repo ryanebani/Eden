@@ -17,7 +17,10 @@ MonoBehaviour:
   audioSource: {fileID: 0}
   voz:
   - {fileID: 0}
-  falasIdle: []
+  falasIdle:
+  - "Esse fog\xE3o t\xE1 uma porcaria."
+  - "Como os meninos t\xE3o?"
+  - "O qu\xEA eu fa\xE7o da minha vida. Jesus!"
   falasIdleMascara:
   - "Oi querido, \xE9 novo por aqui?"
   - Quer comer alguma coisa?

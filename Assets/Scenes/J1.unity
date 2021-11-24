@@ -1219,12 +1219,16 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 4cffcc81f19dcc746affc492b76e6a36, type: 2}
     - target: {fileID: 484556649302489607, guid: eb8f21d3c8c85f348927b2640d54faa5, type: 3}
       propertyPath: falaQuestsSemMascara.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 484556649302489607, guid: eb8f21d3c8c85f348927b2640d54faa5, type: 3}
       propertyPath: falaQuestsSemMascara.Array.data[0]
       value: 
       objectReference: {fileID: 11400000, guid: 747e8e0b9f883474f8473091299869f3, type: 2}
+    - target: {fileID: 484556649302489607, guid: eb8f21d3c8c85f348927b2640d54faa5, type: 3}
+      propertyPath: falaQuestsSemMascara.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: e5e1be0490e2b0e4395d0a25e5c620c8, type: 2}
     - target: {fileID: 484556649302489607, guid: eb8f21d3c8c85f348927b2640d54faa5, type: 3}
       propertyPath: ue.Array.data[0].m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -1787,15 +1791,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3865464108308025050, guid: 329929b7378a02642a5b3292892a2b13, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3865464108308025050, guid: 329929b7378a02642a5b3292892a2b13, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3865464108308025050, guid: 329929b7378a02642a5b3292892a2b13, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3865464108308025050, guid: 329929b7378a02642a5b3292892a2b13, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2507,7 +2511,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1136229130796787504, guid: af37497e0a2534b49a19c524a911b136, type: 3}
       propertyPath: ueSemMask.Array.data[0].m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1136229130796787504, guid: af37497e0a2534b49a19c524a911b136, type: 3}
       propertyPath: OnFinalDialogo.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -2574,6 +2578,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1136229130796787504, guid: af37497e0a2534b49a19c524a911b136, type: 3}
+      propertyPath: ueSemMask.Array.data[0].m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136229130796787504, guid: af37497e0a2534b49a19c524a911b136, type: 3}
       propertyPath: ueMask.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
@@ -2583,6 +2591,10 @@ PrefabInstance:
       objectReference: {fileID: 656294950}
     - target: {fileID: 1136229130796787504, guid: af37497e0a2534b49a19c524a911b136, type: 3}
       propertyPath: ueSemMask.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 656294948}
+    - target: {fileID: 1136229130796787504, guid: af37497e0a2534b49a19c524a911b136, type: 3}
+      propertyPath: ueSemMask.Array.data[0].m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 656294948}
     - target: {fileID: 1136229130796787504, guid: af37497e0a2534b49a19c524a911b136, type: 3}
@@ -2598,12 +2610,20 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1136229130796787504, guid: af37497e0a2534b49a19c524a911b136, type: 3}
+      propertyPath: ueSemMask.Array.data[0].m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136229130796787504, guid: af37497e0a2534b49a19c524a911b136, type: 3}
       propertyPath: ueSemMask.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ReceberItem
       objectReference: {fileID: 0}
     - target: {fileID: 1136229130796787504, guid: af37497e0a2534b49a19c524a911b136, type: 3}
       propertyPath: ueSemMask.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: desativarSinal
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136229130796787504, guid: af37497e0a2534b49a19c524a911b136, type: 3}
+      propertyPath: ueSemMask.Array.data[0].m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: ProximaQuest
       objectReference: {fileID: 0}
     - target: {fileID: 1136229130796787504, guid: af37497e0a2534b49a19c524a911b136, type: 3}
       propertyPath: OnFinalDialogo.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -2631,6 +2651,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1136229130796787504, guid: af37497e0a2534b49a19c524a911b136, type: 3}
       propertyPath: ueSemMask.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Dialogo, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136229130796787504, guid: af37497e0a2534b49a19c524a911b136, type: 3}
+      propertyPath: ueSemMask.Array.data[0].m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
       value: Dialogo, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1136229130796787504, guid: af37497e0a2534b49a19c524a911b136, type: 3}
@@ -2663,6 +2687,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1136229130796787504, guid: af37497e0a2534b49a19c524a911b136, type: 3}
       propertyPath: ueSemMask.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136229130796787504, guid: af37497e0a2534b49a19c524a911b136, type: 3}
+      propertyPath: ueSemMask.Array.data[0].m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1136229130796787505, guid: af37497e0a2534b49a19c524a911b136, type: 3}
@@ -2828,7 +2856,7 @@ SpriteRenderer:
   m_SortingLayerID: 1992356711
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 384103940026832296, guid: 991724a4facc6e44ba5c4fa468e0a18f, type: 3}
+  m_Sprite: {fileID: 1923518840705412352, guid: 9e8366e0569c8f946b733134d51dd486, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9239,6 +9267,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1003717012}
+        m_TargetAssemblyTypeName: Dialogo, Assembly-CSharp
+        m_MethodName: ProximaQuest
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1005172208
 GameObject:
   m_ObjectHideFlags: 0
@@ -9360,6 +9400,7 @@ MonoBehaviour:
   falaNPC: {fileID: 1298224105}
   nomeNPC: {fileID: 1832927321}
   nomeJogador: {fileID: 495448468}
+  rumor: {fileID: 1746119813}
   resposta: {fileID: 809043687155554468, guid: b725d08e9436c3f419d3d4087d2b7064, type: 3}
   spriteNPC: {fileID: 817370819}
   spritePlayer: {fileID: 331651637}
@@ -10703,7 +10744,7 @@ PlayableDirector:
   - key: {fileID: -6079637071934956433, guid: 267c5a5795c99984087c24f35e5a0617, type: 2}
     value: {fileID: 1406470186}
   - key: {fileID: 3613606490803257867, guid: 267c5a5795c99984087c24f35e5a0617, type: 2}
-    value: {fileID: 1406470184}
+    value: {fileID: 0}
   - key: {fileID: 3443778316365308231, guid: 267c5a5795c99984087c24f35e5a0617, type: 2}
     value: {fileID: 1196348357}
   - key: {fileID: 4998859398414890704, guid: 997ce678602705f4792a17216f947d21, type: 2}
@@ -10711,7 +10752,7 @@ PlayableDirector:
   - key: {fileID: 187759758972699506, guid: 997ce678602705f4792a17216f947d21, type: 2}
     value: {fileID: 1406470186}
   - key: {fileID: 5036473417843767630, guid: 997ce678602705f4792a17216f947d21, type: 2}
-    value: {fileID: 1406470184}
+    value: {fileID: 0}
   - key: {fileID: -6324051930630755171, guid: 997ce678602705f4792a17216f947d21, type: 2}
     value: {fileID: 1196348357}
   - key: {fileID: 4166368273940576459, guid: 267c5a5795c99984087c24f35e5a0617, type: 2}
@@ -13421,11 +13462,6 @@ Transform:
   m_Father: {fileID: 598757756}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &1406470184 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 1101883462, guid: 42475340a898b384c86a86754fe095a1, type: 3}
-  m_PrefabInstance: {fileID: 7889479244994633832}
-  m_PrefabAsset: {fileID: 0}
 --- !u!95 &1406470186 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 7633181572280517467, guid: 42475340a898b384c86a86754fe095a1, type: 3}
@@ -16200,6 +16236,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6437496400003988136, guid: 3583b0f2df9ec1d4ba86b9409bbfad2a, type: 3}
   m_PrefabInstance: {fileID: 1505189486}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1746119813 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8932665387782023239, guid: 42475340a898b384c86a86754fe095a1, type: 3}
+  m_PrefabInstance: {fileID: 7889479244994633832}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1762217619
 GameObject:

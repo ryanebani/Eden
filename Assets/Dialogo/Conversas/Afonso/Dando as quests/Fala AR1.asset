@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fala: Tem uns precisando mais que outros.
   respostas: []
-  sequencia: {fileID: 0}
+  sequencia: {fileID: 11400000, guid: e7e202ae6e6fe7b42b23c206a0b58b78, type: 2}
   npcFalando: 1
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}

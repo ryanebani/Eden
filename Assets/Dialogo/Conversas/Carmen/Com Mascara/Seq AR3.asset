@@ -14,19 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequencia:
   - "Ent\xE3o a senhora tem um passe de trabalhador?"
-  - "Mas \xE9 claro! voc\xEA n\xE3o rapaz?"
-  - "Ah... \xC9 que... \xE9 que eu to indo pra uma entrevista de emprego e acho que
-    esqueceram de me mandar um..."
+  - "Mas \xE9 claro! Voc\xEA n\xE3o, rapaz?"
+  - "Ah... \xC9 que... \xE9 que eu t\xF4 indo pra uma entrevista de emprego e acho
+    que esqueceram de me mandar um..."
   - "Ah! mas que irrespons\xE1veis!"
   - "Olha, n\xE3o fui eu que te contei isso..."
-  - "Mas tem um lugar onde voc\xEA pode conseguir um passe"
-  - "Pelo menos at\xE9 a empresa te dar um."
+  - "Mas tem um lugar onde voc\xEA pode conseguir um passe."
+  - "Pelo menos at\xE9 a empresa te dar um..."
   - Onde fica?
-  - "N\xE3o tenho certeza de onde ele fica, mas procura um rato,"
+  - "N\xE3o tenho certeza de onde ele fica, mas procura um rato."
   - E pede um passe falso.
-  - "Uau, n\xE3o tinha ideia que isso existia."
+  - "T\xE1 cheia das maracutaia, dona."
   - "\xC9, mas lembra..."
-  - "N\xE3o foi a senhora que me contou."
-  npcFalando: 00010001010101000101000100
-  proximaCutscene: 00000000000000000000000000
-  proximaFala: {fileID: 0}
+  npcFalando: 000100010101010001010001
+  proximaCutscene: 000000000000000000000000
+  proximaFala: {fileID: 11400000, guid: 9d07f1d4c6a5ef6488a9d27cbd3c7916, type: 2}

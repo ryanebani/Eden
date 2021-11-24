@@ -13,9 +13,7 @@ MonoBehaviour:
   m_Name: Seq INFO
   m_EditorClassIdentifier: 
   sequencia:
-  - Ta tudo bem Belinha.
-  - "Eu tava brincando de dan\xE7a com ele..."
-  - E ai... Quando eu fui girar ele sumiu! Buaaaa!!
-  npcFalando: 000101
-  proximaCutscene: 000000
+  - "Pode deixar, que eu vou atr\xE1s dele."
+  npcFalando: 00
+  proximaCutscene: 00
   proximaFala: {fileID: 11400000, guid: 8b39bec6dd0b4e543ab99c0693a98c82, type: 2}

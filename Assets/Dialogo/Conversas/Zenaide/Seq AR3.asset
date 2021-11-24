@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Seq AR3
   m_EditorClassIdentifier: 
   sequencia:
-  - Eu preciso entregar essas marmitas aqui.
-  - "Mas o fog\xE3o ta ruim e n\xE3o quero tirar o olho dele."
-  - "Ent\xE3o se n\xE3o for incomodo, poderia levar elas?"
-  - Posso, mas pra quem?
-  - "Tem dois mo\xE7os no beco aqui perto."
-  - Entrega pra eles,  por favor.
-  npcFalando: 010101000101
-  proximaCutscene: 000000000000
+  - "Eu preciso entregar essas marmitas pra meu irm\xE3o."
+  - "Mas o fog\xE3o t\xE1 ruim e n\xE3o quero tirar o olho."
+  - Ele costuma ficar ali no beco com o namoradinho.
+  - "Fazer o qu\xEA... Parece que eles n\xE3o querem nada da vida."
+  - "Voc\xEA pode entregar o almo\xE7o pra eles, por favor?"
+  - "N\xE3o posso deixar o Pedro com fome."
+  - "Mandou bem! O cheiro t\xE1 \xF3timo!"
+  npcFalando: 01010101010100
+  proximaCutscene: 00000000000000
   proximaFala: {fileID: 11400000, guid: 59607bd22bee2434a93dbdd165397997, type: 2}

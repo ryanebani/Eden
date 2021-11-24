@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
   m_Name: Seq Fala INFO
   m_EditorClassIdentifier: 
-  fala: "Eu vou achar ele pra voc\xEA."
+  fala: "N\xE3o se deixa fam\xEDlia pra tr\xE1s."
   respostas: []
   sequencia: {fileID: 0}
-  npcFalando: 0
+  npcFalando: 1
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: df653774ab4d6de4c98806a87fb31dcf, type: 2}

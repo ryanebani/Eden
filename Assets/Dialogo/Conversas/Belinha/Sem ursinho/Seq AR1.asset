@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: Seq AR1
   m_EditorClassIdentifier: 
   sequencia:
-  - "A mam\xE3e me deu ele, antes... Buaaaa!!"
-  - Antes do que Belinha?
-  - Antes dela ir embora e me deixar sozinha!!
-  - Ah...
-  - Eu quero o Pufi, tio! Buaaaaa!!
-  npcFalando: 0100010001
-  proximaCutscene: 0000
+  - "E onde voc\xEA viu ele pela \xFAltima vez?"
+  - Eu tava brincando na rua aqui na frente.
+  - "Porque o tio Afonso n\xE3o deixa a gente brincar longe."
+  - "E a\xED, passou um caminh\xE3o e eu tomei um susto."
+  - "Quando eu voltei, ele n\xE3o tava mais l\xE1."
+  - Eu quero muito meu Pufi de volta!
+  npcFalando: 000101010101
+  proximaCutscene: 000000000000
   proximaFala: {fileID: 11400000, guid: 4cffcc81f19dcc746affc492b76e6a36, type: 2}

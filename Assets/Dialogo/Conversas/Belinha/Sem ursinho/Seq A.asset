@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
-  m_Name: Seq A1
+  m_Name: Seq A
   m_EditorClassIdentifier: 
   sequencia:
-  - Eu quero ele de volta!
+  - Eu quero meu Pufi de volta!
   npcFalando: 01
   proximaCutscene: 00
   proximaFala: {fileID: 11400000, guid: 4cffcc81f19dcc746affc492b76e6a36, type: 2}

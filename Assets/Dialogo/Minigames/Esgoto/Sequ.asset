@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Sequ
   m_EditorClassIdentifier: 
   sequencia:
-  - Se eu tivess alguma coisa que dessa pra puxar pra cima...
+  - Se eu tivesse alguma coisa pra puxar pra cima...
   npcFalando: 00
+  proximaCutscene: 00
   proximaFala: {fileID: 0}

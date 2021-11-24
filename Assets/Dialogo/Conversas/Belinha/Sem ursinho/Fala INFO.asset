@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
   m_Name: Fala INFO
   m_EditorClassIdentifier: 
-  fala: "Eu tava l\xE1 fora e... bu\xE1aa"
+  fala: "Eu gosto demais! Ele \xE9 meu irm\xE3ozinho!"
   respostas: []
   sequencia: {fileID: 11400000, guid: 954d45afaf16505459bd2b613ed87fbd, type: 2}
   npcFalando: 1

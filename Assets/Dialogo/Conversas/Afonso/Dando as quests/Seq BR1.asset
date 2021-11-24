@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Seq BR1
   m_EditorClassIdentifier: 
   sequencia:
-  - "Ela chegou chorando, mas ningu\xE9m sabe porque."
-  - "T\xE1, vou tentar descobrir."
+  - "Ela chegou chorando, mas ningu\xE9m sabe por qu\xEA."
+  - Tudo bem, vou tentar descobrir.
   npcFalando: 0100
+  proximaCutscene: 0000
   proximaFala: {fileID: 11400000, guid: 58506d8751cbeec40a75ede6edff316e, type: 2}

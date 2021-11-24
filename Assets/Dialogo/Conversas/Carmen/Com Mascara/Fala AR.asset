@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fala: Parece que vai chover...
   respostas:
-  - resposta: "O tempo t\xE1 fechando mesmo"
+  - resposta: "O tempo t\xE1 fechando mesmo..."
     proximaFala: {fileID: 11400000, guid: ca207b05904579746b9693a002817841, type: 2}
   - resposta: "\xC9 mesmo, tenho que ir!"
     proximaFala: {fileID: 11400000, guid: 2fd4b39511a1ddd49941cee9565ed233, type: 2}
-  - resposta: "Voc\xEA sabe algo sobre o passe da cidade alta?"
+  - resposta: "Voc\xEA sabe algo sobre o passe?"
     proximaFala: {fileID: 11400000, guid: ecdbeeced99766d43bb0542c81e5c1f0, type: 2}
   sequencia: {fileID: 0}
   npcFalando: 1

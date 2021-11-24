@@ -18,7 +18,7 @@ MonoBehaviour:
     proximaFala: {fileID: 11400000, guid: 3eb982e2535564646a18986197a0f18e, type: 2}
   - resposta: Tchau!
     proximaFala: {fileID: 11400000, guid: d682679139c36d84d90cacd9782bd466, type: 2}
-  - resposta: "Afonso disse que voc\xEA precisava de ajuda"
+  - resposta: "Afonso disse que voc\xEA precisava de ajuda."
     proximaFala: {fileID: 11400000, guid: 031ea80d1271a6b4d8835608f67283f5, type: 2}
   sequencia: {fileID: 0}
   npcFalando: 1
