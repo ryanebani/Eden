@@ -65,7 +65,7 @@ public class CarroSom : MonoBehaviour
     public void SetCoordenada()
     {
         int rand = Random.Range(0, carro.Length);
-        Debug.Log(rand);
+        //Debug.Log(rand);
         sprite.sprite = carro[rand];
 
         int indice = Random.Range(0, 2);

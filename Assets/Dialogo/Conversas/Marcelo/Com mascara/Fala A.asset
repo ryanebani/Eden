@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
   m_Name: Fala A
   m_EditorClassIdentifier: 
-  fala: "Bom dia meu consagrado! Tenho a ra\xE7\xE3o mais fina da cidade aqui! O
-    que vai ser?"
+  fala: "Essa porcaria de m\xE1quina n\xE3o funciona."
   respostas: []
   sequencia: {fileID: 11400000, guid: c3dba72f951e3a34492e8de15d81124f, type: 2}
   npcFalando: 1

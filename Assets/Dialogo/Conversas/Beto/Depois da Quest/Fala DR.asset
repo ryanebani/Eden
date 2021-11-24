@@ -19,7 +19,7 @@ MonoBehaviour:
   - resposta: "H\xE1 quanto tempo voc\xEA mora aqui?"
     proximaFala: {fileID: 11400000, guid: 64172b596fca08040a2ee6c808e86d11, type: 2}
   - resposta: Vou indo!
-    proximaFala: {fileID: 11400000, guid: 64172b596fca08040a2ee6c808e86d11, type: 2}
+    proximaFala: {fileID: 11400000, guid: 3977769b41c82584d959a62a3cd95b4b, type: 2}
   - resposta: D
     proximaFala: {fileID: 0}
   sequencia: {fileID: 0}

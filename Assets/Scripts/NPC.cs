@@ -26,7 +26,7 @@ public class NPC : MonoBehaviour
 
     void Update()
     {
-        if(animar)
+        if(animar && sinalInfo != false)
             sinalInfo.SetBool("ativar", true);
         else
             sinalInfo.SetBool("ativar", false);

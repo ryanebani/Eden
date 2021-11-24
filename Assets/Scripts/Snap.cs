@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class Snap : MonoBehaviour
 {
     [SerializeField] bool correto;
+    public string alternativo;
     [SerializeField] string tagCompare;
     [SerializeField] float snapX;
     [SerializeField] float snapY;
@@ -18,6 +19,7 @@ public class Snap : MonoBehaviour
     public bool parentear;
 
     public UnityEvent OnTrigger;
+    public UnityEvent OnAlternativo;
     public UnityEvent OnGanhar;
 
     void Start()
@@ -51,22 +53,20 @@ public class Snap : MonoBehaviour
     }
     void OnTriggerStay2D(Collider2D colisor)
     {
-
+        Snap snapado = colisor.GetComponent<Snap>();
         if (colisor.gameObject.tag == tagCompare && canSnap)
         {
                 
             RectTransform colRectT = colisor.GetComponent<RectTransform>();
             myRectT.anchoredPosition = new Vector2(colRectT.anchoredPosition.x + snapX, colRectT.anchoredPosition.y + snapY);
 
-            /*if (parentear)
-            {
-                canSnap = false;
-                colisor.gameObject.transform.SetParent(gameObject.transform);
-            }*/
-
             OnTrigger?.Invoke();
 
-            if (colisor.gameObject.GetComponent<Snap>().correto)
+            if(snapado.alternativo == alternativo)
+            {
+                OnAlternativo?.Invoke();
+            }
+            else if (snapado.correto && alternativo == "")
             {
                 OnGanhar?.Invoke();               
             }            
