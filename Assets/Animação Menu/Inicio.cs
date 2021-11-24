@@ -2,16 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Cinemachine;
 
 public class Inicio : MonoBehaviour
 {
-    public Animator logo;
-
-    public Animator clicke;
-
-    public Animator jogar;
-    public Animator creditos;
-
+    public CinemachineVirtualCamera logo;
+    public CinemachineVirtualCamera menu;
 
 
     void Start()
@@ -23,21 +19,8 @@ public class Inicio : MonoBehaviour
     {
         if(Input.touchCount > 0)
         {
-            logo.SetTrigger("Mover");
-            clicke.SetTrigger("Mover");
+            logo.Priority = 0;
+            menu.Priority = 1;
         }
-    }
-
-    public void Desaparecer()
-    {
-        clicke.gameObject.SetActive(false);
-    }
-
-    public void Aparecer()
-    {
-        jogar.gameObject.SetActive(true);
-        creditos.gameObject.SetActive(true);
-        //jogar.SetTrigger("Mover");
-        //creditos.SetTrigger("Mover");
     }
 }
