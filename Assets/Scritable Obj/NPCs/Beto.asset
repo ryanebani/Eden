@@ -15,8 +15,7 @@ MonoBehaviour:
   nomeNPC: Beto
   prefab: {fileID: 0}
   audioSource: {fileID: 0}
-  voz:
-  - {fileID: 0}
+  voz: []
   falasIdle: []
   falasIdleMascara:
   - "N\xE3o te deixei entrar!"

@@ -49,14 +49,13 @@ public class DialogoController : MonoBehaviour
 
     bool falaController;
 
-    Color opaco = new Color(1, 1, 1, 1);
-    Color transparente = new Color(1, 1, 1, 0.5f);
+    Color novaInformacao = new Color(0.5450981f, 0.9921569f, 1, 1);
+    
 
     List<FalaNPC> naoAtivarAcao = new List<FalaNPC>();
 
     public Sprite abelMask;
     public Sprite nomeMask;
-
     private void Start()
     {
         som = GetComponent<SorteiaSom>();
@@ -182,7 +181,6 @@ public class DialogoController : MonoBehaviour
 
     void MostrarRespostas()
     {
-        nomeNPC.gameObject.SetActive(false);
         spritePlayer.gameObject.GetComponent<Animator>().SetBool("Falando", true);
         spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", false);
         if (falas.falaNode != "")
@@ -211,6 +209,10 @@ public class DialogoController : MonoBehaviour
                 GameObject tempResposta = Instantiate(resposta, painelDeDialogo.transform) as GameObject;
                 tempResposta.GetComponent<Text>().text = falas.respostas[i].resposta;
                 tempResposta.GetComponent<AnswerButton>().Setup(falas.respostas[i]);
+                if(i == falas.respostas.Length - 1)
+                {
+                    tempResposta.GetComponent<Text>().color = novaInformacao;
+                }
             }
         }
     }
