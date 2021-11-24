@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: Seq A
   m_EditorClassIdentifier: 
   sequencia:
-  - "Vi teu panfleto de procura-se ajudante, ainda t\xE1 aceitando?"
-  - Opa! Tu sabe algo de encanamento?
-  - "Essa merda de g\xE1s, n\xE3o t\xE1 indo pra m\xE1quina"
-  - Posso dar uma mexida.
-  npcFalando: 00010101
-  proximaCutscene: 00000000
+  - Ei, moleque. Chega mais.
+  - "Ser\xE1 que tu n\xE3o pode me ajudar?"
+  - "A merda de g\xE1s n\xE3o t\xE1 indo pra o carrinho."
+  - "Eu n\xE3o consigo mexer no encanamento com meus dedos de porco."
+  - "Ser\xE1 que tu pode dar uma olhada?"
+  - E o que eu ganho com isso?
+  - Se tu conseguir eu te dou umas moedas.
+  npcFalando: 01010101010001
+  proximaCutscene: 00000000000000
   proximaFala: {fileID: 11400000, guid: 1e56ed4151ce4574e8def233a8b6f7f6, type: 2}

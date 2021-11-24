@@ -9,10 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 492a76340e5fc0f4dad1f2af229a7694, type: 3}
-  m_Name: Mateus
+  m_Script: {fileID: 11500000, guid: beb09db3f743c354591c99baabbc8900, type: 3}
+  m_Name: janela orfanato
   m_EditorClassIdentifier: 
-  cor: {r: 1, g: 1, b: 1, a: 1}
-  nome: {fileID: 0}
-  sprite: {fileID: 2357475965668191905, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
-  clipes: []
+  nomeObj: janela orfanato
+  "falasInspe\xE7\xE3o":
+  - Lembro bem do dia que ficou assim.
+  - Um garoto jogou uma pedra no vidro.
+  - E ainda tentou me culpar depois.
+  - Como eu era trouxa.

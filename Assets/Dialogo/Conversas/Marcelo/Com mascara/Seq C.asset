@@ -10,10 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
-  m_Name: Seq B
+  m_Name: Seq C
   m_EditorClassIdentifier: 
   sequencia:
-  - "N\xE3o tenho dinheiro pra comprar outro carrinho desses.."
-  npcFalando: 01
-  proximaCutscene: 
-  proximaFala: {fileID: 0}
+  - Tive que girar uns canos.
+  - Agora sim, valeu pentelho!
+  - "N\xE3o quer experimentar uma ra\xE7\xE3o n\xE3o?"
+  - "S\xF3 quero minhas moedas."
+  - "J\xE1 ia me esquecendo."
+  npcFalando: 0001010001
+  proximaCutscene: 0000000000
+  proximaFala: {fileID: 11400000, guid: 04be927f8f19ace43aa47bcc33963466, type: 2}
