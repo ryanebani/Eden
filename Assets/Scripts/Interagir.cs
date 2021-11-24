@@ -10,7 +10,7 @@ public class Interagir : MonoBehaviour
     static public bool itemNaMao;
     public static bool podeAndar = true;
     public static bool olharDireita = true;
-
+    public int vel;
     public Transform posJogador;
     public bool mascara;
     [SerializeField] GameObject prefabAbel;
@@ -87,7 +87,7 @@ public class Interagir : MonoBehaviour
                 olharDireita = true;
             }
 
-            posAtu = Vector3.MoveTowards(posAtu, alvo, 5 * Time.deltaTime);
+            posAtu = Vector3.MoveTowards(posAtu, alvo, vel * Time.deltaTime);
             posJogador.position = posAtu;
 
         }

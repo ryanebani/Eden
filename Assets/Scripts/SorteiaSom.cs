@@ -14,8 +14,12 @@ public class SorteiaSom : MonoBehaviour
 
     public void EscolherSom(AudioClip[] clipes)
     {
-        origem.clip = null;
-        origem.clip = clipes[Random.Range(0, clipes.Length)];
-        origem.Play();
+        if(clipes != null)
+        {
+            origem.clip = null;
+            origem.clip = clipes[Random.Range(0, clipes.Length)];
+            origem.Play();
+        }
+       
     }
 }

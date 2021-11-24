@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "Interroga\xE7\xE3o."
   m_EditorClassIdentifier: 
   cor: {r: 1, g: 1, b: 1, a: 1}
-  nome: {fileID: 21300000, guid: a77574ddf25f75747ab20433ef4d1831, type: 3}
-  sprite: {fileID: -7506654658080631544, guid: 717a2083715923444913b8a103cfa462, type: 3}
+  nome: {fileID: -764864524558796101, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
+  sprite: {fileID: 3342847833328705456, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   clipes:
   - {fileID: 8300000, guid: d094733a58011f944a36f624db821844, type: 3}

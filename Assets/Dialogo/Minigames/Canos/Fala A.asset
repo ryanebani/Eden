@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
   m_Name: Fala A
   m_EditorClassIdentifier: 
-  fala: "Essa porcaria de carrinho n\xE3o funciona."
+  fala: "Que cheiro horr\xEDvel!"
   respostas: []
-  sequencia: {fileID: 11400000, guid: c3dba72f951e3a34492e8de15d81124f, type: 2}
+  sequencia: {fileID: 11400000, guid: faa0c04cd34ff1f44941259b5f436954, type: 2}
   npcFalando: 1
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
-  NPC: {fileID: 11400000, guid: 4960aedad818f614482600f088cf9c3f, type: 2}
-  dadosNpc: {fileID: 11400000, guid: c8d8911989a748944bd485fb2334bb47, type: 2}
+  NPC: {fileID: 11400000, guid: 082d975d68b0cd049a93f16edf23432b, type: 2}
+  dadosNpc: {fileID: 11400000, guid: f4d3dc952f2d24042a2e1427d14d3d8d, type: 2}
   recomecar: 0
   NPCNode: 0
   proximaQuest: 0
-  acaoSequencial: 0
+  acaoSequencial: 1
   proximaCutscene: 0
   cutscene: {fileID: 0}
