@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
   m_Name: Isadora
   m_EditorClassIdentifier: 
-  fala: AAAAA
+  fala: Ah eu lembro dela, adotaram ela logo depois do Caio.
   respostas: []
   sequencia: {fileID: 0}
   npcFalando: 0
