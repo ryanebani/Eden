@@ -69,7 +69,6 @@ SpriteAtlas:
   - {fileID: -6396896552024550355, guid: 717a2083715923444913b8a103cfa462, type: 3}
   - {fileID: -4989847818978293034, guid: 717a2083715923444913b8a103cfa462, type: 3}
   - {fileID: -1441359730360244060, guid: 717a2083715923444913b8a103cfa462, type: 3}
-  - {fileID: -1067003207183006506, guid: 717a2083715923444913b8a103cfa462, type: 3}
   - {fileID: -1275208775818957642, guid: 8689d8b30d93dd249a311c35117f0c20, type: 3}
   - {fileID: -1205600522390594433, guid: 8689d8b30d93dd249a311c35117f0c20, type: 3}
   - {fileID: 3237067221796685598, guid: 8689d8b30d93dd249a311c35117f0c20, type: 3}
@@ -170,7 +169,6 @@ SpriteAtlas:
   - Leo B
   - Ama P
   - Leo P
-  - Registros-Bela_11
   - Ursinho esgoto_4
   - Ursinho esgoto_1
   - Ursinho esgoto_0
