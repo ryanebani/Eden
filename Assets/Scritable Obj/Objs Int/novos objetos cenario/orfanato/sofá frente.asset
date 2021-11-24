@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beb09db3f743c354591c99baabbc8900, type: 3}
   m_Name: "sof\xE1 frente"
   m_EditorClassIdentifier: 
-  nomeObj: 
+  nomeObj: "sof\xE1 frente"
   "falasInspe\xE7\xE3o": []
