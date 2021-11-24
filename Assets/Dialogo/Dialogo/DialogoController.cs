@@ -275,7 +275,7 @@ public class DialogoController : MonoBehaviour
         }
         
 
-        if (tocarSom && NPC.clipes != null)
+        if (tocarSom && NPC.clipes.Length != 0)
         {
             tocarSom = false;
             som.EscolherSom(NPC.clipes);
