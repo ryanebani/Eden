@@ -14,14 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fala: "J\xE1 encontrou minhas latinhas?"
   respostas:
-  - resposta: "Voc\xEA vive disso?"
-    proximaFala: {fileID: 11400000, guid: 764bd4a528345de4da08053d46796a07, type: 2}
-  - resposta: "Ha quanto tempo voc\xEA mora aqui?"
-    proximaFala: {fileID: 11400000, guid: 69b4ad81e32fce540abeb72856bd6269, type: 2}
   - resposta: E onde eu pego isso?
-    proximaFala: {fileID: 11400000, guid: 7162e4087f213b148853b13d426dcdf2, type: 2}
+    proximaFala: {fileID: 11400000, guid: 764bd4a528345de4da08053d46796a07, type: 2}
   - resposta: "Ainda n\xE3o, vou procurar..."
-    proximaFala: {fileID: 11400000, guid: 21fcb6b415849454386d22b7df9d1b9f, type: 2}
+    proximaFala: {fileID: 11400000, guid: 69b4ad81e32fce540abeb72856bd6269, type: 2}
   - resposta: "Ainda n\xE3o, vou procurar..."
     proximaFala: {fileID: 0}
   sequencia: {fileID: 0}

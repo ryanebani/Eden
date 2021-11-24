@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
-  m_Name: Seq CR2
+  m_Name: Seq CR1
   m_EditorClassIdentifier: 
   sequencia:
-  - "Eu te ofereceria um lugar, mas a gente t\xE1 cheio..."
-  - "Ah, n\xE3o, eu tenho um lugar pra ficar."
-  - "Ah! Ent\xE3o voc\xEA foi adotado? Que \xF3timo saber disso."
-  - "Bom, n\xE3o exatamente..."
-  - Eu fugi quando fiz 16 anos.
-  - E uma senhora cabra me acolheu.
-  - "Ah! Devia ter imaginado que voc\xEA era uma das crias da Madalena."
-  - "C\xEA conhece ela?"
-  - Somos... velhos amigos.
-  npcFalando: 010001000000010001
+  - "A gente pode n\xE3o se lembrar."
+  - "Mas n\xE3o se esquece da nossa origem."
+  - "Por que voc\xEA t\xE1 preocupado?"
+  - "E se ele gostar tanto da fam\xEDlia nova dele..."
+  - "E n\xE3o quiser mais falar comigo?"
+  - "Fam\xEDlia \xE9 quem ama."
+  - "O pessoal do orfanato \xE9 minha fam\xEDlia."
+  - "\xC0s vezes eles v\xE3o embora daqui."
+  - "Mas n\xE3o deixam de ser."
+  npcFalando: 010101000001010101
   proximaCutscene: 000000000000000000
   proximaFala: {fileID: 11400000, guid: 748cb893f08f2c24d9e4738eb91cc7ed, type: 2}

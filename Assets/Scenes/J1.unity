@@ -11005,9 +11005,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1038435490}
-  - {fileID: 209687982}
   - {fileID: 414734764}
   - {fileID: 31943321}
+  - {fileID: 209687982}
   m_Father: {fileID: 0}
   m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13947,7 +13947,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 52
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1390046455 stripped
 GameObject:
@@ -14912,7 +14912,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501253559}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.875002, y: -0.0150004625, z: -10}
+  m_LocalPosition: {x: -16.26, y: -0.0150004625, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -19670,12 +19670,16 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 01ed51cbc80fa09499561ddbadd0083c, type: 2}
     - target: {fileID: 3423308945583362293, guid: d00e9ec63ef94134087fe2b8e4ddf384, type: 3}
       propertyPath: falaQuestsSemMascara.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3423308945583362293, guid: d00e9ec63ef94134087fe2b8e4ddf384, type: 3}
       propertyPath: falaQuestsSemMascara.Array.data[0]
       value: 
       objectReference: {fileID: 11400000, guid: aa03564e27ad14a47bbfa299598dae64, type: 2}
+    - target: {fileID: 3423308945583362293, guid: d00e9ec63ef94134087fe2b8e4ddf384, type: 3}
+      propertyPath: falaQuestsSemMascara.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 66d35c2be74b12e46826746b5d3a6c52, type: 2}
     - target: {fileID: 3423308945583362293, guid: d00e9ec63ef94134087fe2b8e4ddf384, type: 3}
       propertyPath: ue.Array.data[0].m_PersistentCalls.m_Calls.Array.size
       value: 1

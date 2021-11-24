@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
-  m_Name: Fala BR3
+  m_Name: Fala DR3
   m_EditorClassIdentifier: 
-  fala: "Sei l\xE1, no lixo ou jogado no ch\xE3o."
+  fala: Beleza!
   respostas: []
-  sequencia: {fileID: 11400000, guid: ce620da5dc7c2f4469d70c560cfedc48, type: 2}
-  npcFalando: 1
+  sequencia: {fileID: 0}
+  npcFalando: 0
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: 873072fe9fc197f4c9549ffd5a703430, type: 2}
-  dadosNpc: {fileID: 0}
+  dadosNpc: {fileID: 11400000, guid: 77e90ab3054c95a49a9e1cb63e7216af, type: 2}
   recomecar: 0
   NPCNode: 0
   proximaQuest: 0

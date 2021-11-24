@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
-  m_Name: Seq BR2
+  m_Name: Seq DR2
   m_EditorClassIdentifier: 
   sequencia:
   - "Perdi meu emprego uns anos atr\xE1s."
@@ -27,4 +27,4 @@ MonoBehaviour:
   - "Ele \xE9 minha \xFAnica fam\xEDlia calro que eu amo ele!"
   npcFalando: 010100010101000100000100
   proximaCutscene: 000000000000000000000000
-  proximaFala: {fileID: 11400000, guid: 40d7b1959cdf585469c1688ca33bcd64, type: 2}
+  proximaFala: {fileID: 11400000, guid: 8183b4a8124374144a77b4c7eabb015e, type: 2}
