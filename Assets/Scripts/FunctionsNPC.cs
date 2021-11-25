@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class FunctionsNPC : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class FunctionsNPC : MonoBehaviour
     public string chave;
     public string chaveMascara;
     public ItemOS item;
-
+    public UnityEvent EventoEntregarItem;
 
     void Start()
     {
@@ -60,6 +61,11 @@ public class FunctionsNPC : MonoBehaviour
             {
                 ReceberItem();
                 Interagir.itemNaMao = false;
+            }
+
+            if (!alvo.NPC && Interagir.itemSelecionado == chave)
+            {
+                EventoEntregarItem?.Invoke();
             }
 
             else if (Dialogo.mascara == false && Interagir.itemSelecionado == chave)
