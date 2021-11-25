@@ -13,10 +13,6 @@ MonoBehaviour:
   m_Name: Zenaide
   m_EditorClassIdentifier: 
   nomeNPC: Zenaide
-  prefab: {fileID: 0}
-  audioSource: {fileID: 0}
-  voz:
-  - {fileID: 0}
   falasIdle:
   - "Esse fog\xE3o t\xE1 uma porcaria."
   - "Como os meninos t\xE3o?"
@@ -24,3 +20,5 @@ MonoBehaviour:
   falasIdleMascara:
   - "Oi querido, \xE9 novo por aqui?"
   - Quer comer alguma coisa?
+  clipes:
+  - {fileID: 8300000, guid: fc8f20a8a568894448432f8b82a4c8a5, type: 3}

@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Du
   m_EditorClassIdentifier: 
   nomeNPC: Du
-  prefab: {fileID: 0}
-  audioSource: {fileID: 0}
-  voz: []
   falasIdle:
   - "J\xE1 te mandei embora vagabundo."
   falasIdleMascara:
   - Fala de mim pra Carmen camarada.
   - To contando contigo.
   - Eu dou um jeito no marido dela depois.
+  clipes:
+  - {fileID: 8300000, guid: 1b3b8176d2710e54b92d75516f24b15d, type: 3}
+  - {fileID: 8300000, guid: e252d460d282cf44fae3097acdbae1fd, type: 3}
+  - {fileID: 8300000, guid: ab6e6aaaa9d325f48b91ee0ba4d8651f, type: 3}

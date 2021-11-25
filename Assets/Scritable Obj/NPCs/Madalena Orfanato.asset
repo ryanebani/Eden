@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: Madalena Orfanato
   m_EditorClassIdentifier: 
   nomeNPC: Madalena Orfanato
-  prefab: {fileID: 0}
-  audioSource: {fileID: 0}
-  voz: []
   falasIdle: []
   falasIdleMascara:
   - "A m\xE1scara ta \xF3tima em voc\xEA meu anjo."
   - Todo mundo vai querer convesar contigo.
+  clipes:
+  - {fileID: 8300000, guid: 7bc9a8d549b3feb4a8df2723dbc657a1, type: 3}
+  - {fileID: 8300000, guid: 17654d9755d9c564cbbca60d28d86f88, type: 3}
+  - {fileID: 8300000, guid: ec3782925c5ea044cb21304b8be54008, type: 3}

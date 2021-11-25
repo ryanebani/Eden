@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: Beto
   m_EditorClassIdentifier: 
   nomeNPC: Beto
-  prefab: {fileID: 0}
-  audioSource: {fileID: 0}
-  voz: []
   falasIdle: []
   falasIdleMascara:
   - "N\xE3o te deixei entrar!"
   - Tu ta invadindo propriedade!
   - "Tu vai ver s\xF3 uma coisa quando eu te pegar!"
+  clipes:
+  - {fileID: 8300000, guid: d9f1cd775f4c5114490b4262703b3a80, type: 3}
+  - {fileID: 8300000, guid: 86b5e40586f8b454a9c1e1aa7aaaf20f, type: 3}
+  - {fileID: 8300000, guid: 6e2efc206c3fc3e4b8b37ccc17b2eed1, type: 3}
