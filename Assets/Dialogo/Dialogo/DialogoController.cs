@@ -50,7 +50,6 @@ public class DialogoController : MonoBehaviour
     bool falaController;
 
     Color novaInformacao = new Color(0.5450981f, 0.9921569f, 1, 1);
-    
 
     List<FalaNPC> naoAtivarAcao = new List<FalaNPC>();
 
@@ -125,6 +124,10 @@ public class DialogoController : MonoBehaviour
                     
                     if (index < falas.sequencia.sequencia.Length)
                     {
+                        if(primeiraCut != null && index == 2)
+                        {
+                            GetComponent<AudioSource>().Play();
+                        }
                         if(falas.sequencia.proximaCutscene[index])
                         {
                             indexCutscene++;
