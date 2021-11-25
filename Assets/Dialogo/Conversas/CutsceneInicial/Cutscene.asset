@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: Cutscene
   m_EditorClassIdentifier: 
   sequencia:
+  - 
+  - 
+  - 'Abel: ...'
   - 'Madalena: ...'
   - 'Madalena: ...'
   - "Madalena: Nunca te vi por aqui, t\xE1 perdido querido?"
@@ -29,6 +32,7 @@ MonoBehaviour:
   - "Madalena: S\xF3 se voc\xEA quiser."
   - "Abel: N\xE3o... Eu n\xE3o... Eu n\xE3o quero."
   - "Madalena: Ent\xE3o tudo bem."
-  npcFalando: 01010100010001000100010000010001
-  proximaCutscene: 01010000000000000000000000000000
+  - "Abel: Chegou a hora de encontrar meu irm\xE3o."
+  npcFalando: 0000000101010001000100010001000001000101
+  proximaCutscene: 0101010101000000000000000000000000000000
   proximaFala: {fileID: 0}
