@@ -14,6 +14,7 @@ public class NPC : MonoBehaviour
     public bool idleMascara;
     int indice;
     public bool animar;
+    AudioSource fonteAudio;
 
     [SerializeField]
     public Animator sinalInfo;
@@ -22,6 +23,7 @@ public class NPC : MonoBehaviour
     {
         falasIdleNPC = npc.falasIdle;
         falasIdleMascara = npc.falasIdleMascara;
+        fonteAudio = GetComponent<AudioSource>(); 
     }
 
     void Update()
@@ -66,8 +68,8 @@ public class NPC : MonoBehaviour
                 }
             }
         }
-
-
+        if (!fonteAudio.isPlaying)
+            TocarSom(npc.clipes[(int)Random.Range(0, npc.clipes.Length)]);
        
     }
 
@@ -79,5 +81,12 @@ public class NPC : MonoBehaviour
     public void LigarIdleMascara(bool ligar)
     {
         idleMascara = ligar;
+    }
+
+    void TocarSom(AudioClip audio)
+    {
+        fonteAudio.clip = null;
+        fonteAudio.clip = audio;
+        fonteAudio.Play();
     }
 }

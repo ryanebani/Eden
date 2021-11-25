@@ -2,9 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Cinemachine;
+
 public class Botoes : MonoBehaviour
 {
-    public GameObject creditos;
+    public CinemachineVirtualCamera logo;
+    public CinemachineVirtualCamera menu;
+    public CinemachineVirtualCamera creditos;
 
     // Start is called before the first frame update
     void Start()
@@ -15,7 +19,11 @@ public class Botoes : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.touchCount > 0)
+        {
+            logo.Priority = 0;
+            menu.Priority = 1;
+        }
     }
 
     public void Jogar()
@@ -25,12 +33,14 @@ public class Botoes : MonoBehaviour
 
     public void Creditos()
     {
-        creditos.SetActive(true);
+        menu.Priority = 0;
+        creditos.Priority = 1;
     }
 
     public void Voltar()
     {
-        creditos.SetActive(false);
+        creditos.Priority = 0;
+        menu.Priority = 1;
     }
 
     public void Menu()

@@ -101,6 +101,7 @@ public class Dialogo : MonoBehaviour
                 {
                     Ativar();
                 }
+
             }
         }       
     }

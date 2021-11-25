@@ -6,8 +6,7 @@ using Cinemachine;
 
 public class Inicio : MonoBehaviour
 {
-    public CinemachineVirtualCamera logo;
-    public CinemachineVirtualCamera menu;
+   
 
 
     void Start()
@@ -17,10 +16,6 @@ public class Inicio : MonoBehaviour
 
     void Update()
     {
-        if(Input.touchCount > 0)
-        {
-            logo.Priority = 0;
-            menu.Priority = 1;
-        }
+        
     }
 }
