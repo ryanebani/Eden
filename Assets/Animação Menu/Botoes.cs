@@ -30,6 +30,8 @@ public class Botoes : MonoBehaviour
 
     public void Jogar()
     {
+        menu.Priority = 0;
+        logo.Priority = 1;
         SceneManager.LoadScene("J1", LoadSceneMode.Single);
     }
 
