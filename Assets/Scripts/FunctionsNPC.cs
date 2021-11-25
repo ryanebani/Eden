@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class FunctionsNPC : MonoBehaviour
 {
@@ -148,7 +149,10 @@ public class FunctionsNPC : MonoBehaviour
             inventario.AdicionarItem(item, gameObject);
     }*/
 
-
+    public void Cena()
+    {
+        SceneManager.LoadScene("FinalCut", LoadSceneMode.Single);
+    }
     public void TriggarAnimacao(string trigger)
     {
         animator.SetTrigger(trigger);
