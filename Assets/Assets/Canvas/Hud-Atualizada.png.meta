@@ -116,6 +116,12 @@ TextureImporter:
   - first:
       213: 9193648647969540968
     second: Seta menu
+  - first:
+      213: 7643295705559222189
+    second: Hud-Atualizada_38
+  - first:
+      213: 651979816516184021
+    second: Hud-Atualizada_39
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1002,7 +1008,7 @@ TextureImporter:
         width: 39
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1010,6 +1016,48 @@ TextureImporter:
       bones: []
       spriteID: 86b89fb3cb6669f70800000000000000
       internalID: 9193648647969540968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_38
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 794
+        width: 157
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da74023c2f0721a60800000000000000
+      internalID: 7643295705559222189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hud-Atualizada_39
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 664
+        width: 165
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7eb24503c4c0900800000000000000
+      internalID: 651979816516184021
       vertices: []
       indices: 
       edges: []
