@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
+  m_Name: FinalSequencia
+  m_EditorClassIdentifier: 
+  sequencia:
+  - "Caio, eu to chegando, nossa fam\xEDlia vai ficar junta de novo."
+  - ...
+  - "M\xE3e adotiva: Eu n\xE3o vou mandar minha m\xE3e para um asilo! "
+  - "M\xE3e adotiva: Voc\xEA sabe que eu n\xE3o confio naquelas pessoas pra cuidar
+    dela!"
+  - "Pai adotivo: N\xE3o da mais pra ela ficar aqui! Ela atrapalha TUDO!"
+  - "M\xE3e adotiva: Ela cuidou do seu filho enquanto voc\xEA estava por ai, atr\xE1s
+    de dinheiro!"
+  - "Pai adotivo: Ela s\xF3 cuidou dele porqu\xEA voc\xEA \xE9 uma...!!!"
+  - "Queria poder morar com a v\xF3."
+  - "Eu n\xE3o ia ter que ouvir essa briga todo dia, e ia poder comer bolo a hora
+    que eu quisesse. "
+  npcFalando: 000001010101010000
+  proximaCutscene: 000100000000000000
+  proximaFala: {fileID: 0}
