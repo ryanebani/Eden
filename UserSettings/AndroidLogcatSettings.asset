@@ -1,13 +1,37 @@
 {
     "m_SelectedDeviceId": "0068120336",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "0068120336",
+        "name": "com.Vortex.ProjetoEden",
+        "processId": 24814,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "0068120336",
+            "name": "com.DefaultCompany.ProjetoEden",
+            "processId": 12298,
+            "exited": true
+        },
+        {
+            "deviceId": "0068120336",
+            "name": "com.DefaultCompany.ProjetoEden",
+            "processId": 21619,
+            "exited": true
+        },
+        {
+            "deviceId": "0068120336",
+            "name": "com.DefaultCompany.ProjetoEden",
+            "processId": 21895,
+            "exited": true
+        },
+        {
+            "deviceId": "0068120336",
+            "name": "com.DefaultCompany.ProjetoEden",
+            "processId": 22288,
+            "exited": true
+        },
         {
             "deviceId": "0068120336",
             "name": "com.DefaultCompany.ProjetoEden",
@@ -18,30 +42,24 @@
             "deviceId": "0068120336",
             "name": "com.motorola.launcher3",
             "processId": 11354,
-            "exited": true
+            "exited": false
         },
         {
             "deviceId": "0068120336",
             "name": "com.DefaultCompany.ProjetoEden",
             "processId": 8328,
-            "exited": true
+            "exited": false
         },
         {
             "deviceId": "0068120336",
             "name": "com.DefaultCompany.ProjetoEden",
             "processId": 20087,
-            "exited": true
+            "exited": false
         },
         {
             "deviceId": "0068120336",
             "name": "com.Vortex.ProjetoEden",
             "processId": 24814,
-            "exited": true
-        },
-        {
-            "deviceId": "0068120336",
-            "name": "com.whatsapp",
-            "processId": 18340,
             "exited": false
         }
     ],
