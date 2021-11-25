@@ -9,6 +9,7 @@ public class Botoes : MonoBehaviour
     public CinemachineVirtualCamera logo;
     public CinemachineVirtualCamera menu;
     public CinemachineVirtualCamera creditos;
+    bool inicio = true;
 
     // Start is called before the first frame update
     void Start()
@@ -19,10 +20,11 @@ public class Botoes : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.touchCount > 0)
+        if (Input.touchCount > 0 && inicio)
         {
             logo.Priority = 0;
             menu.Priority = 1;
+            inicio = false;
         }
     }
 
