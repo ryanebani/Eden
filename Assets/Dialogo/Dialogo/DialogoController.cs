@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class DialogoController : MonoBehaviour
 {
     public FalaNPC primeiraCut;
+    public bool final;
 
     private bool tocarSom = true;
     private SorteiaSom som;
@@ -124,7 +125,7 @@ public class DialogoController : MonoBehaviour
                     
                     if (index < falas.sequencia.sequencia.Length)
                     {
-                        if(primeiraCut != null && index == 2)
+                        if(primeiraCut != null && index == 2 && !GetComponent<AudioSource>().isPlaying)
                         {
                             GetComponent<AudioSource>().Play();
                         }
@@ -172,8 +173,10 @@ public class DialogoController : MonoBehaviour
                             tocarSom = true;
                             imagemCutscene.gameObject.SetActive(false);
                             indexCutscene = 0;
-                            if (primeiraCut != null)
+                            if (primeiraCut != null && !final)
                                 SceneManager.LoadScene("J1", LoadSceneMode.Single);
+                            else if(primeiraCut != null && final)
+                                SceneManager.LoadScene("Menu", LoadSceneMode.Single);
                         }
 
                     }
