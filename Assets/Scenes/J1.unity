@@ -7786,18 +7786,6 @@ MonoBehaviour:
   trigger:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 786134169}
-        m_TargetAssemblyTypeName: Interagir, Assembly-CSharp
-        m_MethodName: PodeAndar
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1173080251}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: SetTrigger
@@ -7821,6 +7809,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: "Arraste os itens do invent\xE1rio para dar a outros
             personagens."
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 786134169}
+        m_TargetAssemblyTypeName: Interagir, Assembly-CSharp
+        m_MethodName: ResetarParaOndeVou
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!4 &574347629
@@ -8782,7 +8782,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7821577447817087419, guid: 6ebd1ac5f4381e940bbd9573f5535258, type: 3}
   m_PrefabInstance: {fileID: 1260190903}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 922070347}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ee6d8329ad1c520469756fb26c1fdd4f, type: 3}
@@ -9679,8 +9679,8 @@ PolygonCollider2D:
     m_Paths:
     - - {x: -0.6, y: 3.2}
       - {x: -6.3, y: 3.2}
-      - {x: -6.3, y: -3.2}
-      - {x: 6.3, y: -3.2}
+      - {x: -6.3, y: -3.15}
+      - {x: 6.3, y: -3.15}
       - {x: 6.3, y: 3.2}
 --- !u!4 &821220657
 Transform:
@@ -10038,6 +10038,11 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: d95243b29bb58ba47943115110bfc1ea, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21babc27acac6f4469749d3f7e217b2a, type: 3}
+--- !u!1 &922070347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7821577447817087423, guid: 6ebd1ac5f4381e940bbd9573f5535258, type: 3}
+  m_PrefabInstance: {fileID: 1260190903}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &923219764
 GameObject:
   m_ObjectHideFlags: 0
@@ -11841,7 +11846,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.3
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -13256,18 +13261,6 @@ MonoBehaviour:
   trigger:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 786134169}
-        m_TargetAssemblyTypeName: Interagir, Assembly-CSharp
-        m_MethodName: PodeAndar
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1173080251}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: SetTrigger
@@ -13540,7 +13533,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1196348357}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 997ce678602705f4792a17216f947d21, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 267c5a5795c99984087c24f35e5a0617, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -17053,7 +17046,7 @@ PrefabInstance:
       objectReference: {fileID: 404837616}
     - target: {fileID: 4168832445283139366, guid: 3583b0f2df9ec1d4ba86b9409bbfad2a, type: 3}
       propertyPath: OnFade.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4168832445283139366, guid: 3583b0f2df9ec1d4ba86b9409bbfad2a, type: 3}
       propertyPath: OnFade.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -17102,11 +17095,11 @@ PrefabInstance:
     - target: {fileID: 4168832445283139366, guid: 3583b0f2df9ec1d4ba86b9409bbfad2a, type: 3}
       propertyPath: OnFade.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
-      objectReference: {fileID: 2043872066}
+      objectReference: {fileID: 922070347}
     - target: {fileID: 4168832445283139366, guid: 3583b0f2df9ec1d4ba86b9409bbfad2a, type: 3}
       propertyPath: OnFade.m_PersistentCalls.m_Calls.Array.data[5].m_Target
       value: 
-      objectReference: {fileID: 1556064468}
+      objectReference: {fileID: 1656608452}
     - target: {fileID: 4168832445283139366, guid: 3583b0f2df9ec1d4ba86b9409bbfad2a, type: 3}
       propertyPath: OnFade.m_PersistentCalls.m_Calls.Array.data[6].m_Target
       value: 
@@ -17145,15 +17138,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4168832445283139366, guid: 3583b0f2df9ec1d4ba86b9409bbfad2a, type: 3}
       propertyPath: OnFade.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: 
+      value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 4168832445283139366, guid: 3583b0f2df9ec1d4ba86b9409bbfad2a, type: 3}
       propertyPath: OnFade.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
-      value: 
+      value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 4168832445283139366, guid: 3583b0f2df9ec1d4ba86b9409bbfad2a, type: 3}
       propertyPath: OnFade.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
-      value: 
+      value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 4168832445283139366, guid: 3583b0f2df9ec1d4ba86b9409bbfad2a, type: 3}
       propertyPath: OnFade.m_PersistentCalls.m_Calls.Array.data[5].m_MethodName
@@ -17205,11 +17198,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4168832445283139366, guid: 3583b0f2df9ec1d4ba86b9409bbfad2a, type: 3}
       propertyPath: OnFade.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_BoolArgument
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4168832445283139366, guid: 3583b0f2df9ec1d4ba86b9409bbfad2a, type: 3}
       propertyPath: OnFade.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_BoolArgument
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4168832445283139366, guid: 3583b0f2df9ec1d4ba86b9409bbfad2a, type: 3}
       propertyPath: OnFade.m_PersistentCalls.m_Calls.Array.data[6].m_Arguments.m_BoolArgument
@@ -18695,8 +18688,8 @@ PolygonCollider2D:
     m_Paths:
     - - {x: -0.6, y: 3.2}
       - {x: -6.3, y: 3.2}
-      - {x: -6.3, y: -3.2}
-      - {x: 6.3, y: -3.2}
+      - {x: -6.3, y: -3.1}
+      - {x: 6.3, y: -3.1}
       - {x: 6.3, y: 3.2}
 --- !u!4 &1654146492
 Transform:
@@ -18712,6 +18705,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 95
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1656608452 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7226791381403740812, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
+  m_PrefabInstance: {fileID: 1950765196}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1680974028
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19323,7 +19321,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3154686898295245293, guid: 3583b0f2df9ec1d4ba86b9409bbfad2a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4168832445283139366, guid: 3583b0f2df9ec1d4ba86b9409bbfad2a, type: 3}
       propertyPath: size
@@ -23433,6 +23431,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 2074401825}
+        m_TargetAssemblyTypeName: Fade, Assembly-CSharp
+        m_MethodName: Som
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 4b4269c638ed7fe4baf53ae65a618fd4, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1001 &2082847929
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23670,8 +23680,8 @@ PolygonCollider2D:
     - - {x: 0, y: 6}
       - {x: -9.8, y: 6}
       - {x: -9.8, y: -5}
-      - {x: 9.8, y: -5}
-      - {x: 9.8, y: 6}
+      - {x: 10.3, y: -5}
+      - {x: 10.3, y: 6}
 --- !u!4 &2108354852
 Transform:
   m_ObjectHideFlags: 0
@@ -24639,7 +24649,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2760431613617208492, guid: 42475340a898b384c86a86754fe095a1, type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2945135120043827840, guid: 42475340a898b384c86a86754fe095a1, type: 3}
       propertyPath: m_AnchorMax.y
@@ -24936,6 +24946,10 @@ PrefabInstance:
     - target: {fileID: 7889479245879834648, guid: 42475340a898b384c86a86754fe095a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8709143901877542022, guid: 42475340a898b384c86a86754fe095a1, type: 3}
+      propertyPath: m_Volume
+      value: 0.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42475340a898b384c86a86754fe095a1, type: 3}
