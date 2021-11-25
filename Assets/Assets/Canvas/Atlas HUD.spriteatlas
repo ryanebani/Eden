@@ -94,6 +94,8 @@ SpriteAtlas:
   - {fileID: 2357475965668191905, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: 3448041919802742627, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: -5079984596714570864, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
+  - {fileID: 651979816516184021, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
+  - {fileID: 7643295705559222189, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: 7712610716002124682, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: 3342847833328705456, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   - {fileID: -5350110011520325321, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
@@ -194,6 +196,8 @@ SpriteAtlas:
   - Hud-Atualizada_11
   - Hud-Atualizada_29
   - Hud-Atualizada_10
+  - Hud-Atualizada_39
+  - Hud-Atualizada_38
   - Hud-Atualizada_20
   - Hud-Atualizada_19
   - Hud-Atualizada_21
