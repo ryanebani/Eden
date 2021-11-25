@@ -22,7 +22,6 @@ MonoBehaviour:
   - "N\xE3o vai ter nada aqui."
   - Pelo menos me deixa dar uma olhada.
   - "Desiste. Se teu irm\xE3o foi adotado, ele t\xE1 num lugar melhor que aqui."
-  - "Voc\xEA n\xE3o sabe nada dele."
-  npcFalando: 00010101000001000100
-  proximaCutscene: 00000000000000000000
-  proximaFala: {fileID: 11400000, guid: 02193e21e8009f34f92cb469c8a8e7e4, type: 2}
+  npcFalando: 000101010000010001
+  proximaCutscene: 000000000000000000
+  proximaFala: {fileID: 11400000, guid: 18ef96b3604b1654181c72852d176c35, type: 2}

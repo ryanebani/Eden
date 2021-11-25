@@ -2,8 +2,8 @@
     "m_SelectedDeviceId": "0068120336",
     "m_SelectedPackage": {
         "deviceId": "0068120336",
-        "name": "com.DefaultCompany.ProjetoEden",
-        "processId": 20087,
+        "name": "com.Vortex.ProjetoEden",
+        "processId": 24814,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -54,6 +54,12 @@
             "deviceId": "0068120336",
             "name": "com.DefaultCompany.ProjetoEden",
             "processId": 20087,
+            "exited": false
+        },
+        {
+            "deviceId": "0068120336",
+            "name": "com.Vortex.ProjetoEden",
+            "processId": 24814,
             "exited": false
         }
     ],
