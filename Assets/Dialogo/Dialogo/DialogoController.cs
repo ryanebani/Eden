@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DialogoController : MonoBehaviour
 {
     public FalaNPC primeiraCut;
-
 
     private bool tocarSom = true;
     private SorteiaSom som;
@@ -112,6 +112,8 @@ public class DialogoController : MonoBehaviour
                         tocarSom = true;
                         imagemCutscene.gameObject.SetActive(false);
                         indexCutscene = 0;
+                        if (primeiraCut != null)
+                            SceneManager.LoadScene("J1", LoadSceneMode.Single);
                     }
                 }
                 else
@@ -167,6 +169,8 @@ public class DialogoController : MonoBehaviour
                             tocarSom = true;
                             imagemCutscene.gameObject.SetActive(false);
                             indexCutscene = 0;
+                            if (primeiraCut != null)
+                                SceneManager.LoadScene("J1", LoadSceneMode.Single);
                         }
 
                     }
