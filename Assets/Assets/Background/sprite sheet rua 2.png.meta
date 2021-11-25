@@ -127,12 +127,12 @@ TextureImporter:
       name: TAXI
       rect:
         serializedVersion: 2
-        x: 5
-        y: 913
-        width: 1745
-        height: 622
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 7
+        y: 969
+        width: 1743
+        height: 566
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -148,12 +148,12 @@ TextureImporter:
       name: CARRIM
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1532
-        width: 1504
-        height: 516
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 5
+        y: 1550
+        width: 1499
+        height: 498
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -170,12 +170,12 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 8
-        y: 2
+        y: 62
         width: 2040
-        height: 922
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        height: 862
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 1, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0

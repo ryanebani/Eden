@@ -13,10 +13,6 @@ MonoBehaviour:
   m_Name: Carmen
   m_EditorClassIdentifier: 
   nomeNPC: Carmen
-  prefab: {fileID: 0}
-  audioSource: {fileID: 0}
-  voz:
-  - {fileID: 0}
   falasIdle:
   - Que cheiro nojento.
   - Essa rua ta cheia de vagabundo!
@@ -24,3 +20,7 @@ MonoBehaviour:
   - "O dia ta bonito n\xE9?"
   - O motorista podia me deixar entrar.
   - A patroa vai me dar um coice se eu chegar atrasada.
+  clipes:
+  - {fileID: 8300000, guid: 7fbed07aa4ad2164d978aaa0351c32c7, type: 3}
+  - {fileID: 8300000, guid: 7a4f37ad1c9eb6b45b55c9308d970d56, type: 3}
+  - {fileID: 8300000, guid: 30eb855c5b1274a42b5521f3ea1fa740, type: 3}

@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: Madalena
   m_EditorClassIdentifier: 
   nomeNPC: Madalena
-  prefab: {fileID: 6500309001499952011, guid: 2a02e4c08c4d72d46b2a5323ac2e09ee, type: 3}
-  audioSource: {fileID: 0}
-  voz: []
   falasIdle:
   - Querido!
   - "Voc\xEA vai achar seu irm\xE3o."
   falasIdleMascara: []
+  clipes:
+  - {fileID: 8300000, guid: 7bc9a8d549b3feb4a8df2723dbc657a1, type: 3}
+  - {fileID: 8300000, guid: 17654d9755d9c564cbbca60d28d86f88, type: 3}
+  - {fileID: 8300000, guid: ec3782925c5ea044cb21304b8be54008, type: 3}

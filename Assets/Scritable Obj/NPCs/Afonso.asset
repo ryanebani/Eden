@@ -13,12 +13,11 @@ MonoBehaviour:
   m_Name: Afonso
   m_EditorClassIdentifier: 
   nomeNPC: Afonso
-  prefab: {fileID: 0}
-  audioSource: {fileID: 0}
-  voz:
-  - {fileID: 0}
   falasIdle: []
   falasIdleMascara:
   - Ai que dor nas costas!
   - "N\xE3o te conhe\xE7o e n\xE3o te quero perto das crian\xE7as."
   - "Preciso de um \xF3culos."
+  clipes:
+  - {fileID: 8300000, guid: 62fbd7d5f5b2f7c48a00c403b5466269, type: 3}
+  - {fileID: 8300000, guid: f6cef1db3ef8f7642a3b419b39577c3d, type: 3}

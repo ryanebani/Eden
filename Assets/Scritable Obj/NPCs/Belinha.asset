@@ -13,10 +13,6 @@ MonoBehaviour:
   m_Name: Belinha
   m_EditorClassIdentifier: 
   nomeNPC: Belinha
-  prefab: {fileID: 0}
-  audioSource: {fileID: 0}
-  voz:
-  - {fileID: 0}
   falasIdle:
   - "Minha mam\xE2e que fez o Pufi pra mim, mas ai ela foi embora..."
   - "Tenho saudades da mam\xE3e."
@@ -24,3 +20,5 @@ MonoBehaviour:
   - "O tio Fonso n\xE3o me deixa falar com estranhos."
   - "Voc\xEA n\xE3o \xE9 malvado n\xE9?"
   - Um tio legal pegou meu ursinho pra mim.
+  clipes:
+  - {fileID: 8300000, guid: 4910b3126a60a7f41afd9d6ab651684e, type: 3}
