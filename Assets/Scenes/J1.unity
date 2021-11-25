@@ -12852,7 +12852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d92dba43d629d574ca2c62b2f9d6d4f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  primeiraCut: {fileID: 11400000, guid: 24f8fb46be37bb54487372219446f6d8, type: 2}
+  primeiraCut: {fileID: 0}
   painelComTudo: {fileID: 47601247}
   painelDeDialogo: {fileID: 1051306483}
   falaNPC: {fileID: 1298224105}

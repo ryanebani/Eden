@@ -37,4 +37,9 @@ public class Botoes : MonoBehaviour
     {
         SceneManager.LoadScene("Menu", LoadSceneMode.Single);
     }
+
+    public void Cutscene()
+    {
+        SceneManager.LoadScene("Cutscene", LoadSceneMode.Single);
+    }
 }

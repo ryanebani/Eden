@@ -39,7 +39,6 @@ public class Dialogo : MonoBehaviour
     void Start()
     {
         
-
         for(int i = 0; i < falaQuestsComMascara.Length; i++)
         {
             questsComMascara.Add(falaQuestsComMascara[i], false);
