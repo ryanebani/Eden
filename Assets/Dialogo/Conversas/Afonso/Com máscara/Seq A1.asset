@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
+  m_Name: Seq A1
+  m_EditorClassIdentifier: 
+  sequencia:
+  - "N\xE3o t\xE1 me reconhecendo?"
+  - Eu sou velho menino.
+  - "Mas minha mem\xF3ria \xE9 a de um jovem da sua idade."
+  - "A gente n\xE3o se conhece."
+  npcFalando: 01000000
+  proximaCutscene: 
+  proximaFala: {fileID: 0}

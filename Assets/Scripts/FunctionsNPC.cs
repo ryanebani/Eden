@@ -67,6 +67,8 @@ public class FunctionsNPC : MonoBehaviour
             if (!alvo.NPC && Interagir.itemSelecionado == chave)
             {
                 EventoEntregarItem?.Invoke();
+                inventario.RemoverItem();
+                Interagir.itemNaMao = false;
             }
 
             else if (Dialogo.mascara == false && Interagir.itemSelecionado == chave)

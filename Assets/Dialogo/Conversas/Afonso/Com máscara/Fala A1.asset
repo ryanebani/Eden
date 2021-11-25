@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
   m_Name: Fala A1
   m_EditorClassIdentifier: 
-  fala: Quem te deixou entrar?
+  fala: "Quem \xE9 voc\xEA? Mais um que o Beto deixou entrar?"
   respostas: []
-  sequencia: {fileID: 0}
+  sequencia: {fileID: 11400000, guid: 4c578a4a488967c49802f31b689c100b, type: 2}
   npcFalando: 1
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
@@ -22,5 +22,7 @@ MonoBehaviour:
   dadosNpc: {fileID: 0}
   recomecar: 0
   NPCNode: 0
-  proximaQuest: 0
+  proximaQuest: 1
   acaoSequencial: 0
+  proximaCutscene: 0
+  cutscene: {fileID: 0}

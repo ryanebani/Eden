@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: Madalena Orfanato
   m_EditorClassIdentifier: 
   nomeNPC: Madalena Orfanato
-  falasIdle: []
+  falasIdle:
+  - "Tu deveria experimentar a m\xE1scara."
+  - "O que os outros v\xE3o achar da sua m\xE1scara...?"
   falasIdleMascara:
-  - "A m\xE1scara ta \xF3tima em voc\xEA meu anjo."
-  - Todo mundo vai querer convesar contigo.
+  - "A m\xE1scara t\xE1 \xF3tima em voc\xEA meu anjo."
+  - Viu como as coisas mudaram?
   clipes:
   - {fileID: 8300000, guid: 7bc9a8d549b3feb4a8df2723dbc657a1, type: 3}
   - {fileID: 8300000, guid: 17654d9755d9c564cbbca60d28d86f88, type: 3}

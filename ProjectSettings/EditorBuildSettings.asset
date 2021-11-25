@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/J1.unity
     guid: 13377a53f49f2c545a3095ee99dbba2a
+  - enabled: 1
+    path: Assets/Scenes/FinalCut.unity
+    guid: c9c11cb392682f548a7229a682ce756e
   m_configObjects: {}

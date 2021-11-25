@@ -19,7 +19,7 @@ public class Transicao : MonoBehaviour
     {       
         if (transicao == true)
         {
-           animator.SetTrigger("FadeOut");
+           animator.SetBool("Ligar", true);
            transicao = false;
         }
     }
@@ -32,6 +32,8 @@ public class Transicao : MonoBehaviour
     public void CantAction()
     {
         podeAction = false;
+        animator.SetBool("Ligar", false);
+
     }
     public void Som(AudioClip clip)
     {
