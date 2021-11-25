@@ -17,12 +17,12 @@ MonoBehaviour:
   sequencia: {fileID: 0}
   npcFalando: 0
   falaNode: 
-  jogador: {fileID: 0}
-  NPC: {fileID: 0}
-  dadosNpc: {fileID: 0}
+  jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
+  NPC: {fileID: 11400000, guid: 22e5b31dcc6aa6f40a94d94e62403c10, type: 2}
+  dadosNpc: {fileID: 11400000, guid: 4a8db2274a9bf7b47ba3e85fdc6e9c52, type: 2}
   recomecar: 0
   NPCNode: 0
-  proximaQuest: 0
+  proximaQuest: 1
   acaoSequencial: 0
   proximaCutscene: 0
   cutscene: {fileID: 0}
