@@ -10,7 +10,10 @@ public class Fade : MonoBehaviour
     [SerializeField] CinemachineVirtualCamera camAtual;
     [SerializeField] CinemachineVirtualCamera camProx;
     AudioSource audioSource;
-    public UnityEvent OnFade;   
+    public UnityEvent OnFade;
+    public bool TP;
+    [SerializeField] GameObject[] desligar;
+    [SerializeField] GameObject[] ligar;
     bool esteObj;
     
     void Start()
@@ -25,6 +28,19 @@ public class Fade : MonoBehaviour
         {
             OnFade?.Invoke();
             Cameras();
+            if (TP)
+            {
+                foreach (var item in desligar)
+                {
+                    item.SetActive(false);
+                }
+
+                foreach (var item in ligar)
+                {
+                    item.SetActive(true);
+                }
+
+            }
             Interagir.podeAndar = true;
             DialogoController.podeClickar = true;
             esteObj = false;
@@ -64,7 +80,7 @@ public class Fade : MonoBehaviour
     }
     public void Som(AudioClip audioClip)
     {
-
+        transicao.Som(audioClip);
     }
 
 }
