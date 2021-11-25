@@ -21,7 +21,7 @@ MonoBehaviour:
   NPC: {fileID: 11400000, guid: 873072fe9fc197f4c9549ffd5a703430, type: 2}
   dadosNpc: {fileID: 11400000, guid: 77e90ab3054c95a49a9e1cb63e7216af, type: 2}
   recomecar: 0
-  NPCNode: 0
+  NPCNode: 1
   proximaQuest: 0
   acaoSequencial: 1
   proximaCutscene: 0
