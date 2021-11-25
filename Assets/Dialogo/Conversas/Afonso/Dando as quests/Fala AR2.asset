@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fala: "\xC9 uma pena, ver irm\xE3os sendo separados assim."
   respostas: []
-  sequencia: {fileID: 11400000, guid: a1748b5040182234eb0d09cd06ea73ad, type: 2}
+  sequencia: {fileID: 11400000, guid: cf4a876c29d7188429710e8c64e98607, type: 2}
   npcFalando: 1
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
