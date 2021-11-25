@@ -6148,7 +6148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8233145364481246931, guid: 2a38fc13b81b7a44c9983c30de1e55a2, type: 3}
       propertyPath: chave
-      value: Chave
+      value: Chaves
       objectReference: {fileID: 0}
     - target: {fileID: 8233145364481246931, guid: 2a38fc13b81b7a44c9983c30de1e55a2, type: 3}
       propertyPath: EventoEntregarItem.m_PersistentCalls.m_Calls.Array.size
@@ -18566,7 +18566,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501253559}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.875, y: -0.044999957, z: -10}
+  m_LocalPosition: {x: -16.26, y: -0.044999957, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
