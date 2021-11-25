@@ -665,8 +665,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   primeiraCut: {fileID: 11400000, guid: 24f8fb46be37bb54487372219446f6d8, type: 2}
+  final: 0
   painelComTudo: {fileID: 1954179729}
   painelDeDialogo: {fileID: 1954179728}
+  painelComDialogo: {fileID: 1954179730}
   falaNPC: {fileID: 1954179727}
   nomeNPC: {fileID: 1954179726}
   nomeJogador: {fileID: 1954179725}
@@ -699,6 +701,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 121634546, guid: 42475340a898b384c86a86754fe095a1, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1146052132, guid: 42475340a898b384c86a86754fe095a1, type: 3}
       propertyPath: m_Alpha
       value: 0
@@ -730,6 +736,10 @@ PrefabInstance:
     - target: {fileID: 636803328642098206, guid: 42475340a898b384c86a86754fe095a1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 702938438323023495, guid: 42475340a898b384c86a86754fe095a1, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 703201531431111651, guid: 42475340a898b384c86a86754fe095a1, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.size
@@ -1302,5 +1312,10 @@ GameObject:
 --- !u!1 &1954179729 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6815734376888604533, guid: 42475340a898b384c86a86754fe095a1, type: 3}
+  m_PrefabInstance: {fileID: 1954179719}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1954179730 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3681725115389744215, guid: 42475340a898b384c86a86754fe095a1, type: 3}
   m_PrefabInstance: {fileID: 1954179719}
   m_PrefabAsset: {fileID: 0}
