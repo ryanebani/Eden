@@ -13,12 +13,11 @@ MonoBehaviour:
   m_Name: Motorista
   m_EditorClassIdentifier: 
   nomeNPC: Motorista
-  prefab: {fileID: 0}
-  audioSource: {fileID: 0}
-  voz: []
   falasIdle:
   - "Sua laia n\xE3o entra."
   - "N\xE3o quero dinheiro de vagabundo"
   falasIdleMascara:
   - "O \xF4nibus j\xE1 vai sair."
   - "Deixa eu tomar meu caf\xE9 em paz."
+  clipes:
+  - {fileID: 8300000, guid: c7f6529b3121cd140933e46e2daa7af6, type: 3}

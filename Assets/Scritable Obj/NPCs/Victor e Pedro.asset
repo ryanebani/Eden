@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: Victor e Pedro
   m_EditorClassIdentifier: 
   nomeNPC: Victor e Pedro
-  prefab: {fileID: 0}
-  audioSource: {fileID: 0}
-  voz: []
   falasIdle: []
   falasIdleMascara:
   - Deixa a gente em paz.
   - "N\xE3o cansou de jogar lixo na gente?"
+  clipes:
+  - {fileID: 8300000, guid: 7b15f3004468ae2408e61beb4c531bb4, type: 3}
+  - {fileID: 8300000, guid: 05ae25f52b26859498b14ad9b3a7dab6, type: 3}
+  - {fileID: 8300000, guid: b5a3ee1a6a5f69a4ca8c5198d8faa354, type: 3}

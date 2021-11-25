@@ -13,10 +13,6 @@ MonoBehaviour:
   m_Name: Marcelo
   m_EditorClassIdentifier: 
   nomeNPC: Marcelo
-  prefab: {fileID: 0}
-  audioSource: {fileID: 0}
-  voz:
-  - {fileID: 0}
   falasIdle:
   - Que fedro podre!
   - "N\xE3o sei o que \xE9 pior, voc\xEA ou aqueles drogadors!"
@@ -25,3 +21,7 @@ MonoBehaviour:
   - Boa tarde rapaz!
   - "N\xE3o liga pra aqueles drogados."
   - "Meus produtos s\xE3o os melhores do pa\xEDs!"
+  clipes:
+  - {fileID: 8300000, guid: 1148bdb3ee2684e4d9c263647fa63067, type: 3}
+  - {fileID: 8300000, guid: fcfc4036e7c2e80428e821fc06605605, type: 3}
+  - {fileID: 8300000, guid: fcfd4d02f5e826d40aaa30aeb6dd0bcb, type: 3}

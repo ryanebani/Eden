@@ -8,4 +8,5 @@ public class NPCOS : ScriptableObject
     public string nomeNPC;
     public string[] falasIdle;
     public string[] falasIdleMascara;
+    public AudioClip[] clipes;
 }

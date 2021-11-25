@@ -13,10 +13,7 @@ MonoBehaviour:
   m_Name: "Interroga\xE7\xE3o"
   m_EditorClassIdentifier: 
   nomeNPC: "Interroga\xE7\xE3o"
-  prefab: {fileID: 0}
-  audioSource: {fileID: 0}
-  voz:
-  - {fileID: 0}
-  - {fileID: 0}
   falasIdle: []
   falasIdleMascara: []
+  clipes:
+  - {fileID: 0}
