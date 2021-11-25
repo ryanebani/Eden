@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 492a76340e5fc0f4dad1f2af229a7694, type: 3}
   m_Name: NPC vazio
   m_EditorClassIdentifier: 
-  cor: {r: 0, g: 0, b: 0, a: 0}
+  cor: {r: 1, g: 1, b: 1, a: 1}
   nome: {fileID: -764864524558796101, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   sprite: {fileID: -764864524558796101, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
-  clipes:
-  - {fileID: 8300000, guid: 7378a6d46ba602943adcf412cc31a86a, type: 3}
+  clipes: []
