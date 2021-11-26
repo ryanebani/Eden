@@ -13,4 +13,8 @@ MonoBehaviour:
   m_Name: cobra
   m_EditorClassIdentifier: 
   nomeObj: 
-  "falasInspe\xE7\xE3o": []
+  "falasInspe\xE7\xE3o":
+  - Odeio cobras.
+  - Deve ser legal grafitar.
+  - "Como grafitaram t\xE3o alto?"
+  - "T\xE3o venenoso quanto esta cidade."

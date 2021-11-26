@@ -13,4 +13,7 @@ MonoBehaviour:
   m_Name: abajur
   m_EditorClassIdentifier: 
   nomeObj: abajur
-  "falasInspe\xE7\xE3o": []
+  "falasInspe\xE7\xE3o":
+  - Um abajur mais velho que eu.
+  - Costumava ler usando esse abajur.
+  - "Ser\xE1 que ainda funciona?"

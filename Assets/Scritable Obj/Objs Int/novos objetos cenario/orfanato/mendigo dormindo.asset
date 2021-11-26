@@ -13,4 +13,7 @@ MonoBehaviour:
   m_Name: mendigo dormindo
   m_EditorClassIdentifier: 
   nomeObj: mendigo dorminndo orfanato
-  "falasInspe\xE7\xE3o": []
+  "falasInspe\xE7\xE3o":
+  - Pelo menos aqui tem um teto.
+  - Nos dias frios, um teto faz falta.
+  - "Cada vez tem menos lugar pra n\xF3s."

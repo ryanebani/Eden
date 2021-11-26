@@ -13,4 +13,7 @@ MonoBehaviour:
   m_Name: armario 2
   m_EditorClassIdentifier: 
   nomeObj: 
-  "falasInspe\xE7\xE3o": []
+  "falasInspe\xE7\xE3o":
+  - "Tudo t\xE3o arrumadinho."
+  - "Zenaide \xE9 t\xE3o cuidadosa."
+  - Muitas bocas pra alimentar.
