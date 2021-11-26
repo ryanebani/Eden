@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: Varal
   m_EditorClassIdentifier: 
   nomeObj: 
-  "falasInspe\xE7\xE3o": []
+  "falasInspe\xE7\xE3o":
+  - "Sol t\xE1 bom hoje."
+  - "Essas roupas v\xE3o secar r\xE1pido."

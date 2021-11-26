@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: pano em cima
   m_EditorClassIdentifier: 
   nomeObj: Pano em cima
-  "falasInspe\xE7\xE3o": []
+  "falasInspe\xE7\xE3o":
+  - "Como penduraram t\xE3o alto?"
+  - 

@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: "sof\xE1 frente"
   m_EditorClassIdentifier: 
   nomeObj: "sof\xE1 frente"
-  "falasInspe\xE7\xE3o": []
+  "falasInspe\xE7\xE3o":
+  - "Desconfort\xE1vel."
+  - "Ainda \xE9 o mesmo sof\xE1 que usav\xE1mos."

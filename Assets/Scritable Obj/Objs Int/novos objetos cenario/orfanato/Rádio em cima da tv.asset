@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: "R\xE1dio em cima da tv"
   m_EditorClassIdentifier: 
   nomeObj: radio em cima da tv
-  "falasInspe\xE7\xE3o": []
+  "falasInspe\xE7\xE3o":
+  - "Quem usa r\xE1dio hoje em dia?"
+  - "S\xF3 o Afonso deve ouvir r\xE1dio ainda."

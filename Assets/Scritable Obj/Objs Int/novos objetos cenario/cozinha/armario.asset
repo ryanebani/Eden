@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: armario
   m_EditorClassIdentifier: 
   nomeObj: Armario
-  "falasInspe\xE7\xE3o": []
+  "falasInspe\xE7\xE3o":
+  - "Tenho boas mem\xF3rias aqui."
+  - "Muita lou\xE7a pra lavar."

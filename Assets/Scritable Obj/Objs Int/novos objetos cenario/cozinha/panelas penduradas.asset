@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: panelas penduradas
   m_EditorClassIdentifier: 
   nomeObj: 
-  "falasInspe\xE7\xE3o": []
+  "falasInspe\xE7\xE3o":
+  - Gambiarra.

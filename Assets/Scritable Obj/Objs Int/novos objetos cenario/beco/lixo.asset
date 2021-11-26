@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: lixo
   m_EditorClassIdentifier: 
   nomeObj: 
-  "falasInspe\xE7\xE3o": []
+  "falasInspe\xE7\xE3o":
+  - Lixo, lixo e mais lixo.
+  - Chega de mecher no lixo hoje.

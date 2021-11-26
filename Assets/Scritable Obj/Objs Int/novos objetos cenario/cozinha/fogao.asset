@@ -13,4 +13,7 @@ MonoBehaviour:
   m_Name: fogao
   m_EditorClassIdentifier: 
   nomeObj: 
-  "falasInspe\xE7\xE3o": []
+  "falasInspe\xE7\xE3o":
+  - Queria aprender a cozinhar.
+  - "N\xE3o sei nem fritar um ovo."
+  - "Bom que todos t\xEAm o que comer aqui."

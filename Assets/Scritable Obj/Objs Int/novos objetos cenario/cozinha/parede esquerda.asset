@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: parede esquerda
   m_EditorClassIdentifier: 
   nomeObj: 
-  "falasInspe\xE7\xE3o": []
+  "falasInspe\xE7\xE3o":
+  - "T\xE1 precisando de um reboco."
+  - 'Descascada. '
