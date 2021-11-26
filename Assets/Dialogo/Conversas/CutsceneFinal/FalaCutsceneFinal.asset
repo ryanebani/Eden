@@ -17,7 +17,7 @@ MonoBehaviour:
   sequencia: {fileID: 11400000, guid: 5c124df5c77352f4b9943a35d326c141, type: 2}
   npcFalando: 0
   falaNode: 
-  jogador: {fileID: 11400000, guid: 32a8a13f05899ce49a9e8a0820289fc7, type: 2}
+  jogador: {fileID: 11400000, guid: 2792b6d35b4ef8740a9288285af934b7, type: 2}
   NPC: {fileID: 11400000, guid: 2792b6d35b4ef8740a9288285af934b7, type: 2}
   dadosNpc: {fileID: 0}
   recomecar: 0
