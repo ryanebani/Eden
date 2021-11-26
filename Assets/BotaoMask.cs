@@ -15,6 +15,7 @@ public class BotaoMask : MonoBehaviour
         }else
         {
             filho.enabled = false;
+            
         }
 
     }

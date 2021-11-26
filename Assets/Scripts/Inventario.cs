@@ -79,6 +79,14 @@ public class Inventario : MonoBehaviour
         FecharMenu();
     }
        
+    public void Deselecionar ()
+    {
+        foreach (var item in slots)
+        {
+            item.clicado = false;
+            Interagir.itemSelecionado = null;
+        }
+    }
 
     public void MenuToggle()
     {

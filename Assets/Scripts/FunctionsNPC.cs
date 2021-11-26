@@ -89,6 +89,7 @@ public class FunctionsNPC : MonoBehaviour
             else
             {
                 alvo.negarItem = true;
+                Interagir.itemNaMao = false;
             }
         }
     }
