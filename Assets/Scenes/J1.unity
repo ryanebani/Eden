@@ -2923,6 +2923,14 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6500220883718859344, guid: 9e22f38a871bb1d4f8857ac02db7a98f, type: 3}
   m_PrefabInstance: {fileID: 6500220882944270024}
   m_PrefabAsset: {fileID: 0}
+--- !u!81 &204071858
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204071854}
+  m_Enabled: 1
 --- !u!1 &209687981 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6013318320588370593, guid: 5d40b2112b6436e4cb39e481b55736f9, type: 3}
@@ -14045,11 +14053,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6787056619173625680, guid: 14fb544813ed8e844bc88a905812a8d9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.65
+      value: -15.43
       objectReference: {fileID: 0}
     - target: {fileID: 6787056619173625680, guid: 14fb544813ed8e844bc88a905812a8d9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -29.68
+      value: -29.6
       objectReference: {fileID: 0}
     - target: {fileID: 6787056619173625680, guid: 14fb544813ed8e844bc88a905812a8d9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14202,7 +14210,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6851801909874456664, guid: 2a38fc13b81b7a44c9983c30de1e55a2, type: 3}
       propertyPath: m_Size.y
-      value: 3.7422
+      value: 2.2044885
       objectReference: {fileID: 0}
     - target: {fileID: 6851801909874456664, guid: 2a38fc13b81b7a44c9983c30de1e55a2, type: 3}
       propertyPath: m_Offset.x
@@ -14210,7 +14218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6851801909874456664, guid: 2a38fc13b81b7a44c9983c30de1e55a2, type: 3}
       propertyPath: m_Offset.y
-      value: -0.33577967
+      value: -1.1046354
       objectReference: {fileID: 0}
     - target: {fileID: 8116409654337050802, guid: 2a38fc13b81b7a44c9983c30de1e55a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16407,6 +16415,18 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: 1992356711
       objectReference: {fileID: 0}
+    - target: {fileID: 1437046134790347253, guid: 6ebd1ac5f4381e940bbd9573f5535258, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516285294131757537, guid: 6ebd1ac5f4381e940bbd9573f5535258, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516285294131757537, guid: 6ebd1ac5f4381e940bbd9573f5535258, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.2
+      objectReference: {fileID: 0}
     - target: {fileID: 7821577447809740943, guid: 6ebd1ac5f4381e940bbd9573f5535258, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.23
@@ -18539,7 +18559,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1501253562}
   - component: {fileID: 1501253561}
-  - component: {fileID: 1501253560}
   - component: {fileID: 1501253563}
   - component: {fileID: 1501253564}
   m_Layer: 0
@@ -18549,14 +18568,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1501253560
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501253559}
-  m_Enabled: 1
 --- !u!20 &1501253561
 Camera:
   m_ObjectHideFlags: 0
@@ -27221,6 +27232,38 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 786134169}
+    - target: {fileID: 1170897329226159013, guid: 42475340a898b384c86a86754fe095a1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458095372505386731, guid: 42475340a898b384c86a86754fe095a1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458095372505386731, guid: 42475340a898b384c86a86754fe095a1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458095372505386731, guid: 42475340a898b384c86a86754fe095a1, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1189.0266
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458095372505386731, guid: 42475340a898b384c86a86754fe095a1, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 325.262
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458095372505386731, guid: 42475340a898b384c86a86754fe095a1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 594.5133
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458095372505386731, guid: 42475340a898b384c86a86754fe095a1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -162.631
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815734376888604533, guid: 42475340a898b384c86a86754fe095a1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7889479245879834628, guid: 42475340a898b384c86a86754fe095a1, type: 3}
       propertyPath: m_Name
       value: Canvas HUD

@@ -84,7 +84,9 @@ public class Inventario : MonoBehaviour
         foreach (var item in slots)
         {
             item.clicado = false;
+            textoSelecao.text = "";
             Interagir.itemSelecionado = null;
+            Interagir.itemNaMao = false;
         }
     }
 
