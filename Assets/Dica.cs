@@ -37,7 +37,7 @@ public class Dica : MonoBehaviour
                 }
             }
 
-            if (timer >= 2)
+            if (timer >= 1)
             {                
                 timer = 0;
                 anim.SetBool("Indicar", true);
