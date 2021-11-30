@@ -44,6 +44,18 @@ TextureImporter:
   - first:
       213: 1542511533193789442
     second: Caixa hud
+  - first:
+      213: -8991094749534283338
+    second: hud_2_14
+  - first:
+      213: 256628429690062619
+    second: hud_2_15
+  - first:
+      213: -4688881081966775107
+    second: hud_2_16
+  - first:
+      213: 7467000235916744046
+    second: hud_2_17
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -446,6 +458,90 @@ TextureImporter:
       bones: []
       spriteID: 20085fd111a186510800000000000000
       internalID: 1542511533193789442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_2_14
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 468
+        width: 125
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9112056f6393380800000000000000
+      internalID: -8991094749534283338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_2_15
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 315
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1741f6723abf8300800000000000000
+      internalID: 256628429690062619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_2_16
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 147
+        width: 139
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4325baf7fbdeeb0800000000000000
+      internalID: -4688881081966775107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_2_17
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 0
+        width: 136
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e655397172d10a760800000000000000
+      internalID: 7467000235916744046
       vertices: []
       indices: 
       edges: []
