@@ -29,4 +29,8 @@ public class BotaoMute : MonoBehaviour
             GetComponent<Image>().sprite = desmutado;
         }
     }
+    public void Sair()
+    {
+        Application.Quit();
+    }
 }
