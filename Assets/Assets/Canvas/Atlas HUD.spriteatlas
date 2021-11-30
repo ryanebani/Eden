@@ -129,6 +129,10 @@ SpriteAtlas:
   - {fileID: 1192693720714388642, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
   - {fileID: -2456158782419345954, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
   - {fileID: -7013519121814834549, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
+  - {fileID: 7467000235916744046, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
+  - {fileID: -4688881081966775107, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
+  - {fileID: 256628429690062619, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
+  - {fileID: -8991094749534283338, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
   - {fileID: 4852100293153919378, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
   - {fileID: 2511040075949732606, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
   - {fileID: 3891758045307867865, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
@@ -231,6 +235,10 @@ SpriteAtlas:
   - Fundo Idle
   - logo_beto
   - logo_abel
+  - hud_2_17
+  - hud_2_16
+  - hud_2_15
+  - hud_2_14
   - logo_marcelo
   - logo_edu
   - logo_vitor_pedro
