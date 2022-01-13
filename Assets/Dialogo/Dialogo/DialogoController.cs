@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class DialogoController : MonoBehaviour
 {
+    public float typingSpeed;
+
     public FalaNPC primeiraCut;
     public bool final;
 
@@ -134,8 +136,8 @@ public class DialogoController : MonoBehaviour
                             indexCutscene++;
                             Cutscene();
                         }
-
-                        falaNPC.text = falas.sequencia.sequencia[index];
+                        falaNPC.text = "";
+                        StartCoroutine(TypeSentence(falas.sequencia.sequencia[index]));
                         if (falas.sequencia.npcFalando[index])
                         {
                             spritePlayer.gameObject.GetComponent<Animator>().SetBool("Falando", false);
@@ -301,7 +303,8 @@ public class DialogoController : MonoBehaviour
             {
                 repetiu = true;
             }
-            falaNPC.text = falas.fala;
+            falaNPC.text = "";
+            StartCoroutine(TypeSentence(falas.fala));
 
             if (falas.npcFalando)
             {
@@ -375,6 +378,15 @@ public class DialogoController : MonoBehaviour
                 dialogo.indexMask++;
                 naoAtivarAcao.Add(falas);
             }
+        }
+    }
+
+    IEnumerator TypeSentence(string sentenca)
+    {
+        foreach(char letter in sentenca.ToCharArray())
+        {
+            falaNPC.text += letter;
+            yield return new WaitForSeconds(typingSpeed);
         }
     }
 }
