@@ -22,41 +22,24 @@ public class PassaroAmb : MonoBehaviour
         StartCoroutine(EsperarSom());
     }
 
-    private void EscolherSom()
-    {
-        origem.clip = clipes[Random.Range(0, clipes.Length)];
-        origem.Play();
-    }
-
     private void ChamarSom()
     {
-        PassaroSom();
-        EscolherSom();
-        StartCoroutine(EsperarSom());
-    }
-
-    void Update()
-    {
-   
+        if (gameObject.activeInHierarchy)
+        {
+            origem.clip = clipes[Random.Range(0, clipes.Length)];
+            origem.Play();
+            StartCoroutine(EsperarSom());
+        }
+        else
+        {
+            StartCoroutine(EsperarSom());
+        }
     }
 
     private IEnumerator EsperarSom()
     {
         yield return new WaitForSeconds(Random.Range(min, max));
         ChamarSom();
-    }
-
-    private void PassaroSom()
-    {
-        SetCord();
-
-        objeto.position = new Vector3 (coordenada.x, objeto.position.y, objeto.position.z);
-    }
-
-    private void SetCord()
-    {
-        float sorteador = (Random.Range(-25, 25));
-        coordenada.x = sorteador;
     }
 
 }
