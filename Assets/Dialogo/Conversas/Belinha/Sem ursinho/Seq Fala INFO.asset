@@ -15,7 +15,7 @@ MonoBehaviour:
   fala: "N\xE3o se deixa fam\xEDlia pra tr\xE1s."
   respostas: []
   sequencia: {fileID: 0}
-  npcFalando: 1
+  npcFalando: 0
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: df653774ab4d6de4c98806a87fb31dcf, type: 2}
