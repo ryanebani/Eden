@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class DialogoController : MonoBehaviour
 {
-    public float typingSpeed;
+    public float typingSpeed = 0.01f;
 
     public FalaNPC primeiraCut;
     public bool final;
