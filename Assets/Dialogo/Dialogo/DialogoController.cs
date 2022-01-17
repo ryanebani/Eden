@@ -136,6 +136,7 @@ public class DialogoController : MonoBehaviour
                             indexCutscene++;
                             Cutscene();
                         }
+                        StopAllCoroutines();
                         falaNPC.text = "";
                         StartCoroutine(TypeSentence(falas.sequencia.sequencia[index]));
                         if (falas.sequencia.npcFalando[index])
@@ -194,7 +195,9 @@ public class DialogoController : MonoBehaviour
         spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", false);
         if (falas.falaNode != "")
         {
-            falaNPC.text = falas.falaNode;
+            StopAllCoroutines();
+            falaNPC.text = "";
+            StartCoroutine(TypeSentence(falas.falaNode));
             if (falas.NPCNode)
                 falaNPC.color = falas.NPC.cor;
             else
@@ -303,6 +306,7 @@ public class DialogoController : MonoBehaviour
             {
                 repetiu = true;
             }
+            StopAllCoroutines();
             falaNPC.text = "";
             StartCoroutine(TypeSentence(falas.fala));
 
