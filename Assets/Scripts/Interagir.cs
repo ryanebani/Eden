@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Interagir : MonoBehaviour
 {
-    
+    [SerializeField]
+    private ParticleSystem mascaraFX;
+
     public static string paraOndeVou;
     public static string itemSelecionado;
     static public bool itemNaMao;
@@ -201,5 +203,14 @@ public class Interagir : MonoBehaviour
         Dialogo.mascara = !Dialogo.mascara;
         paraOndeVou = "";
         alvo = posJogador.position;
+
+        if (Dialogo.mascara)
+        {
+            mascaraFX.Play();
+        }
+        else
+        {
+            mascaraFX.Stop();
+        }
     }
 }

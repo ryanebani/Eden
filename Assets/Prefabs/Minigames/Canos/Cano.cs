@@ -26,6 +26,8 @@ public class Cano : MonoBehaviour
     private Image image;
 
     public UnityEvent OnFinalGame;
+
+    public int rand;
     private void Start()
     {
         image = GetComponent<Image>();
@@ -34,7 +36,6 @@ public class Cano : MonoBehaviour
         if(forma == "I")
         {
             image.sprite = canos.sprites[0];
-            int rand = Random.Range(0, 2);
             if(rand == 0)
             {
                 esq = true;
@@ -51,7 +52,6 @@ public class Cano : MonoBehaviour
         else if(forma == "L")
         {
             image.sprite = canos.sprites[1];
-            int rand = Random.Range(0, 4);
             if(rand == 0)
             {
                 esq = true;
@@ -79,7 +79,6 @@ public class Cano : MonoBehaviour
         else if(forma == "T")
         {
             image.sprite = canos.sprites[2];
-            int rand = Random.Range(0, 4);
             if (rand == 0)
             {
                 cima = true;

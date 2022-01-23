@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class DialogoController : MonoBehaviour
 {
+    public float typingSpeed = 0.01f;
+
     public FalaNPC primeiraCut;
     public bool final;
 
@@ -134,8 +136,9 @@ public class DialogoController : MonoBehaviour
                             indexCutscene++;
                             Cutscene();
                         }
-
-                        falaNPC.text = falas.sequencia.sequencia[index];
+                        StopAllCoroutines();
+                        falaNPC.text = "";
+                        StartCoroutine(TypeSentence(falas.sequencia.sequencia[index]));
                         if (falas.sequencia.npcFalando[index])
                         {
                             spritePlayer.gameObject.GetComponent<Animator>().SetBool("Falando", false);
@@ -192,7 +195,9 @@ public class DialogoController : MonoBehaviour
         spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", false);
         if (falas.falaNode != "")
         {
-            falaNPC.text = falas.falaNode;
+            StopAllCoroutines();
+            falaNPC.text = "";
+            StartCoroutine(TypeSentence(falas.falaNode));
             if (falas.NPCNode)
                 falaNPC.color = falas.NPC.cor;
             else
@@ -301,7 +306,9 @@ public class DialogoController : MonoBehaviour
             {
                 repetiu = true;
             }
-            falaNPC.text = falas.fala;
+            StopAllCoroutines();
+            falaNPC.text = "";
+            StartCoroutine(TypeSentence(falas.fala));
 
             if (falas.npcFalando)
             {
@@ -375,6 +382,15 @@ public class DialogoController : MonoBehaviour
                 dialogo.indexMask++;
                 naoAtivarAcao.Add(falas);
             }
+        }
+    }
+
+    IEnumerator TypeSentence(string sentenca)
+    {
+        foreach(char letter in sentenca.ToCharArray())
+        {
+            falaNPC.text += letter;
+            yield return new WaitForSeconds(typingSpeed);
         }
     }
 }
