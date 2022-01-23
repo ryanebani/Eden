@@ -121,23 +121,45 @@ public class Interagir : MonoBehaviour
 
 
     public void Andar(Vector3 destino, bool chao)
-    {        
-        if (Input.touchCount > 0 && podeAndar)
+    {
+        if (podeAndar)
         {
-            Touch touch = Input.GetTouch(0);
-
-            //Bolinha do toque
-            if (touch.phase == TouchPhase.Began )
-            {     
-                mover = true;
-            }
-
-            //Movimento
-            if (touch.phase == TouchPhase.Ended)
+            if (Input.touchCount > 0)
             {
-                ponto = Camera.main.ScreenToWorldPoint(touch.position);
-                circ.transform.position = new Vector2(ponto.x, ponto.y);
+                Touch touch = Input.GetTouch(0);
 
+                //Bolinha do toque
+                if (touch.phase == TouchPhase.Began)
+                {
+                    mover = true;
+                }
+
+                //Movimento
+                if (touch.phase == TouchPhase.Ended)
+                {
+                    ponto = Camera.main.ScreenToWorldPoint(touch.position);
+                    circ.transform.position = new Vector2(ponto.x, ponto.y);
+
+                    if (Physics2D.OverlapPoint(ponto, 1, -5, 5))
+                    {
+                        if (mover)
+                        {
+                            Indicar();
+                            alvo = new Vector2(destino.x, posJogador.position.y);
+                            if (chao)
+                            {
+
+                                alvo = new Vector2(ponto.x, posJogador.position.y);
+                            }
+                        }
+                    }
+                }
+            }
+            if (Input.GetMouseButtonUp(0))
+            {
+                mover = true;
+                ponto = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                circ.transform.position = new Vector2(ponto.x, ponto.y);
                 if (Physics2D.OverlapPoint(ponto, 1, -5, 5))
                 {
                     if (mover)
@@ -146,7 +168,6 @@ public class Interagir : MonoBehaviour
                         alvo = new Vector2(destino.x, posJogador.position.y);
                         if (chao)
                         {
-
                             alvo = new Vector2(ponto.x, posJogador.position.y);
                         }
                     }
