@@ -5,7 +5,7 @@ using UnityEngine;
 public class Dica : MonoBehaviour
 {
     Animator anim;
-    public float timer;
+    float timer;
     bool check;
     void Start()
     {
@@ -28,7 +28,8 @@ public class Dica : MonoBehaviour
         }
 
         if (Input.GetMouseButtonUp(0))
-        { 
+        {
+            if (timer < 1.5f) timer = 0;
             if (check)
             {
                 Interagir.paraOndeVou = "";
@@ -43,6 +44,7 @@ public class Dica : MonoBehaviour
             
             if (touch.phase == TouchPhase.Stationary)
             {
+                timer = 0;
                 timer += Time.deltaTime;
             }
             
