@@ -43,15 +43,20 @@ public class Interagir : MonoBehaviour
         prefabTransform = prefabAbel.transform;        
         posAtu = new Vector3(posJogador.position.x, posJogador.position.y, posJogador.position.z);
         alvo = posAtu;
-       
     }
 
     void Update()
     {
         if (olharDireita)
-        prefabTransform.eulerAngles = new Vector3(0, 0, 0);
+        {
+            prefabTransform.eulerAngles = new Vector3(0, 0, 0);
+            mascaraFX.startSpeed = 0.9f;
+        }
         else
+        {
             prefabTransform.eulerAngles = new Vector3(0, 180, 0);
+            mascaraFX.startSpeed = -0.9f;
+        }
 
         if (Dialogo.mascara)
         {
