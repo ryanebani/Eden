@@ -15,7 +15,27 @@ public class Dica : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        if (Input.GetMouseButton(0))
+        {
+            timer += Time.deltaTime;
+
+            if (timer >= 1.5f)
+            {
+                timer = 0;
+                anim.SetBool("Indicar", true);
+                check = true;
+            }
+        }
+
+        if (Input.GetMouseButtonUp(0))
+        { 
+            if (check)
+            {
+                Interagir.paraOndeVou = "";
+                check = false;
+            }
+   
+        }
 
         if (Input.touchCount > 0)
         {
@@ -37,7 +57,7 @@ public class Dica : MonoBehaviour
                 }
             }
 
-            if (timer >= 1)
+            if (timer >= 1.5f)
             {                
                 timer = 0;
                 anim.SetBool("Indicar", true);

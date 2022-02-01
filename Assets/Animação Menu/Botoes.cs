@@ -19,6 +19,12 @@ public class Botoes : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetMouseButtonUp(0) && inicio)
+        {
+            logo.Priority = 0;
+            menu.Priority = 1;
+            inicio = false;
+        }
         if (Input.touchCount > 0 && inicio)
         {
             logo.Priority = 0;
