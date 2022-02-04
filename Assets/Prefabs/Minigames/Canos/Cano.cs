@@ -6,6 +6,12 @@ using UnityEngine.Events;
 
 public class Cano : MonoBehaviour
 {
+    [SerializeField]
+    private AudioClip[] somCanos;
+
+    private AudioSource canoSource;
+
+
     public string forma;
 
     public string direcaoFinal;
@@ -32,8 +38,9 @@ public class Cano : MonoBehaviour
     {
         image = GetComponent<Image>();
         canos = GetComponentInParent<Canos>();
+        canoSource = GetComponent<AudioSource>();
 
-        if(forma == "I")
+        if (forma == "I")
         {
             image.sprite = canos.sprites[0];
             if(rand == 0)
@@ -198,7 +205,8 @@ public class Cano : MonoBehaviour
                 c.ativo = false;
             }
             image.gameObject.GetComponent<RectTransform>().Rotate(new Vector3(0, 0, -90));
-            if(cima)
+            SomAoGirar();
+            if (cima)
             {
                 cima = false;
                 espDir = true;
@@ -241,5 +249,11 @@ public class Cano : MonoBehaviour
             }
         }
         
+    }
+
+    private void SomAoGirar()
+    {
+        canoSource.clip = somCanos[Random.Range(0, somCanos.Length)];
+        canoSource.Play();
     }
 }
