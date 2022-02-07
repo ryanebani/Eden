@@ -4778,7 +4778,7 @@ ParticleSystemRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 117570609
-  m_SortingLayer: 6
+  m_SortingLayer: 0
   m_SortingOrder: 199
   m_RenderMode: 0
   m_SortMode: 0
@@ -4829,14 +4829,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3375713701078783743}
-  m_LocalRotation: {x: 0.040401302, y: 0.11005753, z: -0.2349452, w: 0.9649124}
-  m_LocalPosition: {x: 55.81563, y: -3.3061883, z: -9.05}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3375713699735224587}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 7.451, y: 11.248, z: -26.634}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!330 &3375713701078783741
 ParticleSystemForceField:
   m_ObjectHideFlags: 0
@@ -4847,15 +4847,15 @@ ParticleSystemForceField:
   m_Enabled: 1
   m_Parameters:
     m_Shape: 0
-    m_StartRange: 6.1
-    m_EndRange: 11.81
+    m_StartRange: 6
+    m_EndRange: 12
     m_Length: 1
     m_GravityFocus: 0
     m_RotationRandomness: {x: 1, y: 1}
     m_DirectionCurveX:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 6.73
+      scalar: 6.75
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -5014,7 +5014,7 @@ ParticleSystemForceField:
     m_GravityCurve:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1.44
+      scalar: 1.45
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -5067,7 +5067,7 @@ ParticleSystemForceField:
     m_RotationSpeedCurve:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 53
+      scalar: 50
       minScalar: 0
       maxCurve:
         serializedVersion: 2
