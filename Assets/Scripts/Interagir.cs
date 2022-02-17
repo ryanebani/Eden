@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Interagir : MonoBehaviour
 {
-    
+    [SerializeField]
+    private ParticleSystem mascaraFX;
+
     public static string paraOndeVou;
     public static string itemSelecionado;
     static public bool itemNaMao;
@@ -41,15 +43,20 @@ public class Interagir : MonoBehaviour
         prefabTransform = prefabAbel.transform;        
         posAtu = new Vector3(posJogador.position.x, posJogador.position.y, posJogador.position.z);
         alvo = posAtu;
-       
     }
 
     void Update()
     {
         if (olharDireita)
-        prefabTransform.eulerAngles = new Vector3(0, 0, 0);
+        {
+            prefabTransform.eulerAngles = new Vector3(0, 0, 0);
+            mascaraFX.startSpeed = 0.9f;
+        }
         else
+        {
             prefabTransform.eulerAngles = new Vector3(0, 180, 0);
+            mascaraFX.startSpeed = -0.9f;
+        }
 
         if (Dialogo.mascara)
         {
@@ -121,23 +128,45 @@ public class Interagir : MonoBehaviour
 
 
     public void Andar(Vector3 destino, bool chao)
-    {        
-        if (Input.touchCount > 0 && podeAndar)
+    {
+        if (podeAndar)
         {
-            Touch touch = Input.GetTouch(0);
-
-            //Bolinha do toque
-            if (touch.phase == TouchPhase.Began )
-            {     
-                mover = true;
-            }
-
-            //Movimento
-            if (touch.phase == TouchPhase.Ended)
+            if (Input.touchCount > 0)
             {
-                ponto = Camera.main.ScreenToWorldPoint(touch.position);
-                circ.transform.position = new Vector2(ponto.x, ponto.y);
+                Touch touch = Input.GetTouch(0);
 
+                //Bolinha do toque
+                if (touch.phase == TouchPhase.Began)
+                {
+                    mover = true;
+                }
+
+                //Movimento
+                if (touch.phase == TouchPhase.Ended)
+                {
+                    ponto = Camera.main.ScreenToWorldPoint(touch.position);
+                    circ.transform.position = new Vector2(ponto.x, ponto.y);
+
+                    if (Physics2D.OverlapPoint(ponto, 1, -5, 5))
+                    {
+                        if (mover)
+                        {
+                            Indicar();
+                            alvo = new Vector2(destino.x, posJogador.position.y);
+                            if (chao)
+                            {
+
+                                alvo = new Vector2(ponto.x, posJogador.position.y);
+                            }
+                        }
+                    }
+                }
+            }
+            if (Input.GetMouseButtonUp(0))
+            {
+                mover = true;
+                ponto = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                circ.transform.position = new Vector2(ponto.x, ponto.y);
                 if (Physics2D.OverlapPoint(ponto, 1, -5, 5))
                 {
                     if (mover)
@@ -146,7 +175,6 @@ public class Interagir : MonoBehaviour
                         alvo = new Vector2(destino.x, posJogador.position.y);
                         if (chao)
                         {
-
                             alvo = new Vector2(ponto.x, posJogador.position.y);
                         }
                     }
@@ -180,5 +208,14 @@ public class Interagir : MonoBehaviour
         Dialogo.mascara = !Dialogo.mascara;
         paraOndeVou = "";
         alvo = posJogador.position;
+
+        if (Dialogo.mascara)
+        {
+            mascaraFX.Play();
+        }
+        else
+        {
+            mascaraFX.Stop();
+        }
     }
 }

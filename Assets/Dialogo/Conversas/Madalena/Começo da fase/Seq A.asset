@@ -20,6 +20,7 @@ MonoBehaviour:
   - "Eu d\xF4 um jeito."
   - "Conhe\xE7o o pessoal. Eles devem saber de algo sobre ele."
   - "Eu s\xF3 n\xE3o quero te ver decepcionado, anjo."
-  npcFalando: 00010100000101
-  proximaCutscene: 00000000000000
-  proximaFala: {fileID: 11400000, guid: bd844ef0520aef741aa73ac35169d147, type: 2}
+  - "T\xE1 de boa. Eu deveria ter feito isso h\xE1 muito tempo"
+  npcFalando: 0001010000010100
+  proximaCutscene: 0000000000000000
+  proximaFala: {fileID: 11400000, guid: fc2eb6518bf752d49a99265c1ef85f03, type: 2}

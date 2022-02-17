@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
   m_Name: Fala AR
   m_EditorClassIdentifier: 
-  fala: "U\xE9 querido, n\xE3o entrou?"
+  fala: Vai entrar, querido?
   respostas:
   - resposta: "O orfanato t\xE1 abandonado?"
     proximaFala: {fileID: 11400000, guid: 61d4ccfaac03a4749bf69b680ea8556a, type: 2}
@@ -22,7 +22,7 @@ MonoBehaviour:
     proximaFala: {fileID: 11400000, guid: f213eb1583e39954cb7179346e1135c3, type: 2}
   sequencia: {fileID: 0}
   npcFalando: 1
-  falaNode: "U\xE9 querido, n\xE3o entrou?"
+  falaNode: Vai entrar, querido?
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: e4a17fde116e04f408fcbcaaae87bbc1, type: 2}
   dadosNpc: {fileID: 0}

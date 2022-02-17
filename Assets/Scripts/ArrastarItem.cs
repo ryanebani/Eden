@@ -87,6 +87,34 @@ public class ArrastarItem : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
             }
         }
 
+        if (Input.GetMouseButtonUp(0))
+        {
+            if (CanvasItens.CanvasAberto == false)
+            {
+                ponto = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                RaycastHit2D hit = Physics2D.Raycast(ponto, -Vector2.up, 0.05f);
+
+                if (hit.collider.tag == "NPC" || hit.collider.tag == "ObjInt")
+                {
+                    Interagir.paraOndeVou = hit.collider.name;
+                    Interagir.itemSelecionado = slots.nome;
+                    Interagir.itemNaMao = true;
+                }
+            }
+            else
+            {
+                RaycastHit2D hit = Physics2D.Raycast(Input.mousePosition, -Vector2.up, 0.05f);
+                if (hit.collider.tag == "Finish")
+                {
+                    Interagir.itemSelecionado = slots.nome;
+                    Interagir.itemNaMao = true;
+                    CanvasItens canvasItens;
+                    canvasItens = hit.collider.gameObject.GetComponent<CanvasItens>();
+                    canvasItens.EntregarItem();
+                }
+            }
+        }
+
         //DragEnd?.Invoke();
     }
 }

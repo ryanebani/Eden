@@ -8,24 +8,29 @@ public class BotaoMute : MonoBehaviour
     public Sprite mutado;
     public Sprite desmutado;
     bool mudo;
-    AudioListener pontoDeEscuta;
+    //AudioListener pontoDeEscuta;
 
     private void Start()
     {
-        pontoDeEscuta = FindObjectOfType<AudioListener>();
+        mudo = false;
+        AudioListener.pause = false;
     }
     public void Mudar()
     {
         mudo = !mudo;
         if(mudo)
         {
-            pontoDeEscuta.enabled = false;
+            AudioListener.pause = true;
             GetComponent<Image>().sprite = mutado;
         }
         else
         {
-            pontoDeEscuta.enabled = true;
+            AudioListener.pause = false;
             GetComponent<Image>().sprite = desmutado;
         }
+    }
+    public void Sair()
+    {
+        Application.Quit();
     }
 }

@@ -23,6 +23,6 @@ MonoBehaviour:
   recomecar: 0
   NPCNode: 0
   proximaQuest: 0
-  acaoSequencial: 0
+  acaoSequencial: 1
   proximaCutscene: 0
   cutscene: {fileID: 0}
