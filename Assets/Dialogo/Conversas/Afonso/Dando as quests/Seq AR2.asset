@@ -25,4 +25,4 @@ MonoBehaviour:
   - "Se tu puder dar uma passada l\xE1 tamb\xE9m."
   npcFalando: 01010001010101010101
   proximaCutscene: 00000000000000000000
-  proximaFala: {fileID: 11400000, guid: eaec05dfbd71d07489096262bbcb9baf, type: 2}
+  proximaFala: {fileID: 11400000, guid: 8e27d52850f93a5438d38027652d71a1, type: 2}

@@ -17,11 +17,11 @@ MonoBehaviour:
   - Escuta aqui, garoto.
   - "Nem te conhe\xE7o. At\xE9 queria ser bonzinho..."
   - "Mas n\xE3o posso deixar qualquer um entrar assim."
-  - "Vacilo... \xC9 que eu t\xF4 atr\xE1s do meu irm\xE3o."
+  - "Vacilo... \xC9 que eu t\xF4 atr\xE1s de uma pessoa."
   - "\xC9 uma longa hist\xF3ria."
   - "N\xE3o vai ter nada aqui."
   - Pelo menos me deixa dar uma olhada.
-  - "Desiste. Se teu irm\xE3o foi adotado, ele t\xE1 num lugar melhor que aqui."
+  - "Desiste. Se essa pessoa foi adotada , ela t\xE1 num lugar melhor que aqui."
   npcFalando: 000101010000010001
   proximaCutscene: 000000000000000000
   proximaFala: {fileID: 11400000, guid: 18ef96b3604b1654181c72852d176c35, type: 2}

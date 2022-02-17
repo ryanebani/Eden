@@ -16,11 +16,14 @@ MonoBehaviour:
   - "A Madalena falou de voc\xEA."
   - "Depois eu que tenho a l\xEDngua grande..."
   - "Ela s\xF3 ta tentando me ajudar."
+  - "Como eu posso saber que tu n\xE3o ta mentindo sobre conhecer ela?"
+  - Me conta como tu conheceu ela.
+  - "Ela me ajudou quando eu n\xE3o tinha nigu\xE9m."
   - "Um favor por outro. C\xEA t\xE1 precisando de alguma coisa?"
   - "J\xE1 que tu t\xE1 com ela, deve ser de confian\xE7a."
   - "T\xF4 sempre precisando de dinheiro pro leite das crian\xE7as..."
   - "E catar latinha sempre me d\xE1 uma boa grana."
   - "No final da rua tem um lat\xE3o de lixo. Sempre tem umas coisa boa l\xE1."
-  npcFalando: 000100000101010101
-  proximaCutscene: 0000000000000000
+  npcFalando: 0001000101000001010101
+  proximaCutscene: 0000000000000000000000
   proximaFala: {fileID: 11400000, guid: d6b0e19074188544d9f6c7ede7aedb0a, type: 2}
