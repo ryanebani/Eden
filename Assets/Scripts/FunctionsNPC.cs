@@ -154,7 +154,7 @@ public class FunctionsNPC : MonoBehaviour
 
     public void Cena()
     {
-        SceneManager.LoadScene("FinalCut", LoadSceneMode.Single);
+        SceneManager.LoadScene("Menu", LoadSceneMode.Single);
     }
     public void TriggarAnimacao(string trigger)
     {

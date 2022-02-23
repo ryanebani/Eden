@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: Seq AR2
   m_EditorClassIdentifier: 
   sequencia:
-  - "Voc\xEAs sempre andavam juntos..."
   - "Mas n\xE3o tem jeito, os pais sempre preferem crian\xE7as mais novas."
   - "Voc\xEA n\xE3o tem ideia de pra onde o Caio foi?"
   - "O tempo n\xE3o foi gentil com a funda\xE7\xE3o."
@@ -23,6 +22,6 @@ MonoBehaviour:
   - "A Belinha tava chorando, e eu n\xE3o consegui acalmar ela."
   - "E eu ouvi a Zenaide xingando o fog\xE3o na cozinha."
   - "Se tu puder dar uma passada l\xE1 tamb\xE9m."
-  npcFalando: 01010001010101010101
-  proximaCutscene: 00000000000000000000
-  proximaFala: {fileID: 11400000, guid: 8e27d52850f93a5438d38027652d71a1, type: 2}
+  npcFalando: 010001010101010101
+  proximaCutscene: 000000000000000000
+  proximaFala: {fileID: 11400000, guid: eaec05dfbd71d07489096262bbcb9baf, type: 2}
