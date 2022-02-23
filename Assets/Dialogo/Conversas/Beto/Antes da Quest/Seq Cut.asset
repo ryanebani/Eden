@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71f8496628185db4a9ea2a5b0a1f8aa2, type: 3}
+  m_Name: Seq Cut
+  m_EditorClassIdentifier: 
+  sequencia:
+  - "Vamos fazer assim, um favor por outro. C\xEA t\xE1 precisando de alguma coisa?"
+  - "J\xE1 que tu t\xE1 com ela, deve ser de confian\xE7a."
+  - "T\xF4 sempre precisando de dinheiro pro leite das crian\xE7as..."
+  - "E catar latinha sempre me d\xE1 uma boa grana."
+  - "No final da rua tem um lat\xE3o de lixo. Sempre tem umas coisa boa l\xE1."
+  npcFalando: 0001010101
+  proximaCutscene: 0000000000
+  proximaFala: {fileID: 11400000, guid: d6b0e19074188544d9f6c7ede7aedb0a, type: 2}
