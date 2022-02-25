@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: P_Lixo
   m_EditorClassIdentifier: 
   nomeNPC: P_Lixo
-  falasIdle: []
+  prefab: {fileID: 0}
+  audioSource: {fileID: 0}
+  voz: []
+  falasIdle:
+  - 
   falasIdleMascara: []
-  clipes: []
