@@ -19,7 +19,7 @@ MonoBehaviour:
   - resposta: "Ainda n\xE3o, vou procurar..."
     proximaFala: {fileID: 11400000, guid: 69b4ad81e32fce540abeb72856bd6269, type: 2}
   - resposta: "Ainda n\xE3o, vou procurar..."
-    proximaFala: {fileID: 0}
+    proximaFala: {fileID: 11400000, guid: 69b4ad81e32fce540abeb72856bd6269, type: 2}
   sequencia: {fileID: 0}
   npcFalando: 1
   falaNode: "J\xE1 encontrou minhas latinhas?"

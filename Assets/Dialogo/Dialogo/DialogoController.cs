@@ -86,6 +86,7 @@ public class DialogoController : MonoBehaviour
                 podeClickar = true;
             }
         }
+        /*
         if (Input.touchCount > 0)
         {
             touch = Input.GetTouch(0);
@@ -187,8 +188,9 @@ public class DialogoController : MonoBehaviour
                 }
             }
         }
-
-        if (Input.GetMouseButtonUp(0))
+        */
+        ///*
+        if (Input.GetMouseButtonDown(0))
         {
             if (falaAtiva && animDiag.GetCurrentAnimatorStateInfo(0).IsName("DialogoParado"))
             {
@@ -287,7 +289,7 @@ public class DialogoController : MonoBehaviour
                 }
             }
         }
-       
+       //*/
     }
 
     void MostrarRespostas()

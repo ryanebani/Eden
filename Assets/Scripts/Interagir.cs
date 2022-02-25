@@ -131,6 +131,7 @@ public class Interagir : MonoBehaviour
     {
         if (podeAndar)
         {
+            /*
             if (Input.touchCount > 0)
             {
                 Touch touch = Input.GetTouch(0);
@@ -162,7 +163,8 @@ public class Interagir : MonoBehaviour
                     }
                 }
             }
-            if (Input.GetMouseButtonUp(0))
+            */
+            if (Input.GetMouseButtonDown(0))
             {
                 mover = true;
                 ponto = Camera.main.ScreenToWorldPoint(Input.mousePosition);
