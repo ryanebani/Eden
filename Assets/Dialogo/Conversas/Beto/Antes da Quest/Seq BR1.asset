@@ -15,5 +15,5 @@ MonoBehaviour:
   sequencia:
   - "Ent\xE3o, t\xE1."
   npcFalando: 00
-  proximaCutscene: 
+  proximaCutscene: 00
   proximaFala: {fileID: 11400000, guid: 40d7b1959cdf585469c1688ca33bcd64, type: 2}
