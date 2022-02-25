@@ -17,7 +17,7 @@ MonoBehaviour:
   - resposta: "Ent\xE3o... Voc\xEA cuida das pessoas daqui?"
     proximaFala: {fileID: 11400000, guid: 8e27d52850f93a5438d38027652d71a1, type: 2}
   - resposta: "Preciso de ajuda pra encontrar meu irm\xE3o."
-    proximaFala: {fileID: 11400000, guid: 0eda02dfbaaac4a49809cb1b80969e50, type: 2}
+    proximaFala: {fileID: 11400000, guid: c27eeb1c08027454ba83f802e78ba98f, type: 2}
   - resposta: "At\xE9 mais."
     proximaFala: {fileID: 11400000, guid: 6ecb37730b5a14f40b9efd560b83640a, type: 2}
   - resposta: Tchau
