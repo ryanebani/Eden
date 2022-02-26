@@ -5387,7 +5387,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.4
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -6907,7 +6907,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6088659038999548309, guid: 2a38fc13b81b7a44c9983c30de1e55a2, type: 3}
       propertyPath: m_RootOrder
-      value: 114
+      value: 113
       objectReference: {fileID: 0}
     - target: {fileID: 6088659038999548309, guid: 2a38fc13b81b7a44c9983c30de1e55a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10577,7 +10577,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 116
+  m_RootOrder: 115
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &577168368
 GameObject:
@@ -10747,7 +10747,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 118
+  m_RootOrder: 117
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &583123245
 PrefabInstance:
@@ -11975,36 +11975,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &684416670
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 684416671}
-  m_Layer: 0
-  m_Name: "--------- Part\xEDculas --------------------------------------- (2)"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &684416671
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 684416670}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.800616, y: 1.2632535, z: -1.7215772}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 113
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &696030449
 GameObject:
   m_ObjectHideFlags: 0
@@ -20559,7 +20529,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6088659038999548309, guid: 2a38fc13b81b7a44c9983c30de1e55a2, type: 3}
       propertyPath: m_RootOrder
-      value: 117
+      value: 116
       objectReference: {fileID: 0}
     - target: {fileID: 6088659038999548309, guid: 2a38fc13b81b7a44c9983c30de1e55a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23333,7 +23303,7 @@ ParticleSystem:
         m_RotationOrder: 4
     separateAxes: 1
   ColorModule:
-    enabled: 0
+    enabled: 1
     gradient:
       serializedVersion: 2
       minMaxState: 1
@@ -23341,8 +23311,8 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 1, g: 1, b: 1, a: 1}
-        key1: {r: 1, g: 1, b: 1, a: 1}
+        key0: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 1}
+        key1: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 0.039215688}
         key2: {r: 0, g: 0, b: 0, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
@@ -23357,7 +23327,7 @@ ParticleSystem:
         ctime5: 0
         ctime6: 0
         ctime7: 0
-        atime0: 0
+        atime0: 52428
         atime1: 65535
         atime2: 0
         atime3: 0
@@ -28037,7 +28007,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 115
+  m_RootOrder: 114
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1167452474
 GameObject:
@@ -29591,7 +29561,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: fdd528e27a37f484eb017c01a1b98ec6, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.55
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -38038,7 +38008,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501253559}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.083132, y: -0.025000453, z: -10}
+  m_LocalPosition: {x: -16.26, y: -0.025000453, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -45226,6 +45196,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 212979102405960579, guid: d00e9ec63ef94134087fe2b8e4ddf384, type: 3}
+      propertyPath: m_Volume
+      value: 0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 3423308945583362289, guid: d00e9ec63ef94134087fe2b8e4ddf384, type: 3}
       propertyPath: m_Name
       value: Victor e Pedro
@@ -76706,6 +76680,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8804862856420544000, guid: 9e22f38a871bb1d4f8857ac02db7a98f, type: 3}
+      propertyPath: ColorModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804862856420544000, guid: 9e22f38a871bb1d4f8857ac02db7a98f, type: 3}
       propertyPath: ForceModule.enabled
       value: 0
       objectReference: {fileID: 0}
@@ -76864,6 +76842,42 @@ PrefabInstance:
     - target: {fileID: 8804862856420544000, guid: 9e22f38a871bb1d4f8857ac02db7a98f, type: 3}
       propertyPath: EmissionModule.rateOverDistance.scalar
       value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804862856420544000, guid: 9e22f38a871bb1d4f8857ac02db7a98f, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.atime0
+      value: 40959
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804862856420544000, guid: 9e22f38a871bb1d4f8857ac02db7a98f, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804862856420544000, guid: 9e22f38a871bb1d4f8857ac02db7a98f, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.b
+      value: 0.5764706
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804862856420544000, guid: 9e22f38a871bb1d4f8857ac02db7a98f, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.g
+      value: 0.5254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804862856420544000, guid: 9e22f38a871bb1d4f8857ac02db7a98f, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.r
+      value: 0.0627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804862856420544000, guid: 9e22f38a871bb1d4f8857ac02db7a98f, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.a
+      value: 0.039215688
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804862856420544000, guid: 9e22f38a871bb1d4f8857ac02db7a98f, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.b
+      value: 0.5764706
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804862856420544000, guid: 9e22f38a871bb1d4f8857ac02db7a98f, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.g
+      value: 0.5254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804862856420544000, guid: 9e22f38a871bb1d4f8857ac02db7a98f, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.r
+      value: 0.0627451
       objectReference: {fileID: 0}
     - target: {fileID: 8804862856420544000, guid: 9e22f38a871bb1d4f8857ac02db7a98f, type: 3}
       propertyPath: ExternalForcesModule.multiplierCurve.scalar
@@ -81854,7 +81868,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7889479245879834648, guid: 42475340a898b384c86a86754fe095a1, type: 3}
       propertyPath: m_RootOrder
-      value: 119
+      value: 118
       objectReference: {fileID: 0}
     - target: {fileID: 7889479245879834648, guid: 42475340a898b384c86a86754fe095a1, type: 3}
       propertyPath: m_AnchorMax.x

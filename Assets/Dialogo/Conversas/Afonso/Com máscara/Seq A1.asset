@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequencia:
   - "N\xE3o t\xE1 me reconhecendo?"
-  - Eu sou velho menino.
+  - Eu sou velho, menino.
   - "Mas minha mem\xF3ria \xE9 a de um jovem da sua idade."
   - "A gente n\xE3o se conhece."
-  npcFalando: 01000000
+  npcFalando: 00010101
   proximaCutscene: 
   proximaFala: {fileID: 0}

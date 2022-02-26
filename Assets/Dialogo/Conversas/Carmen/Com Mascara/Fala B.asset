@@ -15,7 +15,7 @@ MonoBehaviour:
   fala: "Meu filhinho n\xE3o merece ficar nessa cal\xE7ada nojenta!"
   respostas: []
   sequencia: {fileID: 0}
-  npcFalando: 0
+  npcFalando: 1
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: dd1bb926006476d448d49116820dc980, type: 2}

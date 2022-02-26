@@ -21,7 +21,6 @@ MonoBehaviour:
   - Agora xispa daqui antes que eu chame a policia!
   - "Mas eu sou o \xFAnico cliente aqui."
   - "Eu n\xE3o t\xF4 vendo ningu\xE9m."
-  - Iludido...
-  npcFalando: 010100010101000100
+  npcFalando: 0101000101010001
   proximaCutscene: 000000000000000000
   proximaFala: {fileID: 0}
