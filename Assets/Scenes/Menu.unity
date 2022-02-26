@@ -2744,7 +2744,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1631511216}
         m_TargetAssemblyTypeName: Botoes, Assembly-CSharp
-        m_MethodName: Cutscene
+        m_MethodName: Jogar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

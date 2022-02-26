@@ -164,7 +164,7 @@ public class Interagir : MonoBehaviour
                 }
             }
             */
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonUp(0))
             {
                 mover = true;
                 ponto = Camera.main.ScreenToWorldPoint(Input.mousePosition);
