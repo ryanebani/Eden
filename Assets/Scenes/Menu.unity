@@ -1585,7 +1585,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Rafael pedro: Level Design, Game Design e Programa\xE7\xE3o"
+  m_Text: "Rafael Pedro: Level Design, Game Design e Programa\xE7\xE3o"
 --- !u!222 &1371657401
 CanvasRenderer:
   m_ObjectHideFlags: 0

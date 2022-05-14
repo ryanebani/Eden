@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Seq C
   m_EditorClassIdentifier: 
   sequencia:
-  - Sim, a gazela me emprestou o visto reserva
-  - "Ent\xE3o tu j\xE1 quer subir?"
+  - Sim, aquela gazela me emprestou o visto reserva dela...
+  - "Ent\xE3o, tu j\xE1 quer subir?"
   npcFalando: 0001
-  proximaCutscene: 
+  proximaCutscene: 0000
   proximaFala: {fileID: 11400000, guid: decfa22981568234ab75c9b4e06414b2, type: 2}

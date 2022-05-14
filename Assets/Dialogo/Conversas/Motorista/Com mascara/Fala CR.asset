@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd87fb860933cc64a87173c38e13af03, type: 3}
   m_Name: Fala CR
   m_EditorClassIdentifier: 
-  fala: "Saiba que n\xE3o vamos voltar pra c\xE1."
+  fala: "Quando eu for, eu n\xE3o vou passar aqui de novo."
   respostas:
-  - resposta: Sim, preciso ir
+  - resposta: Sim. Eu preciso ir.
     proximaFala: {fileID: 11400000, guid: 51f49f9b5c6946645b5415f7b79bb9d2, type: 2}
-  - resposta: "N\xE3o, vou olhar o lugar mais um pouco"
+  - resposta: "N\xE3o, quero olhar o lugar mais um pouco."
     proximaFala: {fileID: 11400000, guid: 521255412af2f404ab043aea65352d12, type: 2}
   - resposta: "N\xE3o, vou olhar o lugar mais um pouco"
     proximaFala: {fileID: 0}
   sequencia: {fileID: 0}
   npcFalando: 1
   falaNode: 
-  jogador: {fileID: 0}
-  NPC: {fileID: 0}
+  jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
+  NPC: {fileID: 11400000, guid: f71cc40913af3164e8f52f390c472b4b, type: 2}
   dadosNpc: {fileID: 0}
   recomecar: 0
   NPCNode: 0
