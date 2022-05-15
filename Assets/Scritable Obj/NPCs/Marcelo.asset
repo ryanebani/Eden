@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nomeNPC: Marcelo
   falasIdle:
-  - Que fedro podre!
+  - Que fedor podre!
   - "N\xE3o sei o que \xE9 pior, voc\xEA ou aqueles drogadors!"
   - Para de espantar meus clientes!
   falasIdleMascara:
-  - Boa tarde rapaz!
-  - "N\xE3o liga pra aqueles drogados."
+  - Boa tarde, rapaz!
+  - "N\xE3o liga pra aqueles marmanjos ali."
   - "Meus produtos s\xE3o os melhores do pa\xEDs!"
   clipes:
   - {fileID: 8300000, guid: 1148bdb3ee2684e4d9c263647fa63067, type: 3}

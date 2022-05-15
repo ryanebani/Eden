@@ -45486,7 +45486,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7780447337290688634, guid: d00e9ec63ef94134087fe2b8e4ddf384, type: 3}
       propertyPath: m_Volume
-      value: 0.03
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 7780447337290688634, guid: d00e9ec63ef94134087fe2b8e4ddf384, type: 3}
       propertyPath: MaxDistance
@@ -45495,7 +45495,7 @@ PrefabInstance:
     - target: {fileID: 7780447337290688634, guid: d00e9ec63ef94134087fe2b8e4ddf384, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 711ea262eeb702b4db209669aa253ba8, type: 3}
+      objectReference: {fileID: 8300000, guid: ba55006048172d24dafece5df0e776a6, type: 3}
     - target: {fileID: 7780447337290688634, guid: d00e9ec63ef94134087fe2b8e4ddf384, type: 3}
       propertyPath: rolloffMode
       value: 1
