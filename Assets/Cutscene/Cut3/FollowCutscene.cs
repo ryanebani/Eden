@@ -45,8 +45,10 @@ public class FollowCutscene : MonoBehaviour
             {
                 falas[index].GetComponent<Animator>().SetTrigger("fala");
 
-                if (index + 1 < falas.Count) falas[index + 1].SetActive(true);                
+                if (index + 1 < falas.Count) falas[index + 1].SetActive(true);
+                else OnEnd?.Invoke();
                 index++;
+                
             }
             else
             {

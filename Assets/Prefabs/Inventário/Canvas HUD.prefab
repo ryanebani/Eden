@@ -4125,6 +4125,22 @@ PrefabInstance:
       propertyPath: textNome
       value: 
       objectReference: {fileID: 6289131211709627051}
+    - target: {fileID: 2222044934420683362, guid: 44f8bc875290ea94eb27e3c6852a74b0, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -1559.2163
+      objectReference: {fileID: 0}
+    - target: {fileID: 2222044934420683362, guid: 44f8bc875290ea94eb27e3c6852a74b0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -159.1078
+      objectReference: {fileID: 0}
+    - target: {fileID: 2222044934420683362, guid: 44f8bc875290ea94eb27e3c6852a74b0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.43707275
+      objectReference: {fileID: 0}
+    - target: {fileID: 2222044934420683362, guid: 44f8bc875290ea94eb27e3c6852a74b0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -107.4747
+      objectReference: {fileID: 0}
     - target: {fileID: 2444736609579090519, guid: 44f8bc875290ea94eb27e3c6852a74b0, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

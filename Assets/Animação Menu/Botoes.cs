@@ -9,11 +9,14 @@ public class Botoes : MonoBehaviour
     public CinemachineVirtualCamera logo;
     public CinemachineVirtualCamera menu;
     public CinemachineVirtualCamera creditos;
+    public static bool irParaCreditos;
     bool inicio = true;
+    Creditos creditosScript;
 
     // Start is called before the first frame update
     void Start()
     {
+        creditosScript = FindObjectOfType<Creditos>();
     }
 
     // Update is called once per frame
@@ -31,10 +34,19 @@ public class Botoes : MonoBehaviour
             menu.Priority = 1;
             inicio = false;
         }
+
+        if (irParaCreditos)
+        {
+            inicio = false;
+            Creditos();
+            creditosScript.SetCreditos();
+            irParaCreditos = false;
+        }
     }
 
     public void Jogar()
     {
+        creditos.Priority = 0;
         menu.Priority = 0;
         logo.Priority = 1;
         SceneManager.LoadScene("J1", LoadSceneMode.Single);
@@ -42,12 +54,14 @@ public class Botoes : MonoBehaviour
 
     public void Creditos()
     {
+        logo.Priority = 0;
         menu.Priority = 0;
         creditos.Priority = 1;
     }
 
     public void Voltar()
     {
+        logo.Priority = 0;
         creditos.Priority = 0;
         menu.Priority = 1;
     }

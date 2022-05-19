@@ -4,11 +4,15 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class LoadScnene : MonoBehaviour
-{
-    // Start is called before the first frame update
-    
-    public void LoadScene()
+{   
+    public void LoadScene(string scene)
     {
-        SceneManager.LoadScene("Final - EP1");
+        SceneManager.LoadScene(scene);
+    }
+
+    public void ChamarMenu()
+    {
+        LoadScene("Menu");
+        Botoes.irParaCreditos = true;
     }
 }
