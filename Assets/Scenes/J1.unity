@@ -11189,6 +11189,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee6d8329ad1c520469756fb26c1fdd4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &632796305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632796301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 846c3a9f87558be4caa4704a5bb7896d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transicao: {fileID: 0}
+  camAtual: {fileID: 0}
+  camProx: {fileID: 0}
+  OnFade:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 632796307}
+        m_TargetAssemblyTypeName: LoadScnene, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  TP: 0
+  desligar: []
+  ligar: []
 --- !u!114 &632796306 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1574849455717194801, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
@@ -11198,6 +11231,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de53902171c6def4b8d53e08bd813971, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &632796307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632796301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d010a738acd2b1d49ad1ff40bb9a8b3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &635950305
@@ -38008,7 +38053,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501253559}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.875, y: -0.025000453, z: -10}
+  m_LocalPosition: {x: -17.800001, y: -0.025000453, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -43480,11 +43525,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: ueMask.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: ueMask.Array.data[2].m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: ueMask.Array.data[2].m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -43513,11 +43558,11 @@ PrefabInstance:
     - target: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: ueMask.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1151005591}
+      objectReference: {fileID: 632796305}
     - target: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: ueMask.Array.data[2].m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 143256316}
+      objectReference: {fileID: 0}
     - target: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: ueMask.Array.data[2].m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
@@ -43576,11 +43621,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: ueMask.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetActive
+      value: IniciarFade
       objectReference: {fileID: 0}
     - target: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: ueMask.Array.data[2].m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SetActive
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: ueMask.Array.data[2].m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -43608,11 +43653,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: ueMask.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: Fade, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: ueMask.Array.data[2].m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: ueMask.Array.data[2].m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
@@ -43628,7 +43673,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: ueMask.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: ueMask.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -43664,7 +43709,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: ueMask.Array.data[2].m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1574849455717194802, guid: 4d90a76f1c576094988b7f86382df42a, type: 3}
       propertyPath: ueMask.Array.data[2].m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
