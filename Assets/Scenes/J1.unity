@@ -11201,7 +11201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 846c3a9f87558be4caa4704a5bb7896d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transicao: {fileID: 0}
+  transicao: {fileID: 404837616}
   camAtual: {fileID: 0}
   camProx: {fileID: 0}
   OnFade:
@@ -11210,13 +11210,13 @@ MonoBehaviour:
       - m_Target: {fileID: 632796307}
         m_TargetAssemblyTypeName: LoadScnene, Assembly-CSharp
         m_MethodName: LoadScene
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Final - EP1
           m_BoolArgument: 0
         m_CallState: 2
   TP: 0
@@ -38053,7 +38053,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501253559}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.875, y: -0.025000453, z: -10}
+  m_LocalPosition: {x: -17.798565, y: -0.025000453, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
