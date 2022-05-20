@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fala: "Tu n\xE3o ia mexer, moleque?"
   respostas: []
-  sequencia: {fileID: 0}
-  npcFalando: 0
+  sequencia: {fileID: 11400000, guid: 68d10d6b0a413d1438ff897a706905e4, type: 2}
+  npcFalando: 1
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: 4960aedad818f614482600f088cf9c3f, type: 2}
