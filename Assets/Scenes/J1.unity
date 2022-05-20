@@ -21724,6 +21724,8 @@ MonoBehaviour:
   falas: {fileID: 0}
   abelMask: {fileID: -4883974678191042152, guid: 6553f828841e34b4f9d3e85a45334068, type: 3}
   nomeMask: {fileID: 3979909993157166776, guid: 32b87b2d2ac480b4884760a4d5131b48, type: 3}
+  dialogoAtual: 
+  completou: 0
 --- !u!4 &1007075631
 Transform:
   m_ObjectHideFlags: 0
@@ -38101,7 +38103,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501253559}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.875, y: -0.025000453, z: -10}
+  m_LocalPosition: {x: -17.081945, y: -0.025000453, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -40174,6 +40176,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1622071087}
+        m_TargetAssemblyTypeName: Fade, Assembly-CSharp
+        m_MethodName: CeninhaFalse
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   TP: 0
   desligar: []
   ligar: []
@@ -40891,6 +40905,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1728538624}
+        m_TargetAssemblyTypeName: Fade, Assembly-CSharp
+        m_MethodName: CeninhaTrue
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
