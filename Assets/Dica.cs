@@ -41,16 +41,23 @@ public class Dica : MonoBehaviour
         if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
-            
-            if (touch.phase == TouchPhase.Stationary)
+            bool tocou = false;
+
+            if (touch.phase == TouchPhase.Began)
             {
                 timer = 0;
+                tocou = true;
+            }
+
+            if(tocou)
+            {
                 timer += Time.deltaTime;
             }
             
 
             if (touch.phase == TouchPhase.Ended)
             {
+                tocou = false;
                 timer = 0;
                 if (check)
                 {
