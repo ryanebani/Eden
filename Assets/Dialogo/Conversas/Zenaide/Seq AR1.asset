@@ -18,7 +18,7 @@ MonoBehaviour:
   - "Sabe como \xE9, pa\xEDs em crise e o governo n\xE3o faz nada. Minhas costas
     doendo. 15 filhos pra criar..."
   - "E o fog\xE3o quebrou bem na hora do almo\xE7o."
-  - Que fita hein.
+  - Que fita, hein.
   npcFalando: 0001010100
   proximaCutscene: 0000000000
   proximaFala: {fileID: 11400000, guid: 342a50ec32680a540a926fa39ca524d0, type: 2}
