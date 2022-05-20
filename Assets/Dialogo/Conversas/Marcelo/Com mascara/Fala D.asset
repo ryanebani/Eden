@@ -15,7 +15,7 @@ MonoBehaviour:
   fala: "N\xE3o se mistura com aqueles cara ali n\xE3o."
   respostas: []
   sequencia: {fileID: 0}
-  npcFalando: 0
+  npcFalando: 1
   falaNode: 
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: 4960aedad818f614482600f088cf9c3f, type: 2}
