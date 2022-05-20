@@ -58,6 +58,10 @@ public class DialogoController : MonoBehaviour
 
     public Sprite abelMask;
     public Sprite nomeMask;
+
+    public string dialogoAtual;
+
+    public bool completou;
     private void Start()
     {
         som = GetComponent<SorteiaSom>();
@@ -195,9 +199,20 @@ public class DialogoController : MonoBehaviour
             if (falaAtiva && animDiag.GetCurrentAnimatorStateInfo(0).IsName("DialogoParado"))
             {
                 AcaoSequencial();
+               
+                if(falaNPC.text == dialogoAtual)
+                {
+                    completou = true;
+                }
+                else
+                {
+                    completou = false;
+                }
+
                 if (falas.sequencia == null)
                 {
-                    if (falas.respostas.Length > 0)
+
+                    if (falas.respostas.Length > 0 && completou)
                     {
                         MostrarRespostas();
                     }
@@ -238,23 +253,33 @@ public class DialogoController : MonoBehaviour
                             indexCutscene++;
                             Cutscene();
                         }
-                        StopAllCoroutines();
-                        falaNPC.text = "";
-                        StartCoroutine(TypeSentence(falas.sequencia.sequencia[index]));
-                        if (falas.sequencia.npcFalando[index])
+
+                        if (falaNPC.text != dialogoAtual)
                         {
-                            spritePlayer.gameObject.GetComponent<Animator>().SetBool("Falando", false);
-                            spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", true);
-                            falaNPC.color = falas.NPC.cor;
+                            StopAllCoroutines();
+                            falaNPC.text = dialogoAtual;
                         }
                         else
                         {
+                            falaNPC.text = "";
+                            StartCoroutine(TypeSentence(falas.sequencia.sequencia[index]));
 
-                            spritePlayer.gameObject.GetComponent<Animator>().SetBool("Falando", true);
-                            spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", false);
-                            falaNPC.color = falas.jogador.cor;
+                            if (falas.sequencia.npcFalando[index])
+                            {
+                                spritePlayer.gameObject.GetComponent<Animator>().SetBool("Falando", false);
+                                spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", true);
+                                falaNPC.color = falas.NPC.cor;
+                            }
+                            else
+                            {
+
+                                spritePlayer.gameObject.GetComponent<Animator>().SetBool("Falando", true);
+                                spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", false);
+                                falaNPC.color = falas.jogador.cor;
+                            }
+                            index++;
                         }
-                        index++;
+
                     }
                     else
                     {
@@ -262,6 +287,7 @@ public class DialogoController : MonoBehaviour
                         if (falas.sequencia.proximaFala != null)
                         {
                             ProximaFala(falas.sequencia.proximaFala);
+
                         }
                         else
                         {
@@ -294,41 +320,41 @@ public class DialogoController : MonoBehaviour
 
     void MostrarRespostas()
     {
-        spritePlayer.gameObject.GetComponent<Animator>().SetBool("Falando", true);
-        spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", false);
-        if (falas.falaNode != "")
-        {
-            StopAllCoroutines();
-            falaNPC.text = "";
-            StartCoroutine(TypeSentence(falas.falaNode));
-            if (falas.NPCNode)
-                falaNPC.color = falas.NPC.cor;
-            else
-                falaNPC.color = falas.jogador.cor;
-        }
-        falaAtiva = false;
-        if (!dialogo.liberaResposta)
-        {
-            for (int i = 0; i < falas.respostas.Length - 1; i++)
+            spritePlayer.gameObject.GetComponent<Animator>().SetBool("Falando", true);
+            spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", false);
+            if (falas.falaNode != "")
             {
-                GameObject tempResposta = Instantiate(resposta, painelDeDialogo.transform) as GameObject;
-                tempResposta.GetComponent<Text>().text = falas.respostas[i].resposta;
-                tempResposta.GetComponent<AnswerButton>().Setup(falas.respostas[i]);
+                StopAllCoroutines();
+                falaNPC.text = "";
+                StartCoroutine(TypeSentence(falas.falaNode));
+                if (falas.NPCNode)
+                    falaNPC.color = falas.NPC.cor;
+                else
+                    falaNPC.color = falas.jogador.cor;
             }
-        }
-        else
-        {
-            for (int i = 0; i < falas.respostas.Length; i++)
+            falaAtiva = false;
+            if (!dialogo.liberaResposta)
             {
-                GameObject tempResposta = Instantiate(resposta, painelDeDialogo.transform) as GameObject;
-                tempResposta.GetComponent<Text>().text = falas.respostas[i].resposta;
-                tempResposta.GetComponent<AnswerButton>().Setup(falas.respostas[i]);
-                if(i == falas.respostas.Length - 1)
+                for (int i = 0; i < falas.respostas.Length - 1; i++)
                 {
-                    tempResposta.GetComponent<Text>().color = novaInformacao;
+                    GameObject tempResposta = Instantiate(resposta, painelDeDialogo.transform) as GameObject;
+                    tempResposta.GetComponent<Text>().text = falas.respostas[i].resposta;
+                    tempResposta.GetComponent<AnswerButton>().Setup(falas.respostas[i]);
                 }
             }
-        }
+            else
+            {
+                for (int i = 0; i < falas.respostas.Length; i++)
+                {
+                    GameObject tempResposta = Instantiate(resposta, painelDeDialogo.transform) as GameObject;
+                    tempResposta.GetComponent<Text>().text = falas.respostas[i].resposta;
+                    tempResposta.GetComponent<AnswerButton>().Setup(falas.respostas[i]);
+                    if (i == falas.respostas.Length - 1)
+                    {
+                        tempResposta.GetComponent<Text>().color = novaInformacao;
+                    }
+                }
+            }
     }
 
     public void ProximaFala(FalaNPC fala)
@@ -401,7 +427,14 @@ public class DialogoController : MonoBehaviour
 
         if (falas.recomecar && repetiu)
         {
-            MostrarRespostas();
+            if (completou)
+                MostrarRespostas();
+            else
+            {
+                StopAllCoroutines();
+                falaNPC.text = dialogoAtual;
+            }
+
         }
         else
         {
@@ -409,6 +442,7 @@ public class DialogoController : MonoBehaviour
             {
                 repetiu = true;
             }
+
             StopAllCoroutines();
             falaNPC.text = "";
             StartCoroutine(TypeSentence(falas.fala));
@@ -490,6 +524,7 @@ public class DialogoController : MonoBehaviour
 
     IEnumerator TypeSentence(string sentenca)
     {
+        dialogoAtual = sentenca;
         foreach(char letter in sentenca.ToCharArray())
         {
             falaNPC.text += letter;
