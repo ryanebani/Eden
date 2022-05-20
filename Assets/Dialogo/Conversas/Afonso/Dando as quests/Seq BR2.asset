@@ -15,5 +15,5 @@ MonoBehaviour:
   sequencia:
   - Ela nunca sai da cozinha.
   npcFalando: 01
-  proximaCutscene: 0000
+  proximaCutscene: 00
   proximaFala: {fileID: 11400000, guid: 58506d8751cbeec40a75ede6edff316e, type: 2}

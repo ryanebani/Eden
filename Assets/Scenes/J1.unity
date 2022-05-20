@@ -2297,6 +2297,18 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 1.17
       objectReference: {fileID: 0}
+    - target: {fileID: 8960649203163174128, guid: eb8f21d3c8c85f348927b2640d54faa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8960649203163174128, guid: eb8f21d3c8c85f348927b2640d54faa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8960649203163174128, guid: eb8f21d3c8c85f348927b2640d54faa5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb8f21d3c8c85f348927b2640d54faa5, type: 3}
 --- !u!1001 &139841642
@@ -5108,6 +5120,14 @@ PrefabInstance:
       propertyPath: chave
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8441805167782791623, guid: af37497e0a2534b49a19c524a911b136, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441805167782791623, guid: af37497e0a2534b49a19c524a911b136, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af37497e0a2534b49a19c524a911b136, type: 3}
 --- !u!1 &270391842 stripped
@@ -6875,7 +6895,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2805290635578991312, guid: 2a38fc13b81b7a44c9983c30de1e55a2, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5001860155073800066, guid: 2a38fc13b81b7a44c9983c30de1e55a2, type: 3}
       propertyPath: objOS
@@ -38986,7 +39006,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3519356313609527201, guid: c939f23972e80c043b665cec126eaa54, type: 3}
       propertyPath: ueSemMask.Array.data[0].m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3519356313609527201, guid: c939f23972e80c043b665cec126eaa54, type: 3}
       propertyPath: ueSemMask.Array.data[1].m_PersistentCalls.m_Calls.Array.size
@@ -42129,7 +42149,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8116409654337050802, guid: 2a38fc13b81b7a44c9983c30de1e55a2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.38
+      value: -3.8
       objectReference: {fileID: 0}
     - target: {fileID: 8116409654337050802, guid: 2a38fc13b81b7a44c9983c30de1e55a2, type: 3}
       propertyPath: m_LocalPosition.y
