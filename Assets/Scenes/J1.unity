@@ -3504,6 +3504,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3865464108308025048, guid: 329929b7378a02642a5b3292892a2b13, type: 3}
+      propertyPath: falasComMascara.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: f50c85e829b03e940a608e8019321a2c, type: 2}
+    - target: {fileID: 3865464108308025048, guid: 329929b7378a02642a5b3292892a2b13, type: 3}
+      propertyPath: falasComMascara.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 9922e25af4e31d347ac96b9320ca8df8, type: 2}
+    - target: {fileID: 3865464108308025048, guid: 329929b7378a02642a5b3292892a2b13, type: 3}
       propertyPath: falasSemMascara.Array.data[0]
       value: 
       objectReference: {fileID: 11400000, guid: 78f8fa7efa193dd4ea4727f8645d14ae, type: 2}
@@ -3513,7 +3521,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: fcb1d9dfdb87d054c95350abb90b1366, type: 2}
     - target: {fileID: 3865464108308025048, guid: 329929b7378a02642a5b3292892a2b13, type: 3}
       propertyPath: falaQuestsComMascara.Array.size
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3865464108308025048, guid: 329929b7378a02642a5b3292892a2b13, type: 3}
       propertyPath: falaQuestsSemMascara.Array.size
@@ -3522,7 +3530,11 @@ PrefabInstance:
     - target: {fileID: 3865464108308025048, guid: 329929b7378a02642a5b3292892a2b13, type: 3}
       propertyPath: falaQuestsComMascara.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: f50c85e829b03e940a608e8019321a2c, type: 2}
+    - target: {fileID: 3865464108308025048, guid: 329929b7378a02642a5b3292892a2b13, type: 3}
+      propertyPath: falaQuestsComMascara.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 9922e25af4e31d347ac96b9320ca8df8, type: 2}
     - target: {fileID: 3865464108308025048, guid: 329929b7378a02642a5b3292892a2b13, type: 3}
       propertyPath: falaQuestsSemMascara.Array.data[0]
       value: 
@@ -38111,7 +38123,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501253559}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.875, y: -0.025000453, z: -10}
+  m_LocalPosition: {x: -15.786894, y: -0.025000453, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -40184,6 +40196,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1622071087}
+        m_TargetAssemblyTypeName: Fade, Assembly-CSharp
+        m_MethodName: CeninhaFalse
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   TP: 0
   desligar: []
   ligar: []
@@ -40901,6 +40925,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1728538624}
+        m_TargetAssemblyTypeName: Fade, Assembly-CSharp
+        m_MethodName: CeninhaTrue
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
