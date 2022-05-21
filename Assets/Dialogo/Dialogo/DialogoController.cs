@@ -62,6 +62,8 @@ public class DialogoController : MonoBehaviour
     public string dialogoAtual;
 
     public bool completou;
+
+    public static bool ceninha;
     private void Start()
     {
         som = GetComponent<SorteiaSom>();
@@ -194,124 +196,154 @@ public class DialogoController : MonoBehaviour
         }
         */
         ///*
-        if (Input.GetMouseButtonDown(0))
+        ///
+        if (!ceninha)
         {
-            if (falaAtiva && animDiag.GetCurrentAnimatorStateInfo(0).IsName("DialogoParado"))
+            if (Input.GetMouseButtonDown(0))
             {
-                AcaoSequencial();
-               
-                if(falaNPC.text == dialogoAtual)
+                if (falaAtiva && animDiag.GetCurrentAnimatorStateInfo(0).IsName("DialogoParado"))
                 {
-                    completou = true;
-                }
-                else
-                {
-                    completou = false;
-                }
+                    AcaoSequencial();
 
-                if (falas.sequencia == null)
-                {
-
-                    if (falas.respostas.Length > 0 && completou)
+                    if (falaNPC.text == dialogoAtual)
                     {
-                        MostrarRespostas();
+                        completou = true;
                     }
                     else
                     {
-                        if (falas.proximaQuest)
-                            dialogo.ProximaQuest();
-
-                        falaAtiva = false;
-                        painelComTudo.gameObject.GetComponent<Animator>().SetBool("Aberto", false);
-                        repetiu = false;
-                        jogador = null;
-                        NPC = null;
-                        Interagir.podeAndar = true;
-                        podeClickar = true;
-                        tocarSom = true;
-                        imagemCutscene.gameObject.SetActive(false);
-                        indexCutscene = 0;
-                        if (primeiraCut != null)
-                            SceneManager.LoadScene("J1", LoadSceneMode.Single);
-                    }
-                }
-                else
-                {
-                    if (falas.sequencia.proximaCutscene.Length != falas.sequencia.sequencia.Length)
-                    {
-                        falas.sequencia.proximaCutscene = new bool[falas.sequencia.sequencia.Length];
+                        completou = false;
                     }
 
-                    if (index < falas.sequencia.sequencia.Length)
+                    if (completou)
                     {
-                        if (primeiraCut != null && index == 2 && !GetComponent<AudioSource>().isPlaying)
+                        if (falas.sequencia == null)
                         {
-                            GetComponent<AudioSource>().Play();
-                        }
-                        if (falas.sequencia.proximaCutscene[index])
-                        {
-                            indexCutscene++;
-                            Cutscene();
-                        }
 
-                        if (falaNPC.text != dialogoAtual)
-                        {
-                            StopAllCoroutines();
-                            falaNPC.text = dialogoAtual;
-                        }
-                        else
-                        {
-                            falaNPC.text = "";
-                            StartCoroutine(TypeSentence(falas.sequencia.sequencia[index]));
-
-                            if (falas.sequencia.npcFalando[index])
+                            if (falas.respostas.Length > 0 && completou)
                             {
-                                spritePlayer.gameObject.GetComponent<Animator>().SetBool("Falando", false);
-                                spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", true);
-                                falaNPC.color = falas.NPC.cor;
+                                MostrarRespostas();
                             }
                             else
                             {
+                                if (!completou)
+                                {
+                                    StopAllCoroutines();
+                                    falaNPC.text = dialogoAtual;
+                                }
+                                else
+                                {
+                                    if (falas.proximaQuest)
+                                        dialogo.ProximaQuest();
 
-                                spritePlayer.gameObject.GetComponent<Animator>().SetBool("Falando", true);
-                                spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", false);
-                                falaNPC.color = falas.jogador.cor;
+                                    falaAtiva = false;
+                                    painelComTudo.gameObject.GetComponent<Animator>().SetBool("Aberto", false);
+                                    repetiu = false;
+                                    jogador = null;
+                                    NPC = null;
+                                    Interagir.podeAndar = true;
+                                    podeClickar = true;
+                                    tocarSom = true;
+                                    imagemCutscene.gameObject.SetActive(false);
+                                    indexCutscene = 0;
+                                    if (primeiraCut != null)
+                                        SceneManager.LoadScene("J1", LoadSceneMode.Single);
+                                }
+
                             }
-                            index++;
-                        }
-
-                    }
-                    else
-                    {
-                        index = 0;
-                        if (falas.sequencia.proximaFala != null)
-                        {
-                            ProximaFala(falas.sequencia.proximaFala);
-
                         }
                         else
                         {
-                            if (falas.proximaQuest)
-                                dialogo.ProximaQuest();
+                            if (falas.sequencia.proximaCutscene.Length != falas.sequencia.sequencia.Length)
+                            {
+                                falas.sequencia.proximaCutscene = new bool[falas.sequencia.sequencia.Length];
+                            }
 
-                            Interagir.podeAndar = true;
-                            painelComTudo.gameObject.GetComponent<Animator>().SetBool("Aberto", false);
-                            falaAtiva = false;
-                            jogador = null;
-                            NPC = null;
-                            repetiu = false;
-                            podeClickar = true;
-                            tocarSom = true;
-                            imagemCutscene.gameObject.SetActive(false);
-                            indexCutscene = 0;
-                            if (primeiraCut != null && !final)
-                                SceneManager.LoadScene("J1", LoadSceneMode.Single);
-                            else if (primeiraCut != null && final)
-                                SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+                            if (index < falas.sequencia.sequencia.Length)
+                            {
+                                if (primeiraCut != null && index == 2 && !GetComponent<AudioSource>().isPlaying)
+                                {
+                                    GetComponent<AudioSource>().Play();
+                                }
+                                if (falas.sequencia.proximaCutscene[index])
+                                {
+                                    indexCutscene++;
+                                    Cutscene();
+                                }
+
+                                if (falaNPC.text != dialogoAtual)
+                                {
+                                    StopAllCoroutines();
+                                    falaNPC.text = dialogoAtual;
+                                }
+                                else
+                                {
+                                    falaNPC.text = "";
+                                    StartCoroutine(TypeSentence(falas.sequencia.sequencia[index]));
+
+                                    if (falas.sequencia.npcFalando[index])
+                                    {
+                                        spritePlayer.gameObject.GetComponent<Animator>().SetBool("Falando", false);
+                                        spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", true);
+                                        falaNPC.color = falas.NPC.cor;
+                                    }
+                                    else
+                                    {
+
+                                        spritePlayer.gameObject.GetComponent<Animator>().SetBool("Falando", true);
+                                        spriteNPC.gameObject.GetComponent<Animator>().SetBool("Falando", false);
+                                        falaNPC.color = falas.jogador.cor;
+                                    }
+                                    index++;
+                                }
+
+                            }
+                            else
+                            {
+                                if (!completou)
+                                {
+                                    StopAllCoroutines();
+                                    falaNPC.text = dialogoAtual;
+                                }
+                                else
+                                {
+                                    index = 0;
+                                    if (falas.sequencia.proximaFala != null)
+                                    {
+                                        ProximaFala(falas.sequencia.proximaFala);
+
+                                    }
+                                    else
+                                    {
+                                        if (falas.proximaQuest)
+                                            dialogo.ProximaQuest();
+
+                                        Interagir.podeAndar = true;
+                                        painelComTudo.gameObject.GetComponent<Animator>().SetBool("Aberto", false);
+                                        falaAtiva = false;
+                                        jogador = null;
+                                        NPC = null;
+                                        repetiu = false;
+                                        podeClickar = true;
+                                        tocarSom = true;
+                                        imagemCutscene.gameObject.SetActive(false);
+                                        indexCutscene = 0;
+                                        if (primeiraCut != null && !final)
+                                            SceneManager.LoadScene("J1", LoadSceneMode.Single);
+                                        else if (primeiraCut != null && final)
+                                            SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+                                    }
+                                }
+
+
+                            }
+
                         }
-
                     }
-
+                    else
+                    {
+                        StopAllCoroutines();
+                        falaNPC.text = dialogoAtual;
+                    }
                 }
             }
         }
@@ -434,7 +466,7 @@ public class DialogoController : MonoBehaviour
                 StopAllCoroutines();
                 falaNPC.text = dialogoAtual;
             }
-
+            
         }
         else
         {

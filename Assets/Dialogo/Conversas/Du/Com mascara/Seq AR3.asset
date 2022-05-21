@@ -28,6 +28,6 @@ MonoBehaviour:
   - "Ah s\xF3 isso? Mel na chupeta."
   - "J\xE1 tenho um aqui, toma meu chapa."
   - "E n\xE3o esquece de falar pra Carmen de como eu te ajudei!"
-  npcFalando: 000100010101000101000100010101
+  npcFalando: 000100010101000101000101010101
   proximaCutscene: 000000000000000000000000000000
   proximaFala: {fileID: 11400000, guid: c718a4f85257d6a4a9d649bd159aeceb, type: 2}

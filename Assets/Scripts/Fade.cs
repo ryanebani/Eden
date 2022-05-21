@@ -83,4 +83,13 @@ public class Fade : MonoBehaviour
         transicao.Som(audioClip);
     }
 
+    public void CeninhaTrue()
+    {
+        DialogoController.ceninha = true;
+    }
+
+    public void CeninhaFalse()
+    {
+        DialogoController.ceninha = false;
+    }
 }

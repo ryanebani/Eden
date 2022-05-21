@@ -21,7 +21,7 @@ MonoBehaviour:
   - resposta: "H\xE3... Me falaram que voc\xEA pode conseguir um neg\xF3cio pra mim."
     proximaFala: {fileID: 11400000, guid: 65fd156a7a9bb384ca69f19f7784e2a8, type: 2}
   sequencia: {fileID: 0}
-  npcFalando: 0
+  npcFalando: 1
   falaNode: O que vai ser compadre?
   jogador: {fileID: 11400000, guid: ffcf6e9149fed9744876035cbf11fc68, type: 2}
   NPC: {fileID: 11400000, guid: 94132dcf3aa8f4a4c87756f28377e658, type: 2}
