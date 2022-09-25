@@ -24,6 +24,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -385,6 +386,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      eden_grafiti_2_17: -849248783600558688
+      eden_grafiti_2_14: 7999558495155642268
+      eden_grafiti_2_19: -3445533560443502324
+      eden_grafiti_2_21: -1268842462936763912
+      eden_grafiti_2_15: -633405297481090931
+      eden_grafiti_2_3: -1003976891099515667
+      eden_grafiti_2_20: -4209083212446863729
+      eden_grafiti_2_2: 2649419858118986996
+      eden_grafiti_2_0: 677983354828320135
+      eden_grafiti_2_10: 6227183337436942579
+      eden_grafiti_2_18: 3746418291240832208
+      eden_grafiti_2_16: -165359669451799767
+      eden_grafiti_2_1: -66780198492581754
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

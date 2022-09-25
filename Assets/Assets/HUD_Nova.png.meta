@@ -66,6 +66,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -460,6 +461,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      HUD_Nova_6: 6171509883397510538
+      HUD_Nova_3: 1605607028347681788
+      HUD_Nova_2: 9032432472083066481
+      HUD_Nova_11: 1467911198653194768
+      HUD_Nova_8: -4988846899780463781
+      HUD_Nova_10: 3096662437244392688
+      HUD_Nova_7: -4831114386160035944
+      HUD_Nova_1: 1422690220725325733
+      "Indica\xE7\xE3o": 1870409155212808566
+      Sombra: -2347355977173808428
+      HUD_Nova_4: -3220610814474365322
+      HUD_Nova_5: 7469707471355026184
+      HUD_Nova_0: -8755597988304074668
+      HUD_Nova_9: 1953986391809633874
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

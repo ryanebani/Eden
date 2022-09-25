@@ -78,6 +78,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -556,6 +557,25 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Caixa hud: 1542511533193789442
+      logo_marcelo: 4852100293153919378
+      logo_abel: -7013519121814834549
+      hud_2_17: 7467000235916744046
+      logo_beto: -2456158782419345954
+      Fundo Idle: 1192693720714388642
+      logo_belinha: 5479679824079679298
+      logo_zenaide: 4358691714143217660
+      logo_abel_mascara: 3979909993157166776
+      logo_afonso: 5100854194883956461
+      logo_vitor_pedro: 3891758045307867865
+      logo_chico: 2378868942718877771
+      hud_2_16: -4688881081966775107
+      hud_2_14: -8991094749534283338
+      logo_madalena: -8997145250483010749
+      logo_edu: 2511040075949732606
+      logo_carmem: -668949482840890278
+      hud_2_15: 256628429690062619
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

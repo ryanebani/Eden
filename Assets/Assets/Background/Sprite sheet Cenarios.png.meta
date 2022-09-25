@@ -42,6 +42,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -256,6 +257,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Bg Beco: 3715874513674109901
+      Bg Cozinha: 7070533837900422527
+      Bg Orfanato: -3075191273766854371
+      vazio: -5341391532714395681
+      Bg Sala Arquivos: -3658196989391792220
+      lixeira: 1923518840705412352
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

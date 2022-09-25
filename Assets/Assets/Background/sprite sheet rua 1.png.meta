@@ -57,6 +57,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -388,6 +389,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Bancada: 847158103027518908
+      Sofa: 1305353920425819864
+      Mesa: 5878187699788025717
+      PosteFrente: -2615220319740597623
+      PontoDonibus: 6595909509991557957
+      Lixeira: 629855393630666553
+      CaixaFeira: 3831116614268079170
+      FioMarrom: 4446699353264082824
+      fioPreto: 2854620562646461334
+      Luz: 3095266580460353502
+      Busao: -1959452344240883844
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -57,6 +57,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -376,6 +377,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      lixo_0: 384103940026832296
+      lixo_minigame_1_15: 4174388265912931058
+      lixo_minigame_1_7: 1931456145767444831
+      lixo_minigame_1_3: 1874092540878712062
+      cadeado: -7086108759095615099
+      lixo_minigame_1_13: -2948123958650002192
+      lixo_minigame_1_10: 6268529161157252803
+      lixo_minigame_1_1: 188257426815796078
+      lixo_1: -3523051960068041303
+      lixo_2: 3069026219510159212
+      lixo_minigame_1_9: 3917050162908321142
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
