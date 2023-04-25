@@ -25,7 +25,6 @@ ScriptedImporter:
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -80,6 +79,7 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -103,6 +103,7 @@ ScriptedImporter:
       width: 136
       height: 110
     spriteID: 517dd68eef675e647b50fdf050a8184c
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -112,34 +113,23 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -135, y: -190}
-  characterData:
-    bones: []
-    parts: []
-    dimension: {x: 0, y: 0}
-    characterGroups: []
-    boneReadOnly: 0
-  sharedRigSpriteImportData: []
-  sharedRigCharacterData:
-    bones: []
-    parts: []
-    dimension: {x: 0, y: 0}
-    characterGroups: []
-    boneReadOnly: 0
   platformSettings: []
   mosaicLayers: 1
-  characterMode: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  layerMappingOption: 2
-  generatePhysicsShape: 0
+  importedTextureWidth: 256
+  importedTextureHeight: 128
+  documentSize: {x: 312, y: 376}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
-  skeletonAssetReferenceID: 
   spriteCategoryList:
     categories: []
+  textureActualWidth: 256
+  textureActualHeight: 128
   spritePackingTag: 
   resliceFromLayer: 0
+  characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
   - name: Camada 1
@@ -149,14 +139,13 @@ ScriptedImporter:
     spriteID: 517dd68eef675e647b50fdf050a8184c
     layerID: 2
     mosaicPosition: {x: 4, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  sharedRigPSDLayers: []
-  pSDLayerImportSetting: []
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
   generateGOHierarchy: 0
   textureAssetName: "sprite afonso cabe\xE7a Texture"
   prefabAssetName: "sprite afonso cabe\xE7a Prefab"
   spriteLibAssetName: "sprite afonso cabe\xE7a Sprite Lib"
-  skeletonAssetName: 
   secondarySpriteTextures: []

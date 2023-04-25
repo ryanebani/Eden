@@ -25,7 +25,6 @@ ScriptedImporter:
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -80,6 +79,7 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -103,16 +103,13 @@ ScriptedImporter:
       width: 157
       height: 345
     spriteID: 069736d51604d994496ff1f6d699a497
+    internalID: 0
     spriteBone:
     - name: bone_1
-      guid: 
       position: {x: 75.83618, y: 341.8819, z: 0}
       rotation: {x: 0, y: 0, z: -0.70005304, w: 0.7140909}
       length: 254.54465
       parentId: -1
-      color:
-        serializedVersion: 2
-        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 69.99701, y: 129.134}
@@ -449,16 +446,13 @@ ScriptedImporter:
       width: 273
       height: 266
     spriteID: 36d54346d7579db4eb88f68cc72cf1a6
+    internalID: 0
     spriteBone:
     - name: bone_2
-      guid: 
       position: {x: 228.30133, y: 184.7251, z: 0}
       rotation: {x: 0, y: 0, z: 0.99999344, w: 0.0036210497}
       length: 63.395584
       parentId: -1
-      color:
-        serializedVersion: 2
-        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 122.736, y: 88.525}
@@ -762,26 +756,51 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -717, y: -45}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 512
+  importedTextureHeight: 512
+  documentSize: {x: 1046, y: 416}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 512
+  textureActualHeight: 512
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Camada 2
+    spriteName: Camada 2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 069736d51604d994496ff1f6d699a497
+    layerID: 4
+    mosaicPosition: {x: 285, y: 4}
+  - name: Camada 1
+    spriteName: Camada 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 36d54346d7579db4eb88f68cc72cf1a6
+    layerID: 2
+    mosaicPosition: {x: 4, y: 4}
   characterData:
     bones:
     - name: bone_1
-      guid: 
       position: {x: 83.836174, y: 412.8819, z: 0}
       rotation: {x: 0, y: 0, z: -0.70005304, w: 0.7140909}
       length: 254.54466
       parentId: -1
-      color:
-        serializedVersion: 2
-        rgba: 0
     - name: bone_2
-      guid: 
       position: {x: 949.30133, y: 233.7251, z: 0}
       rotation: {x: 0, y: 0, z: 0.99999344, w: 0.0036210497}
       length: 63.395584
       parentId: -1
-      color:
-        serializedVersion: 2
-        rgba: 0
     parts:
     - spritePosition:
         x: 8
@@ -803,56 +822,8 @@ ScriptedImporter:
       order: 0
     dimension: {x: 0, y: 0}
     characterGroups: []
-    boneReadOnly: 0
-  sharedRigSpriteImportData: []
-  sharedRigCharacterData:
-    bones: []
-    parts: []
-    dimension: {x: 0, y: 0}
-    characterGroups: []
-    boneReadOnly: 0
-  platformSettings: []
-  mosaicLayers: 1
-  characterMode: 1
-  documentPivot: {x: 0, y: 0}
-  documentAlignment: 7
-  importHiddenLayers: 0
-  layerMappingOption: 2
-  generatePhysicsShape: 0
-  paperDollMode: 0
-  keepDupilcateSpriteName: 0
-  skeletonAssetReferenceID: 
-  spriteCategoryList:
-    categories: []
-  spritePackingTag: 
-  resliceFromLayer: 0
-  mosaicPSDLayers: []
-  rigPSDLayers:
-  - name: Camada 2
-    spriteName: Camada 2
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 069736d51604d994496ff1f6d699a497
-    layerID: 4
-    mosaicPosition: {x: 285, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Camada 1
-    spriteName: Camada 1
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 36d54346d7579db4eb88f68cc72cf1a6
-    layerID: 2
-    mosaicPosition: {x: 4, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  sharedRigPSDLayers: []
-  pSDLayerImportSetting: []
   generateGOHierarchy: 0
   textureAssetName: lustre tv Texture
   prefabAssetName: lustre tv Prefab
   spriteLibAssetName: lustre tv Sprite Lib
-  skeletonAssetName: 
   secondarySpriteTextures: []
