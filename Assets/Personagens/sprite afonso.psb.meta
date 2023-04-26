@@ -5762,6 +5762,167 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -7, y: -80}
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: iPhone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 512
+  importedTextureHeight: 1024
+  documentSize: {x: 312, y: 376}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 512
+  textureActualHeight: 1024
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Camada 4
+    spriteName: Camada 4
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 559bfbe2fa4b4d74d864f85bd215df2f
+    layerID: 17
+    mosaicPosition: {x: 135, y: 740}
+  - name: otra sombrancelha
+    spriteName: otra sombrancelha
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 35b03ac2439256f4980d81a761671264
+    layerID: 13
+    mosaicPosition: {x: 235, y: 907}
+  - name: sombrancelha
+    spriteName: sombrancelha
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4df3a4bae6fe2f1488e349fed7967f10
+    layerID: 12
+    mosaicPosition: {x: 261, y: 858}
+  - name: cabeca
+    spriteName: cabeca
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e10902f4db24c224c85d2ac690b0b04b
+    layerID: 11
+    mosaicPosition: {x: 135, y: 627}
+  - name: braco direito
+    spriteName: braco direito
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0d4280d6467dd3b47b7a18b940bb3f24
+    layerID: 10
+    mosaicPosition: {x: 4, y: 627}
+  - name: Camada 3
+    spriteName: Camada 3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9c2c362e9b154294796f85162774e6e7
+    layerID: 16
+    mosaicPosition: {x: 235, y: 858}
+  - name: dedao
+    spriteName: dedao
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 25255be287731ed4fa1d60b8638033da
+    layerID: 14
+    mosaicPosition: {x: 261, y: 883}
+  - name: tronco
+    spriteName: tronco
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 82db3e42fa8dc634a9416a025d30cddb
+    layerID: 9
+    mosaicPosition: {x: 261, y: 4}
+  - name: braco esquerdo
+    spriteName: braco esquerdo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b355e3fcf14cfa448aca6086e0aa38b3
+    layerID: 8
+    mosaicPosition: {x: 4, y: 287}
+  - name: carca
+    spriteName: carca
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ef933ecb7d866c641b7a0f567388f165
+    layerID: 7
+    mosaicPosition: {x: 4, y: 491}
+  - name: perna direita
+    spriteName: perna direita
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 202dd4304858baa4490339cbf782160a
+    layerID: 6
+    mosaicPosition: {x: 195, y: 491}
+  - name: pe direito
+    spriteName: pe direito
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 733d3eaeab98b924a93b2c5cf68ed8cb
+    layerID: 5
+    mosaicPosition: {x: 135, y: 926}
+  - name: pe esquerdo
+    spriteName: pe esquerdo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 496724279c27edc4f888138de50b8241
+    layerID: 4
+    mosaicPosition: {x: 135, y: 858}
+  - name: casco
+    spriteName: casco
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 36cfc093b003c624099144d1c84fe2ae
+    layerID: 3
+    mosaicPosition: {x: 4, y: 4}
   characterData:
     bones:
     - name: bone_1
@@ -6154,220 +6315,8 @@ ScriptedImporter:
       order: 0
     dimension: {x: 0, y: 0}
     characterGroups: []
-    boneReadOnly: 0
-  sharedRigSpriteImportData: []
-  sharedRigCharacterData:
-    bones: []
-    parts: []
-    dimension: {x: 0, y: 0}
-    characterGroups: []
-    boneReadOnly: 0
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: iPhone
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Android
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  mosaicLayers: 1
-  characterMode: 1
-  documentPivot: {x: 0, y: 0}
-  documentAlignment: 7
-  importHiddenLayers: 0
-  layerMappingOption: 2
-  generatePhysicsShape: 0
-  paperDollMode: 0
-  keepDupilcateSpriteName: 0
-  skeletonAssetReferenceID: 
-  spriteCategoryList:
-    categories: []
-  spritePackingTag: 
-  resliceFromLayer: 0
-  mosaicPSDLayers: []
-  rigPSDLayers:
-  - name: Camada 4
-    spriteName: Camada 4
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 559bfbe2fa4b4d74d864f85bd215df2f
-    layerID: 17
-    mosaicPosition: {x: 135, y: 740}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: otra sombrancelha
-    spriteName: otra sombrancelha
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 35b03ac2439256f4980d81a761671264
-    layerID: 13
-    mosaicPosition: {x: 235, y: 907}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: sombrancelha
-    spriteName: sombrancelha
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 4df3a4bae6fe2f1488e349fed7967f10
-    layerID: 12
-    mosaicPosition: {x: 261, y: 858}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: cabeca
-    spriteName: cabeca
-    isGroup: 0
-    parentIndex: -1
-    spriteID: e10902f4db24c224c85d2ac690b0b04b
-    layerID: 11
-    mosaicPosition: {x: 135, y: 627}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: braco direito
-    spriteName: braco direito
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 0d4280d6467dd3b47b7a18b940bb3f24
-    layerID: 10
-    mosaicPosition: {x: 4, y: 627}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Camada 3
-    spriteName: Camada 3
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 9c2c362e9b154294796f85162774e6e7
-    layerID: 16
-    mosaicPosition: {x: 235, y: 858}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: dedao
-    spriteName: dedao
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 25255be287731ed4fa1d60b8638033da
-    layerID: 14
-    mosaicPosition: {x: 261, y: 883}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: tronco
-    spriteName: tronco
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 82db3e42fa8dc634a9416a025d30cddb
-    layerID: 9
-    mosaicPosition: {x: 261, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: braco esquerdo
-    spriteName: braco esquerdo
-    isGroup: 0
-    parentIndex: -1
-    spriteID: b355e3fcf14cfa448aca6086e0aa38b3
-    layerID: 8
-    mosaicPosition: {x: 4, y: 287}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: carca
-    spriteName: carca
-    isGroup: 0
-    parentIndex: -1
-    spriteID: ef933ecb7d866c641b7a0f567388f165
-    layerID: 7
-    mosaicPosition: {x: 4, y: 491}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: perna direita
-    spriteName: perna direita
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 202dd4304858baa4490339cbf782160a
-    layerID: 6
-    mosaicPosition: {x: 195, y: 491}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: pe direito
-    spriteName: pe direito
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 733d3eaeab98b924a93b2c5cf68ed8cb
-    layerID: 5
-    mosaicPosition: {x: 135, y: 926}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: pe esquerdo
-    spriteName: pe esquerdo
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 496724279c27edc4f888138de50b8241
-    layerID: 4
-    mosaicPosition: {x: 135, y: 858}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: casco
-    spriteName: casco
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 36cfc093b003c624099144d1c84fe2ae
-    layerID: 3
-    mosaicPosition: {x: 4, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  sharedRigPSDLayers: []
-  pSDLayerImportSetting: []
   generateGOHierarchy: 0
   textureAssetName: sprite afonso Texture
   prefabAssetName: sprite afonso Prefab
   spriteLibAssetName: sprite afonso Sprite Lib
-  skeletonAssetName: 
   secondarySpriteTextures: []

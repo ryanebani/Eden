@@ -9193,6 +9193,202 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 145, y: -3}
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: iPhone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 512
+  importedTextureHeight: 512
+  documentSize: {x: 108, y: 432}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 512
+  textureActualHeight: 512
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: mascara
+    spriteName: mascara
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e5148beb20f67b042baea25b193f90c3
+    layerID: 20
+    mosaicPosition: {x: 267, y: 194}
+  - name: antibracoEsquerdo
+    spriteName: antibracoEsquerdo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3070583db4b0a314e95c1dd8de61899e
+    layerID: 19
+    mosaicPosition: {x: 189, y: 128}
+  - name: bicepsEsquerdo
+    spriteName: bicepsEsquerdo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 836b651c0f4e6e54bb159dcc585d2bee
+    layerID: 18
+    mosaicPosition: {x: 267, y: 90}
+  - name: cordinhaEsquerda
+    spriteName: cordinhaEsquerda
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d17cea376e0169a46b93b06e79606b25
+    layerID: 17
+    mosaicPosition: {x: 325, y: 194}
+  - name: cordinhaDireito
+    spriteName: cordinhaDireito
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e63e22e67aaf439498ab417bccebf528
+    layerID: 16
+    mosaicPosition: {x: 320, y: 90}
+  - name: franjola
+    spriteName: franjola
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 63a8cbc30f71a0d47a2f4d5ae2a395b2
+    layerID: 15
+    mosaicPosition: {x: 189, y: 425}
+  - name: "cabelo tr\xE1s L"
+    spriteName: "cabelo tr\xE1s L"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: abefe1a1bc7c20747918cb2a00d3510c
+    layerID: 14
+    mosaicPosition: {x: 267, y: 4}
+  - name: caraOlhoAberto
+    spriteName: caraOlhoAberto
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6bbef87bd52cd954f803620cde7e450b
+    layerID: 13
+    mosaicPosition: {x: 113, y: 4}
+  - name: caraOlhoFechado
+    spriteName: caraOlhoFechado
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 77c8231cad26cc247bb79d79ea8413dd
+    layerID: 12
+    mosaicPosition: {x: 113, y: 137}
+  - name: casaco L
+    spriteName: casaco L
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9cddeb9f586adca44992cc6d7ce65a80
+    layerID: 11
+    mosaicPosition: {x: 4, y: 4}
+  - name: coxa esquerda
+    spriteName: coxa esquerda
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 359cc9e5e2e5ea44b907efd5ace1da89
+    layerID: 10
+    mosaicPosition: {x: 4, y: 177}
+  - name: bacia L
+    spriteName: bacia L
+    isGroup: 0
+    parentIndex: -1
+    spriteID: deec24333f3a50344a4ca41c2f5e0cf8
+    layerID: 7
+    mosaicPosition: {x: 189, y: 352}
+  - name: pernaEsquerda
+    spriteName: pernaEsquerda
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 78a905a10a54e8847a5d623b89416766
+    layerID: 6
+    mosaicPosition: {x: 113, y: 270}
+  - name: sola frente
+    spriteName: sola frente
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 100a3ca4a8c010c4ba1725eff89bb7f9
+    layerID: 5
+    mosaicPosition: {x: 4, y: 471}
+  - name: pernaDireita
+    spriteName: pernaDireita
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 20119cba3e12d6e4e87727ff5f43a8ee
+    layerID: 4
+    mosaicPosition: {x: 189, y: 4}
+  - name: coxa direita
+    spriteName: coxa direita
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3be842dcca310bd418cefe7dd6c9eda0
+    layerID: 2
+    mosaicPosition: {x: 4, y: 324}
+  - name: "sola atr\xE1s"
+    spriteName: "sola atr\xE1s"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a2b3e5401b924c649ae6c5a786532b4f
+    layerID: 3
+    mosaicPosition: {x: 267, y: 278}
+  - name: antibracoDireito
+    spriteName: antibracoDireito
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 29d2c8e267ee4b84ba006c61b08b7f7c
+    layerID: 9
+    mosaicPosition: {x: 113, y: 394}
+  - name: bicepsDireito
+    spriteName: bicepsDireito
+    isGroup: 0
+    parentIndex: -1
+    spriteID: efc6bde47e26f4f48b9802cd30556162
+    layerID: 8
+    mosaicPosition: {x: 189, y: 248}
   characterData:
     bones:
     - name: bone_1
@@ -9936,270 +10132,8 @@ ScriptedImporter:
       order: 0
     dimension: {x: 0, y: 0}
     characterGroups: []
-    boneReadOnly: 0
-  sharedRigSpriteImportData: []
-  sharedRigCharacterData:
-    bones: []
-    parts: []
-    dimension: {x: 0, y: 0}
-    characterGroups: []
-    boneReadOnly: 0
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: iPhone
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Android
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  mosaicLayers: 1
-  characterMode: 1
-  documentPivot: {x: 0, y: 0}
-  documentAlignment: 7
-  importHiddenLayers: 0
-  layerMappingOption: 2
-  generatePhysicsShape: 0
-  paperDollMode: 0
-  keepDupilcateSpriteName: 0
-  skeletonAssetReferenceID: 
-  spriteCategoryList:
-    categories: []
-  spritePackingTag: 
-  resliceFromLayer: 0
-  mosaicPSDLayers: []
-  rigPSDLayers:
-  - name: mascara
-    spriteName: mascara
-    isGroup: 0
-    parentIndex: -1
-    spriteID: e5148beb20f67b042baea25b193f90c3
-    layerID: 20
-    mosaicPosition: {x: 267, y: 194}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: antibracoEsquerdo
-    spriteName: antibracoEsquerdo
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 3070583db4b0a314e95c1dd8de61899e
-    layerID: 19
-    mosaicPosition: {x: 189, y: 128}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: bicepsEsquerdo
-    spriteName: bicepsEsquerdo
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 836b651c0f4e6e54bb159dcc585d2bee
-    layerID: 18
-    mosaicPosition: {x: 267, y: 90}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: cordinhaEsquerda
-    spriteName: cordinhaEsquerda
-    isGroup: 0
-    parentIndex: -1
-    spriteID: d17cea376e0169a46b93b06e79606b25
-    layerID: 17
-    mosaicPosition: {x: 325, y: 194}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: cordinhaDireito
-    spriteName: cordinhaDireito
-    isGroup: 0
-    parentIndex: -1
-    spriteID: e63e22e67aaf439498ab417bccebf528
-    layerID: 16
-    mosaicPosition: {x: 320, y: 90}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: franjola
-    spriteName: franjola
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 63a8cbc30f71a0d47a2f4d5ae2a395b2
-    layerID: 15
-    mosaicPosition: {x: 189, y: 425}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: "cabelo tr\xE1s L"
-    spriteName: "cabelo tr\xE1s L"
-    isGroup: 0
-    parentIndex: -1
-    spriteID: abefe1a1bc7c20747918cb2a00d3510c
-    layerID: 14
-    mosaicPosition: {x: 267, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: caraOlhoAberto
-    spriteName: caraOlhoAberto
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 6bbef87bd52cd954f803620cde7e450b
-    layerID: 13
-    mosaicPosition: {x: 113, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: caraOlhoFechado
-    spriteName: caraOlhoFechado
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 77c8231cad26cc247bb79d79ea8413dd
-    layerID: 12
-    mosaicPosition: {x: 113, y: 137}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: casaco L
-    spriteName: casaco L
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 9cddeb9f586adca44992cc6d7ce65a80
-    layerID: 11
-    mosaicPosition: {x: 4, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: coxa esquerda
-    spriteName: coxa esquerda
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 359cc9e5e2e5ea44b907efd5ace1da89
-    layerID: 10
-    mosaicPosition: {x: 4, y: 177}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: bacia L
-    spriteName: bacia L
-    isGroup: 0
-    parentIndex: -1
-    spriteID: deec24333f3a50344a4ca41c2f5e0cf8
-    layerID: 7
-    mosaicPosition: {x: 189, y: 352}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: pernaEsquerda
-    spriteName: pernaEsquerda
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 78a905a10a54e8847a5d623b89416766
-    layerID: 6
-    mosaicPosition: {x: 113, y: 270}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: sola frente
-    spriteName: sola frente
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 100a3ca4a8c010c4ba1725eff89bb7f9
-    layerID: 5
-    mosaicPosition: {x: 4, y: 471}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: pernaDireita
-    spriteName: pernaDireita
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 20119cba3e12d6e4e87727ff5f43a8ee
-    layerID: 4
-    mosaicPosition: {x: 189, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: coxa direita
-    spriteName: coxa direita
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 3be842dcca310bd418cefe7dd6c9eda0
-    layerID: 2
-    mosaicPosition: {x: 4, y: 324}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: "sola atr\xE1s"
-    spriteName: "sola atr\xE1s"
-    isGroup: 0
-    parentIndex: -1
-    spriteID: a2b3e5401b924c649ae6c5a786532b4f
-    layerID: 3
-    mosaicPosition: {x: 267, y: 278}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: antibracoDireito
-    spriteName: antibracoDireito
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 29d2c8e267ee4b84ba006c61b08b7f7c
-    layerID: 9
-    mosaicPosition: {x: 113, y: 394}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: bicepsDireito
-    spriteName: bicepsDireito
-    isGroup: 0
-    parentIndex: -1
-    spriteID: efc6bde47e26f4f48b9802cd30556162
-    layerID: 8
-    mosaicPosition: {x: 189, y: 248}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  sharedRigPSDLayers: []
-  pSDLayerImportSetting: []
   generateGOHierarchy: 0
   textureAssetName: sprite lado final  abel com mascara LADO Texture
   prefabAssetName: sprite lado final  abel com mascara LADO Prefab
   spriteLibAssetName: sprite lado final  abel com mascara LADO Sprite Lib
-  skeletonAssetName: 
   secondarySpriteTextures: []

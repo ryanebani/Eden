@@ -3210,6 +3210,67 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -21, y: 127}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 512
+  importedTextureHeight: 512
+  documentSize: {x: 220, y: 262}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 512
+  textureActualHeight: 512
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: cabecaolhofechado
+    spriteName: cabecaolhofechado
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 75c692fbfdcbbe84ca5b9073945e8e73
+    layerID: 45
+    mosaicPosition: {x: 181, y: 4}
+  - name: cabeca
+    spriteName: cabeca
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 752addd38b7b97d4eb14aef1d55e6254
+    layerID: 48
+    mosaicPosition: {x: 306, y: 4}
+  - name: "m\xE3o esquerda"
+    spriteName: "m\xE3o esquerda"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8bf0137f90fc0534b98fa3391c85c458
+    layerID: 47
+    mosaicPosition: {x: 75, y: 168}
+  - name: mao direita
+    spriteName: mao direita
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0872e1fd34141074ab286b1cfac42d2c
+    layerID: 44
+    mosaicPosition: {x: 431, y: 4}
+  - name: corpo
+    spriteName: corpo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2c19070f83faf074ab5e6897c6f60d8d
+    layerID: 42
+    mosaicPosition: {x: 4, y: 4}
+  - name: rabo
+    spriteName: rabo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 57995b43ce3f8b64ebeb3ace2115ccbb
+    layerID: 46
+    mosaicPosition: {x: 4, y: 168}
   characterData:
     bones:
     - name: bone_1
@@ -3539,96 +3600,8 @@ ScriptedImporter:
       order: 0
     dimension: {x: 0, y: 0}
     characterGroups: []
-    boneReadOnly: 0
-  sharedRigSpriteImportData: []
-  sharedRigCharacterData:
-    bones: []
-    parts: []
-    dimension: {x: 0, y: 0}
-    characterGroups: []
-    boneReadOnly: 0
-  platformSettings: []
-  mosaicLayers: 1
-  characterMode: 1
-  documentPivot: {x: 0, y: 0}
-  documentAlignment: 7
-  importHiddenLayers: 0
-  layerMappingOption: 2
-  generatePhysicsShape: 0
-  paperDollMode: 0
-  keepDupilcateSpriteName: 0
-  skeletonAssetReferenceID: 
-  spriteCategoryList:
-    categories: []
-  spritePackingTag: 
-  resliceFromLayer: 0
-  mosaicPSDLayers: []
-  rigPSDLayers:
-  - name: cabecaolhofechado
-    spriteName: cabecaolhofechado
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 75c692fbfdcbbe84ca5b9073945e8e73
-    layerID: 45
-    mosaicPosition: {x: 181, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: cabeca
-    spriteName: cabeca
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 752addd38b7b97d4eb14aef1d55e6254
-    layerID: 48
-    mosaicPosition: {x: 306, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: "m\xE3o esquerda"
-    spriteName: "m\xE3o esquerda"
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 8bf0137f90fc0534b98fa3391c85c458
-    layerID: 47
-    mosaicPosition: {x: 75, y: 168}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: mao direita
-    spriteName: mao direita
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 0872e1fd34141074ab286b1cfac42d2c
-    layerID: 44
-    mosaicPosition: {x: 431, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: corpo
-    spriteName: corpo
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 2c19070f83faf074ab5e6897c6f60d8d
-    layerID: 42
-    mosaicPosition: {x: 4, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: rabo
-    spriteName: rabo
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 57995b43ce3f8b64ebeb3ace2115ccbb
-    layerID: 46
-    mosaicPosition: {x: 4, y: 168}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  sharedRigPSDLayers: []
-  pSDLayerImportSetting: []
   generateGOHierarchy: 0
   textureAssetName: loja clandestina sprite Texture
   prefabAssetName: loja clandestina sprite Prefab
   spriteLibAssetName: loja clandestina sprite Sprite Lib
-  skeletonAssetName: 
   secondarySpriteTextures: []

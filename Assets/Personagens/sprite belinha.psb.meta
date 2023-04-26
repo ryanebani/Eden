@@ -6332,6 +6332,153 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 193, y: -114}
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: iPhone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 512
+  importedTextureHeight: 512
+  documentSize: {x: 200, y: 363}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 512
+  textureActualHeight: 512
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: orelha direita
+    spriteName: orelha direita
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2976bc95f9aa8f347b4adad5ba57808e
+    layerID: 14
+    mosaicPosition: {x: 147, y: 165}
+  - name: cabeca 1
+    spriteName: cabeca 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c33745e8d6a3b8b469afa89f768aa68d
+    layerID: 13
+    mosaicPosition: {x: 220, y: 79}
+  - name: cabeca 2
+    spriteName: cabeca 2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 91e1fa832b7d1e34dbd7b177aff1c2e2
+    layerID: 12
+    mosaicPosition: {x: 220, y: 178}
+  - name: cabeca 3
+    spriteName: cabeca 3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8a7fcf2588dfae442b9b3ebc7d7059bc
+    layerID: 11
+    mosaicPosition: {x: 220, y: 277}
+  - name: cabeca 4
+    spriteName: cabeca 4
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6332dc9520df0624eab37185675c2023
+    layerID: 10
+    mosaicPosition: {x: 220, y: 376}
+  - name: Camada 1
+    spriteName: Camada 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d09d3e2bf041c8e43bee46518991f1f6
+    layerID: 15
+    mosaicPosition: {x: 4, y: 4}
+  - name: tronco
+    spriteName: tronco
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f13e61258c08a2e43b91e5970f7470d1
+    layerID: 9
+    mosaicPosition: {x: 4, y: 193}
+  - name: orelha esquerda
+    spriteName: orelha esquerda
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 56af79fcd49466643b2409a83238396c
+    layerID: 8
+    mosaicPosition: {x: 76, y: 368}
+  - name: perna direita
+    spriteName: perna direita
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2221710957370bf48805c2f3a230675f
+    layerID: 7
+    mosaicPosition: {x: 147, y: 4}
+  - name: perna esquerda
+    spriteName: perna esquerda
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3e352d949b56fed44b64fdab112194a2
+    layerID: 6
+    mosaicPosition: {x: 4, y: 368}
+  - name: rabim
+    spriteName: rabim
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4c40a49084a8b0440b022ed313265cdf
+    layerID: 5
+    mosaicPosition: {x: 147, y: 275}
+  - name: coxas
+    spriteName: coxas
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ceb638857c1d24b4db2af2b477dd6518
+    layerID: 4
+    mosaicPosition: {x: 220, y: 4}
   characterData:
     bones:
     - name: bone_1
@@ -6589,200 +6736,8 @@ ScriptedImporter:
       order: 0
     dimension: {x: 0, y: 0}
     characterGroups: []
-    boneReadOnly: 0
-  sharedRigSpriteImportData: []
-  sharedRigCharacterData:
-    bones: []
-    parts: []
-    dimension: {x: 0, y: 0}
-    characterGroups: []
-    boneReadOnly: 0
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: iPhone
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Android
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  mosaicLayers: 1
-  characterMode: 1
-  documentPivot: {x: 0, y: 0}
-  documentAlignment: 7
-  importHiddenLayers: 0
-  layerMappingOption: 2
-  generatePhysicsShape: 0
-  paperDollMode: 0
-  keepDupilcateSpriteName: 0
-  skeletonAssetReferenceID: 
-  spriteCategoryList:
-    categories: []
-  spritePackingTag: 
-  resliceFromLayer: 0
-  mosaicPSDLayers: []
-  rigPSDLayers:
-  - name: orelha direita
-    spriteName: orelha direita
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 2976bc95f9aa8f347b4adad5ba57808e
-    layerID: 14
-    mosaicPosition: {x: 147, y: 165}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: cabeca 1
-    spriteName: cabeca 1
-    isGroup: 0
-    parentIndex: -1
-    spriteID: c33745e8d6a3b8b469afa89f768aa68d
-    layerID: 13
-    mosaicPosition: {x: 220, y: 79}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: cabeca 2
-    spriteName: cabeca 2
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 91e1fa832b7d1e34dbd7b177aff1c2e2
-    layerID: 12
-    mosaicPosition: {x: 220, y: 178}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: cabeca 3
-    spriteName: cabeca 3
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 8a7fcf2588dfae442b9b3ebc7d7059bc
-    layerID: 11
-    mosaicPosition: {x: 220, y: 277}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: cabeca 4
-    spriteName: cabeca 4
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 6332dc9520df0624eab37185675c2023
-    layerID: 10
-    mosaicPosition: {x: 220, y: 376}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Camada 1
-    spriteName: Camada 1
-    isGroup: 0
-    parentIndex: -1
-    spriteID: d09d3e2bf041c8e43bee46518991f1f6
-    layerID: 15
-    mosaicPosition: {x: 4, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: tronco
-    spriteName: tronco
-    isGroup: 0
-    parentIndex: -1
-    spriteID: f13e61258c08a2e43b91e5970f7470d1
-    layerID: 9
-    mosaicPosition: {x: 4, y: 193}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: orelha esquerda
-    spriteName: orelha esquerda
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 56af79fcd49466643b2409a83238396c
-    layerID: 8
-    mosaicPosition: {x: 76, y: 368}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: perna direita
-    spriteName: perna direita
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 2221710957370bf48805c2f3a230675f
-    layerID: 7
-    mosaicPosition: {x: 147, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: perna esquerda
-    spriteName: perna esquerda
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 3e352d949b56fed44b64fdab112194a2
-    layerID: 6
-    mosaicPosition: {x: 4, y: 368}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: rabim
-    spriteName: rabim
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 4c40a49084a8b0440b022ed313265cdf
-    layerID: 5
-    mosaicPosition: {x: 147, y: 275}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: coxas
-    spriteName: coxas
-    isGroup: 0
-    parentIndex: -1
-    spriteID: ceb638857c1d24b4db2af2b477dd6518
-    layerID: 4
-    mosaicPosition: {x: 220, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  sharedRigPSDLayers: []
-  pSDLayerImportSetting: []
   generateGOHierarchy: 0
   textureAssetName: sprite belinha Texture
   prefabAssetName: sprite belinha Prefab
   spriteLibAssetName: sprite belinha Sprite Lib
-  skeletonAssetName: 
   secondarySpriteTextures: []

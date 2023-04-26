@@ -8354,6 +8354,188 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -25, y: 201}
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: iPhone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 0
+  importHiddenLayers: 0
+  importedTextureWidth: 512
+  importedTextureHeight: 1024
+  documentSize: {x: 200, y: 450}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 512
+  textureActualHeight: 1024
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Brincos
+    spriteName: Brincos
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9dc39a99ebffe2e46916380e38ad1c8c
+    layerID: 18
+    mosaicPosition: {x: 185, y: 313}
+  - name: braco esquerdo
+    spriteName: braco esquerdo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b3a6afaaa458ec348a0014b8e164a201
+    layerID: 17
+    mosaicPosition: {x: 185, y: 151}
+  - name: olho direito fechado
+    spriteName: olho direito fechado
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 141573049dc7401459e8c5ec42dda447
+    layerID: 20
+    mosaicPosition: {x: 276, y: 341}
+  - name: olho esquerdo fechado
+    spriteName: olho esquerdo fechado
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1b5fb23cdec52684ca98f79c7fb920ba
+    layerID: 16
+    mosaicPosition: {x: 276, y: 313}
+  - name: mecha cabelo
+    spriteName: mecha cabelo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5ef7ee77c71c345409134d3e8dd03978
+    layerID: 15
+    mosaicPosition: {x: 129, y: 667}
+  - name: orelha esquerda
+    spriteName: orelha esquerda
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2ffd4d05c3862c04284d6ad26914e37f
+    layerID: 14
+    mosaicPosition: {x: 185, y: 374}
+  - name: chale rosa
+    spriteName: chale rosa
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d06342ccb1d6bac4aa160624d61caa93
+    layerID: 13
+    mosaicPosition: {x: 4, y: 4}
+  - name: cabeca chifre
+    spriteName: cabeca chifre
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1020dd58f144c9e4e89285bbba841a7c
+    layerID: 12
+    mosaicPosition: {x: 312, y: 4}
+  - name: orelha direita
+    spriteName: orelha direita
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f7c4557e7d9c2c64abb822c8df3128d0
+    layerID: 11
+    mosaicPosition: {x: 131, y: 483}
+  - name: tronco
+    spriteName: tronco
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a9980e7f26d606a4787f9751ffc1e0d8
+    layerID: 10
+    mosaicPosition: {x: 4, y: 830}
+  - name: cabelo tras
+    spriteName: cabelo tras
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6b15475d286dd72409ff40ebb03844b9
+    layerID: 9
+    mosaicPosition: {x: 185, y: 4}
+  - name: saiote
+    spriteName: saiote
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f5703373d8e5830478bc3c2cc0a016d0
+    layerID: 8
+    mosaicPosition: {x: 4, y: 483}
+  - name: perna esquerda
+    spriteName: perna esquerda
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a9fc5599aa10b9e44a453b6e343066a7
+    layerID: 7
+    mosaicPosition: {x: 4, y: 667}
+  - name: perna direita
+    spriteName: perna direita
+    isGroup: 0
+    parentIndex: -1
+    spriteID: dd3342498c372d94285ff574b3c394f7
+    layerID: 6
+    mosaicPosition: {x: 111, y: 830}
+  - name: pe direito
+    spriteName: pe direito
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 23657cee0021f7e4391e1a7d7562783f
+    layerID: 5
+    mosaicPosition: {x: 185, y: 234}
+  - name: pe esquerdo
+    spriteName: pe esquerdo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b6c475aecfd3f7045aed4faef6f8a494
+    layerID: 4
+    mosaicPosition: {x: 111, y: 957}
+  - name: saiote tras
+    spriteName: saiote tras
+    isGroup: 0
+    parentIndex: -1
+    spriteID: fe36def44582c1f41968ca69e2606830
+    layerID: 3
+    mosaicPosition: {x: 4, y: 273}
   characterData:
     bones:
     - name: bone_1
@@ -8854,250 +9036,8 @@ ScriptedImporter:
       order: 0
     dimension: {x: 0, y: 0}
     characterGroups: []
-    boneReadOnly: 0
-  sharedRigSpriteImportData: []
-  sharedRigCharacterData:
-    bones: []
-    parts: []
-    dimension: {x: 0, y: 0}
-    characterGroups: []
-    boneReadOnly: 0
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: iPhone
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Android
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  mosaicLayers: 1
-  characterMode: 1
-  documentPivot: {x: 0, y: 0}
-  documentAlignment: 0
-  importHiddenLayers: 0
-  layerMappingOption: 2
-  generatePhysicsShape: 0
-  paperDollMode: 0
-  keepDupilcateSpriteName: 0
-  skeletonAssetReferenceID: 
-  spriteCategoryList:
-    categories: []
-  spritePackingTag: 
-  resliceFromLayer: 0
-  mosaicPSDLayers: []
-  rigPSDLayers:
-  - name: Brincos
-    spriteName: Brincos
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 9dc39a99ebffe2e46916380e38ad1c8c
-    layerID: 18
-    mosaicPosition: {x: 185, y: 313}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: braco esquerdo
-    spriteName: braco esquerdo
-    isGroup: 0
-    parentIndex: -1
-    spriteID: b3a6afaaa458ec348a0014b8e164a201
-    layerID: 17
-    mosaicPosition: {x: 185, y: 151}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: olho direito fechado
-    spriteName: olho direito fechado
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 141573049dc7401459e8c5ec42dda447
-    layerID: 20
-    mosaicPosition: {x: 276, y: 341}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: olho esquerdo fechado
-    spriteName: olho esquerdo fechado
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 1b5fb23cdec52684ca98f79c7fb920ba
-    layerID: 16
-    mosaicPosition: {x: 276, y: 313}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: mecha cabelo
-    spriteName: mecha cabelo
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 5ef7ee77c71c345409134d3e8dd03978
-    layerID: 15
-    mosaicPosition: {x: 129, y: 667}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: orelha esquerda
-    spriteName: orelha esquerda
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 2ffd4d05c3862c04284d6ad26914e37f
-    layerID: 14
-    mosaicPosition: {x: 185, y: 374}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: chale rosa
-    spriteName: chale rosa
-    isGroup: 0
-    parentIndex: -1
-    spriteID: d06342ccb1d6bac4aa160624d61caa93
-    layerID: 13
-    mosaicPosition: {x: 4, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: cabeca chifre
-    spriteName: cabeca chifre
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 1020dd58f144c9e4e89285bbba841a7c
-    layerID: 12
-    mosaicPosition: {x: 312, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: orelha direita
-    spriteName: orelha direita
-    isGroup: 0
-    parentIndex: -1
-    spriteID: f7c4557e7d9c2c64abb822c8df3128d0
-    layerID: 11
-    mosaicPosition: {x: 131, y: 483}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: tronco
-    spriteName: tronco
-    isGroup: 0
-    parentIndex: -1
-    spriteID: a9980e7f26d606a4787f9751ffc1e0d8
-    layerID: 10
-    mosaicPosition: {x: 4, y: 830}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: cabelo tras
-    spriteName: cabelo tras
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 6b15475d286dd72409ff40ebb03844b9
-    layerID: 9
-    mosaicPosition: {x: 185, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: saiote
-    spriteName: saiote
-    isGroup: 0
-    parentIndex: -1
-    spriteID: f5703373d8e5830478bc3c2cc0a016d0
-    layerID: 8
-    mosaicPosition: {x: 4, y: 483}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: perna esquerda
-    spriteName: perna esquerda
-    isGroup: 0
-    parentIndex: -1
-    spriteID: a9fc5599aa10b9e44a453b6e343066a7
-    layerID: 7
-    mosaicPosition: {x: 4, y: 667}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: perna direita
-    spriteName: perna direita
-    isGroup: 0
-    parentIndex: -1
-    spriteID: dd3342498c372d94285ff574b3c394f7
-    layerID: 6
-    mosaicPosition: {x: 111, y: 830}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: pe direito
-    spriteName: pe direito
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 23657cee0021f7e4391e1a7d7562783f
-    layerID: 5
-    mosaicPosition: {x: 185, y: 234}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: pe esquerdo
-    spriteName: pe esquerdo
-    isGroup: 0
-    parentIndex: -1
-    spriteID: b6c475aecfd3f7045aed4faef6f8a494
-    layerID: 4
-    mosaicPosition: {x: 111, y: 957}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: saiote tras
-    spriteName: saiote tras
-    isGroup: 0
-    parentIndex: -1
-    spriteID: fe36def44582c1f41968ca69e2606830
-    layerID: 3
-    mosaicPosition: {x: 4, y: 273}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  sharedRigPSDLayers: []
-  pSDLayerImportSetting: []
   generateGOHierarchy: 0
   textureAssetName: sprite madalena Texture
   prefabAssetName: sprite madalena Prefab
   spriteLibAssetName: sprite madalena Sprite Lib
-  skeletonAssetName: 
   secondarySpriteTextures: []

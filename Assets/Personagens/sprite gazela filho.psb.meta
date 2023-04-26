@@ -3706,6 +3706,139 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 52, y: -39}
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: iPhone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 256
+  importedTextureHeight: 512
+  documentSize: {x: 196, y: 224}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 256
+  textureActualHeight: 512
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Folder2
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 68ec6c16b05837841834c13153eef3e3
+    layerID: 84
+    mosaicPosition: {x: 0, y: 0}
+  - name: bracim
+    spriteName: bracim
+    isGroup: 0
+    parentIndex: 0
+    spriteID: a6965f290b2abe04ebe089a2f86b7158
+    layerID: 82
+    mosaicPosition: {x: 139, y: 156}
+  - name: biceps direito
+    spriteName: biceps direito
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 9e4854134f8dd0641809978be87076cc
+    layerID: 81
+    mosaicPosition: {x: 85, y: 413}
+  - name: orelha direita
+    spriteName: orelha direita
+    isGroup: 0
+    parentIndex: 0
+    spriteID: baf9be81a6296de41a6e98072b1d1f71
+    layerID: 79
+    mosaicPosition: {x: 139, y: 306}
+  - name: cabeca
+    spriteName: cabeca
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 701300acca351f7499b2ae1699b73b80
+    layerID: 78
+    mosaicPosition: {x: 4, y: 305}
+  - name: orelha esquerda
+    spriteName: orelha esquerda
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 835638d2ad0d0b8468ecd458b39f7a4d
+    layerID: 80
+    mosaicPosition: {x: 139, y: 359}
+  - name: pernas
+    spriteName: pernas
+    isGroup: 0
+    parentIndex: 0
+    spriteID: a104b328f15fe9e4d9babd0a78bca132
+    layerID: 71
+    mosaicPosition: {x: 4, y: 156}
+  - name: tronco
+    spriteName: tronco
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 443d985b634f5594995d2942affcfe83
+    layerID: 68
+    mosaicPosition: {x: 4, y: 4}
+  - name: braco esquerdo
+    spriteName: braco esquerdo
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 81d437701ccf96846a3614023cd75589
+    layerID: 83
+    mosaicPosition: {x: 4, y: 413}
+  - name: rabim
+    spriteName: rabim
+    isGroup: 0
+    parentIndex: 0
+    spriteID: a4a790091a7271a4b8770f07a45990cc
+    layerID: 85
+    mosaicPosition: {x: 142, y: 4}
   characterData:
     bones:
     - name: bone_1
@@ -3954,180 +4087,8 @@ ScriptedImporter:
       order: 0
     dimension: {x: 0, y: 0}
     characterGroups: []
-    boneReadOnly: 0
-  sharedRigSpriteImportData: []
-  sharedRigCharacterData:
-    bones: []
-    parts: []
-    dimension: {x: 0, y: 0}
-    characterGroups: []
-    boneReadOnly: 0
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: iPhone
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Android
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  mosaicLayers: 1
-  characterMode: 1
-  documentPivot: {x: 0, y: 0}
-  documentAlignment: 7
-  importHiddenLayers: 0
-  layerMappingOption: 2
-  generatePhysicsShape: 0
-  paperDollMode: 0
-  keepDupilcateSpriteName: 0
-  skeletonAssetReferenceID: 
-  spriteCategoryList:
-    categories: []
-  spritePackingTag: 
-  resliceFromLayer: 0
-  mosaicPSDLayers: []
-  rigPSDLayers:
-  - name: Folder2
-    spriteName: 
-    isGroup: 1
-    parentIndex: -1
-    spriteID: 68ec6c16b05837841834c13153eef3e3
-    layerID: 84
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 1
-  - name: bracim
-    spriteName: bracim
-    isGroup: 0
-    parentIndex: 0
-    spriteID: a6965f290b2abe04ebe089a2f86b7158
-    layerID: 82
-    mosaicPosition: {x: 139, y: 156}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: biceps direito
-    spriteName: biceps direito
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 9e4854134f8dd0641809978be87076cc
-    layerID: 81
-    mosaicPosition: {x: 85, y: 413}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: orelha direita
-    spriteName: orelha direita
-    isGroup: 0
-    parentIndex: 0
-    spriteID: baf9be81a6296de41a6e98072b1d1f71
-    layerID: 79
-    mosaicPosition: {x: 139, y: 306}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: cabeca
-    spriteName: cabeca
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 701300acca351f7499b2ae1699b73b80
-    layerID: 78
-    mosaicPosition: {x: 4, y: 305}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: orelha esquerda
-    spriteName: orelha esquerda
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 835638d2ad0d0b8468ecd458b39f7a4d
-    layerID: 80
-    mosaicPosition: {x: 139, y: 359}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: pernas
-    spriteName: pernas
-    isGroup: 0
-    parentIndex: 0
-    spriteID: a104b328f15fe9e4d9babd0a78bca132
-    layerID: 71
-    mosaicPosition: {x: 4, y: 156}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: tronco
-    spriteName: tronco
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 443d985b634f5594995d2942affcfe83
-    layerID: 68
-    mosaicPosition: {x: 4, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: braco esquerdo
-    spriteName: braco esquerdo
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 81d437701ccf96846a3614023cd75589
-    layerID: 83
-    mosaicPosition: {x: 4, y: 413}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: rabim
-    spriteName: rabim
-    isGroup: 0
-    parentIndex: 0
-    spriteID: a4a790091a7271a4b8770f07a45990cc
-    layerID: 85
-    mosaicPosition: {x: 142, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  sharedRigPSDLayers: []
-  pSDLayerImportSetting: []
   generateGOHierarchy: 0
   textureAssetName: sprite gazela filho Texture
   prefabAssetName: sprite gazela filho Prefab
   spriteLibAssetName: sprite gazela filho Sprite Lib
-  skeletonAssetName: 
   secondarySpriteTextures: []

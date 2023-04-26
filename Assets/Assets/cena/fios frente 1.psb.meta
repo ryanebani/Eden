@@ -133,34 +133,23 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -5, y: 178}
-  characterData:
-    bones: []
-    parts: []
-    dimension: {x: 0, y: 0}
-    characterGroups: []
-    boneReadOnly: 0
-  sharedRigSpriteImportData: []
-  sharedRigCharacterData:
-    bones: []
-    parts: []
-    dimension: {x: 0, y: 0}
-    characterGroups: []
-    boneReadOnly: 0
   platformSettings: []
   mosaicLayers: 1
-  characterMode: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  layerMappingOption: 2
-  generatePhysicsShape: 0
+  importedTextureWidth: 512
+  importedTextureHeight: 512
+  documentSize: {x: 441, y: 207}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
-  skeletonAssetReferenceID: 
   spriteCategoryList:
     categories: []
+  textureActualWidth: 512
+  textureActualHeight: 512
   spritePackingTag: 
   resliceFromLayer: 0
+  characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
   - name: Layer2
@@ -170,9 +159,6 @@ ScriptedImporter:
     spriteID: d065601241ddbde4f8b286bef49703ad
     layerID: 3
     mosaicPosition: {x: 4, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
   - name: Layer1
     spriteName: Layer1
     isGroup: 0
@@ -180,14 +166,13 @@ ScriptedImporter:
     spriteID: ca47edb99f0db3b4c9185dfb32840f0a
     layerID: 2
     mosaicPosition: {x: 4, y: 219}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  sharedRigPSDLayers: []
-  pSDLayerImportSetting: []
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
   generateGOHierarchy: 0
   textureAssetName: fios frente 1 Texture
   prefabAssetName: fios frente 1 Prefab
   spriteLibAssetName: fios frente 1 Sprite Lib
-  skeletonAssetName: 
   secondarySpriteTextures: []
